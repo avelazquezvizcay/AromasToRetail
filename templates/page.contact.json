@@ -9,84 +9,16 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "form": {
+      "type": "contact-form",
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner_wNtVQA": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_ePdRjg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact us",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ePdRjg"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Artboard_1_copy_15_9ed0f644-6f9f-4bec-8b76-29be7065937f.jpg",
-        "image_2": "shopify://shop_images/Artboard_1_copy_22.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_with_text_nFkjHP": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_embABg": {
-          "type": "heading",
-          "settings": {
-            "heading": "Find us in:",
-            "heading_size": "h1"
-          }
-        },
-        "text_3xPfPM": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Miami, Florida</strong></p><p><strong>Phone: </strong><a href=\"tel:+17867319919\" title=\"tel:+17867319919\"><strong>+1 (786) 731-9919</strong></a><strong><br/>Email: </strong><a href=\"mailto:Orientalaromasfragrance@gmail.com\" title=\"mailto:Orientalaromasfragrance@gmail.com\"><strong>Orientalaromasfragrance@gmail.com</strong></a></p>",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_embABg",
-        "text_3xPfPM"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Artboard_1_copy_19.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "scheme-52b83c4a-dbf8-4757-8c25-6a46446b54e6",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "enbale_map": true,
+        "map_api_key": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281455.308019245!2d72.10982655667691!3d20.757924460002837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1688641150452!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "map_custom_style": ""
       }
     }
   },
   "order": [
-    "main",
-    "image_banner_wNtVQA",
-    "image_with_text_nFkjHP"
+    "form"
   ]
 }

@@ -9,457 +9,462 @@
  */
 {
   "sections": {
-    "slideshow_naNXW9": {
+    "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide_Jat3i6": {
-          "type": "slide",
+        "1580215063672-0": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Happy_4th_of_July.png",
-            "image-mob": "shopify://shop_images/Happy_4th_of_July.png",
-            "heading": "<strong>4th of July SALE 3X$49.99</strong>",
-            "heading_size": "h0",
-            "subheading": "No code needed, automatic at checkout",
-            "button_label": "SHOP HERE",
-            "link": "shopify://collections/new-arrival",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-3d11db84-f65c-4788-a1d4-c0b45bcff3fc",
-            "text_alignment_mobile": "center"
+            "image": "shopify://shop_images/slider-01.jpg",
+            "image_url": "",
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=nlyPlIHXgOE",
+            "title": "MAKEUP COMPACT 5/SKINONES",
+            "sub_title": "Beauty",
+            "btn_txt": "Shop Now",
+            "btn_link": "#",
+            "title_color": "#ffffff",
+            "subtitle_color": "#e9ad3f",
+            "btn_bg_color": "#111111",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#e9ad3f",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "left",
+            "text_effect": "left"
           }
         },
-        "slide_Q988tf": {
-          "type": "slide",
+        "1580215063672-1": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Artboard_1_copy_5_copia_3.jpg",
-            "image-mob": "shopify://shop_images/Banner_Decants_Movil.jpg",
-            "heading": "Now available starting at $3.99",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "I WANT ONE",
-            "link": "shopify://collections/5ml-10ml-decants",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "right",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-3d11db84-f65c-4788-a1d4-c0b45bcff3fc",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_waWhAe": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IMG_0255.jpg",
-            "image-mob": "shopify://shop_images/IMG_0255.jpg",
-            "heading": "<strong>\"Where quality and accessibility meet to awaken your senses\" </strong>",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_UiThTr": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IMG_9879.jpg",
-            "image-mob": "shopify://shop_images/IMG_9879.jpg",
-            "heading": "<strong>Fragances starting  at 14,99$</strong>",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "right",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_iaLT9t": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_oriental_aromas_start_your_business.jpg",
-            "image-mob": "shopify://shop_images/Banner_version_movil_start_your_business.jpg",
-            "heading": "Start your business now from $350",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "I want it",
-            "link": "https://orientalaromaswholesale.com/",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5bac24d7-80bd-43f0-9253-f9043419d8b3",
-            "text_alignment_mobile": "center"
+            "image": "shopify://shop_images/slider-02.jpg",
+            "image_url": "",
+            "show_video": false,
+            "video_url": "",
+            "title": "ALL NEW IN OFRA DARK SHADE",
+            "sub_title": "Shades",
+            "btn_txt": "Shop Now",
+            "btn_link": "#",
+            "title_color": "#ffffff",
+            "subtitle_color": "#e9ad3f",
+            "btn_bg_color": "#111111",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#e9ad3f",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "right",
+            "text_effect": "right"
           }
         }
       },
       "block_order": [
-        "slide_Jat3i6",
-        "slide_Q988tf",
-        "slide_waWhAe",
-        "slide_UiThTr",
-        "slide_iaLT9t"
-      ],
-      "custom_css": [
-        "#Slide-template--21930152493366__slideshow_naNXW9-1 h2 {padding-right: 4rem;}"
+        "1580215063672-0",
+        "1580215063672-1"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Bestsellers",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 44,
-        "padding_bottom": 48
-      }
-    },
-    "image_banner_ccgpHh": {
-      "type": "image-banner",
+    "category-feature": {
+      "type": "category-feature",
       "blocks": {
-        "heading_fPL3ax": {
-          "type": "heading",
+        "1594620018893-0": {
+          "type": "text_collection",
           "settings": {
-            "heading": "Mystery<strong> Box</strong>",
-            "heading_size": "h0"
+            "image_1": "shopify://shop_images/categories-01.jpg",
+            "subtitle": "Beauty",
+            "collection_cat_id": "nightshade-elegance"
           }
         },
-        "text_cCjNXX": {
+        "1594620115800": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/categories-02.jpg",
+            "subtitle": "Beauty",
+            "collection_cat_id": "cosmetic"
+          }
+        },
+        "1594620139706": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/categories-03.jpg",
+            "subtitle": "Beauty",
+            "collection_cat_id": "dark-cosmetic2"
+          }
+        },
+        "1594620174866": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/categories-04.jpg",
+            "subtitle": "Beauty",
+            "collection_cat_id": "dark-cosmetic"
+          }
+        }
+      },
+      "block_order": [
+        "1594620018893-0",
+        "1594620115800",
+        "1594620139706",
+        "1594620174866"
+      ],
+      "settings": {
+        "product_col_desktop_pro": 3,
+        "product_col_mobile_pro": 2,
+        "image_content_bg_color": "#1d1c1c",
+        "subtitle_color": "#e9ad3f",
+        "collection_title_color": "#ffffff",
+        "collection_title_hover_color": "#ffffff",
+        "collection_item_color": "#111111",
+        "collection_item_bgcolor": "#e9ad3f",
+        "collection_item_hover_color": "#111111",
+        "collection_item_bghover_color": "#ffffff",
+        "collection_desc_color": "#ffffff"
+      }
+    },
+    "ttcmsabout": {
+      "type": "ttcmsabout",
+      "settings": {
+        "bg_color": "#111111",
+        "image": "shopify://shop_images/about-cms-img.jpg",
+        "image_url": "#",
+        "image_position": "pos-right",
+        "title": "OUR BEAUTY STYLIST",
+        "title_color": "#dddddd",
+        "subtitle": "About us",
+        "subtitle_color": "#e9ad3f",
+        "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+        "desc_color": "#999999",
+        "about_btn": "Read More",
+        "btn_url": "",
+        "btn_txt_color": "#dddddd",
+        "btn_bg_color": "#141313",
+        "btn_txt_hvr_color": "#111111",
+        "btn_bg_hvr_color": "#e9ad3f"
+      }
+    },
+    "product-tab-model": {
+      "type": "product-tab-model",
+      "blocks": {
+        "1595656887930": {
+          "type": "text_block",
+          "settings": {
+            "title": "New Products",
+            "collection": "dark-cosmetic"
+          }
+        },
+        "1595650811758-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Featured",
+            "collection": "dark-cosmetic"
+          }
+        },
+        "1595656854289": {
+          "type": "text_block",
+          "settings": {
+            "title": "Best Seller",
+            "collection": "dark-cosmetic2"
+          }
+        }
+      },
+      "block_order": [
+        "1595656887930",
+        "1595650811758-0",
+        "1595656854289"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "4",
+        "title_1": "TRENDING PRODUCTS",
+        "title_1_clr": "#dddddd",
+        "subtitle_1": "Best Selling",
+        "subtitle_1_clr": "#e9ad3f",
+        "button_bg": "rgba(0,0,0,0)",
+        "button_text": "#dddddd",
+        "button_hover_bg": "#e9ad3f",
+        "button_hover_text": "#111111",
+        "view_all": "",
+        "view_url": ""
+      }
+    },
+    "ttcmsbanner": {
+      "type": "ttcmsbanner",
+      "blocks": {
+        "1594362376483": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify://shop_images/ttcmsbanner-01.jpg",
+            "banner_link1": "#",
+            "title": "GET 35% OFF",
+            "title_color": "#dddddd",
+            "subtitle": "Big Discount",
+            "subtitle_color": "#dddddd",
+            "btn": "Shop Now",
+            "btnbg_color": "#e9ad3f",
+            "btntxt_color": "#111111",
+            "btnbghvr_color": "#dddddd",
+            "btnhvrtxt_color": "#111111",
+            "text_position": "pos-left"
+          }
+        },
+        "1594362628049": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify://shop_images/ttcmsbanner-02.jpg",
+            "banner_link1": "#",
+            "title": "BEAUTY PLUS",
+            "title_color": "#dddddd",
+            "subtitle": "Beauty Care",
+            "subtitle_color": "#dddddd",
+            "btn": "Shop Now",
+            "btnbg_color": "#e9ad3f",
+            "btntxt_color": "#111111",
+            "btnbghvr_color": "#dddddd",
+            "btnhvrtxt_color": "#111111",
+            "text_position": "pos-left"
+          }
+        }
+      },
+      "block_order": [
+        "1594362376483",
+        "1594362628049"
+      ],
+      "settings": {}
+    },
+    "ttcmsoffer": {
+      "type": "ttcmsoffer",
+      "blocks": {
+        "1594369499979": {
           "type": "text",
           "settings": {
-            "text": "<strong>For the brave only! Dare & save with our special mystey boxes</strong>",
-            "text_style": "body"
+            "image": "shopify://shop_images/cms-img-01.png",
+            "image_url": "#",
+            "title": "READY TO IMPRESS",
+            "title_color": "#dddddd",
+            "subtitle": "Beauty",
+            "subtitle_color": "#e9ad3f",
+            "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+            "desc_color": "#999999",
+            "about_btn": "Shop Now",
+            "btn_txt_color": "#dddddd",
+            "btn_bg_color": "#141313",
+            "btn_txt_hvr_color": "#111111",
+            "btn_bg_hvr_color": "#e9ad3f"
           }
         },
-        "buttons_BmFijM": {
-          "type": "buttons",
+        "1594369504179": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify://collections/mistery-box",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "shopify://collections/inspired-fragrances",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/cms-img-02.png",
+            "image_url": "#",
+            "title": "READY TO IMPRESS",
+            "title_color": "#dddddd",
+            "subtitle": "Beauty",
+            "subtitle_color": "#e9ad3f",
+            "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+            "desc_color": "#999999",
+            "about_btn": "Shop Now",
+            "btn_txt_color": "#dddddd",
+            "btn_bg_color": "#141313",
+            "btn_txt_hvr_color": "#111111",
+            "btn_bg_hvr_color": "#e9ad3f"
+          }
+        },
+        "1594369506276": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/cms-img-03_4de40725-00f5-4dec-b50e-725454d6c7da.png",
+            "image_url": "#",
+            "title": "READY TO IMPRESS",
+            "title_color": "#dddddd",
+            "subtitle": "Beauty",
+            "subtitle_color": "#e9ad3f",
+            "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+            "desc_color": "#999999",
+            "about_btn": "Shop Now",
+            "btn_txt_color": "#dddddd",
+            "btn_bg_color": "#141313",
+            "btn_txt_hvr_color": "#111111",
+            "btn_bg_hvr_color": "#e9ad3f"
           }
         }
       },
       "block_order": [
-        "heading_fPL3ax",
-        "text_cCjNXX",
-        "buttons_BmFijM"
-      ],
-      "custom_css": [
-        "p {padding-right: 2rem;}"
+        "1594369499979",
+        "1594369504179",
+        "1594369506276"
       ],
       "settings": {
-        "image": "shopify://shop_images/Banner_MYSTERY_BOX_DESKTOP.jpg",
-        "image_2": "shopify://shop_images/Banner_MYSTERY_BOX_MOVIL.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
+        "bg_color": "#111111"
       }
     },
-    "collection_list_9G6PAW": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_6FQWj8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "featured_collection_WJEkJJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "new-arrival"
-          }
-        },
-        "featured_collection_YKQyzY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mens"
-          }
-        },
-        "featured_collection_HYNpmp": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "womens"
-          }
-        },
-        "featured_collection_gjGTyN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kids"
-          }
-        },
-        "featured_collection_GRVHJ6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gift-sets-combo"
-          }
-        },
-        "featured_collection_BYLpJM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "oil-1"
-          }
-        },
-        "featured_collection_gj9AzF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "extras-1"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_6FQWj8",
-        "featured_collection_WJEkJJ",
-        "featured_collection_YKQyzY",
-        "featured_collection_HYNpmp",
-        "featured_collection_gjGTyN",
-        "featured_collection_GRVHJ6",
-        "featured_collection_BYLpJM",
-        "featured_collection_gj9AzF"
-      ],
+    "special-product": {
+      "type": "special-product",
       "settings": {
-        "title": "Categories",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 72,
-        "padding_bottom": 72
+        "class": "specialproduct",
+        "title": "SPECIAL PRODUCT",
+        "title_color": "#dddddd",
+        "subtitle": "Big Selling",
+        "subtitle_color": "#e9ad3f",
+        "collection": "dark-cosmetic",
+        "product_col": "4"
       }
     },
-    "80aacdc0-525a-4e2b-b4a1-6f4edef8c479": {
-      "type": "collection-list",
+    "tt-testimonial": {
+      "type": "tt-testimonial",
       "blocks": {
-        "template--20793729941814__80aacdc0-525a-4e2b-b4a1-6f4edef8c479-featured_collection-1": {
-          "type": "featured_collection",
+        "1594383595784": {
+          "type": "text",
           "settings": {
-            "collection": "for-special-gifts"
+            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
+            "des_color": "#aaaaaa",
+            "image_1": "shopify://shop_images/02_a5c09b78-be9f-40cd-b379-be519bb27fbe.jpg",
+            "image_1_heading": "",
+            "author_name": "JOHN DUE",
+            "author_designation": "Co-Founder",
+            "author_color": "#dddddd",
+            "author_descolor": "#dddddd"
           }
         },
-        "template--20793729941814__80aacdc0-525a-4e2b-b4a1-6f4edef8c479-featured_collection-2": {
-          "type": "featured_collection",
+        "1594383388335-0": {
+          "type": "text",
           "settings": {
-            "collection": "for-dates"
+            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
+            "des_color": "#aaaaaa",
+            "image_1": "shopify://shop_images/01_da86ff35-fdbd-47c2-a494-f077a77a9584.jpg",
+            "image_1_heading": "",
+            "author_name": "JOHN DUFF",
+            "author_designation": "CEO and Founder",
+            "author_color": "#dddddd",
+            "author_descolor": "#dddddd"
           }
         },
-        "template--20793729941814__80aacdc0-525a-4e2b-b4a1-6f4edef8c479-featured_collection-3": {
-          "type": "featured_collection",
+        "1595841389115": {
+          "type": "text",
           "settings": {
-            "collection": "for-nights"
+            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
+            "des_color": "#aaaaaa",
+            "image_1": "shopify://shop_images/03.jpg",
+            "image_1_heading": "",
+            "author_name": "JOHN DUE",
+            "author_designation": "Co-Founder",
+            "author_color": "#dddddd",
+            "author_descolor": "#dddddd"
           }
         }
       },
       "block_order": [
-        "template--20793729941814__80aacdc0-525a-4e2b-b4a1-6f4edef8c479-featured_collection-1",
-        "template--20793729941814__80aacdc0-525a-4e2b-b4a1-6f4edef8c479-featured_collection-2",
-        "template--20793729941814__80aacdc0-525a-4e2b-b4a1-6f4edef8c479-featured_collection-3"
+        "1594383595784",
+        "1594383388335-0",
+        "1595841389115"
       ],
       "settings": {
-        "title": "For every occasion",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "accent-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "bg_color": "#171717",
+        "use_bg": false,
+        "parallax_enable": false
       }
     },
-    "multicolumn_BcrY3p": {
-      "type": "multicolumn",
+    "feature-blogs": {
+      "type": "feature-blogs",
+      "settings": {
+        "title": "LATEST NEWS",
+        "subtitle": "Best Selling",
+        "subtitle_color": "#e9ad3f",
+        "blog": "cosmetic",
+        "blog_design": "design_1",
+        "product_col": "3",
+        "post_limit": "6",
+        "blog_btn_bg": "#999999",
+        "blog_btn_text": "#ffffff",
+        "blog_btn_hover_bg": "#000000",
+        "blog_hover_btn_text": "#e9ad3f",
+        "blog_show_date": true,
+        "show_view_all": false
+      }
+    },
+    "our_brand": {
+      "type": "our_brand",
       "blocks": {
-        "column_mGrVBG": {
-          "type": "column",
+        "1605783755d6d9f598-0": {
+          "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/Iconos_Oriental_Aromas-03_203dcdc2-dbd9-4517-8453-c27b301e5cac.png",
-            "title": "Fast Shipping",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/brandlist-01.png",
+            "link": "#"
           }
         },
-        "column_emiAPM": {
-          "type": "column",
+        "1605783755d6d9f598-1": {
+          "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/Iconos_Oriental_Aromas-04_9162d6d8-0852-4482-9c97-364959974e41.png",
-            "title": "Stamped Authentic Products",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/brandlist-02.png",
+            "link": "#"
           }
         },
-        "column_qTTPRe": {
-          "type": "column",
+        "1605783755d6d9f598-2": {
+          "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/Iconos_Oriental_Aromas-02_94df25a3-5dca-466b-b66c-460f02b9a41a.png",
-            "title": "Personal Attention",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/brandlist-03.png",
+            "link": "#"
           }
         },
-        "column_kHMqX9": {
-          "type": "column",
+        "1605783755d6d9f598-3": {
+          "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/Iconos_Oriental_Aromas-01_54668039-8d8e-4168-b890-28834367294e.png",
-            "title": "Safe Purchase",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/brandlist-04.png",
+            "link": "#"
           }
         },
-        "column_ibriAH": {
-          "type": "column",
+        "1605783755d6d9f598-4": {
+          "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/Icono_reciclable.png",
-            "title": "We Use Recycled Packaging Materials",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/brandlist-05.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-5": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/brandlist-06.png",
+            "link": "#"
+          }
+        },
+        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/brandlist-07.png",
+            "link": "#"
           }
         }
       },
       "block_order": [
-        "column_mGrVBG",
-        "column_emiAPM",
-        "column_qTTPRe",
-        "column_kHMqX9",
-        "column_ibriAH"
+        "1605783755d6d9f598-0",
+        "1605783755d6d9f598-1",
+        "1605783755d6d9f598-2",
+        "1605783755d6d9f598-3",
+        "1605783755d6d9f598-4",
+        "1605783755d6d9f598-5",
+        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd"
       ],
       "settings": {
+        "brand_col_mobile_pro": 2,
+        "brand_col_desktop_pro": 4,
+        "addclass": "brands",
         "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-52b83c4a-dbf8-4757-8c25-6a46446b54e6",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 24,
-        "padding_bottom": 56
-      }
-    },
-    "170562098509dedb36": {
-      "type": "apps",
-      "blocks": {
-        "testimonials_slider_slider_widget_block_bPfTwg": {
-          "type": "shopify://apps/testimonials-slider/blocks/slider-widget-block/cd756d38-7c3d-4332-af00-4ff87263e921",
-          "settings": {
-            "themeId": "light",
-            "autoscroll": true,
-            "showAvatar": true,
-            "configNumber": "1"
-          }
-        }
-      },
-      "block_order": [
-        "testimonials_slider_slider_widget_block_bPfTwg"
-      ],
-      "custom_css": [
-        "{background-color: #966440;}"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "1705012264997d2bcc": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_YnJkXb": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "Connect with me",
-            "title_color": "",
-            "title_size": 40,
-            "alignment": "left",
-            "margin_top": 0,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_YnJkXb"
-      ],
-      "custom_css": [
-        "{background-color: #efe1bf;}",
-        "h2 {padding-left: 4rem;}"
-      ],
-      "settings": {
-        "include_margins": true
+        "bg_color": "#171717"
       }
     }
   },
   "order": [
-    "slideshow_naNXW9",
-    "featured_collection",
-    "image_banner_ccgpHh",
-    "collection_list_9G6PAW",
-    "80aacdc0-525a-4e2b-b4a1-6f4edef8c479",
-    "multicolumn_BcrY3p",
-    "170562098509dedb36",
-    "1705012264997d2bcc"
+    "slideshow",
+    "category-feature",
+    "ttcmsabout",
+    "product-tab-model",
+    "ttcmsbanner",
+    "ttcmsoffer",
+    "special-product",
+    "tt-testimonial",
+    "feature-blogs",
+    "our_brand"
   ]
 }

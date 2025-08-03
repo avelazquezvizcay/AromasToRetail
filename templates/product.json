@@ -10,115 +10,73 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "product-template",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker": {
+        "4b5cd151-1d12-4b24-aeca-7b0c62bb7a0d": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
           }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "description",
-        "share"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "media_size": "large",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
-        "padding_top": 36,
-        "padding_bottom": 12
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "accent-2",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "1695276121c5295be8": {
-      "type": "apps",
-      "blocks": {
-        "774f7faf-c1a6-44af-b8e7-e9222977a90b": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        },
+        "complementary_39dXk8": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true
+          }
+        },
+        "judge_me_reviews_preview_badge_PHrypA": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
       "block_order": [
-        "774f7faf-c1a6-44af-b8e7-e9222977a90b"
+        "4b5cd151-1d12-4b24-aeca-7b0c62bb7a0d",
+        "share",
+        "complementary_39dXk8",
+        "judge_me_reviews_preview_badge_PHrypA"
       ],
       "settings": {
-        "include_margins": true
+        "product_layout": "design_1",
+        "tab_bg_color": "rgba(0,0,0,0)",
+        "tab_text_color": "#eeeeee",
+        "product_vendor_enable": true,
+        "product_image_zoom_enable": true,
+        "related_products_enable": true,
+        "recently_products_enable": true,
+        "product_qty_enable": true,
+        "share_enable": true,
+        "product_availibility_enable": true,
+        "addtocart_sticky_bar": true,
+        "enable_payment_button": true,
+        "enable_wishlist": true,
+        "enable_compare": true,
+        "enable_print": false,
+        "pro_img_widthheight": "590x767",
+        "pro_thumb_img_widthheight": "115x149",
+        "thumb_position": "horizontal_bottom",
+        "number_of_thumb": "4",
+        "Tab3_shipping_return": "Shipping and Return",
+        "shipping_deatils": "<h3>Shipping</h3><p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><h3>Return Policy</h3><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p><p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc</p>",
+        "sizechart_enable": true,
+        "sizechart_lable": "SIZE CHART",
+        "pro_facebook": true,
+        "pro_twitter": true,
+        "pro_linkedin": true,
+        "pro_pinterest": true,
+        "pro_tumblr": true,
+        "pro_email": false,
+        "pro_whatsapp": false
       }
-    },
-    "1629746450643786911": {
-      "type": "areviews-section",
-      "settings": {}
     }
   },
   "order": [
-    "main",
-    "related-products",
-    "1695276121c5295be8",
-    "1629746450643786911"
+    "main"
   ]
 }
