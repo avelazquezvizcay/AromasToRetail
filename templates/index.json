@@ -1,0 +1,384 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "1580215063672-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/slider-01_49d49938-8d5b-48fd-89b8-e56dcc4e5f30.jpg",
+            "image_link": "#",
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=nlyPlIHXgOE",
+            "title": "SPECIAL GLOW FACE MAKE",
+            "sub_title": "Natural Tone",
+            "btn_txt": "Take Appointment",
+            "btn_link": "#",
+            "title_color": "#111111",
+            "subtitle_color": "#ee2d7a",
+            "btn_bg_color": "#111111",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#ee2d7a",
+            "btn_hovertxt_color": "#ffffff",
+            "text_position": "center",
+            "text_effect": "left"
+          }
+        },
+        "1580215063672-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/slider-02_7f18a2fe-f570-4d02-b7ea-4a73b1cb8f00.jpg",
+            "image_link": "#",
+            "show_video": false,
+            "video_url": "",
+            "title": "NATURAL BEAUTY CARE",
+            "sub_title": "Facial Cream",
+            "btn_txt": "Take Appointment",
+            "btn_link": "#",
+            "title_color": "#111111",
+            "subtitle_color": "#ee2d7a",
+            "btn_bg_color": "#111111",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#ee2d7a",
+            "btn_hovertxt_color": "#ffffff",
+            "text_position": "center",
+            "text_effect": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "1580215063672-0",
+        "1580215063672-1"
+      ],
+      "settings": {
+        "slider_animation_type": "fade",
+        "slide_button_bg_color": "#ffffff",
+        "slide_button_bg_hover_color": "#ee2d7a",
+        "slide_button_txt_color": "#111111",
+        "slide_button_txt_hover_color": "#ffffff"
+      }
+    },
+    "category-feature": {
+      "type": "category-feature",
+      "blocks": {
+        "1594620018893-0": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/category-img-01.png",
+            "image_label": "Sale",
+            "collection_cat_id": "dark-cosmetic"
+          }
+        },
+        "1594620115800": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/category-img-02.png",
+            "image_label": "New",
+            "collection_cat_id": "cosmetic"
+          }
+        },
+        "1594620139706": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/category-img-03.png",
+            "image_label": "5% Off",
+            "collection_cat_id": "nightshade-elegance"
+          }
+        },
+        "1594620174866": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/category-img-04.png",
+            "image_label": "Sale",
+            "collection_cat_id": "dark-cosmetic2"
+          }
+        }
+      },
+      "block_order": [
+        "1594620018893-0",
+        "1594620115800",
+        "1594620139706",
+        "1594620174866"
+      ],
+      "settings": {
+        "product_col_desktop_pro": 3,
+        "product_col_mobile_pro": 1,
+        "title": "TOP CATEGORIES",
+        "title_color": "#000000",
+        "subtitle": "Categories",
+        "subtitle_color_main": "#ee2d7a",
+        "image_content_bg_color": "#f5f1e6",
+        "collection_title_color": "#111111",
+        "collection_title_hover_color": "#111111",
+        "collection_item_color": "#666666",
+        "collection_item_hover_color": "#111111",
+        "collection_desc_color": "#111111",
+        "collection_image_lable_color": "#ffffff",
+        "collection_image_lable_bgcolor": "#ee2d7a"
+      }
+    },
+    "ttcmsabout": {
+      "type": "ttcmsabout",
+      "settings": {
+        "bg_color": "#ffffff",
+        "image": "shopify://shop_images/cms-img-01.jpg",
+        "image_url": "#",
+        "image_position": "pos-right",
+        "title": "NATURAL & GLOWING SKINTONE",
+        "title_color": "#111111",
+        "subtitle": "Beauty",
+        "subtitle_color": "#ee2d7a",
+        "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+        "desc_color": "#666666",
+        "about_btn": "Read More",
+        "btn_url": "",
+        "btn_txt_color": "#ffffff",
+        "btn_bg_color": "#111111",
+        "btn_txt_hvr_color": "#ffffff",
+        "btn_bg_hvr_color": "#ee2d7a"
+      }
+    },
+    "ttcmsabout1": {
+      "type": "ttcmsabout",
+      "settings": {
+        "bg_color": "#ffffff",
+        "image": "shopify://shop_images/cms-img-02.jpg",
+        "image_url": "#",
+        "image_position": "pos-left",
+        "title": "SPECIAL GLOW SKIN FACE MAKE",
+        "title_color": "#111111",
+        "subtitle": "Beauty",
+        "subtitle_color": "#ee2d7a",
+        "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+        "desc_color": "#666666",
+        "about_btn": "Read More",
+        "btn_url": "",
+        "btn_txt_color": "#ffffff",
+        "btn_bg_color": "#111111",
+        "btn_txt_hvr_color": "#ffffff",
+        "btn_bg_hvr_color": "#ee2d7a"
+      }
+    },
+    "product-tab-model": {
+      "type": "product-tab-model",
+      "blocks": {
+        "1595656887930": {
+          "type": "text_block",
+          "settings": {
+            "title": "New Products",
+            "collection": "light-cosmetic"
+          }
+        },
+        "1595650811758-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Featured",
+            "collection": "light-cosmetic"
+          }
+        },
+        "1595656854289": {
+          "type": "text_block",
+          "settings": {
+            "title": "Best Seller",
+            "collection": "light-cosmetic2"
+          }
+        }
+      },
+      "block_order": [
+        "1595656887930",
+        "1595650811758-0",
+        "1595656854289"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "4",
+        "title_1": "TRENDING PRODUCTS",
+        "title_1_clr": "#111111",
+        "subtitle_1": "Best Selling",
+        "subtitle_1_clr": "#ee2d7a",
+        "button_bg": "#f5f5f5",
+        "button_text": "#222222",
+        "button_hover_bg": "#ee2d7a",
+        "button_hover_text": "#ffffff",
+        "view_all": "",
+        "view_url": ""
+      }
+    },
+    "tt-testimonial": {
+      "type": "tt-testimonial",
+      "blocks": {
+        "1594383595784": {
+          "type": "text",
+          "settings": {
+            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
+            "des_color": "#f5f5f5",
+            "image_1": "shopify://shop_images/02_a5c09b78-be9f-40cd-b379-be519bb27fbe.jpg",
+            "image_1_heading": "",
+            "author_name": "JOHN DUE",
+            "author_designation": "Co-Founder",
+            "author_color": "#ffffff",
+            "author_descolor": "#ffffff"
+          }
+        },
+        "1594383388335-0": {
+          "type": "text",
+          "settings": {
+            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
+            "des_color": "#f5f5f5",
+            "image_1": "shopify://shop_images/01_da86ff35-fdbd-47c2-a494-f077a77a9584.jpg",
+            "image_1_heading": "",
+            "author_name": "JOHN DUFF",
+            "author_designation": "CEO and Founder",
+            "author_color": "#ffffff",
+            "author_descolor": "#ffffff"
+          }
+        },
+        "1595841389115": {
+          "type": "text",
+          "settings": {
+            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
+            "des_color": "#f5f5f5",
+            "image_1": "shopify://shop_images/03.jpg",
+            "image_1_heading": "",
+            "author_name": "JOHN DUE",
+            "author_designation": "Co-Founder",
+            "author_color": "#ffffff",
+            "author_descolor": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1594383595784",
+        "1594383388335-0",
+        "1595841389115"
+      ],
+      "settings": {
+        "bg_color": "#958b89",
+        "use_bg": false,
+        "parallax_enable": false,
+        "image_befor": "shopify://shop_images/before.jpg",
+        "image_after": "shopify://shop_images/after.jpg"
+      }
+    },
+    "special-product": {
+      "type": "special-product",
+      "settings": {
+        "class": "specialproduct",
+        "title": "SPECIAL PRODUCT",
+        "title_color": "#111111",
+        "subtitle": "Big Selling",
+        "subtitle_color": "#ee2d7a",
+        "collection": "light-cosmetic2",
+        "product_col": "4"
+      }
+    },
+    "feature-blogs": {
+      "type": "feature-blogs",
+      "settings": {
+        "title": "LATEST NEWS",
+        "subtitle": "Blog",
+        "subtitle_color": "#ee2d7a",
+        "blog": "light-cosmetic",
+        "blog_design": "design_1",
+        "product_col": "3",
+        "post_limit": "6",
+        "blog_btn_bg": "#666666",
+        "blog_btn_text": "#ffffff",
+        "blog_btn_hover_bg": "#ee2d7a",
+        "blog_hover_btn_text": "#ffffff",
+        "blog_show_date": true,
+        "show_view_all": false
+      }
+    },
+    "our_brand": {
+      "type": "our_brand",
+      "blocks": {
+        "1605783755d6d9f598-0": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/01.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-1": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/02.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-2": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/03.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-3": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/04.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-4": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/05.png",
+            "link": "#"
+          }
+        },
+        "1605783755d6d9f598-5": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/06.png",
+            "link": "#"
+          }
+        },
+        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd": {
+          "type": "brand_image",
+          "settings": {
+            "image": "shopify://shop_images/07.png",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1605783755d6d9f598-0",
+        "1605783755d6d9f598-1",
+        "1605783755d6d9f598-2",
+        "1605783755d6d9f598-3",
+        "1605783755d6d9f598-4",
+        "1605783755d6d9f598-5",
+        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd"
+      ],
+      "settings": {
+        "brand_col_mobile_pro": 2,
+        "brand_col_desktop_pro": 5,
+        "addclass": "brands",
+        "title": "",
+        "bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "category-feature",
+    "ttcmsabout",
+    "ttcmsabout1",
+    "product-tab-model",
+    "tt-testimonial",
+    "special-product",
+    "feature-blogs",
+    "our_brand"
+  ]
+}

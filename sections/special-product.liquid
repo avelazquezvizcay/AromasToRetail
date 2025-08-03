@@ -1,0 +1,124 @@
+<div  data-section-id="{{ section.id }}" class="container-fluid padding_0">
+  <div class="page-width slider-specialproduct-wrap special-collection">
+    {%- assign collection = collections[section.settings.collection] -%}
+    {%- assign grid_item_width = 'product-li' -%}
+    {%- assign image_size = '270x270' -%}
+    {%- assign product_limit =  5 -%}
+
+    <div class="special-content">
+      <div class="container">
+        <div class="row">
+          <div class="special-product-div {{ section.settings.class }} {% if settings.enable_animation != balnk %} bottom-to-top hb-animate-element{% endif %} special-product">    
+            <div class="section-header">
+              {% if section.settings.subtitle != blank %}
+              <div class="ttsub-title" style="color:{{ section.settings.subtitle_color }};">{{ section.settings.subtitle }}</div>
+              {% endif %}
+              {% if section.settings.title != blank %}
+              <h2 class="tt-title">{{ section.settings.title | escape }}</h2>
+              {% endif %}
+            </div>  
+            <div id="{{ section.settings.class }}_products_slider" data-col="{{ section.settings.product_col }}"  class="contents slider-specialproduct grid grid--view-items owl-carousel owl-theme" data-col="{{ section.settings.product_col }}">
+              {% for product in collection.products limit: product_limit %}
+              <div class="{{ grid_item_width }}">
+                {% render 'product-card-grid', product: product, collection: collection ,grid_image_width: image_size %}
+              </div>
+              {% else %}
+              {% for i in (1..product_limit) %}
+              <div class="{{ grid_item_width }}">
+                <div class="grid-view-item">
+                  <a href="#" class="grid-view-item__link">
+                    <div class="grid-view-item__image">
+                      {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                      {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                    {% render 'wishlist-icon' %}
+                    <div class="h4 grid-view-item__title">{{ 'home_page.onboarding.product_title' | t }}</div>
+                    <div class="grid-view-item__meta">
+                      {% render 'product-price' %}
+                    </div>
+                  </a>
+                </div>
+              </div>
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="customNavigation">
+              <div class="navigation_wrap">
+                <a class="fa {{ section.settings.class }}_prev prev">{{ 'general.slider.prev' | t }}<span class="mdi mdi-arrow-left"></span></a>
+                <a class="fa {{ section.settings.class }}_next next">{{ 'general.slider.next' | t }}<span class="mdi mdi-arrow-right"></span></a>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Special product",
+    "class": "index-section special",
+    "settings": [
+      {
+        "type": "text",
+        "id": "class",
+        "label": "Add Class",
+        "default": "specialproduct"
+      },
+  {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Special collection"
+      },
+        {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#525252"
+        },
+		{
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+        },
+        {
+        "type": "color",
+        "id": "subtitle_color",
+        "label": "Subtitle color",
+        "default": "#525252"
+        },	
+      {
+        "id": "collection",
+        "type": "collection",
+        "label": "Collection"
+      },
+{
+          "type": "select",
+          "id": "product_col",
+          "label": "Select product Column",
+          "options": [
+			{
+              "value": "2",
+              "label": "2 Column"
+            },
+            {
+              "value": "3",
+              "label": "3 Column"
+            },
+            {
+              "value": "4",
+              "label": "4 Column"
+            }
+          ],
+          "default": "4"
+        }
+    ],
+    "presets": [
+      {
+        "name": "Special product",
+        "category": "Collection"
+      }
+    ]
+  }
+{% endschema %}

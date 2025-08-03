@@ -1,0 +1,129 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.container",
+  "sections": {
+    "main": {
+      "type": "aboutus-page-img",
+      "settings": {
+        "about_us": "shopify://shop_images/about-us-01_daca6bc8-9efb-451f-b596-66440790dcd0.jpg",
+        "about_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed mauris id lacus volutpat consectetur sed non velit. Nulla ultrices luctus libero vel feugiat. Vestibulum suscipit ligula et eros volutpat, quis gravida ex rutrum. Morbi non blandit orci, eu ultrices risus. Maecenas volutpat dui vitae sem hendrerit, quis finibus turpis porta. Pellentesque et efficitur eros, in dapibus ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "about_image1": "shopify://shop_images/about-us-02_d67db228-48a1-4e90-9611-10096a69b6dc.jpg",
+        "about_title1": "ABOUT OUR SHOP",
+        "description_1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+        "about_image2": "shopify://shop_images/about-us-03_56ed064b-f620-4e98-8a4f-d841387421a1.jpg",
+        "about_title2": "WHAT WE DO",
+        "description_2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+      }
+    },
+    "team": {
+      "type": "aboutus-team",
+      "blocks": {
+        "1570173823217": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify://shop_images/1.jpg",
+            "image_heading": "john doe",
+            "author_name": "john doe",
+            "author_designation": "web devloper",
+            "facebook": "",
+            "twitter": "",
+            "google-plus": "",
+            "instagram": ""
+          }
+        },
+        "1570173875415": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify://shop_images/5.jpg",
+            "image_heading": "john buffer",
+            "author_name": "john buffer",
+            "author_designation": "web developer",
+            "facebook": "",
+            "twitter": "",
+            "google-plus": "",
+            "instagram": ""
+          }
+        },
+        "1570173906227": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify://shop_images/7.jpg",
+            "image_heading": "sandra ellips",
+            "author_name": "sandra ellips",
+            "author_designation": "graphics designer",
+            "facebook": "",
+            "twitter": "",
+            "google-plus": "",
+            "instagram": ""
+          }
+        },
+        "1570174004731": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify://shop_images/4.jpg",
+            "image_heading": "craig wilson",
+            "author_name": "craig wilson",
+            "author_designation": "web designer",
+            "facebook": "",
+            "twitter": "",
+            "google-plus": "",
+            "instagram": ""
+          }
+        },
+        "1570173938187": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify://shop_images/9.jpg",
+            "image_heading": "jhon smith",
+            "author_name": "jhon smith",
+            "author_designation": "developer",
+            "facebook": "",
+            "twitter": "",
+            "google-plus": "",
+            "instagram": ""
+          }
+        },
+        "1570174049687": {
+          "type": "text",
+          "settings": {
+            "image_1": "shopify://shop_images/6.jpg",
+            "image_heading": "jhon doe",
+            "author_name": "jhon doe",
+            "author_designation": "manager",
+            "facebook": "",
+            "twitter": "",
+            "google-plus": "",
+            "instagram": ""
+          }
+        }
+      },
+      "block_order": [
+        "1570173823217",
+        "1570173875415",
+        "1570173906227",
+        "1570174004731",
+        "1570173938187",
+        "1570174049687"
+      ],
+      "settings": {
+        "title": "OUR TEAM",
+        "sub_title": "Experts",
+        "title_color": "#111111",
+        "sub_title_color": "#fec500",
+        "ourteam_column": "5"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "team"
+  ]
+}

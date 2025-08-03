@@ -1,0 +1,357 @@
+{% if section.settings.display_recent_purchase != blank %}
+  <div class="product-notification pos-{{section.settings.notify_product_pos}} customer-who-purchased">
+    {% for block in section.blocks %}
+      {%- assign product = all_products[block.settings.product] -%}
+      <div class="product-data">
+        <div class="product-suggest">
+          <a class="product-image" href="{{ product.url | within: collection }}">
+            <img
+              src="{{ product.featured_image | img_url:'small' }}"
+              alt="{{ product.featured_image.alt }}"
+              width="77"
+              height="100"
+            >
+          </a>
+          <div class="column-right">
+            <label>
+              <a href="{{ product.url | within: collection }}"
+                ><span class="lang1">{{ product.title | truncatewords: 5 }}</span></a
+              >
+            </label>
+            <p>
+              <span class="purchased">{{ section.settings.text }}</span
+              ><span class="location">{{ block.settings.from }}</span>
+              <span class="time-ago">{{ block.settings.time }}</span>
+            </p>
+            <a href="javascript:void(0)" title="Close" class="dT_close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                width="12"
+                height="12"
+                viewBox="0 0 25 25"
+                version="1.1"
+              >
+                    <title>cross</title>
+                    <desc>Created with Sketch Beta.</desc>
+                    <defs>
+
+                </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                        <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-469.000000, -1041.000000)" fill="#222">
+                            <path d="M487.148,1053.48 L492.813,1047.82 C494.376,1046.26 494.376,1043.72 492.813,1042.16 C491.248,1040.59 488.712,1040.59 487.148,1042.16 L481.484,1047.82 L475.82,1042.16 C474.257,1040.59 471.721,1040.59 470.156,1042.16 C468.593,1043.72 468.593,1046.26 470.156,1047.82 L475.82,1053.48 L470.156,1059.15 C468.593,1060.71 468.593,1063.25 470.156,1064.81 C471.721,1066.38 474.257,1066.38 475.82,1064.81 L481.484,1059.15 L487.148,1064.81 C488.712,1066.38 491.248,1066.38 492.813,1064.81 C494.376,1063.25 494.376,1060.71 492.813,1059.15 L487.148,1053.48" id="cross" sketch:type="MSShapeGroup">
+
+                </path>
+                        </g>
+                    </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <span class="progress-bar">
+          <div class="progress"></div>
+        </span>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    $(document).ready(function () {
+    if ($.cookie('dT_suggested-cookie') == 'closed') {
+         $('.product-data').remove();
+    }
+
+    $('.dT_close').bind('click', function () {
+         $('.product-data').remove();
+         $.cookie('dT_suggested-cookie', 'closed', { expires: 1, path: '/' });
+    });
+      
+      var elements = $('.customer-who-purchased .product-data');
+      var i = 0;
+      var progressComplete = true;
+      var intervalId;
+      var timeoutId;
+      var remainingTime = 4000; // Default duration
+      var startTime;
+
+      function showNextPopup() {
+        if (progressComplete) {
+          
+            // Move to the next element, and loop back if necessary
+            i = (i + 1) % elements.length;
+          progressComplete = false;
+          let currentItem = elements.eq(i);
+          // console.log("next", currentItem);
+          currentItem.addClass('active');
+          var progressBar = currentItem.find('.progress-bar .progress');
+          progressBar.removeClass('progress-bar-fill');
+          void progressBar.offsetWidth; // Trigger reflow
+          progressBar.addClass('progress-bar-fill');
+          // console.log("Popup started");
+
+          startTime = new Date().getTime(); // Record the start time
+
+          timeoutId = setTimeout(function () {
+            // console.log("Popup completed");
+            currentItem.removeClass('active');
+            progressBar.removeClass('progress-bar-fill');
+            progressComplete = true;
+            remainingTime = 4000; // Reset remaining time
+
+
+            // Show the next popup immediately
+            showNextPopup();
+          }, remainingTime);
+        }
+      }
+
+      function startInterval() {
+        showNextPopup(); // Start the first popup immediately
+        intervalId = setInterval(function () {
+          if (progressComplete) {
+            showNextPopup();
+          }
+        }, remainingTime);
+      }
+
+      startInterval();
+
+      $('.customer-who-purchased').hover(function () {
+        clearInterval(intervalId);
+        clearTimeout(timeoutId);
+        var elapsedTime = new Date().getTime() - startTime; // Calculate elapsed time
+        remainingTime -= elapsedTime; // Update remaining time
+        elements.filter('.active').find('.progress-bar .progress').css('animation-play-state', 'paused');
+      }, function () {
+        elements.filter('.active').find('.progress-bar .progress').css('animation-play-state', 'running');
+        timeoutId = setTimeout(function () {
+          let currentItem = elements.filter('.active');
+          currentItem.removeClass('active');
+          currentItem.find('.progress-bar .progress').removeClass('progress-bar-fill');
+          progressComplete = true;
+          remainingTime = 4000; // Reset remaining time for the next element
+          // Show the next popup immediately
+          // console.log("prev", currentItem);
+          showNextPopup();
+        }, remainingTime);
+      });
+    });
+  </script>
+
+  <style type="text/css">
+    .template-index .main-content .shopify-section.recommendations-product{
+      width: auto;
+    }
+    .progress-bar {
+      width: 100%;
+      background-color: white;
+      border-radius: 4px;
+      overflow: hidden;
+      box-shadow: none;
+      height: auto;
+    }
+
+    .progress {
+      height: 2px;
+      background-color: var(--color-btn-primary);
+      margin: 0;
+    }
+
+    .progress-bar-fill {
+      animation: progress-animation-reverse 4s linear forwards;
+    }
+
+    .customer-who-purchased:hover .progress-bar-fill {
+      animation-play-state: paused;
+    }
+
+    .product-data .dT_close {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      bottom: auto;
+      left: auto;
+    }
+
+    @keyframes progress-animation {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
+
+    @keyframes progress-animation-reverse {
+      0% {
+        width: 100%;
+      }
+
+      100% {
+        width: 0%;
+      }
+    }
+
+    .product-data {
+      position: fixed;
+      bottom: 70px;
+      width: 350px;
+      transition: all 400ms ease-in-out 0s;
+      -webkit-transition: all 400ms ease-in-out 0s;
+      -moz-transition: all 400ms ease-in-out 0s;
+      -o-transition: all 400ms ease-in-out 0s;
+      -ms-transition: all 400ms ease-in-out 0s;
+      left: 50px;
+      padding: 15px 15px 5px 15px;
+      border: 1px solid var(--color-border);
+      background: var(--color-body);
+      z-index: 2;
+      max-height: 200px;
+      min-height: 120px;
+      max-width: 500px;
+      opacity: 0;
+      -moz-opacity: 0;
+      -khtml-opacity: 0;
+      -webkit-opacity: 0;
+      visibility: hidden;
+    }
+
+    @media only screen and (max-width: 480px) {
+      .product-data {
+        width: 290px;
+        left: 20px;
+      }
+    }
+
+    .product-notification.pos-right .product-data {
+      right: 50px;
+      left: auto;
+    }
+
+    .product-data.active {
+      bottom: 50px;
+      opacity: 1;
+      -moz-opacity: 1;
+      -khtml-opacity: 1;
+      -webkit-opacity: 1;
+      filter: alpha(opacity=100);
+      visibility: visible;
+    }
+
+    .product-notification .product-suggest {
+      float: left;
+      width: 100%;
+      margin: 0 0 15px;
+    }
+
+    .product-notification .product-suggest .product-image {
+      max-width: 82px;
+      margin: auto;
+      float: left;
+      width: 28%;
+    }
+
+    .product-notification .product-suggest .column-right {
+      padding: 0 10px;
+      line-height: 20px;
+      float: right;
+      width: 72%;
+    }
+
+    .product-notification .product-suggest .column-right label {
+      color: var(--color-body-text);
+      font-size: 12px;
+      font-weight: 500;
+      float: left;
+      width: 100%;
+    }
+
+    .product-notification .product-suggest .column-right .product-name {
+      color: var(--color-text);
+      font-size: 13px;
+      float: left;
+      width: 100%;
+      margin: 0 0 3px;
+      font-weight: 700;
+    }
+
+    .product-notification .product-suggest .column-right .from-ago,
+    .product-notification .product-suggest .column-right .time-ago {
+      color: var(--color-body-text);
+      font-size: 12px;
+      font-weight: 400;
+      float: left;
+      width: 100%;
+    }
+
+    @media (max-width: 480px) {
+      .product-notification.pos-right .product-data {
+        right: 30px;
+        left: auto;
+      }
+    }
+  </style>
+{% endif %}
+{% schema %}
+{
+  "name": "recommendations product",
+  "class": "recommendations-product",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "display_recent_purchase",
+      "label": "Show Product Notification",
+      "default": true
+    },
+    {
+      "type": "radio",
+      "id": "notify_product_pos",
+      "label": "Widget position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "right"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Someone recently bought a"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select Product"
+        },
+        {
+          "type": "text",
+          "id": "from",
+          "default": "Texas, US",
+          "label": "Location"
+        },
+        {
+          "type": "text",
+          "id": "time",
+          "default": "10 minutes ago",
+          "label": "Time"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
