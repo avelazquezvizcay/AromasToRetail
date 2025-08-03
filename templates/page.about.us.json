@@ -1,0 +1,128 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_i9njjk": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YEyUE9": {
+          "type": "heading",
+          "settings": {
+            "heading": "We explore the sensory richness of perfumes, lotions and candles from the captivating lands of <em>Dubai.</em>",
+            "heading_size": "h2"
+          }
+        },
+        "text_bx6Q7V": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YEyUE9",
+        "text_bx6Q7V"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Banner_about_us_Web_y_Movil.jpg",
+        "image_2": "shopify://shop_images/Banner_about_us_Web_y_Movil.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-52b83c4a-dbf8-4757-8c25-6a46446b54e6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_A6tXRN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QpxkA6": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are dedicated to offering the highest quality products at affordable prices.",
+            "heading_size": "h1"
+          }
+        },
+        "text_Q8wbiV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our mission goes beyond offering exquisite fragrances; We aspire to democratize and inspire the use of quality perfumes in each person who chooses to delight in our fragrances. </p><p>Join us on this aromatic journey, where each product tells a story and each fragrance becomes a unique sensory experience. Oriental Aromas: where quality and accessibility meet to awaken your senses.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_emVnHF": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QpxkA6",
+        "text_Q8wbiV",
+        "button_emVnHF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Artboard_1_copy_17.jpg",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 96,
+        "padding_bottom": 92
+      }
+    },
+    "image_banner_egaNQM": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/3.jpg",
+        "image_2": "shopify://shop_images/3.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_i9njjk",
+    "image_with_text_A6tXRN",
+    "image_banner_egaNQM"
+  ]
+}
