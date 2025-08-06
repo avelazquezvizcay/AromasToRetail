@@ -45,6 +45,43 @@
         "slide_button_txt_hover_color": "#000000"
       }
     },
+    "product-tab-model": {
+      "type": "product-tab-model",
+      "blocks": {
+        "1595656887930": {
+          "type": "text_block",
+          "settings": {
+            "title": "New Arrivals",
+            "collection": "for-dates"
+          }
+        },
+        "1595656854289": {
+          "type": "text_block",
+          "settings": {
+            "title": "Best Seller",
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "1595656887930",
+        "1595656854289"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "4",
+        "title_1": ".",
+        "title_1_clr": "#ffffff",
+        "subtitle_1": "",
+        "subtitle_1_clr": "#ee2d7a",
+        "button_bg": "#391e10",
+        "button_text": "#ffffff",
+        "button_hover_bg": "#734128",
+        "button_hover_text": "#ffffff",
+        "view_all": "",
+        "view_url": ""
+      }
+    },
     "category-feature": {
       "type": "category-feature",
       "blocks": {
@@ -138,51 +175,6 @@
         "btn_bg_color": "#111111",
         "btn_txt_hvr_color": "#ffffff",
         "btn_bg_hvr_color": "#ee2d7a"
-      }
-    },
-    "product-tab-model": {
-      "type": "product-tab-model",
-      "blocks": {
-        "1595656887930": {
-          "type": "text_block",
-          "settings": {
-            "title": "New Products",
-            "collection": "light-cosmetic"
-          }
-        },
-        "1595650811758-0": {
-          "type": "text_block",
-          "settings": {
-            "title": "Featured",
-            "collection": "light-cosmetic"
-          }
-        },
-        "1595656854289": {
-          "type": "text_block",
-          "settings": {
-            "title": "Best Seller",
-            "collection": "light-cosmetic2"
-          }
-        }
-      },
-      "block_order": [
-        "1595656887930",
-        "1595650811758-0",
-        "1595656854289"
-      ],
-      "settings": {
-        "product_rows": false,
-        "product_col": "4",
-        "title_1": "TRENDING PRODUCTS",
-        "title_1_clr": "#111111",
-        "subtitle_1": "Best Selling",
-        "subtitle_1_clr": "#ee2d7a",
-        "button_bg": "#f5f5f5",
-        "button_text": "#222222",
-        "button_hover_bg": "#ee2d7a",
-        "button_hover_text": "#ffffff",
-        "view_all": "",
-        "view_url": ""
       }
     },
     "tt-testimonial": {
@@ -332,10 +324,10 @@
   },
   "order": [
     "slideshow2_bdAnB4",
+    "product-tab-model",
     "category-feature",
     "ttcmsabout",
     "ttcmsabout1",
-    "product-tab-model",
     "tt-testimonial",
     "special-product",
     "feature-blogs",
