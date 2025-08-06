@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "message": "",
     "display_preloader": false,
     "preloader_pages": false,
     "pre_loader_img": "shopify://shop_images/ajax-loader.gif",
@@ -44,7 +45,7 @@
     "letter_space": "1px",
     "type_header_family": "Chilia Regular",
     "type_subheader_family": "Arcon Regular",
-    "favicon": "shopify://shop_images/favicon.png",
+    "favicon": "shopify://shop_images/Oriental_Aromas_Identidad_Visual_-_Version_Horizontal_1.svg",
     "enable_animation": true,
     "page_width": 1260,
     "section_margin-space": 80,
@@ -56,7 +57,7 @@
     "breadcrumb_text_color": "#111111",
     "header_style_1": "style_1",
     "enable_ajax_search_full": false,
-    "display_toogle_menu": true,
+    "display_toogle_menu": false,
     "popup_newsletter_show": false,
     "popup_newsletter_title": "NEWSLETTER",
     "popup_newsletter_description": "Enter your email below to receive a $30 coupon, special\noffers, exclusive discounts and more!",
@@ -135,11 +136,11 @@
     "social_vimeo_link": "",
     "social_fancy_link": "",
     "share_facebook": true,
-    "share_twitter": true,
-    "share_google": true,
-    "share_pinterest": true,
+    "share_twitter": false,
+    "share_google": false,
+    "share_pinterest": false,
     "share_instagram": true,
-    "share_whatsapp": true,
+    "share_whatsapp": false,
     "password_bg_img": false,
     "password_logo": true,
     "pwd_logo_max_width": "100",
@@ -1255,7 +1256,7 @@
           "tt_mm_menu_6aHXi9"
         ],
         "settings": {
-          "sticky_header": true,
+          "sticky_header": false,
           "header_transaparent": false,
           "color_menu_bg": "#e2ceb1",
           "logo": "shopify://shop_images/Oriental_Aromas_Identidad_Visual_-_Version_Horizontal_1.svg",
