@@ -73,7 +73,7 @@
         "title_1": ".",
         "title_1_clr": "#ffffff",
         "subtitle_1": "",
-        "subtitle_1_clr": "#ee2d7a",
+        "subtitle_1_clr": "#ffffff",
         "button_bg": "#391e10",
         "button_text": "#ffffff",
         "button_hover_bg": "#734128",
@@ -82,79 +82,25 @@
         "view_url": ""
       }
     },
-    "category-feature": {
-      "type": "category-feature",
-      "blocks": {
-        "1594620018893-0": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "Sale",
-            "collection_cat_id": "dark-cosmetic"
-          }
-        },
-        "1594620115800": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "New",
-            "collection_cat_id": "cosmetic"
-          }
-        },
-        "1594620139706": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "5% Off",
-            "collection_cat_id": "nightshade-elegance"
-          }
-        },
-        "1594620174866": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "Sale",
-            "collection_cat_id": "dark-cosmetic2"
-          }
-        }
-      },
-      "block_order": [
-        "1594620018893-0",
-        "1594620115800",
-        "1594620139706",
-        "1594620174866"
-      ],
-      "settings": {
-        "product_col_desktop_pro": 3,
-        "product_col_mobile_pro": 1,
-        "title": "TOP CATEGORIES",
-        "title_color": "#000000",
-        "subtitle": "Categories",
-        "subtitle_color_main": "#ee2d7a",
-        "image_content_bg_color": "#f5f1e6",
-        "collection_title_color": "#111111",
-        "collection_title_hover_color": "#111111",
-        "collection_item_color": "#666666",
-        "collection_item_hover_color": "#111111",
-        "collection_desc_color": "#111111",
-        "collection_image_lable_color": "#ffffff",
-        "collection_image_lable_bgcolor": "#ee2d7a"
-      }
-    },
     "ttcmsabout": {
       "type": "ttcmsabout",
       "settings": {
         "bg_color": "#ffffff",
+        "image": "shopify://shop_images/Special_promo_banner_1.jpg",
         "image_url": "#",
-        "image_position": "pos-right",
-        "title": "NATURAL & GLOWING SKINTONE",
-        "title_color": "#111111",
-        "subtitle": "Beauty",
-        "subtitle_color": "#ee2d7a",
-        "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
-        "desc_color": "#666666",
-        "about_btn": "Read More",
+        "image_position": "pos-left",
+        "title": "SALE 5X$75",
+        "title_color": "#391e10",
+        "subtitle": "",
+        "subtitle_color": "#391e10",
+        "about_desc": "Add any 5 items from this collection and get 5 for $75!\n\nJust add them to your cart — discount applies automatically at checkout. Limited time offer. Don’t miss out!",
+        "desc_color": "#000000",
+        "about_btn": "Promo",
         "btn_url": "",
         "btn_txt_color": "#ffffff",
-        "btn_bg_color": "#111111",
+        "btn_bg_color": "#391e10",
         "btn_txt_hvr_color": "#ffffff",
-        "btn_bg_hvr_color": "#ee2d7a"
+        "btn_bg_hvr_color": "#734128"
       }
     },
     "ttcmsabout1": {
@@ -320,17 +266,72 @@
         "title": "",
         "bg_color": "#ffffff"
       }
+    },
+    "category-feature": {
+      "type": "category-feature",
+      "blocks": {
+        "1594620018893-0": {
+          "type": "text_collection",
+          "settings": {
+            "image_label": "Sale",
+            "collection_cat_id": "dark-cosmetic"
+          }
+        },
+        "1594620115800": {
+          "type": "text_collection",
+          "settings": {
+            "image_label": "New",
+            "collection_cat_id": "cosmetic"
+          }
+        },
+        "1594620139706": {
+          "type": "text_collection",
+          "settings": {
+            "image_label": "5% Off",
+            "collection_cat_id": "nightshade-elegance"
+          }
+        },
+        "1594620174866": {
+          "type": "text_collection",
+          "settings": {
+            "image_label": "Sale",
+            "collection_cat_id": "dark-cosmetic2"
+          }
+        }
+      },
+      "block_order": [
+        "1594620018893-0",
+        "1594620115800",
+        "1594620139706",
+        "1594620174866"
+      ],
+      "settings": {
+        "product_col_desktop_pro": 3,
+        "product_col_mobile_pro": 1,
+        "title": "TOP CATEGORIES",
+        "title_color": "#000000",
+        "subtitle": "Categories",
+        "subtitle_color_main": "#ee2d7a",
+        "image_content_bg_color": "#f5f1e6",
+        "collection_title_color": "#111111",
+        "collection_title_hover_color": "#111111",
+        "collection_item_color": "#666666",
+        "collection_item_hover_color": "#111111",
+        "collection_desc_color": "#111111",
+        "collection_image_lable_color": "#ffffff",
+        "collection_image_lable_bgcolor": "#ee2d7a"
+      }
     }
   },
   "order": [
     "slideshow2_bdAnB4",
     "product-tab-model",
-    "category-feature",
     "ttcmsabout",
     "ttcmsabout1",
     "tt-testimonial",
     "special-product",
     "feature-blogs",
-    "our_brand"
+    "our_brand",
+    "category-feature"
   ]
 }
