@@ -1276,7 +1276,6 @@
       "footer-model-1": {
         "type": "footer-model-1",
         "settings": {
-          "footer_logo": "shopify://shop_images/footer-logo.png",
           "footer_desc": "At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium voluptatum.",
           "address_title": "our location",
           "footer_contact_title": "store information",
@@ -1297,55 +1296,49 @@
           "1595502867160": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-01.jpg",
               "gallery_url": "#"
             }
           },
           "1595505240796": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-02.jpg",
               "gallery_url": "#"
             }
           },
           "1595505254130": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-03.jpg",
               "gallery_url": "#"
             }
           },
           "1595505267035": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-04.jpg",
               "gallery_url": "#"
             }
           },
           "1595505278570": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-05.jpg",
               "gallery_url": "#"
             }
           },
           "1595505291498": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-06.jpg",
               "gallery_url": "#"
             }
           },
           "1595506519981": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-07.jpg"
+              "gallery_url": ""
             }
           },
           "1595506533017": {
             "type": "text",
             "settings": {
-              "gallery": "shopify://shop_images/insta-gallery-08.jpg"
+              "gallery_url": ""
             }
           }
         },
@@ -1364,7 +1357,6 @@
           "newsletter_title": "SUBSCRIBE TO NEWSLETTER",
           "newsletter_desc": "Claritas processus dynamicus sequitu ynamicus Claritas ynamicus Claritas processus dynamicus Claritas processus dynamicus",
           "parallax_enable": true,
-          "newsletter_bg_image": "shopify://shop_images/newsletter-parallax.jpg",
           "newsletter_bg_color": "#3d3d3d",
           "newsletter_txt_color": "#ffffff",
           "newsletter_desc_color": "#ffffff",
@@ -1378,9 +1370,9 @@
           "contact_email": "shop@gmail.com",
           "show_payment_icons": true,
           "footer_col_title_1": "OUR COMPANY",
-          "col_1_menu": "footer-menu-content-1",
+          "col_1_menu": "",
           "footer_col_title_2": "PRODUCT",
-          "col_2_menu": "footer-menu-content-1",
+          "col_2_menu": "",
           "show_gallery": true,
           "footer_gallery_title": "Gallery"
         }
@@ -2260,26 +2252,26 @@
       "footer-model-3": {
         "type": "footer-model-3",
         "settings": {
-          "show_newsletter": false,
-          "newsletter_title": "SIGN UP FOR NEWSLETTER",
-          "newsletter_desc": "Sign up to our newsletter to get the latest articles & fashion voucher.",
-          "newsletter_bg": "#f5f5f5",
+          "show_newsletter": true,
+          "newsletter_title": "Subscribe to our emails for exclusive offers!",
+          "newsletter_desc": "",
+          "newsletter_bg": "#e2ceb1",
           "newsletter_txt_color": "#000000",
           "newsletter_desc_color": "#000000",
           "btn_txt_color": "#ffffff",
-          "btn_bg_color": "#cccccc",
+          "btn_bg_color": "#734128",
           "btn_hovertxt_color": "#ffffff",
-          "btn_hoverbg_color": "#444444",
-          "show_logo": true,
-          "footer_desc": "Claritas processus dynamicus sequitu ynamicus Claritas ynamicus Claritas  processus dynamicus",
-          "footer_contact_title": "Store Information",
-          "contact_address": "<p>123 Sky Tower, West 21th Street, uite 721, NY</p>",
-          "contact_no": "0123-456-789",
-          "contact_email": "sales@yourcompany.com",
+          "btn_hoverbg_color": "#391e10",
+          "show_logo": false,
+          "footer_desc": "C",
+          "footer_contact_title": "",
+          "contact_address": "",
+          "contact_no": "WhatsApp: +1 (786) 731-9919",
+          "contact_email": "",
           "show_payment_icons": true,
-          "show_link_list": true,
+          "show_link_list": false,
           "footer_col_title_1": "My Account",
-          "col_1_menu": "footer"
+          "col_1_menu": ""
         }
       },
       "header-style-3": {
@@ -3047,7 +3039,7 @@
           "image_G8M8Vd"
         ],
         "settings": {
-          "display_recent_purchase": true,
+          "display_recent_purchase": false,
           "notify_product_pos": "right",
           "text": "Someone recently bought a"
         }
