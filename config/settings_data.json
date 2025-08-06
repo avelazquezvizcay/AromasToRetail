@@ -987,6 +987,7 @@
           "sticky_header": true,
           "header_transaparent": false,
           "color_menu_bg": "#e2ceb1",
+          "logo": "shopify://shop_images/Oriental_Aromas_Identidad_Visual_-_Version_Horizontal_1.svg",
           "logo_width": 200,
           "display_wishlist": true,
           "display_compare": true,
