@@ -14,9 +14,9 @@
 
       
               <div id="popup_toggle">             
-                         <video src="https://cdn.shopify.com/videos/c/o/v/9338d9dae68f43d7b9fc159718324c81.mp4" controls>
-                 
-                 
+                <video width="100%" height="auto " autoplay> 
+                         <source  src="https://cdn.shopify.com/videos/c/o/v/9338d9dae68f43d7b9fc159718324c81.mp4" >
+                                  
                   <div class="slider-content-wrap content-{{ block.settings.text_position }} effect_{{ block.settings.text_effect }}">
                     {% if block.settings.sub_title != blank %}
                       <div class="slider-subtitle" style="color:{{block.settings.subtitle_color }}">
@@ -39,24 +39,10 @@
                         </a>
                       </div>
                     {% endif %}
-                  </div>
-                  <span class="play-icone"><i class="mdi mdi-play-circle" aria-hidden="true"></i></span>
+                  </div>                  
                  </video> 
               </div>
-              <div class="popup_overlay">
-                <div class="popup" id="popupVid">
-                  {% if block.settings.video_url.id == blank %}
-                    <iframe
-                      src="//www.youtube.com/embed/_9VUPq3SxOc?autoplay=1&showinfo=0&rel=0&enablejsapi=1?vq=720"
-                      width="1903"
-                      height="600"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                 
-                  {% endif %}
-                </div>
-              </div>
+       
            
 
             {% if block.settings.show_video == false %}
