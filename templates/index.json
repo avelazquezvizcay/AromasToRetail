@@ -222,6 +222,51 @@
         "collection_image_lable_bgcolor": "#ee2d7a"
       }
     },
+    "ttcmsbanner_3drfEc": {
+      "type": "ttcmsbanner",
+      "blocks": {
+        "image_bNRLai": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "banner_link1": "",
+            "title": "Gifts for someone special",
+            "title_color": "#ffffff",
+            "subtitle": "",
+            "subtitle_color": "#ffffff",
+            "btn": "View",
+            "btnbg_color": "",
+            "btntxt_color": "",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
+          }
+        },
+        "image_JzyiRR": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "banner_link1": "",
+            "title": "Gifts for someone special",
+            "title_color": "#ffffff",
+            "subtitle": "",
+            "subtitle_color": "#ffffff",
+            "btn": "View",
+            "btnbg_color": "",
+            "btntxt_color": "",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_bNRLai",
+        "image_JzyiRR"
+      ],
+      "name": "TT Cms Banner",
+      "settings": {}
+    },
     "ttcmsabout_ccGH6k": {
       "type": "ttcmsabout",
       "name": "Star Your Businesss Video",
@@ -336,33 +381,6 @@
         "title": "",
         "bg_color": "#ffffff"
       }
-    },
-    "ttcmsbanner_3drfEc": {
-      "type": "ttcmsbanner",
-      "blocks": {
-        "image_bNRLai": {
-          "type": "image",
-          "settings": {
-            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "banner_link1": "",
-            "title": "Gifts for someone special",
-            "title_color": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#ffffff",
-            "btn": "View",
-            "btnbg_color": "",
-            "btntxt_color": "",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
-          }
-        }
-      },
-      "block_order": [
-        "image_bNRLai"
-      ],
-      "name": "TT Cms Banner",
-      "settings": {}
     }
   },
   "order": [
