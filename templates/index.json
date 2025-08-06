@@ -104,21 +104,139 @@
         "btn_bg_hvr_color": "#734128"
       }
     },
+    "category-feature": {
+      "type": "category-feature",
+      "blocks": {
+        "1594620018893-0": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_NBM3XX": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/New_arrivals.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_zkbAWi": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_HN9Yca": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "1594620018893-0",
+        "text_collection_NBM3XX",
+        "text_collection_zkbAWi",
+        "text_collection_HN9Yca"
+      ],
+      "settings": {
+        "product_col_desktop_pro": 4,
+        "product_col_mobile_pro": 2,
+        "title": "Categories",
+        "title_color": "#000000",
+        "subtitle": "",
+        "subtitle_color_main": "#ffffff",
+        "image_content_bg_color": "#f5f1e6",
+        "collection_title_color": "#111111",
+        "collection_title_hover_color": "#111111",
+        "collection_item_color": "rgba(0,0,0,0)",
+        "collection_item_hover_color": "#111111",
+        "collection_desc_color": "#111111",
+        "collection_image_lable_color": "#ffffff",
+        "collection_image_lable_bgcolor": "#ee2d7a"
+      }
+    },
+    "category_feature_AgzY6d": {
+      "type": "category-feature",
+      "blocks": {
+        "text_collection_APdi3N": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_QPwPUN": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_kmUYjQ": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_8XfQRW": {
+          "type": "text_collection",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "image_label": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "text_collection_APdi3N",
+        "text_collection_QPwPUN",
+        "text_collection_kmUYjQ",
+        "text_collection_8XfQRW"
+      ],
+      "settings": {
+        "product_col_desktop_pro": 4,
+        "product_col_mobile_pro": 2,
+        "title": "",
+        "title_color": "#000000",
+        "subtitle": "",
+        "subtitle_color_main": "#ffffff",
+        "image_content_bg_color": "#f5f1e6",
+        "collection_title_color": "#111111",
+        "collection_title_hover_color": "#111111",
+        "collection_item_color": "rgba(0,0,0,0)",
+        "collection_item_hover_color": "#111111",
+        "collection_desc_color": "#111111",
+        "collection_image_lable_color": "#ffffff",
+        "collection_image_lable_bgcolor": "#ee2d7a"
+      }
+    },
     "ttcmsabout_ccGH6k": {
       "type": "ttcmsabout",
-      "name": "Star Your Businesss",
+      "name": "Star Your Businesss Video",
       "settings": {
         "bg_color": "#ffffff",
-        "image": "shopify://shop_images/Special_promo_banner_1.jpg",
+        "image": "shopify://shop_images/banner_about_us_2.jpg",
         "image_url": "#",
         "image_position": "pos-right",
-        "title": "SALE 5X$75",
+        "title": "Start your business now from $350.",
         "title_color": "#391e10",
         "subtitle": "",
         "subtitle_color": "#391e10",
-        "about_desc": "Add any 5 items from this collection and get 5 for $75!\n\nJust add them to your cart — discount applies automatically at checkout. Limited time offer. Don’t miss out!",
+        "about_desc": "",
         "desc_color": "#000000",
-        "about_btn": "Promo",
+        "about_btn": "I Want It",
         "btn_url": "",
         "btn_txt_color": "#ffffff",
         "btn_bg_color": "#391e10",
@@ -269,72 +387,18 @@
         "title": "",
         "bg_color": "#ffffff"
       }
-    },
-    "category-feature": {
-      "type": "category-feature",
-      "blocks": {
-        "1594620018893-0": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "Sale",
-            "collection_cat_id": "dark-cosmetic"
-          }
-        },
-        "1594620115800": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "New",
-            "collection_cat_id": "cosmetic"
-          }
-        },
-        "1594620139706": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "5% Off",
-            "collection_cat_id": "nightshade-elegance"
-          }
-        },
-        "1594620174866": {
-          "type": "text_collection",
-          "settings": {
-            "image_label": "Sale",
-            "collection_cat_id": "dark-cosmetic2"
-          }
-        }
-      },
-      "block_order": [
-        "1594620018893-0",
-        "1594620115800",
-        "1594620139706",
-        "1594620174866"
-      ],
-      "settings": {
-        "product_col_desktop_pro": 3,
-        "product_col_mobile_pro": 1,
-        "title": "TOP CATEGORIES",
-        "title_color": "#000000",
-        "subtitle": "Categories",
-        "subtitle_color_main": "#ee2d7a",
-        "image_content_bg_color": "#f5f1e6",
-        "collection_title_color": "#111111",
-        "collection_title_hover_color": "#111111",
-        "collection_item_color": "#666666",
-        "collection_item_hover_color": "#111111",
-        "collection_desc_color": "#111111",
-        "collection_image_lable_color": "#ffffff",
-        "collection_image_lable_bgcolor": "#ee2d7a"
-      }
     }
   },
   "order": [
     "slideshow2_bdAnB4",
     "product-tab-model",
     "ttcmsabout",
+    "category-feature",
+    "category_feature_AgzY6d",
     "ttcmsabout_ccGH6k",
     "tt-testimonial",
     "special-product",
     "feature-blogs",
-    "our_brand",
-    "category-feature"
+    "our_brand"
   ]
 }
