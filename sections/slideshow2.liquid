@@ -8,30 +8,15 @@
   >
     <ul class="slides">
       {% for block in section.blocks %}
-        {% if block.settings.image != blank %}
+        {% if block.settings.image == blank %}
           <li id="slide--{{ block.id }}" class="slide" data-thumb="slide1-thumb.jpg">
-            {% if block.settings.show_video == false %}
-              <a href="{% if block.settings.image_url != blank %}{{ block.settings.image_url}}{% else %}#{% endif %}"
-                ><img
-                  Loading="Lazy"
-                  height="930"
-                  width="1903"
-                  src="{{ block.settings.image | img_url: "1903x" }}"
-                  alt="slider-image"
-              ></a>
-            {% endif %}
+         
 
-            {% if block.settings.show_video == true %}
-              <div id="popup_toggle">
-                <div class="videoimg">
-                  <a href="{% if block.settings.image_url != blank %}{{ block.settings.image_url}}{% else %}#{% endif %}"
-                    ><img
-                      Loading="Lazy"
-                      height="930"
-                      width="1903"
-                      src="{{ block.settings.image | img_url: "1903x" }}"
-                      alt="slider-image"
-                  ></a>
+      
+              <div id="popup_toggle">             
+                         <video src="https://cdn.shopify.com/videos/c/o/v/9338d9dae68f43d7b9fc159718324c81.mp4" controls>
+                 
+                 
                   <div class="slider-content-wrap content-{{ block.settings.text_position }} effect_{{ block.settings.text_effect }}">
                     {% if block.settings.sub_title != blank %}
                       <div class="slider-subtitle" style="color:{{block.settings.subtitle_color }}">
@@ -56,7 +41,7 @@
                     {% endif %}
                   </div>
                   <span class="play-icone"><i class="mdi mdi-play-circle" aria-hidden="true"></i></span>
-                </div>
+                 </video> 
               </div>
               <div class="popup_overlay">
                 <div class="popup" id="popupVid">
@@ -68,29 +53,11 @@
                       frameborder="0"
                       allowfullscreen
                     ></iframe>
-                  {% else %}
-                    {% if block.settings.video_url.type == 'youtube' %}
-                      <iframe
-                        src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?vq=720&rel=0&loop=1&autoplay=1&background=1&enablejsapi=1&muted=1&player_id=bgvid-0"
-                        width="1903"
-                        height="940"
-                        allow="autoplay"
-                        frameborder="0"
-                        allowfullscreen
-                      ></iframe>
-                    {% elsif block.settings.video_url.type == 'vimeo' %}
-                      <iframe
-                        src="//player.vimeo.com/video/{{ block.settings.video_url.id }}?byline=0&portrait=0&badge=0&loop=1&autoplay=1&enablejsapi=1&background=1&muted=1&player_id=bgvid-0"
-                        width="1903"
-                        height="600"
-                        frameborder="0"
-                        allowfullscreen
-                      ></iframe>
-                    {% endif %}
+                 
                   {% endif %}
                 </div>
               </div>
-            {% endif %}
+           
 
             {% if block.settings.show_video == false %}
               <div class="slider-content-wrap content-{{ block.settings.text_position }} effect_{{ block.settings.text_effect }}">
@@ -124,13 +91,7 @@
               </style>
             {% endif %}
           </li>
-        {% else %}
-          <li id="slide--{{ block.id }}" {{ block.shopify_attributes }}>
-            <span class="slide-link">
-              {% capture current %}{% cycle 1, 2 %}{% endcapture %}
-              {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
-            </span>
-          </li>
+    
         {% endif %}
       {% endfor %}
     </ul>
@@ -210,10 +171,10 @@
               "default":false
             },
             {
-              "type": "video_url",
+              "type": "textarea",    
               "id": "video_url",
-              "label": "YouTube link",
-              "accept": ["youtube", "vimeo"]
+              "label": "Video link"
+             
             },
 		  {
               "type": "textarea",
