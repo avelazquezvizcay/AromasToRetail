@@ -245,9 +245,26 @@
         "image_JzyiRR": {
           "type": "image",
           "settings": {
-            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "banner_image1": "shopify://shop_images/For_dates.jpg",
             "banner_link1": "",
-            "title": "Gifts for someone special",
+            "title": "For dates",
+            "title_color": "#ffffff",
+            "subtitle": "",
+            "subtitle_color": "#ffffff",
+            "btn": "View",
+            "btnbg_color": "",
+            "btntxt_color": "",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
+          }
+        },
+        "image_Y3mxMc": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify://shop_images/Night_Style.jpg",
+            "banner_link1": "",
+            "title": "Night Style",
             "title_color": "#ffffff",
             "subtitle": "",
             "subtitle_color": "#ffffff",
@@ -262,7 +279,8 @@
       },
       "block_order": [
         "image_bNRLai",
-        "image_JzyiRR"
+        "image_JzyiRR",
+        "image_Y3mxMc"
       ],
       "name": "TT Cms Banner",
       "settings": {}
