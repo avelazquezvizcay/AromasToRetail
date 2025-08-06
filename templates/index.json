@@ -222,56 +222,6 @@
         "collection_image_lable_bgcolor": "#ee2d7a"
       }
     },
-    "category_feature_3Y79QA": {
-      "type": "category-feature",
-      "blocks": {
-        "text_collection_wGDbGY": {
-          "type": "text_collection",
-          "settings": {
-            "image_1": "shopify://shop_images/Kids.jpg",
-            "image_label": "Kids",
-            "collection_cat_id": "kids"
-          }
-        },
-        "text_collection_FpRbaF": {
-          "type": "text_collection",
-          "settings": {
-            "image_1": "shopify://shop_images/Gifts_sets.jpg",
-            "image_label": "Gifts Sets + Combos",
-            "collection_cat_id": "gift-sets-combo"
-          }
-        },
-        "text_collection_4Jk4fw": {
-          "type": "text_collection",
-          "settings": {
-            "image_1": "shopify://shop_images/Oil.jpg",
-            "image_label": "Oil",
-            "collection_cat_id": "oil-1"
-          }
-        }
-      },
-      "block_order": [
-        "text_collection_wGDbGY",
-        "text_collection_FpRbaF",
-        "text_collection_4Jk4fw"
-      ],
-      "settings": {
-        "product_col_desktop_pro": 3,
-        "product_col_mobile_pro": 1,
-        "title": "",
-        "title_color": "#000000",
-        "subtitle": "",
-        "subtitle_color_main": "#ffffff",
-        "image_content_bg_color": "#f5f1e6",
-        "collection_title_color": "#111111",
-        "collection_title_hover_color": "#111111",
-        "collection_item_color": "rgba(0,0,0,0)",
-        "collection_item_hover_color": "#111111",
-        "collection_desc_color": "#111111",
-        "collection_image_lable_color": "#ffffff",
-        "collection_image_lable_bgcolor": "#ee2d7a"
-      }
-    },
     "ttcmsabout_ccGH6k": {
       "type": "ttcmsabout",
       "name": "Star Your Businesss Video",
@@ -306,131 +256,51 @@
         "product_col": "4"
       }
     },
-    "feature-blogs": {
-      "type": "feature-blogs",
-      "settings": {
-        "title": "LATEST NEWS",
-        "subtitle": "Blog",
-        "subtitle_color": "#ee2d7a",
-        "blog": "light-cosmetic",
-        "blog_design": "design_1",
-        "product_col": "3",
-        "post_limit": "6",
-        "blog_btn_bg": "#666666",
-        "blog_btn_text": "#ffffff",
-        "blog_btn_hover_bg": "#ee2d7a",
-        "blog_hover_btn_text": "#ffffff",
-        "blog_show_date": true,
-        "show_view_all": false
-      }
-    },
-    "our_brand": {
-      "type": "our_brand",
+    "ttcmsoffer_tGzqfE": {
+      "type": "ttcmsoffer",
       "blocks": {
-        "1605783755d6d9f598-0": {
-          "type": "brand_image",
+        "text_p9MVXM": {
+          "type": "text",
           "settings": {
-            "link": "#"
+            "image_url": "",
+            "title": "",
+            "title_color": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#fff",
+            "about_desc": "",
+            "desc_color": "#fff",
+            "about_btn": "",
+            "btn_txt_color": "#fff",
+            "btn_bg_color": "#fff",
+            "btn_txt_hvr_color": "#fff",
+            "btn_bg_hvr_color": "#fff"
           }
         },
-        "1605783755d6d9f598-1": {
-          "type": "brand_image",
+        "text_ae7QLg": {
+          "type": "text",
           "settings": {
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-2": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-3": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-4": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-5": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
-          }
-        },
-        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd": {
-          "type": "brand_image",
-          "settings": {
-            "link": "#"
+            "image_url": "",
+            "title": "",
+            "title_color": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#fff",
+            "about_desc": "",
+            "desc_color": "#fff",
+            "about_btn": "",
+            "btn_txt_color": "#fff",
+            "btn_bg_color": "#fff",
+            "btn_txt_hvr_color": "#fff",
+            "btn_bg_hvr_color": "#fff"
           }
         }
       },
       "block_order": [
-        "1605783755d6d9f598-0",
-        "1605783755d6d9f598-1",
-        "1605783755d6d9f598-2",
-        "1605783755d6d9f598-3",
-        "1605783755d6d9f598-4",
-        "1605783755d6d9f598-5",
-        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd"
+        "text_p9MVXM",
+        "text_ae7QLg"
       ],
+      "name": "TTOffer section",
       "settings": {
-        "brand_col_mobile_pro": 2,
-        "brand_col_desktop_pro": 5,
-        "addclass": "brands",
-        "title": "",
-        "bg_color": "#ffffff"
-      }
-    },
-    "cmsbanner_content_Y6VmG3": {
-      "type": "cmsbanner-content",
-      "name": "CMSBanner content",
-      "settings": {
-        "contentbg": "#f5f5f5",
-        "banner_1_url": "",
-        "banner_title1": "new camera shop",
-        "title1_color": "#fff",
-        "banner_subtitle1": "get exclusive, offers",
-        "subtitle1_color": "#fff",
-        "btn1_text": "luxury tap",
-        "banner_link1": "",
-        "btn1txt_color": "#000",
-        "btn1txt_hovercolor": "#fff",
-        "banner_image2": "shopify://shop_images/For_dates.jpg",
-        "banner_2_url": "",
-        "banner_title2": "tv & home theater",
-        "title2_color": "#000000",
-        "banner_subtitle2": "best offer",
-        "subtitle2_color": "#000",
-        "btn2_text": "shop now",
-        "banner_link2": "",
-        "btn2txt_color": "#fff",
-        "btn2txt_hovercolor": "#fff",
-        "banner_image3": "shopify://shop_images/Gifts_for_someone_special.jpg",
-        "banner_3_url": "",
-        "banner_title3": "new camera shop",
-        "title3_color": "#fff",
-        "banner_subtitle3": "get exclusive, offers",
-        "subtitle3_color": "#fff",
-        "btn3_text": "luxury tap",
-        "banner_link3": "",
-        "btn3txt_color": "#000",
-        "btn3txt_hovercolor": "#fff",
-        "banner_image4": "shopify://shop_images/producto4.jpg",
-        "banner_4_url": "",
-        "banner_title4": "tv & home theater",
-        "title4_color": "#000000",
-        "banner_subtitle4": "best offer",
-        "subtitle4_color": "#000",
-        "btn4_text": "shop now",
-        "banner_link4": "",
-        "btn4txt_color": "#fff",
-        "btn4txt_hovercolor": "#fff"
+        "bg_color": "#111"
       }
     }
   },
@@ -440,11 +310,8 @@
     "ttcmsabout",
     "category-feature",
     "category_feature_AgzY6d",
-    "category_feature_3Y79QA",
     "ttcmsabout_ccGH6k",
     "special-product",
-    "feature-blogs",
-    "our_brand",
-    "cmsbanner_content_Y6VmG3"
+    "ttcmsoffer_tGzqfE"
   ]
 }
