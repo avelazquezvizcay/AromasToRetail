@@ -244,57 +244,6 @@
         "btn_bg_hvr_color": "#734128"
       }
     },
-    "tt-testimonial": {
-      "type": "tt-testimonial",
-      "blocks": {
-        "1594383595784": {
-          "type": "text",
-          "settings": {
-            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
-            "des_color": "#f5f5f5",
-            "image_1_heading": "",
-            "author_name": "JOHN DUE",
-            "author_designation": "Co-Founder",
-            "author_color": "#ffffff",
-            "author_descolor": "#ffffff"
-          }
-        },
-        "1594383388335-0": {
-          "type": "text",
-          "settings": {
-            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
-            "des_color": "#f5f5f5",
-            "image_1_heading": "",
-            "author_name": "JOHN DUFF",
-            "author_designation": "CEO and Founder",
-            "author_color": "#ffffff",
-            "author_descolor": "#ffffff"
-          }
-        },
-        "1595841389115": {
-          "type": "text",
-          "settings": {
-            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
-            "des_color": "#f5f5f5",
-            "image_1_heading": "",
-            "author_name": "JOHN DUE",
-            "author_designation": "Co-Founder",
-            "author_color": "#ffffff",
-            "author_descolor": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "1594383595784",
-        "1594383388335-0",
-        "1595841389115"
-      ],
-      "settings": {
-        "bg_color": "#958b89",
-        "use_bg": false,
-        "parallax_enable": false
-      }
-    },
     "special-product": {
       "type": "special-product",
       "settings": {
@@ -387,6 +336,33 @@
         "title": "",
         "bg_color": "#ffffff"
       }
+    },
+    "ttcmsbanner_3drfEc": {
+      "type": "ttcmsbanner",
+      "blocks": {
+        "image_bNRLai": {
+          "type": "image",
+          "settings": {
+            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "banner_link1": "",
+            "title": "Gifts for someone special",
+            "title_color": "#ffffff",
+            "subtitle": "",
+            "subtitle_color": "#ffffff",
+            "btn": "View",
+            "btnbg_color": "",
+            "btntxt_color": "",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_bNRLai"
+      ],
+      "name": "TT Cms Banner",
+      "settings": {}
     }
   },
   "order": [
@@ -395,8 +371,8 @@
     "ttcmsabout",
     "category-feature",
     "category_feature_AgzY6d",
+    "ttcmsbanner_3drfEc",
     "ttcmsabout_ccGH6k",
-    "tt-testimonial",
     "special-product",
     "feature-blogs",
     "our_brand"
