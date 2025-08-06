@@ -9,39 +9,59 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "slideshow2_bdAnB4": {
+      "type": "slideshow2",
       "blocks": {
-        "image_dGAQLG": {
+        "image_F4Rybn": {
           "type": "image",
           "settings": {
             "image_link": "",
-            "show_video": true,
-            "video_url": "",
+            "show_video": false,
             "title": "Minimal Work Portfolio",
             "sub_title": "New Decoration Furniture Home, Office",
             "btn_txt": "shop now",
             "btn_link": "",
-            "title_color": "#ffffff",
-            "subtitle_color": "#ffffff",
-            "btn_bg_color": "#eb3039",
-            "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#000000",
-            "btn_hovertxt_color": "#ffffff",
+            "title_color": "#fff",
+            "subtitle_color": "#fff",
+            "btn_bg_color": "#EB3039",
+            "btn_txt_color": "#fff",
+            "btn_bghover_color": "#000",
+            "btn_hovertxt_color": "#fff",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        },
+        "image_4CCFBH": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "show_video": false,
+            "title": "Minimal Work Portfolio",
+            "sub_title": "New Decoration Furniture Home, Office",
+            "btn_txt": "shop now",
+            "btn_link": "",
+            "title_color": "#fff",
+            "subtitle_color": "#fff",
+            "btn_bg_color": "#EB3039",
+            "btn_txt_color": "#fff",
+            "btn_bghover_color": "#000",
+            "btn_hovertxt_color": "#fff",
             "text_position": "left",
             "text_effect": "left"
           }
         }
       },
       "block_order": [
-        "image_dGAQLG"
+        "image_F4Rybn",
+        "image_4CCFBH"
       ],
+      "name": "Slideshow 2",
       "settings": {
-        "slider_animation_type": "fade",
-        "slide_button_bg_color": "#ffffff",
-        "slide_button_bg_hover_color": "#ee2d7a",
-        "slide_button_txt_color": "#111111",
-        "slide_button_txt_hover_color": "#ffffff"
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
       }
     },
     "category-feature": {
@@ -330,7 +350,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "slideshow2_bdAnB4",
     "category-feature",
     "ttcmsabout",
     "ttcmsabout1",
