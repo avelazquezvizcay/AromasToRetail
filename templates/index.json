@@ -15,8 +15,7 @@
         "1580215063672-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/slider-01_49d49938-8d5b-48fd-89b8-e56dcc4e5f30.jpg",
-            "image_link": "#",
+            "image_link": "https://cdn.shopify.com/videos/c/o/v/fcdaf546ad3b413e94673a43fab58ca9.mp4",
             "show_video": false,
             "video_url": "https://www.youtube.com/watch?v=nlyPlIHXgOE",
             "title": "SPECIAL GLOW FACE MAKE",
@@ -36,7 +35,6 @@
         "1580215063672-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/slider-02_7f18a2fe-f570-4d02-b7ea-4a73b1cb8f00.jpg",
             "image_link": "#",
             "show_video": false,
             "video_url": "",
@@ -73,7 +71,6 @@
         "1594620018893-0": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/category-img-01.png",
             "image_label": "Sale",
             "collection_cat_id": "dark-cosmetic"
           }
@@ -81,7 +78,6 @@
         "1594620115800": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/category-img-02.png",
             "image_label": "New",
             "collection_cat_id": "cosmetic"
           }
@@ -89,7 +85,6 @@
         "1594620139706": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/category-img-03.png",
             "image_label": "5% Off",
             "collection_cat_id": "nightshade-elegance"
           }
@@ -97,7 +92,6 @@
         "1594620174866": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/category-img-04.png",
             "image_label": "Sale",
             "collection_cat_id": "dark-cosmetic2"
           }
@@ -130,7 +124,6 @@
       "type": "ttcmsabout",
       "settings": {
         "bg_color": "#ffffff",
-        "image": "shopify://shop_images/cms-img-01.jpg",
         "image_url": "#",
         "image_position": "pos-right",
         "title": "NATURAL & GLOWING SKINTONE",
@@ -151,7 +144,6 @@
       "type": "ttcmsabout",
       "settings": {
         "bg_color": "#ffffff",
-        "image": "shopify://shop_images/cms-img-02.jpg",
         "image_url": "#",
         "image_position": "pos-left",
         "title": "SPECIAL GLOW SKIN FACE MAKE",
@@ -221,7 +213,6 @@
           "settings": {
             "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
             "des_color": "#f5f5f5",
-            "image_1": "shopify://shop_images/02_a5c09b78-be9f-40cd-b379-be519bb27fbe.jpg",
             "image_1_heading": "",
             "author_name": "JOHN DUE",
             "author_designation": "Co-Founder",
@@ -234,7 +225,6 @@
           "settings": {
             "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
             "des_color": "#f5f5f5",
-            "image_1": "shopify://shop_images/01_da86ff35-fdbd-47c2-a494-f077a77a9584.jpg",
             "image_1_heading": "",
             "author_name": "JOHN DUFF",
             "author_designation": "CEO and Founder",
@@ -247,7 +237,6 @@
           "settings": {
             "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
             "des_color": "#f5f5f5",
-            "image_1": "shopify://shop_images/03.jpg",
             "image_1_heading": "",
             "author_name": "JOHN DUE",
             "author_designation": "Co-Founder",
@@ -264,9 +253,7 @@
       "settings": {
         "bg_color": "#958b89",
         "use_bg": false,
-        "parallax_enable": false,
-        "image_befor": "shopify://shop_images/before.jpg",
-        "image_after": "shopify://shop_images/after.jpg"
+        "parallax_enable": false
       }
     },
     "special-product": {
@@ -305,49 +292,42 @@
         "1605783755d6d9f598-0": {
           "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/01.png",
             "link": "#"
           }
         },
         "1605783755d6d9f598-1": {
           "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/02.png",
             "link": "#"
           }
         },
         "1605783755d6d9f598-2": {
           "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/03.png",
             "link": "#"
           }
         },
         "1605783755d6d9f598-3": {
           "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/04.png",
             "link": "#"
           }
         },
         "1605783755d6d9f598-4": {
           "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/05.png",
             "link": "#"
           }
         },
         "1605783755d6d9f598-5": {
           "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/06.png",
             "link": "#"
           }
         },
         "fe3f5195-5da5-4a16-b714-43fb3e5da4bd": {
           "type": "brand_image",
           "settings": {
-            "image": "shopify://shop_images/07.png",
             "link": "#"
           }
         }
