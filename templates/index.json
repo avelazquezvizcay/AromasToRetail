@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image_link": "https://cdn.shopify.com/videos/c/o/v/9338d9dae68f43d7b9fc159718324c81.mp4",
-            "show_video": false,
+            "show_video": true,
             "video_url": "",
             "title": "Minimal Work Portfolio",
             "sub_title": "New Decoration Furniture Home, Office",
