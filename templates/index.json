@@ -28,7 +28,7 @@
             "btn_txt_color": "#ffffff",
             "btn_bghover_color": "#000000",
             "btn_hovertxt_color": "#ffffff",
-            "text_position": "left",
+            "text_position": "center",
             "text_effect": "left"
           }
         }
