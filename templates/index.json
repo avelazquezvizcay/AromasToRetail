@@ -262,8 +262,9 @@
         "text_p9MVXM": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/For_dates.jpg",
             "image_url": "",
-            "title": "",
+            "title": "ass",
             "title_color": "#fff",
             "subtitle": "",
             "subtitle_color": "#fff",
@@ -276,11 +277,30 @@
             "btn_bg_hvr_color": "#fff"
           }
         },
-        "text_ae7QLg": {
+        "text_DaVLy6": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/For_dates.jpg",
             "image_url": "",
-            "title": "",
+            "title": "ass",
+            "title_color": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#fff",
+            "about_desc": "",
+            "desc_color": "#fff",
+            "about_btn": "",
+            "btn_txt_color": "#fff",
+            "btn_bg_color": "#fff",
+            "btn_txt_hvr_color": "#fff",
+            "btn_bg_hvr_color": "#fff"
+          }
+        },
+        "text_wyB4z3": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/For_dates.jpg",
+            "image_url": "",
+            "title": "ass",
             "title_color": "#fff",
             "subtitle": "",
             "subtitle_color": "#fff",
@@ -296,7 +316,8 @@
       },
       "block_order": [
         "text_p9MVXM",
-        "text_ae7QLg"
+        "text_DaVLy6",
+        "text_wyB4z3"
       ],
       "name": "TTOffer section",
       "settings": {
