@@ -46,7 +46,7 @@
     "type_header_family": "Chilia Regular",
     "type_subheader_family": "Arcon Regular",
     "favicon": "shopify://shop_images/Oriental_Aromas_Identidad_Visual_-_Version_Horizontal_1.svg",
-    "enable_animation": false,
+    "enable_animation": true,
     "page_width": 1260,
     "section_margin-space": 80,
     "enable_category_image": true,
