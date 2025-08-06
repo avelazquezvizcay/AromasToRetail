@@ -287,9 +287,9 @@
               "title": "Home",
               "button_link": "",
               "tt_mn_class": "home",
-              "tt_mn_sub_heading": "NEW",
-              "tt_mn_subheading_bg": "#3599e1",
-              "tt_mn_subheading_color": "#ffffff",
+              "tt_mn_sub_heading": "",
+              "tt_mn_subheading_bg": "rgba(0,0,0,0)",
+              "tt_mn_subheading_color": "rgba(0,0,0,0)",
               "tt_mn_sub_contentwidth": "692px",
               "tt_mn_show_sub": true,
               "tt_sub_menu_cwidth": "",
@@ -479,8 +479,8 @@
               "title": "Fragances",
               "button_link": "",
               "tt_mn_class": "shop",
-              "tt_mn_sub_heading": "HOT",
-              "tt_mn_subheading_bg": "#ff2525",
+              "tt_mn_sub_heading": "",
+              "tt_mn_subheading_bg": "rgba(0,0,0,0)",
               "tt_mn_subheading_color": "#ffffff",
               "tt_mn_sub_contentwidth": "710px",
               "tt_mn_show_sub": true,
@@ -1240,26 +1240,6 @@
               "tt_mn_subheading_bg_eighth_inner": "",
               "tt_mn_subheading_color_eighth_inner": ""
             }
-          },
-          "61cbd6d9-8559-4308-9c81-203fe3c52c01": {
-            "type": "tt_sub_menu_p",
-            "disabled": true,
-            "settings": {
-              "tt_sub_menu_ptitle": "",
-              "tt_sub_menu_plink": "",
-              "tt_sub_menu_ptitle_show": true,
-              "tt_sub_menu_pwidth": "100%",
-              "tt_sub_menu_pcustomclass": "products",
-              "tt_sub_menu_items_desktop": 3,
-              "tt_sub_menu_items_tablet": 2,
-              "tt_sub_menu_items_mobile": 1,
-              "tt_sub_menu_pproduts": "dark-cosmetic",
-              "tt_sub_menu_pprodut_item": "6",
-              "tt_sub_menu_potherprodut_1": "",
-              "tt_sub_menu_potherprodut_2": "",
-              "tt_sub_menu_potherprodut_3": "",
-              "tt_sub_menu_potherprodut_4": ""
-            }
           }
         },
         "block_order": [
@@ -1272,8 +1252,7 @@
           "adaa3f44-2841-43c8-b652-07f8e9d2fd62",
           "tt_mm_menu_rcLDcp",
           "tt_mm_menu_gwtD9a",
-          "tt_mm_menu_6aHXi9",
-          "61cbd6d9-8559-4308-9c81-203fe3c52c01"
+          "tt_mm_menu_6aHXi9"
         ],
         "settings": {
           "sticky_header": true,
