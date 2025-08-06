@@ -119,24 +119,24 @@
           "type": "text_collection",
           "settings": {
             "image_1": "shopify://shop_images/New_arrivals.jpg",
-            "image_label": "Best Sellers",
-            "collection_cat_id": "frontpage"
+            "image_label": "New Arrivals",
+            "collection_cat_id": "new-arrival"
           }
         },
         "text_collection_zkbAWi": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "image_label": "Best Sellers",
-            "collection_cat_id": "frontpage"
+            "image_1": "shopify://shop_images/Women.jpg",
+            "image_label": "Women's",
+            "collection_cat_id": "womens"
           }
         },
         "text_collection_HN9Yca": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "image_label": "Best Sellers",
-            "collection_cat_id": "frontpage"
+            "image_1": "shopify://shop_images/Men.jpg",
+            "image_label": "Men's",
+            "collection_cat_id": "mens"
           }
         }
       },
@@ -169,33 +169,33 @@
         "text_collection_APdi3N": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "image_label": "Best Sellers",
-            "collection_cat_id": "frontpage"
+            "image_1": "shopify://shop_images/Kids.jpg",
+            "image_label": "Kids",
+            "collection_cat_id": "kids"
           }
         },
         "text_collection_QPwPUN": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "image_label": "Best Sellers",
-            "collection_cat_id": "frontpage"
+            "image_1": "shopify://shop_images/Gifts_sets.jpg",
+            "image_label": "Gifts Sets + Combos",
+            "collection_cat_id": "gift-sets-combo"
           }
         },
         "text_collection_kmUYjQ": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "image_label": "Best Sellers",
-            "collection_cat_id": "frontpage"
+            "image_1": "shopify://shop_images/Oil.jpg",
+            "image_label": "Oil",
+            "collection_cat_id": "oil-1"
           }
         },
         "text_collection_8XfQRW": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "image_label": "Best Sellers",
-            "collection_cat_id": "frontpage"
+            "image_1": "shopify://shop_images/Extras.jpg",
+            "image_label": "Extras",
+            "collection_cat_id": "extras-1"
           }
         }
       },
