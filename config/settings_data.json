@@ -2263,14 +2263,14 @@
           "btn_hovertxt_color": "#ffffff",
           "btn_hoverbg_color": "#391e10",
           "show_logo": false,
-          "footer_desc": "C",
+          "footer_desc": "",
           "footer_contact_title": "",
           "contact_address": "",
           "contact_no": "WhatsApp: +1 (786) 731-9919",
           "contact_email": "",
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_link_list": false,
-          "footer_col_title_1": "My Account",
+          "footer_col_title_1": "",
           "col_1_menu": ""
         }
       },
