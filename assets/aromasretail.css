@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'Arcon Regular'; /* Use the base font family name */
   src: url('https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Arcon-Regular.woff2?v=1754486620') format('woff2');
-  font-weight: 700!important;; /* 'Bold' typically corresponds to 700 */
+  font-weight: 400!important;; /* 'Bold' typically corresponds to 700 */
   font-style: italic!important;; /* This is an italic variant */
   font-display: swap; /* Recommended for better loading performance */
 }
