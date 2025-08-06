@@ -12,50 +12,29 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "1580215063672-0": {
+        "image_dGAQLG": {
           "type": "image",
           "settings": {
-            "image_link": "https://cdn.shopify.com/videos/c/o/v/fcdaf546ad3b413e94673a43fab58ca9.mp4",
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=nlyPlIHXgOE",
-            "title": "SPECIAL GLOW FACE MAKE",
-            "sub_title": "Natural Tone",
-            "btn_txt": "Take Appointment",
-            "btn_link": "#",
-            "title_color": "#111111",
-            "subtitle_color": "#ee2d7a",
-            "btn_bg_color": "#111111",
-            "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#ee2d7a",
-            "btn_hovertxt_color": "#ffffff",
-            "text_position": "center",
-            "text_effect": "left"
-          }
-        },
-        "1580215063672-1": {
-          "type": "image",
-          "settings": {
-            "image_link": "#",
+            "image_link": "https://cdn.shopify.com/videos/c/o/v/9338d9dae68f43d7b9fc159718324c81.mp4",
             "show_video": false,
             "video_url": "",
-            "title": "NATURAL BEAUTY CARE",
-            "sub_title": "Facial Cream",
-            "btn_txt": "Take Appointment",
-            "btn_link": "#",
-            "title_color": "#111111",
-            "subtitle_color": "#ee2d7a",
-            "btn_bg_color": "#111111",
+            "title": "Minimal Work Portfolio",
+            "sub_title": "New Decoration Furniture Home, Office",
+            "btn_txt": "shop now",
+            "btn_link": "",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "btn_bg_color": "#eb3039",
             "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#ee2d7a",
+            "btn_bghover_color": "#000000",
             "btn_hovertxt_color": "#ffffff",
-            "text_position": "center",
-            "text_effect": "bottom"
+            "text_position": "left",
+            "text_effect": "left"
           }
         }
       },
       "block_order": [
-        "1580215063672-0",
-        "1580215063672-1"
+        "image_dGAQLG"
       ],
       "settings": {
         "slider_animation_type": "fade",
