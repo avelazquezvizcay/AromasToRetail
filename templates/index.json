@@ -222,68 +222,55 @@
         "collection_image_lable_bgcolor": "#ee2d7a"
       }
     },
-    "ttcmsbanner_3drfEc": {
-      "type": "ttcmsbanner",
+    "category_feature_3Y79QA": {
+      "type": "category-feature",
       "blocks": {
-        "image_bNRLai": {
-          "type": "image",
+        "text_collection_wGDbGY": {
+          "type": "text_collection",
           "settings": {
-            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "banner_link1": "",
-            "title": "Gifts for someone special",
-            "title_color": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#ffffff",
-            "btn": "View",
-            "btnbg_color": "",
-            "btntxt_color": "",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
+            "image_1": "shopify://shop_images/Kids.jpg",
+            "image_label": "Kids",
+            "collection_cat_id": "kids"
           }
         },
-        "image_JzyiRR": {
-          "type": "image",
+        "text_collection_FpRbaF": {
+          "type": "text_collection",
           "settings": {
-            "banner_image1": "shopify://shop_images/For_dates.jpg",
-            "banner_link1": "",
-            "title": "For dates",
-            "title_color": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#ffffff",
-            "btn": "View",
-            "btnbg_color": "",
-            "btntxt_color": "",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
+            "image_1": "shopify://shop_images/Gifts_sets.jpg",
+            "image_label": "Gifts Sets + Combos",
+            "collection_cat_id": "gift-sets-combo"
           }
         },
-        "image_Y3mxMc": {
-          "type": "image",
+        "text_collection_4Jk4fw": {
+          "type": "text_collection",
           "settings": {
-            "banner_image1": "shopify://shop_images/Night_Style.jpg",
-            "banner_link1": "",
-            "title": "Night Style",
-            "title_color": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#ffffff",
-            "btn": "View",
-            "btnbg_color": "",
-            "btntxt_color": "",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
+            "image_1": "shopify://shop_images/Oil.jpg",
+            "image_label": "Oil",
+            "collection_cat_id": "oil-1"
           }
         }
       },
       "block_order": [
-        "image_bNRLai",
-        "image_JzyiRR",
-        "image_Y3mxMc"
+        "text_collection_wGDbGY",
+        "text_collection_FpRbaF",
+        "text_collection_4Jk4fw"
       ],
-      "name": "TT Cms Banner",
-      "settings": {}
+      "settings": {
+        "product_col_desktop_pro": 3,
+        "product_col_mobile_pro": 1,
+        "title": "",
+        "title_color": "#000000",
+        "subtitle": "",
+        "subtitle_color_main": "#ffffff",
+        "image_content_bg_color": "#f5f1e6",
+        "collection_title_color": "#111111",
+        "collection_title_hover_color": "#111111",
+        "collection_item_color": "rgba(0,0,0,0)",
+        "collection_item_hover_color": "#111111",
+        "collection_desc_color": "#111111",
+        "collection_image_lable_color": "#ffffff",
+        "collection_image_lable_bgcolor": "#ee2d7a"
+      }
     },
     "ttcmsabout_ccGH6k": {
       "type": "ttcmsabout",
@@ -399,6 +386,74 @@
         "title": "",
         "bg_color": "#ffffff"
       }
+    },
+    "ttcmsoffer_nXFVgL": {
+      "type": "ttcmsoffer",
+      "blocks": {
+        "text_aKLBAM": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/For_dates.jpg",
+            "image_url": "",
+            "title": "",
+            "title_color": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#fff",
+            "about_desc": "",
+            "desc_color": "#fff",
+            "about_btn": "View",
+            "btn_txt_color": "#fff",
+            "btn_bg_color": "#fff",
+            "btn_txt_hvr_color": "#fff",
+            "btn_bg_hvr_color": "#fff"
+          }
+        },
+        "text_7Qz8zn": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/For_dates.jpg",
+            "image_url": "",
+            "title": "",
+            "title_color": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#fff",
+            "about_desc": "",
+            "desc_color": "#fff",
+            "about_btn": "View",
+            "btn_txt_color": "#fff",
+            "btn_bg_color": "#fff",
+            "btn_txt_hvr_color": "#fff",
+            "btn_bg_hvr_color": "#fff"
+          }
+        },
+        "text_nwE6Br": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/For_dates.jpg",
+            "image_url": "",
+            "title": "",
+            "title_color": "#fff",
+            "subtitle": "",
+            "subtitle_color": "#fff",
+            "about_desc": "",
+            "desc_color": "#fff",
+            "about_btn": "View",
+            "btn_txt_color": "#fff",
+            "btn_bg_color": "#fff",
+            "btn_txt_hvr_color": "#fff",
+            "btn_bg_hvr_color": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "text_aKLBAM",
+        "text_7Qz8zn",
+        "text_nwE6Br"
+      ],
+      "name": "TTOffer section",
+      "settings": {
+        "bg_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -407,10 +462,11 @@
     "ttcmsabout",
     "category-feature",
     "category_feature_AgzY6d",
-    "ttcmsbanner_3drfEc",
+    "category_feature_3Y79QA",
     "ttcmsabout_ccGH6k",
     "special-product",
     "feature-blogs",
-    "our_brand"
+    "our_brand",
+    "ttcmsoffer_nXFVgL"
   ]
 }
