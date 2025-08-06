@@ -256,73 +256,68 @@
         "product_col": "4"
       }
     },
-    "ttcmsoffer_tGzqfE": {
-      "type": "ttcmsoffer",
+    "ttcmsbanner_fFfNjc": {
+      "type": "ttcmsbanner",
       "blocks": {
-        "text_p9MVXM": {
-          "type": "text",
+        "image_M7gtzy": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/For_dates.jpg",
-            "image_url": "",
-            "title": "ass",
-            "title_color": "#fff",
+            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "banner_link1": "",
+            "title": "Gifts for someone special",
+            "title_color": "#f12a43",
             "subtitle": "",
-            "subtitle_color": "#fff",
-            "about_desc": "",
-            "desc_color": "#fff",
-            "about_btn": "",
-            "btn_txt_color": "#fff",
-            "btn_bg_color": "#fff",
-            "btn_txt_hvr_color": "#fff",
-            "btn_bg_hvr_color": "#fff"
+            "subtitle_color": "#f12a43",
+            "btn": "View",
+            "btnbg_color": "#734128",
+            "btntxt_color": "#ffffff",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
           }
         },
-        "text_DaVLy6": {
-          "type": "text",
+        "image_EKcjhh": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/For_dates.jpg",
-            "image_url": "",
-            "title": "ass",
-            "title_color": "#fff",
-            "subtitle": "",
-            "subtitle_color": "#fff",
-            "about_desc": "",
-            "desc_color": "#fff",
-            "about_btn": "",
-            "btn_txt_color": "#fff",
-            "btn_bg_color": "#fff",
-            "btn_txt_hvr_color": "#fff",
-            "btn_bg_hvr_color": "#fff"
+            "banner_image1": "shopify://shop_images/For_dates.jpg",
+            "banner_link1": "",
+            "title": "get 35% off",
+            "title_color": "#f12a43",
+            "subtitle": "big discount",
+            "subtitle_color": "#f12a43",
+            "btn": "",
+            "btnbg_color": "",
+            "btntxt_color": "",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
           }
         },
-        "text_wyB4z3": {
-          "type": "text",
+        "image_Ga8R3j": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/For_dates.jpg",
-            "image_url": "",
-            "title": "ass",
-            "title_color": "#fff",
-            "subtitle": "",
-            "subtitle_color": "#fff",
-            "about_desc": "",
-            "desc_color": "#fff",
-            "about_btn": "",
-            "btn_txt_color": "#fff",
-            "btn_bg_color": "#fff",
-            "btn_txt_hvr_color": "#fff",
-            "btn_bg_hvr_color": "#fff"
+            "banner_image1": "shopify://shop_images/Night_Style.jpg",
+            "banner_link1": "",
+            "title": "get 35% off",
+            "title_color": "#f12a43",
+            "subtitle": "big discount",
+            "subtitle_color": "#f12a43",
+            "btn": "",
+            "btnbg_color": "",
+            "btntxt_color": "",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
           }
         }
       },
       "block_order": [
-        "text_p9MVXM",
-        "text_DaVLy6",
-        "text_wyB4z3"
+        "image_M7gtzy",
+        "image_EKcjhh",
+        "image_Ga8R3j"
       ],
-      "name": "TTOffer section",
-      "settings": {
-        "bg_color": "#111"
-      }
+      "name": "TT Cms Banner",
+      "settings": {}
     }
   },
   "order": [
@@ -333,6 +328,6 @@
     "category_feature_AgzY6d",
     "ttcmsabout_ccGH6k",
     "special-product",
-    "ttcmsoffer_tGzqfE"
+    "ttcmsbanner_fFfNjc"
   ]
 }
