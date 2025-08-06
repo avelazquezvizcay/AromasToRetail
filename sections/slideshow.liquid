@@ -79,9 +79,13 @@
                         allowfullscreen
                       ></iframe>
                     {% elsif block.settings.video_url.type == 'vimeo' %}
-                        <video src="https://cdn.shopify.com/videos/c/o/v/9338d9dae68f43d7b9fc159718324c81.mp4" controls>
-                     </video> 
-                  
+                      <iframe
+                        src="//player.vimeo.com/video/{{ block.settings.video_url.id }}?byline=0&portrait=0&badge=0&loop=1&autoplay=1&enablejsapi=1&background=1&muted=1&player_id=bgvid-0"
+                        width="1903"
+                        height="600"
+                        frameborder="0"
+                        allowfullscreen
+                      ></iframe>
                     {% endif %}
                   {% endif %}
                 </div>

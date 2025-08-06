@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image_link": "",
-            "show_video": false,
+            "show_video": true,
             "video_url": "",
             "title": "Minimal Work Portfolio",
             "sub_title": "New Decoration Furniture Home, Office",
