@@ -244,18 +244,6 @@
         "btn_bg_hvr_color": "#734128"
       }
     },
-    "special-product": {
-      "type": "special-product",
-      "settings": {
-        "class": "specialproduct",
-        "title": "SPECIAL PRODUCT",
-        "title_color": "#111111",
-        "subtitle": "Big Selling",
-        "subtitle_color": "#ee2d7a",
-        "collection": "light-cosmetic2",
-        "product_col": "4"
-      }
-    },
     "ttcmsbanner_fFfNjc": {
       "type": "ttcmsbanner",
       "blocks": {
@@ -327,7 +315,6 @@
     "category-feature",
     "category_feature_AgzY6d",
     "ttcmsabout_ccGH6k",
-    "special-product",
     "ttcmsbanner_fFfNjc"
   ]
 }
