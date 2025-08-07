@@ -244,10 +244,10 @@
         "btn_bg_hvr_color": "#734128"
       }
     },
-    "category_feature_WxnNck": {
-      "type": "category-feature",
+    "category_feature2_jWBxxJ": {
+      "type": "category-feature2",
       "blocks": {
-        "text_collection_cUgTdY": {
+        "text_collection_c6G4j3": {
           "type": "text_collection",
           "settings": {
             "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
@@ -255,7 +255,7 @@
             "collection_cat_id": "for-special-gifts"
           }
         },
-        "text_collection_QMX7GQ": {
+        "text_collection_VG8E8V": {
           "type": "text_collection",
           "settings": {
             "image_1": "shopify://shop_images/For_dates.jpg",
@@ -263,36 +263,36 @@
             "collection_cat_id": "for-dates"
           }
         },
-        "text_collection_8YPPbN": {
+        "text_collection_eKkYEM": {
           "type": "text_collection",
           "settings": {
             "image_1": "shopify://shop_images/Night_Style.jpg",
             "image_label": "Night Style",
-            "collection_cat_id": "for-dates"
+            "collection_cat_id": "extras-1"
           }
         }
       },
       "block_order": [
-        "text_collection_cUgTdY",
-        "text_collection_QMX7GQ",
-        "text_collection_8YPPbN"
+        "text_collection_c6G4j3",
+        "text_collection_VG8E8V",
+        "text_collection_eKkYEM"
       ],
       "name": "For Every Occasion",
       "settings": {
         "product_col_desktop_pro": 3,
-        "product_col_mobile_pro": 1,
-        "title": "For every occasion",
-        "title_color": "#391e10",
+        "product_col_mobile_pro": 2,
+        "title": "",
+        "title_color": "#000",
         "subtitle": "",
-        "subtitle_color_main": "#ffffff",
-        "image_content_bg_color": "#f5f1e6",
-        "collection_title_color": "#ffffff",
-        "collection_title_hover_color": "#111111",
-        "collection_item_color": "rgba(0,0,0,0)",
-        "collection_item_hover_color": "#111111",
-        "collection_desc_color": "#111111",
-        "collection_image_lable_color": "#ffffff",
-        "collection_image_lable_bgcolor": "#ee2d7a"
+        "subtitle_color_main": "#666",
+        "image_content_bg_color": "#1d1c1c",
+        "collection_title_color": "#fff",
+        "collection_title_hover_color": "#fff",
+        "collection_item_color": "#fff",
+        "collection_item_hover_color": "#111",
+        "collection_desc_color": "#fff",
+        "collection_image_lable_color": "#111",
+        "collection_image_lable_bgcolor": "#333"
       }
     }
   },
@@ -303,6 +303,6 @@
     "category-feature",
     "category_feature_AgzY6d",
     "ttcmsabout_ccGH6k",
-    "category_feature_WxnNck"
+    "category_feature2_jWBxxJ"
   ]
 }
