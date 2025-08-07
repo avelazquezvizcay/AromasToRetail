@@ -296,50 +296,43 @@
         "collection_image_lable_bgcolor": "#333"
       }
     },
-    "product_tab_model_xGeAmJ": {
-      "type": "product-tab-model",
+    "our_brand_Rei48R": {
+      "type": "our_brand",
       "blocks": {
-        "text_block_AWqkAH": {
-          "type": "text_block",
+        "brand_image_f6KqjE": {
+          "type": "brand_image",
           "settings": {
-            "title": "asdas",
-            "collection": "5-x"
+            "image": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "link": ""
           }
         },
-        "text_block_hTh7eE": {
-          "type": "text_block",
+        "brand_image_prAbhF": {
+          "type": "brand_image",
           "settings": {
-            "title": "asdas",
-            "collection": "5-x"
+            "image": "shopify://shop_images/For_dates.jpg",
+            "link": ""
           }
         },
-        "text_block_r673EA": {
-          "type": "text_block",
+        "brand_image_t6JxfD": {
+          "type": "brand_image",
           "settings": {
-            "title": "asdas",
-            "collection": "5-x"
+            "image": "shopify://shop_images/Night_Style.jpg",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "text_block_AWqkAH",
-        "text_block_hTh7eE",
-        "text_block_r673EA"
+        "brand_image_f6KqjE",
+        "brand_image_prAbhF",
+        "brand_image_t6JxfD"
       ],
-      "name": "Sortable Products",
+      "name": "Brand list",
       "settings": {
-        "product_rows": false,
-        "product_col": "5",
-        "title_1": "Trending products",
-        "title_1_clr": "#000",
-        "subtitle_1": "Best Saling",
-        "subtitle_1_clr": "#777",
-        "button_bg": "#fff",
-        "button_text": "#000",
-        "button_hover_bg": "#000",
-        "button_hover_text": "#fff",
-        "view_all": "",
-        "view_url": ""
+        "brand_col_mobile_pro": 1,
+        "brand_col_desktop_pro": 3,
+        "addclass": "brands",
+        "title": "Brand list",
+        "bg_color": "#f1f1f1"
       }
     }
   },
@@ -351,6 +344,6 @@
     "category_feature_AgzY6d",
     "ttcmsabout_ccGH6k",
     "category_feature2_jWBxxJ",
-    "product_tab_model_xGeAmJ"
+    "our_brand_Rei48R"
   ]
 }
