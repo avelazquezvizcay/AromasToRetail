@@ -277,9 +277,10 @@
         "text_collection_VG8E8V",
         "text_collection_eKkYEM"
       ],
+      "disabled": true,
       "name": "For Every Occasion",
       "settings": {
-        "product_col_desktop_pro": 3,
+        "product_col_desktop_pro": 4,
         "product_col_mobile_pro": 2,
         "title": "",
         "title_color": "#000",
@@ -294,6 +295,52 @@
         "collection_image_lable_color": "#111",
         "collection_image_lable_bgcolor": "#333"
       }
+    },
+    "product_tab_model_xGeAmJ": {
+      "type": "product-tab-model",
+      "blocks": {
+        "text_block_AWqkAH": {
+          "type": "text_block",
+          "settings": {
+            "title": "asdas",
+            "collection": "5-x"
+          }
+        },
+        "text_block_hTh7eE": {
+          "type": "text_block",
+          "settings": {
+            "title": "asdas",
+            "collection": "5-x"
+          }
+        },
+        "text_block_r673EA": {
+          "type": "text_block",
+          "settings": {
+            "title": "asdas",
+            "collection": "5-x"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_AWqkAH",
+        "text_block_hTh7eE",
+        "text_block_r673EA"
+      ],
+      "name": "Sortable Products",
+      "settings": {
+        "product_rows": false,
+        "product_col": "5",
+        "title_1": "Trending products",
+        "title_1_clr": "#000",
+        "subtitle_1": "Best Saling",
+        "subtitle_1_clr": "#777",
+        "button_bg": "#fff",
+        "button_text": "#000",
+        "button_hover_bg": "#000",
+        "button_hover_text": "#fff",
+        "view_all": "",
+        "view_url": ""
+      }
     }
   },
   "order": [
@@ -303,6 +350,7 @@
     "category-feature",
     "category_feature_AgzY6d",
     "ttcmsabout_ccGH6k",
-    "category_feature2_jWBxxJ"
+    "category_feature2_jWBxxJ",
+    "product_tab_model_xGeAmJ"
   ]
 }
