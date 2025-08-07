@@ -244,68 +244,56 @@
         "btn_bg_hvr_color": "#734128"
       }
     },
-    "ttcmsbanner_fFfNjc": {
-      "type": "ttcmsbanner",
+    "category_feature_WxnNck": {
+      "type": "category-feature",
       "blocks": {
-        "image_M7gtzy": {
-          "type": "image",
+        "text_collection_cUgTdY": {
+          "type": "text_collection",
           "settings": {
-            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "banner_link1": "",
-            "title": "Gifts for someone special",
-            "title_color": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#f12a43",
-            "btn": "View",
-            "btnbg_color": "#734128",
-            "btntxt_color": "#ffffff",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
+            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "image_label": "Gifts for someone special",
+            "collection_cat_id": "for-special-gifts"
           }
         },
-        "image_zXWgKc": {
-          "type": "image",
+        "text_collection_QMX7GQ": {
+          "type": "text_collection",
           "settings": {
-            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "banner_link1": "",
-            "title": "Gifts for someone special",
-            "title_color": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#f12a43",
-            "btn": "View",
-            "btnbg_color": "#734128",
-            "btntxt_color": "#ffffff",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
+            "image_1": "shopify://shop_images/For_dates.jpg",
+            "image_label": "For dates",
+            "collection_cat_id": "for-dates"
           }
         },
-        "image_YJEGqC": {
-          "type": "image",
+        "text_collection_8YPPbN": {
+          "type": "text_collection",
           "settings": {
-            "banner_image1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "banner_link1": "",
-            "title": "Gifts for someone special",
-            "title_color": "#ffffff",
-            "subtitle": "",
-            "subtitle_color": "#f12a43",
-            "btn": "View",
-            "btnbg_color": "#734128",
-            "btntxt_color": "#ffffff",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
+            "image_1": "shopify://shop_images/Night_Style.jpg",
+            "image_label": "Night Style",
+            "collection_cat_id": "for-dates"
           }
         }
       },
       "block_order": [
-        "image_M7gtzy",
-        "image_zXWgKc",
-        "image_YJEGqC"
+        "text_collection_cUgTdY",
+        "text_collection_QMX7GQ",
+        "text_collection_8YPPbN"
       ],
-      "name": "TT Cms Banner",
-      "settings": {}
+      "name": "For Every Occasion",
+      "settings": {
+        "product_col_desktop_pro": 3,
+        "product_col_mobile_pro": 1,
+        "title": "For every occasion",
+        "title_color": "#391e10",
+        "subtitle": "",
+        "subtitle_color_main": "#ffffff",
+        "image_content_bg_color": "#f5f1e6",
+        "collection_title_color": "#ffffff",
+        "collection_title_hover_color": "#111111",
+        "collection_item_color": "rgba(0,0,0,0)",
+        "collection_item_hover_color": "#111111",
+        "collection_desc_color": "#111111",
+        "collection_image_lable_color": "#ffffff",
+        "collection_image_lable_bgcolor": "#ee2d7a"
+      }
     }
   },
   "order": [
@@ -315,6 +303,6 @@
     "category-feature",
     "category_feature_AgzY6d",
     "ttcmsabout_ccGH6k",
-    "ttcmsbanner_fFfNjc"
+    "category_feature_WxnNck"
   ]
 }
