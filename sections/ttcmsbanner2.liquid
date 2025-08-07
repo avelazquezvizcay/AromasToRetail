@@ -2,7 +2,8 @@
   <div class="ttcmsbanner hb-animate-element bottom-to-top">
       <div class="container">
         <div class="row">
-        <div id="specialproduct_products_slider" data-col="4" class="contents slider-specialproduct grid grid--view-items owl-carousel owl-theme owl-loaded owl-drag">{% for block in section.blocks %}
+        <div class="ttbanner-wrap owl-carousel">
+           {% for block in section.blocks %}
             {% if block.settings.banner_image1 != blank %}
             <div id="ttbanner-{{ block.id }}" class="ttbanner">
               <div class="banner-block">
@@ -41,9 +42,9 @@
 
 {% schema %}
   {
-    "name": "TT Cms Banner",
+    "name": "TT Cms Banner 2",
     "class": "index-section ttcms-banner",
-    "max_blocks": 1,
+    "max_blocks": 2,
     "blocks" : [
       {
         "type": "image",
@@ -132,7 +133,7 @@
     ],
     "presets": [
       {
-        "name": "TT Cms Banner",
+        "name": "TT Cms Banner 2",
         "category": "TT CMS section"
       }
     ]
