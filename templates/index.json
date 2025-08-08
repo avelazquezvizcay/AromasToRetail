@@ -461,7 +461,7 @@
       ],
       "settings": {
         "bg_color": "#734128",
-        "use_bg": true,
+        "use_bg": false,
         "parallax_enable": false
       }
     }
