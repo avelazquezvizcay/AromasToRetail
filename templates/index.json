@@ -57,6 +57,43 @@
         "1580215063672-0",
         "1580215063672-1"
       ],
+      "disabled": true,
+      "settings": {
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
+      }
+    },
+    "slideshow2_9jfz8V": {
+      "type": "slideshow2",
+      "blocks": {
+        "image_JpC9aJ": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "show_video": false,
+            "video_url": "",
+            "title": "Minimal Work Portfolio",
+            "sub_title": "\"Where quality and accessibility meet to awaken your senses\"",
+            "btn_txt": "Shop now",
+            "btn_link": "",
+            "title_color": "#fff",
+            "subtitle_color": "#fff",
+            "btn_bg_color": "#EB3039",
+            "btn_txt_color": "#fff",
+            "btn_bghover_color": "#000",
+            "btn_hovertxt_color": "#fff",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_JpC9aJ"
+      ],
+      "name": "Slideshow 2",
       "settings": {
         "slider_animation_type": "slide",
         "slide_button_bg_color": "#000000",
@@ -428,6 +465,7 @@
   },
   "order": [
     "slideshow",
+    "slideshow2_9jfz8V",
     "product_tab_model_Kec4nz",
     "ttcmsabout_M8C7D9",
     "category-feature",
