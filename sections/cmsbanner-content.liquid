@@ -1,0 +1,378 @@
+<div class="cmsbannercontent owl-carousel">
+    <div class="col-sm-12 cmsbanner bannercontent-1">
+      {% if section.settings.banner_image1 != blank %}
+      <div class="ttbanner1 ttbanner">
+        <div class="ttbanner-img col-sm-6 col-xs-6">
+          <a href="{{ section.settings.banner_1_url }}">
+            {% if section.settings.banner_image1 != blank %}
+            <img Loading="Lazy"  height="auto" width="660" src="{{ section.settings.banner_image1 | img_url: "660x"}}" alt="banner_image1"/>              
+            {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </a>
+        </div>
+        <div class="ttbanner-content col-sm-6 col-xs-6">
+          <div class="ttbanner-block">
+            {% if section.settings.banner_subtitle1 != blank %}
+            <div class="ttbanner-subtitle" style="color: {{ section.settings.subtitle1_color }}">{{ section.settings.banner_subtitle1 }}</div>
+            {% endif %}
+            {% if section.settings.banner_title1 != blank %}
+            <div class="ttbanner-title" style="color: {{ section.settings.title1_color }}">{{ section.settings.banner_title1 }}</div> 
+            {% endif %}
+            {% if section.settings.btn1_text != blank %}
+            <div class="ttbanner-btn">
+              <a href="{% if section.settings.banner_link1 != blank %}{{ section.settings.banner_link1 }}{% else %}#{% endif %}" class="content-btn">{{ section.settings.btn1_text }}</a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% if section.settings.banner_image3 != blank %}
+      <div class="ttbanner3 ttbanner">
+        <div class="ttbanner-content col-sm-6 col-xs-6">
+          <div class="ttbanner-block">
+            {% if section.settings.banner_subtitle3 != blank %}
+            <div class="ttbanner-subtitle" style="color: {{ section.settings.subtitle3_color }}">{{ section.settings.banner_subtitle3 }}</div>
+            {% endif %}
+            {% if section.settings.banner_title3 != blank %}
+            <div class="ttbanner-title" style="color: {{ section.settings.title3_color }}">{{ section.settings.banner_title3 }}</div>
+            {% endif %}
+            {% if section.settings.btn3_text != blank %}
+            <div class="ttbanner-btn">
+              <a href="{% if section.settings.banner_link3 != blank %}{{ section.settings.banner_link3 }}{% else %}#{% endif %}" class="content-btn">{{ section.settings.btn3_text }}</a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="ttbanner-img col-sm-6 col-xs-6">
+          <a href="{{ section.settings.banner_3_url }}">
+            {% if section.settings.banner_image3 != blank %}
+            <img Loading="Lazy"  height="auto" width="660" src="{{ section.settings.banner_image3 | img_url: "660x"}}" alt="banner_image3"/>              
+            {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    <div class="col-sm-12 cmsbanner bannercontent-2">
+      {% if section.settings.banner_image2 != blank %}
+      <div class="ttbanner2 ttbanner">
+        <div class="ttbanner-img col-sm-6 col-xs-6">
+          <a href="{{ section.settings.banner_2_url }}">
+            {% if section.settings.banner_image2 != blank %}
+            <img Loading="Lazy"  height="auto" width="660" src="{{ section.settings.banner_image2 | img_url: "660x"}}" alt="banner_image2"/>              
+            {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </a>
+        </div>
+        <div class="ttbanner-content col-sm-6 col-xs-6">
+          <div class="ttbanner-block">
+            {% if section.settings.banner_subtitle2 != blank %}
+            <div class="ttbanner-subtitle" style="color: {{ section.settings.subtitle2_color }}">{{ section.settings.banner_subtitle2 }}</div>
+            {% endif %}
+            {% if section.settings.banner_title2 != blank %}
+            <div class="ttbanner-title" style="color: {{ section.settings.title2_color }}">{{ section.settings.banner_title2 }}</div> 
+            {% endif %}
+            {% if section.settings.btn2_text != blank %}
+            <div class="ttbanner-btn">
+              <a href="{% if section.settings.banner_link2 != blank %}{{ section.settings.banner_link2 }}{% else %}#{% endif %}" class="content-btn">{{ section.settings.btn2_text }}</a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% if section.settings.banner_image4 != blank %}
+      <div class="ttbanner4 ttbanner">
+        <div class="ttbanner-content col-sm-6 col-xs-6">
+          <div class="ttbanner-block">
+            {% if section.settings.banner_subtitle4 != blank %}
+            <div class="ttbanner-subtitle" style="color: {{ section.settings.subtitle4_color }}">{{ section.settings.banner_subtitle4 }}</div>
+            {% endif %}
+            {% if section.settings.banner_title4 != blank %}
+            <div class="ttbanner-title" style="color: {{ section.settings.title4_color }}">{{ section.settings.banner_title4 }}</div>
+            {% endif %}
+            {% if section.settings.btn4_text != blank %}
+            <div class="ttbanner-btn">
+              <a href="{% if section.settings.banner_link4 != blank %}{{ section.settings.banner_link4 }}{% else %}#{% endif %}" class="content-btn">{{ section.settings.btn4_text }}</a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="ttbanner-img col-sm-6 col-xs-6">
+          <a href="{{ section.settings.banner_4_url }}">
+            {% if section.settings.banner_image4 != blank %}
+            <img Loading="Lazy"  height="auto" width="660" src="{{ section.settings.banner_image4 | img_url: "660x"}}" alt="banner_image4"/>              
+            {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+</div>
+<style>
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner1 .ttbanner-block .ttbanner-btn a.content-btn{color:{{section.settings.btn1txt_color}};border-color:{{section.settings.btn1txt_color}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner1 .ttbanner-block .ttbanner-btn a.content-btn:hover{color:{{section.settings.btn1txt_hovercolor}};border-color:{{section.settings.btn1txt_hovercolor}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner2 .ttbanner-block .ttbanner-btn a.content-btn{color:{{section.settings.btn1txt_color}};border-color:{{section.settings.btn1txt_color}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner2 .ttbanner-block .ttbanner-btn a.content-btn:hover{color:{{section.settings.btn1txt_hovercolor}};border-color:{{section.settings.btn1txt_hovercolor}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner3 .ttbanner-block .ttbanner-btn a.content-btn{color:{{section.settings.btn1txt_color}};border-color:{{section.settings.btn1txt_color}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner3 .ttbanner-block .ttbanner-btn a.content-btn:hover{color:{{section.settings.btn1txt_hovercolor}};border-color:{{section.settings.btn1txt_hovercolor}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner4 .ttbanner-block .ttbanner-btn a.content-btn{color:{{section.settings.btn1txt_color}};border-color:{{section.settings.btn1txt_color}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner4 .ttbanner-block .ttbanner-btn a.content-btn:hover{color:{{section.settings.btn1txt_hovercolor}};border-color:{{section.settings.btn1txt_hovercolor}};}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner .ttbanner-content::after{color:{{section.settings.contentbg}}}
+  .cmsbanner-content .cmsbannercontent .cmsbanner .ttbanner{background:{{section.settings.contentbg}};}
+</style>
+{% schema %}
+  {
+    "name": "CMS Banner content",
+    "class": "index-section cmsbanner-content",
+    "settings": [
+	  {
+        "type": "color",
+        "id": "contentbg",
+        "label": "Content background color",
+        "default": "#f5f5f5"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image1",
+        "label": "Image1"
+      },	
+      {
+        "type": "url",
+        "id": "banner_1_url",
+        "label": "Image1 Url"
+      },
+      {
+        "type": "text",
+        "id": "banner_title1",
+        "label": "Banner Title 1",
+        "default": "new camera shop"
+      },
+      {
+        "type": "color",
+        "id": "title1_color",
+        "label": "Title1 color",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "id": "banner_subtitle1",
+        "label": "Banner Subtitle 1",
+        "default": "get exclusive, offers"
+      },
+      {
+        "type": "color",
+        "id": "subtitle1_color",
+        "label": "Subtitle1 color",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "id": "btn1_text",
+        "label": "Button text",
+        "default": "luxury tap"
+      },
+      {
+        "type": "url",
+        "id": "banner_link1",
+        "label": "Banner button 1 link"
+      },
+      {
+        "type": "color",
+        "id": "btn1txt_color",
+        "label": "Button1 text color",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "btn1txt_hovercolor",
+        "label": "Button1 text hover color",
+        "default": "#fff"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image2",
+        "label": "Image"
+      }, 	
+      {
+        "type": "url",
+        "id": "banner_2_url",
+        "label": "Banner2 Url"
+      },
+      {
+        "type": "text",
+        "id": "banner_title2",
+        "label": "Banner Title 2",
+        "default": "tv & home theater"
+      },	
+	  {
+        "type": "color",
+        "id": "title2_color",
+        "label": "Title2 color",
+		"default": "#000000"
+      },
+	  {
+        "type": "text",
+        "id": "banner_subtitle2",
+        "label": "Banner Subtitle 2",
+		"default": "best offer"
+      },
+	  {
+        "type": "color",
+        "id": "subtitle2_color",
+        "label": "Subtitle2 color",
+		"default": "#000"
+      },
+	  {
+        "type": "text",
+        "id": "btn2_text",
+        "label": "Button text",
+		"default": "shop now"
+      },
+      {
+        "type": "url",
+        "id": "banner_link2",
+        "label": "Banner Button link 2"
+      },
+	  {
+        "type": "color",
+        "id": "btn2txt_color",
+        "label": "Button2 text color",
+		"default": "#fff"
+      },
+	  {
+        "type": "color",
+        "id": "btn2txt_hovercolor",
+        "label": "Button2 text hover color",
+		"default": "#fff"
+      },
+	  {
+        "type": "image_picker",
+        "id": "banner_image3",
+        "label": "Image3"
+      },	
+      {
+        "type": "url",
+        "id": "banner_3_url",
+        "label": "Image3 Url"
+      },
+      {
+        "type": "text",
+        "id": "banner_title3",
+        "label": "Banner Title 3",
+        "default": "new camera shop"
+      },
+      {
+        "type": "color",
+        "id": "title3_color",
+        "label": "Title3 color",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "id": "banner_subtitle3",
+        "label": "Banner Subtitle 3",
+        "default": "get exclusive, offers"
+      },
+      {
+        "type": "color",
+        "id": "subtitle3_color",
+        "label": "Subtitle3 color",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "id": "btn3_text",
+        "label": "Button text",
+        "default": "luxury tap"
+      },
+      {
+        "type": "url",
+        "id": "banner_link3",
+        "label": "Banner button 3 link"
+      },
+      {
+        "type": "color",
+        "id": "btn3txt_color",
+        "label": "Button3 text color",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "btn3txt_hovercolor",
+        "label": "Button3 text hover color",
+        "default": "#fff"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_image4",
+        "label": "Image"
+      }, 	
+      {
+        "type": "url",
+        "id": "banner_4_url",
+        "label": "Banner4 Url"
+      },
+      {
+        "type": "text",
+        "id": "banner_title4",
+        "label": "Banner Title 4",
+        "default": "tv & home theater"
+      },	
+	  {
+        "type": "color",
+        "id": "title4_color",
+        "label": "Title4 color",
+		"default": "#000000"
+      },
+	  {
+        "type": "text",
+        "id": "banner_subtitle4",
+        "label": "Banner Subtitle 4",
+		"default": "best offer"
+      },
+	  {
+        "type": "color",
+        "id": "subtitle4_color",
+        "label": "Subtitle4 color",
+		"default": "#000"
+      },
+	  {
+        "type": "text",
+        "id": "btn4_text",
+        "label": "Button text",
+		"default": "shop now"
+      },
+      {
+        "type": "url",
+        "id": "banner_link4",
+        "label": "Banner Button link 4"
+      },
+	  {
+        "type": "color",
+        "id": "btn4txt_color",
+        "label": "Button4 text color",
+		"default": "#fff"
+      },
+	  {
+        "type": "color",
+        "id": "btn4txt_hovercolor",
+        "label": "Button4 text hover color",
+		"default": "#fff"
+      }
+    ],
+    "presets": [
+      {
+        "name": "CMSBanner content",
+        "category": "TT CMS section"
+      }
+    ]
+  }
+{% endschema %}

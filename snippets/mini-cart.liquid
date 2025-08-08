@@ -1,0 +1,69 @@
+<div id="slidedown-cart"> 
+  {% if settings.header_style_1 != 'style_2' %}
+  <div class="cart-close"><i class="mdi mdi-close"></i></div>
+  {% endif %}
+  <div class="mini-cart-wrap">
+    <!--  <h3>{{ 'cart.general.mini_cart_title' | t }}</h3>-->
+    <div class="no-items">
+      <p>{{ 'cart.general.empty' | t }}</p>
+    </div>
+    <div class="has-items">
+      <ul class="mini-products-list">  
+        {% for item in cart.items %}
+        <li class="item" id="cart-item-{{item.id}}">
+          <a href="{{item.url}}" title="{{item.title}}" class="product-image">
+            <img src="{{ item.image | product_img_url: 'medium' }}" alt="{{item.title}}"></a>
+          <div class="product-details">
+            <p class="product-name"><a href="{{item.url}}">{{ item.product.title }}
+              {% if item.product.variants.size != 0 %}
+              {% unless item.variant.title contains 'Default' %}
+              {{ item.variant.title }}
+              {% endunless %}
+              {% endif %}</a></p>
+            <div class="cart-collateral"><span class="price">{{item.price | money}}</span> x {{item.quantity}}</div>
+          </div>
+          <a href="javascript:void(0)" title="Remove This Item" class="btn-remove"><span class="mdi mdi-close"></span></a>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="summary">                
+        <p class="total">
+          <span class="label">{{ 'cart.general.cart_total' | t }}</span>
+          <span class="price">{{cart.total_price | money}}</span> 
+        </p>
+      </div>
+      <div class="actions">
+         {% if settings.trumsandcondition_id != blank %}
+         <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
+          <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
+          <label style="display:inline; float:none" for="agree">
+            {{ 'cart.label.agree' | t }} <a href="/pages/terms-condition">{{ 'cart.label.agree_page' | t }}</a>.
+          </label>
+        </p>
+           {% endif %}
+        <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
+      <button class="btn text-cart" {% if settings.trumsandcondition_id != blank %} onclick="window.location='{{ routes.cart_url }}'"{% endif %}>
+        {{ 'cart.general.view_cart' | t }}
+      </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="overlay"></div>
+
+ {% if settings.trumsandcondition_id != blank %}
+<script>
+  $(document).ready(function() {
+    var url = "/checkout";
+    $('.actions .checkout-btn').click(function() {
+      if ($('#agree').is(':checked')) {
+        window.location = url;
+      }
+      else {
+        alert("{{ 'cart.popup.empty_condition' | t }}");
+        return false;
+      }
+    });
+  });
+</script>
+   {% endif %}

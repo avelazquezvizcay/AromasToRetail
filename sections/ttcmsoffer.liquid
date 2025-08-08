@@ -1,0 +1,139 @@
+<div class="ttcmsoffer-block" style="background:{{section.settings.bg_color}}">
+  <div class="container">
+    <div class="ttcmsoffer-content owl-carousel {% if settings.enable_animation != blank %} bottom-to-top hb-animate-element{% endif %}">
+      {% if section.blocks.size > 0 %}  
+      {% for block in section.blocks %}    
+      <div id="ttoffer-{{ block.id }}" class="ttoffer-main">
+        {% if  block.settings.image != blank %}
+        <div class="ttoffer-left col-sm-6 col-xs-6">
+          <a href="{% if  block.settings.image_url != blank %}{{block.settings.image_url}}{% else %}#{% endif %}">
+            <img Loading="Lazy"  src="{{block.settings.image | img_url: "490x480"}}" alt="ttofferimg" width="490" height="480">
+          </a>
+        </div>
+        {% endif %}
+        <div class="ttoffer-right col-sm-6 col-xs-6">
+          {% if  block.settings.subtitle != blank %}
+          <div class="ttoffer-subtitle">{{block.settings.subtitle}}</div>
+          {% endif %}
+          {% if  block.settings.title != blank %}
+          <div class="ttoffer-title">{{block.settings.title}}</div>
+          {% endif %}
+          {% if  block.settings.about_desc != blank %}
+          <div class="ttoffer-desc">{{block.settings.about_desc}}</div>
+          {% endif %}
+          {% if  block.settings.about_btn != blank %}
+          <div class="ttoffer-btn">
+            <a href="{% if  block.settings.image_url != blank %}{{block.settings.image_url}}{% else %}#{% endif %}" class="btn">{{block.settings.about_btn}}</a>
+          </div>
+          {% endif %}
+          <style>
+            #ttoffer-{{ block.id }} .ttoffer-right .ttoffer-subtitle{color:{{block.settings.subtitle_color}};}#ttoffer-{{ block.id }} .ttoffer-right .ttoffer-title{color:{{block.settings.title_color}};}#ttoffer-{{ block.id }} .ttoffer-right .ttoffer-desc{color:{{block.settings.desc_color}};}#ttoffer-{{ block.id }} .ttoffer-right .ttoffer-btn a{color:{{block.settings.btn_txt_color}};background:{{block.settings.btn_bg_color}};}#ttoffer-{{ block.id }} .ttoffer-right .ttoffer-btn a:hover{color:{{block.settings.btn_txt_hvr_color}};}#ttoffer-{{ block.id }} .ttoffer-right .ttoffer-btn a::after{background:{{block.settings.btn_bg_hvr_color}};}
+          </style>
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "TTOffer section",
+"class": "index-section ttcmsoffer",
+"settings": [
+{
+"type": "color",
+"id": "bg_color",
+"label": "Background Color",
+"default": "#111"
+}
+],
+"blocks": [
+{
+"type": "text",
+"name": "content",
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "url",
+"id": "image_url",
+"label": "Image Url"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Title"
+},
+{
+"type": "color",
+"id": "title_color",
+"label": "Title Color",
+"default": "#fff"
+},
+{
+"type": "text",
+"id": "subtitle",
+"label": "Sub Title"
+},
+{
+"type": "color",
+"id": "subtitle_color",
+"label": "SubTitle Color",
+"default": "#fff"
+},
+{
+"type": "textarea",
+"id": "about_desc",
+"label": "Description"
+},
+{
+"type": "color",
+"id": "desc_color",
+"label": "Description Color",
+"default": "#fff"
+},
+{
+"type": "text",
+"id": "about_btn",
+"label": "Button Text"
+},
+{
+"type": "color",
+"id": "btn_txt_color",
+"label": "Button Text Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "btn_bg_color",
+"label": "Button Background Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "btn_txt_hvr_color",
+"label": "Button Text Hover Color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "btn_bg_hvr_color",
+"label": "Button Background Hover Color",
+"default": "#fff"
+}
+]
+}
+],
+"presets": [
+{
+"name": "TTOffer section",
+"category": "TT CMS section"
+}
+]
+}
+{% endschema %}

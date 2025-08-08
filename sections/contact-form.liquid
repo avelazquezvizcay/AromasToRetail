@@ -1,0 +1,93 @@
+<div class="grid">
+  <div class="container">
+    <div class="contact-us-page">
+      <div class="rte">
+        {{ page.content }}
+      </div>
+      <div class="contact_wrapper">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            {% form 'contact' %}
+            {% if form.posted_successfully? %}
+            <p class="note form-success">
+              {{ 'contact.form.post_success' | t }}
+            </p>
+            {% endif %}
+            {{ form.errors | default_errors }}
+            <div id="contactFormWrapper">
+              {% assign name_attr = 'contact.form.name' | t | handle %}
+              <label for="contactFormName" class="form-label--hidden">
+                <span class="visuallyhidden">
+                  {{ 'contact.form.name' | t }}
+                </span>
+              </label>
+              <input type="text" id="contactFormName" name="contact[{{ name_attr }}]" placeholder="{{ 'contact.form.name' | t }}" autocapitalize="words" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+
+              <label for="contactFormEmail" class="form-label--hidden">
+                <span class="visuallyhidden">
+                  {{ 'contact.form.email' | t }}
+                </span>
+              </label>
+              <input type="email" id="contactFormEmail" name="contact[email]" placeholder="{{ 'contact.form.email' | t }}" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+              {% assign name_attr = 'contact.form.phone' | t | handle %}
+              <label for="contactFormPhone" class="form-label--hidden">
+                <span class="visuallyhidden">
+                  {{ 'contact.form.phone' | t }}
+                </span>
+              </label>
+              <input type="tel" id="contactFormPhone" name="contact[{{ name_attr }}]" placeholder="{{ 'contact.form.phone' | t }}" pattern="[0-9\-]*" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+              <label for="contactFormMessage" class="form-label--hidden">
+                <span class="visuallyhidden">
+                  {{ 'contact.form.message' | t }}
+                </span>
+              </label>
+              <textarea rows="10" id="contactFormMessage" name="contact[body]" placeholder="{{ 'contact.form.message' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+              <input type="submit" class="btn right" value="{{ 'contact.form.send' | t }}">
+            </div>
+            {% endform %}
+          </div>
+          {% if section.settings.map_api_key != blank %}
+          {% if section.settings.enbale_map %}
+        <div class="contact-us-map col-xs-12 col-sm-6">
+          <div id="google_map" data-section-id="{{ section.id }}" data-section-type="map-section">
+            <div id="map">{{ section.settings.map_api_key }}</div>
+          </div>
+        </div>
+        {% endif %}
+        {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+"name": "Google Map",
+     "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+"settings": [
+{
+  "type": "checkbox",
+  "id": "enbale_map",
+  "label": "Show Map"
+},
+{
+  "type": "html",
+  "id": "map_api_key",
+  "label": "Enter You map iframe"
+},
+{
+"type": "textarea",
+"id": "map_custom_style",
+"label": "Enter Map Custom Style JavaScript Code"
+}
+],
+  "presets": [
+{
+"name": "Google Map Block",
+"category": "TemplateTrip"
+}
+]
+}
+{% endschema %}
