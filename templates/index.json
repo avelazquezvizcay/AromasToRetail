@@ -79,12 +79,12 @@
             "sub_title": "",
             "btn_txt": "Shop now",
             "btn_link": "",
-            "title_color": "#fff",
-            "subtitle_color": "#fff",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
             "btn_bg_color": "#391e10",
-            "btn_txt_color": "#fff",
+            "btn_txt_color": "#ffffff",
             "btn_bghover_color": "#734128",
-            "btn_hovertxt_color": "#fff",
+            "btn_hovertxt_color": "#ffffff",
             "text_position": "center",
             "text_effect": "left"
           }
@@ -460,7 +460,7 @@
         "1594383388335-0"
       ],
       "settings": {
-        "bg_color": "#391e10",
+        "bg_color": "#734128",
         "use_bg": false,
         "parallax_enable": false
       }
