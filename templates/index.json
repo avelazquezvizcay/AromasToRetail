@@ -209,8 +209,8 @@
         "collection_title_hover_color": "#ffffff",
         "collection_item_color": "#ffffff",
         "collection_item_bgcolor": "#734128",
-        "collection_item_hover_color": "#391e10",
-        "collection_item_bghover_color": "#ffffff",
+        "collection_item_hover_color": "#ffffff",
+        "collection_item_bghover_color": "#391e10",
         "collection_desc_color": "#ffffff"
       }
     },
