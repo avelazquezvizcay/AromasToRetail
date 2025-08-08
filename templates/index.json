@@ -75,8 +75,8 @@
             "image_link": "",
             "show_video": false,
             "video_url": "",
-            "title": "Minimal Work Portfolio",
-            "sub_title": "\"Where quality and accessibility meet to awaken your senses\"",
+            "title": "\"Where quality and accessibility meet to awaken your senses\"",
+            "sub_title": "",
             "btn_txt": "Shop now",
             "btn_link": "",
             "title_color": "#fff",
@@ -85,7 +85,7 @@
             "btn_txt_color": "#fff",
             "btn_bghover_color": "#000",
             "btn_hovertxt_color": "#fff",
-            "text_position": "left",
+            "text_position": "center",
             "text_effect": "left"
           }
         }
