@@ -15,7 +15,7 @@
           <a href="{{ block.settings.link }}" class="brand-bar__link">
             {% endif %}
             {% if block.settings.image != blank %}
-            <img Loading="Lazy" width="130" src="{{ block.settings.image | img_url: "master"  }}" alt="brand-logo" class="brand-bar__image"/>
+            <img Loading="Lazy"  width="130" src="{{ block.settings.image | img_url: "master"  }}" alt="brand-logo" class="brand-bar__image"/>
             {% else %}
             {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
             {% endif %}
@@ -100,7 +100,7 @@
     "name": "Brand list",
     "class": "index-section brand-logo",
     "settings": [
-            {
+      {
 "type": "range",
 "id": "brand_col_mobile_pro",
 "min": 1,

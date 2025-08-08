@@ -16,15 +16,15 @@
       <div class="col-xs-12 {{ settings.product_img_hover }}">
         <div class="product-image {{ settings.product_img_hover }}">
           <a class="grid-view-item__link" href="{{ product.url | within: collection }}">
-            <img Loading="Lazy" class="grid-view-item__image featured-image image_thumb" height="371" width="285" src="{{ product.featured_media | img_url: settings.product_image_width_height }}" alt="{{ product.featured_image.alt }}">
+            <img Loading="Lazy"  class="grid-view-item__image featured-image image_thumb" height="371" width="285" src="{{ product.featured_media | img_url: settings.product_image_width_height }}" alt="{{ product.featured_image.alt }}">
             {% if product.images.size > 1 %}
             {% if product.images.last %} 
             {% if settings.product_hover_image %}
             <div class="second-productimg">
-              <img Loading="Lazy" class="image_thumb_swap" height="371" width="285" src="{{ product.images.last | product_img_url: settings.product_image_width_height }}" alt="{{ product.images.last.alt | escape }}" />
+              <img Loading="Lazy"  class="image_thumb_swap" height="371" width="285" src="{{ product.images.last | product_img_url: settings.product_image_width_height }}" alt="{{ product.images.last.alt | escape }}" />
             </div>
             {% endif %} 
-            {% endif %}
+            {% endif %} 
             {% endif %}
           </a>
           {% if settings.product_hover_image %}
@@ -60,7 +60,7 @@
         {% if settings.product_hover_btn =="style2" %}
         {% if settings.enable_quick_view %}   
         <div class="quickview">    
-          {% render 'quickveiw-icon' %}  
+          {% render 'quickveiw-icon', product:product %}  
         </div>       
         {% endif %} 
         {% endif %}
@@ -93,7 +93,7 @@
                     <label>{{ size | split: ' ' | last | handle }}</label>
                   {% if variant.image != null %}
                   <span class="hidden">
-                    <img Loading="Lazy" width="373" height="486" src="{{ variant.image.src | product_img_url: '373x486' }}" alt="{{ text }}"/>
+                    <img Loading="Lazy"  width="373" height="486" src="{{ variant.image.src | product_img_url: '373x486' }}" alt="{{ text }}"/>
                   </span>
                   {% endif %}
               </li>
@@ -316,11 +316,11 @@
         <a class="grid-view-item__link grid-link__title" href="{{ product.url | within: collection }}">{{ product.title }}</a>
       </div>
       {% if settings.collections_show_rating %}    
-     <!-- Start of Judge.me code --> <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'> {{ product.metafields.judgeme.badge }} </div> <!-- End of Judge.me code -->
+      <!-- Start of Judge.me code --> <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'> {{ product.metafields.judgeme.badge }} </div> <!-- End of Judge.me code -->
       {% endif %}
 
       <div class="product-desc rte">
-        {{ product.description | strip_html | truncatewords: 15 }}         
+        {{ product.description | strip_html | truncatewords: 80 }}         
       </div>
       <div class="grid-view-item__meta">
         {% capture price %}{{ product.price | money }}{% endcapture %}

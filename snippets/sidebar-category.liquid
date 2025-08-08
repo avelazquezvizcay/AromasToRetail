@@ -46,28 +46,3 @@
   </div>
 </div>
 {% endif %}
-<script>
-  $(document).ready(function() {
-    $(".dt-menu-expand").click(function(event){
-      event.preventDefault();
-      if( $(this).hasClass("dt-mean-clicked") ){
-        $(this).text("+");
-        if( $(this).prev('ul').length ) {
-          $(this).prev('ul').slideUp(400);
-        } else {
-          $(this).prev('.megamenu-child-container').find('ul:first').slideUp(600);
-        }
-      } else {
-        $(this).text("-");
-        if( $(this).prev('ul').length ) {
-          $(this).prev('ul').slideDown(400);
-        } else{
-          $(this).prev('.megamenu-child-container').find('ul:first').slideDown(2000);
-        }
-      }
-
-      $(this).toggleClass("dt-mean-clicked");
-      return false;
-    });
-  });
-</script>

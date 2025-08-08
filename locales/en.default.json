@@ -26,7 +26,8 @@
       "my_account": "Sign in",
       "wishlist": "Wishlist",
       "more": "MORE",
-      "less": "Less"
+      "less": "Less",
+      "currency": "currency"
     },
     "slider": {
       "prev": "Prev",
@@ -407,6 +408,7 @@
       "on_sale": "Sale",
       "new_products": "New",
       "unavailable": "Unavailable",
+      "product_variants": "Product variants",
       "quantity": "Quantity",
       "add_to_cart": "Add to Cart",
       "buy_now": "Buy Now",
@@ -427,6 +429,8 @@
       "description": "Description",
       "shipping_return": "Shipping and Return",
       "watch_video": "Watch Video",
+      "value_unavailable": "{{ option_value }} - Unavailable",
+      "variant_sold_out_or_unavailable": "Variant sold out or unavailable",
       "360_veiw": "360",
       "quantity_minimum_message": "Quantity must be 1 or more",
       "clear_all": "CLEAR ALL"

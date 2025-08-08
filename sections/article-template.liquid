@@ -168,7 +168,7 @@ More information:- http://docs.shopify.com/themes/liquid-variables/comment
           {% if paginate.pages > 1 %}
           <hr>
           <div class="text-center">
-            {% render 'pagination-custom', product: product %}
+            {% render 'pagination-custom', paginate: paginate %}
           </div>
           {% endif %}
           {% endif %}

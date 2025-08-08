@@ -13,12 +13,12 @@
     "main": {
       "type": "aboutus-page-img",
       "settings": {
-        "about_us": "shopify://shop_images/about-us-01_daca6bc8-9efb-451f-b596-66440790dcd0.jpg",
+        "about_us": "shopify://shop_images/about-us-01.jpg",
         "about_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed mauris id lacus volutpat consectetur sed non velit. Nulla ultrices luctus libero vel feugiat. Vestibulum suscipit ligula et eros volutpat, quis gravida ex rutrum. Morbi non blandit orci, eu ultrices risus. Maecenas volutpat dui vitae sem hendrerit, quis finibus turpis porta. Pellentesque et efficitur eros, in dapibus ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        "about_image1": "shopify://shop_images/about-us-02_d67db228-48a1-4e90-9611-10096a69b6dc.jpg",
+        "about_image1": "shopify://shop_images/about-us-02.jpg",
         "about_title1": "ABOUT OUR SHOP",
         "description_1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-        "about_image2": "shopify://shop_images/about-us-03_56ed064b-f620-4e98-8a4f-d841387421a1.jpg",
+        "about_image2": "shopify://shop_images/about-us-03.jpg",
         "about_title2": "WHAT WE DO",
         "description_2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
       }
@@ -116,8 +116,8 @@
       "settings": {
         "title": "OUR TEAM",
         "sub_title": "Experts",
-        "title_color": "#111111",
-        "sub_title_color": "#fec500",
+        "title_color": "#dddddd",
+        "sub_title_color": "#e9ad3f",
         "ourteam_column": "5"
       }
     }

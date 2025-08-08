@@ -14,7 +14,7 @@
     <div class="container">
       <div class="block_newsletter{% if template == 'index' %} left-to-right hb-animate-element{% endif %}">
         <div class="tt-content col-sm-6">
-         {% if section.settings.newsletter_title != blank %}
+        {% if section.settings.newsletter_title != blank %}
           <h1 class=" col-xs-12 news-title" style="color:{{ section.settings.newsletter_txt_color }};">{{ section.settings.newsletter_title }}</h1>
           {% endif %}
             {% if section.settings.newsletter_desc != blank %}
@@ -33,23 +33,23 @@
     <div class="container">
 
       {% if section.settings.show_logo %}
-      <div class="footer-logo-content{% if template == 'index' %}{% if setting.enable_animation != blank %} bottom-to-top hb-animate-element{% endif %}{% endif %}">
+      <div class="footer-logo-content{% if template == 'index' %} bottom-to-top hb-animate-element{% endif %}">
         <div class="footer-logo">
-          <img Loading="Lazy" height="auto" width="190" src="{{ section.settings.footer_logo | img_url: '190x' }}" alt="footer_logo" />
+          <img Loading="Lazy"  height="auto" width="190" src="{{ section.settings.footer_logo | img_url: '190x' }}" alt="footer_logo" />
         </div>
-         {% if section.settings.footer_desc != blank %}
+       {% if section.settings.footer_desc != blank %}
       <div class="footer-desc">{{ section.settings.footer_desc }}</div>
       {% endif %}
       </div>
       {% endif %}
-      <div class="text-left grid{% if template == 'index' %} {% if setting.enable_animation != blank %} bottom-to-top hb-animate-element{% endif %}{% endif %}">
+      <div class="text-left grid{% if template == 'index' %} bottom-to-top hb-animate-element{% endif %}">
         <div class="col-sm-12 footer-section">
           <div class="footer-column contactus">
-            {% if section.settings.footer_contact_title != blank %}
+              {% if section.settings.footer_contact_title != blank %}
             <h5 class="widget-title">{{ section.settings.footer_contact_title }}</h5>
             {% endif %}
             <div class="contact-us">
-               <ul class="list-unstyled" style="display: block;">
+              <ul class="list-unstyled" style="display: block;">
                 {% if  section.settings.contact_address  != blank %}
                 <li class="contact-detail col-sm-4">
                   <div class="address">	
@@ -67,30 +67,31 @@
             </div>
           </div>
           {% if section.settings.show_payment_icons %}
-          <div class="footer-column payment-icon">
+          <div class="site-footer__payment-icons"> 
             {% unless shop.enabled_payment_types == empty %}
             {% assign payment_icons_available = 'amazon_payments,american_express,apple_pay,bitcoin,cirrus,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,jcb,litecoin,maestro,master,paypal,visa' | split: ',' %}
-            <div class="footer-links">
-              <div class="inline-list payment_logo_block">
-                <ul class="payment-icons">
-                  {%- for type in shop.enabled_payment_types -%}
-                  <li>
-                    {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                  </li>
-                  {%- endfor -%}
-                </ul>
-              </div>
-            </div>
+            <ul class="inline-list payment-icons text-center">
+              {% for type in shop.enabled_payment_types %}
+              {% if payment_icons_available contains type %}
+              <li>
+                <span class="icon-fallback-text">
+                  <span class="icon icon-{{type}}" aria-hidden="true"></span>
+                  <span class="fallback-text">{{type | replace: '_',' '}}</span>
+                </span>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
             {% endunless %}
           </div>
           {% endif %}
         </div>
       </div>
 
-      <div class="footer-bottom{% if template == 'index' %} {% endif %}">
+      <div class="footer-bottom">
         {% if section.settings.show_link_list %}
         <div class="col-sm-12 footer-column links">
-           {% if section.settings.footer_col_title_1 != blank %}
+         {% if section.settings.footer_col_title_1 != blank %}
               <h5 class="widget-title">{{ section.settings.footer_col_title_1 }}</h5>
               {% endif %}
           {% if linklists[section.settings.col_1_menu].links != blank %}
@@ -114,153 +115,153 @@
 <style>.footer-top{background-color:{{ section.settings.newsletter_bg }};}.block_newsletter form .input-group .input-group-btn .btn{background: {{ section.settings.btn_bg_color }};color: {{ section.settings.btn_txt_color }};padding:8px 25px;height:50px;}.block_newsletter form .input-group .input-group-btn .btn:hover{color: {{ section.settings.btn_hovertxt_color }}}.block_newsletter form .input-group .input-group-btn .btn::after{background: {{ section.settings.btn_hoverbg_color }};}.block_newsletter form .input-group .input-group-btn .btn .icon{color: {{ section.settings.btn_txt_color }};}.block_newsletter form .input-group .input-group-btn .btn:hover .icon{color: {{ section.settings.btn_hovertxt_color }};}.site-footer input#Email::-webkit-input-placeholder {color:{{ section.settings.footertop_txt_color }};}.block_newsletter form input[type="email"] {color: {{  section.settings.footertop_txt_color }};}</style>
 
 {% schema %}
-{
-"name": "Footer Design 3",
-"settings": [
-{
-"type": "header",
-"content": "Newsletter settings"
-},
-{
-"type": "checkbox",
-"id": "show_newsletter",
-"label": "Show Newsletter",
-"default": false
-},
-{
-"type": "text",
-"id": "newsletter_title",
-"label": "Newsletter Title",
-"default": "Sign Up For Newsletter"
-},
-{
-"type": "text",
-"id": "newsletter_desc",
-"label": "Newsletter description",
-"default": "Sign up to our newsletter to get the latest articles, lookbooks & fashion voucher."
-},
-{
-"type": "color",
-"id": "newsletter_bg",
-"label": "Newsletter Background Color",
-"default": "#f5f5f5"
-},
-{
-"type": "color",
-"id": "newsletter_txt_color",
-"label": "Newsletter Text Color",
-"default": "#000000"
-},
-{
-"type": "color",
-"id": "newsletter_desc_color",
-"label": "Newsletter Description Color",
-"default": "#000000"
-},
-{
-"type": "color",
-"id": "btn_txt_color",
-"label": "Button Text Color",
-"default": "#ffffff"
-},
-{
-"type": "color",
-"id": "btn_bg_color",
-"label": "Button Background Color",
-"default": "#000000"
-},
-{
-"type": "color",
-"id": "btn_hovertxt_color",
-"label": "Button Hover Text Color",
-"default": "#000000"
-},
-{
-"type": "color",
-"id": "btn_hoverbg_color",
-"label": "Button Hover Background Color",
-"default": "#fdd413"
-},
-{
-"type": "header",
-"content": "Footer Logo settings"
-},
-{
-"type": "checkbox",
-"id": "show_logo",
-"label": "Show Footer logo content",
-"default": true
-},
-{
-"type": "image_picker",
-"id": "footer_logo",
-"label": "Footer logo"
-},
-{
-"type": "text",
-"id": "footer_desc",
-"label": "Footer description",
-"default": "Majority have suffered alteration  in aome from, by injected."
-},
-{
-"type": "header",
-"content": "Information settings"
-},
-{
-"type": "text",
-"id": "footer_contact_title",
-"label": "Contact Title",
-"default": "store information"
-},		
-{
-"type": "richtext",
-"id": "contact_address",
-"label": "Address",
-"default": "<p>My Company, 42 Puffin street 12345 Puffinville France</p>"
-},		
-{
-"type": "text",
-"id": "contact_no",
-"label": "Contact Number",
-"default": "0123-456-789"
-},		
-{
-"type": "text",
-"id": "contact_email",
-"label": "Email Address",
-"default": "sales@yourcompany.com"
-},
-{
-"type": "header",
-"content": "Footer Payment settings"
-},
-{
-"type": "checkbox",
-"id": "show_payment_icons",
-"label": "Show payment icons",
-"default": false
-},
-{
-"type": "header",
-"content": "Footer Links settings"
-},
-{
-"type": "checkbox",
-"id": "show_link_list",
-"label": "Show Link List",
-"default": false
-},
-{
-"type": "text",
-"id": "footer_col_title_1",
-"label": "Heading",
-"default": "Footer Title 1"
-},	
-{
-"type": "link_list",
-"id": "col_1_menu",
-"label": "Footer Column 1"
-}
-]
-}
+  {
+    "name": "Footer Design 3",
+    "settings": [
+        {
+          "type": "header",
+          "content": "Newsletter settings"
+        },
+		{
+        "type": "checkbox",
+        "id": "show_newsletter",
+        "label": "Show Newsletter",
+        "default": false
+       },
+	  {
+        "type": "text",
+        "id": "newsletter_title",
+        "label": "Newsletter Title",
+        "default": "Sign Up For Newsletter"
+       },
+	    {
+        "type": "text",
+        "id": "newsletter_desc",
+        "label": "Newsletter description",
+        "default": "Sign up to our newsletter to get the latest articles, lookbooks & fashion voucher."
+       },
+		{
+        "type": "color",
+        "id": "newsletter_bg",
+        "label": "Newsletter Background Color",
+        "default": "#f5f5f5"
+        },
+		{
+        "type": "color",
+        "id": "newsletter_txt_color",
+        "label": "Newsletter Text Color",
+        "default": "#000000"
+        },
+    {
+        "type": "color",
+        "id": "newsletter_desc_color",
+        "label": "Newsletter Description Color",
+        "default": "#000000"
+        },
+		{
+        "type": "color",
+        "id": "btn_txt_color",
+        "label": "Button Text Color",
+        "default": "#ffffff"
+        },
+		{
+        "type": "color",
+        "id": "btn_bg_color",
+        "label": "Button Background Color",
+        "default": "#000000"
+        },
+		{
+        "type": "color",
+        "id": "btn_hovertxt_color",
+        "label": "Button Hover Text Color",
+        "default": "#000000"
+        },
+		{
+        "type": "color",
+        "id": "btn_hoverbg_color",
+        "label": "Button Hover Background Color",
+        "default": "#fdd413"
+        },
+        {
+        "type": "header",
+        "content": "Footer Logo settings"
+        },
+		{
+        "type": "checkbox",
+        "id": "show_logo",
+        "label": "Show Footer logo content",
+        "default": true
+       },
+		{
+          "type": "image_picker",
+          "id": "footer_logo",
+          "label": "Footer logo"
+      	},
+	    {
+        "type": "text",
+        "id": "footer_desc",
+        "label": "Footer description",
+        "default": "Majority have suffered alteration  in aome from, by injected."
+       },
+        {
+        "type": "header",
+        "content": "Information settings"
+        },
+		{
+        "type": "text",
+        "id": "footer_contact_title",
+        "label": "Contact Title",
+        "default": "store information"
+        },		
+        {
+          "type": "richtext",
+          "id": "contact_address",
+          "label": "Address",
+          "default": "<p>123 Sky Tower, West 21th Street, uite 721, NY</p>"
+        },		
+        {
+          "type": "text",
+          "id": "contact_no",
+          "label": "Contact Number",
+          "default": "0123-456-789"
+        },		
+        {
+          "type": "text",
+          "id": "contact_email",
+          "label": "Email Address",
+          "default": "sales@yourcompany.com"
+        },
+        {
+        "type": "header",
+        "content": "Footer Payment settings"
+        },
+		{
+        "type": "checkbox",
+        "id": "show_payment_icons",
+        "label": "Show payment icons",
+        "default": false
+       },
+        {
+        "type": "header",
+        "content": "Footer Links settings"
+        },
+		{
+        "type": "checkbox",
+        "id": "show_link_list",
+        "label": "Show Link List",
+        "default": false
+       },
+ 	  {
+        "type": "text",
+        "id": "footer_col_title_1",
+        "label": "Heading",
+        "default": "Footer Title 1"
+      },	
+      {
+        "type": "link_list",
+        "id": "col_1_menu",
+        "label": "Footer Column 1"
+      }
+    ]
+  }
 {% endschema %}

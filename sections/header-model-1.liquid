@@ -3,6 +3,7 @@
   max-width: {{ section.settings.logo_width }}px;
   }
 </style>
+
 {% capture navSize %}250px{% endcapture %}
 {% capture navHeaderSize %}{{ section.settings.menu_mobile }}px{% endcapture %}
 {% capture logoMaxHeight %}{{ section.settings.menu_mobile | minus: 30 }}px{% endcapture %}
@@ -27,13 +28,13 @@
       </div>
       {% endif %}  
       {% if section.settings.display_language %} 
-      <div class="header_language">
-        <ul class="tbl-list">
-          <li class="language dropdown-parent uppercase language-block"> 
-            {% render 'language-switcher' %}
-          </li>
-        </ul>
-      </div>
+        <div class="header_language hola">
+          <ul class="tbl-list">
+            <li class="language dropdown-parent uppercase language-block"> 
+              {% render 'language-switcher' %}
+            </li>
+          </ul>
+        </div>
       {% endif %}         
       <div class="header-logo">
         <div class="nav-wrap">
@@ -156,17 +157,18 @@
                     </div>
                     <div class="actions">
                       {% if settings.trumsandcondition_id != blank %}
-                        <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
+                       <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
           <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
           <label style="display:inline; float:none" for="agree">
             {{ 'cart.label.agree' | t }} <a href="/pages/terms-condition">{{ 'cart.label.agree_page' | t }}</a>.
           </label>
+                          
         </p>
-         {% endif %}
-                      <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
-      <button class="btn text-cart" onclick="window.location='{{ routes.cart_url }}'">
-        {{ 'cart.general.view_cart' | t }}
-      </button>
+                      {% endif %}
+          <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
+          <button class="btn text-cart"  onclick="window.location='{{ routes.cart_url }}'">
+          {{ 'cart.general.view_cart' | t }}
+          </button>
                     </div>
                   </div>
                 </div>
@@ -255,6 +257,7 @@
                   {% endif %}   
 
                   {% if block.settings.tt_mn_show_sub == true %}
+                  
                   {% if block.settings.tt_sub_menu_clinklist != blank or block.settings.tt_sub_menu_csecondlinklist != blank %}
                   <div class="tt_sub_menu" {% if block.settings.tt_sub_menu_cwidth != blank %}style="width:{{ block.settings.tt_sub_menu_cwidth }}"{% endif %}>
 
@@ -535,7 +538,7 @@
                     {% if block.settings.tt_sub_menu_fourth_link != blank %}
                     <a href="{{ block.settings.tt_sub_menu_fourth_link }}" class="{% if block.settings.tt_sub_menu_fourth_img != blank %}menu-banner{% endif %}">
                       {% endif %}
-                      <img  Loading="Lazy" {% if block.settings.tt_sub_menu_fourth_width != blank %}width="{{ block.settings.tt_sub_menu_fourth_width }}"{% endif %} src="{{ block.settings.tt_sub_menu_fourth_img | img_url: "master"}}" alt="img"/>
+                      <img Loading="Lazy" {% if block.settings.tt_sub_menu_fourth_width != blank %}width="{{ block.settings.tt_sub_menu_fourth_width }}"{% endif %} src="{{ block.settings.tt_sub_menu_fourth_img | img_url: "master"}}" alt="img"/>
                       {% if block.settings.tt_sub_menu_fourth_link != blank %}
                     </a>
                     {% endif %}
@@ -622,7 +625,7 @@
                     {% if block.settings.tt_sub_menu_seventh_link != blank %}
                     <a href="{{ block.settings.tt_sub_menu_seventh_link }}" class="{% if block.settings.tt_sub_menu_seventh_img != blank %}menu-banner{% endif %}">
                       {% endif %}
-                      <img  Loading="Lazy" {% if block.settings.tt_sub_menu_seventh_width != blank %}width="{{ block.settings.tt_sub_menu_seventh_width }}"{% endif %} src="{{ block.settings.tt_sub_menu_seventh_img | img_url: "master"}}" alt="img"/>
+                      <img Loading="Lazy" {% if block.settings.tt_sub_menu_seventh_width != blank %}width="{{ block.settings.tt_sub_menu_seventh_width }}"{% endif %} src="{{ block.settings.tt_sub_menu_seventh_img | img_url: "master"}}" alt="img"/>
                       {% if block.settings.tt_sub_menu_seventh_link != blank %}
                     </a>
                     {% endif %}
@@ -744,7 +747,7 @@
                                     <img Loading="Lazy" width="285" height="371" class="image_thumb_swap" src="{{ product.images.last | product_img_url: settings.product_image_width_height }}" alt="{{ product.images.last.alt | escape }}" />
                                   </div>
                                   {% endif %} 
-                                  {% endif %}
+                                  {% endif %} 
                                   {% endif %}
                                   <img Loading="Lazy" width="285" height="371" class="grid-view-item__image featured-image image_thumb" src="{{ product.featured_image.src | img_url: settings.product_image_width_height }}" alt="{{ product.featured_image.alt }}">
                                   {% if product.compare_at_price > product.price %}
@@ -1003,6 +1006,26 @@
 "content": "Menu settings"
 },
 {
+"type": "select",
+"id": "menu_position",
+"label": "Header Menu Position",
+"default": "menu_center",
+"options": [
+{
+"value": "menu_left",
+"label": "Menu Left"
+},
+{
+"value": "menu_right",
+"label": "Menu Right"
+},
+{
+"value": "menu_center",
+"label": "Menu Center"
+}
+]
+},
+{
 "type": "color",
 "id": "men_color",
 "label": "Menu Color",
@@ -1019,6 +1042,13 @@
 "id": "men_bg_hover_color",
 "label": "Menu Background Hover Color",
 "default": "#000"
+},
+{
+"type": "text",
+"id": "more_menu_category",
+"label": "Select More Menu Category",
+"default": "10",
+"info": "Must be add numeric-value Ex: 4, 5,..."
 }
 ],
 "blocks": [
@@ -1694,7 +1724,7 @@
 <script>
 
   function moremenu() {     
-    var max_elem = 5;
+    var max_elem = 10;
     var more_info = "{{ 'general.header.more' | t }}";
     var items = jQuery('.header_style_1 .tt_menus_ul > li');
     var surplus = items.slice(max_elem, items.length);
@@ -1713,7 +1743,7 @@
   });
 
 </script>
-{% if settings.trumsandcondition_id != blank %}
+ {% if settings.trumsandcondition_id != blank %}
 <script>
   $(document).ready(function() {
     var url = "/checkout";
@@ -1727,5 +1757,5 @@
       }
     });
   });
-  {% endif %}
 </script>
+   {% endif %}

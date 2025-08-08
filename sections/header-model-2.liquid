@@ -3,6 +3,7 @@
   max-width: {{ section.settings.logo_width }}px;
   }
 </style>
+
 {% capture navSize %}250px{% endcapture %}
 {% capture navHeaderSize %}{{ section.settings.menu_mobile }}px{% endcapture %}
 {% capture logoMaxHeight %}{{ section.settings.menu_mobile | minus: 30 }}px{% endcapture %}
@@ -567,14 +568,14 @@
                                     <a class="grid-view-item__link" href="{{ product.url | within: collection }}">
                                       {% if product.images.size > 1 %}
                                       {% if product.images.last %} 
-                                      {% if settings.product_hover_image %} 
+                                        {% if settings.product_hover_image %} 
                                       <div class="second-productimg">
                                         <img Loading="Lazy" width="285" height="371" class="image_thumb_swap" src="{{ product.images.last | product_img_url: settings.product_image_width_height }}" alt="{{ product.images.last.alt | escape }}" />
                                       </div>
                                       {% endif %} 
+                                      {% endif %} 
                                       {% endif %}
-                                      {% endif %}
-                                      <img width="285" height="371" class="grid-view-item__image featured-image image_thumb" src="{{ product.featured_image.src | img_url: settings.product_image_width_height }}" alt="{{ product.featured_image.alt }}">
+                                      <img Loading="Lazy" width="285" height="371" class="grid-view-item__image featured-image image_thumb" src="{{ product.featured_image.src | img_url: settings.product_image_width_height }}" alt="{{ product.featured_image.alt }}">
                                       {% if product.compare_at_price > product.price %}
                                       <span class="product-price__sale-label">{{ 'products.product.on_sale' | t }}</span>
 
@@ -728,6 +729,7 @@
                   <a class="compare compare-icon" href="/pages/compare" title="{{ 'products.compare.compare_name' | t }}">{{ 'products.compare.compare_name' | t }}(<span class="compare-count"></span>)</a>
                 </div>
                 {% endif %}
+                
                 {% if section.settings.display_currency %} 
                 <div class="header_currency">
                   <span class="currency-selector-label">CURRENCY:</span>
@@ -737,8 +739,8 @@
                     </li>
                   </ul>
                 </div>
-                {% endif %}             
-                {% if section.settings.display_language %} 
+                {% endif %}      
+           {% if section.settings.display_language %} 
                 <div class="header_language">
                   <span class="language-selector-label">LANGUAGE:</span>
                   <ul class="tbl-list">
@@ -795,14 +797,14 @@
                       </div>
                       <div class="actions">
                         {% if settings.trumsandcondition_id != blank %}
-                          <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
+                         <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
           <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
           <label style="display:inline; float:none" for="agree">
             {{ 'cart.label.agree' | t }} <a href="/pages/terms-condition">{{ 'cart.label.agree_page' | t }}</a>.
           </label>
         </p>
-        {% endif %}
-                         <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
+                        {% endif %}
+                        <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
       <button class="btn text-cart" onclick="window.location='{{ routes.cart_url }}'">
         {{ 'cart.general.view_cart' | t }}
       </button>
@@ -888,6 +890,22 @@
     background:{{ section.settings.color_menu_bg }};
   }
 </style>
+ {% if settings.trumsandcondition_id != blank %}
+<script>
+  $(document).ready(function() {
+    var url = "/checkout";
+    $('.actions .checkout-btn').click(function() {
+      if ($('#agree').is(':checked')) {
+        window.location = url;
+      }
+      else {
+        alert("{{ 'cart.popup.empty_condition' | t }}");
+        return false;
+      }
+    });
+  });
+</script>
+   {% endif %}
 {% schema %}
 {
 "name": "Header",
@@ -1751,19 +1769,3 @@
     jQuery(".header_style_2 #tt-megamenu").css("display", "block");
   });
 </script>
-  {% if settings.trumsandcondition_id != blank %}
-<script>
-  $(document).ready(function() {
-    var url = "/checkout";
-    $('.actions .checkout-btn').click(function() {
-      if ($('#agree').is(':checked')) {
-        window.location = url;
-      }
-      else {
-        alert("{{ 'cart.popup.empty_condition' | t }}");
-        return false;
-      }
-    });
-  });
-</script>
-{% endif %}

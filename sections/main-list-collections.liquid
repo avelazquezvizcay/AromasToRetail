@@ -3,8 +3,7 @@
   <div class="collection_wrapper">
     <div class="collection_template">
       <div class="grid">
-     
-        <div class="grid-uniform list-collection-products ">  
+        <div class="grid-uniform list-collection-products {{ settings.Collection_type }}">  
           {% if settings.use_custom_list_collection %}
           {% assign collection = link.object %}      
           {% else %}
@@ -46,8 +45,7 @@
           {% endunless %}
           {% endfor %}  
           {% endif %}  
-        </div>
-
+        </div>      
         <div class="list-collection-products">  
           {%- for collection in collections -%}
           {% unless collection.handle == 'frontpage' %}
@@ -71,13 +69,13 @@
             </div>
             {% endfor %}
           </div>
-
           <p class="text-center veiw_all_collections text-capitalize"><a href="{{ collection.url }}" title="{{ 'collections.general.link_title' | t: title: collection_title }}">{{ 'collections.sorting.all_of_collection' | t: collection: collection.title }} <span class="icon icon-chevron-right" aria-hidden="true"></span></a></p>
 
           {% unless forloop.last %}<hr>{% endunless %}
           {% endunless %}
           {% endfor %}
         </div>
+    
       </div>
     </div>
   </div>

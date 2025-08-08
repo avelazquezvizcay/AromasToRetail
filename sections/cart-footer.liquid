@@ -41,18 +41,18 @@
           </button>
         </noscript>
         {% if settings.trumsandcondition_id != blank %}
-                       <p style="float: none; clear: both; margin: 10px 0 15px 0;" class="cart_condition">
-  <input style="float:none; vertical-align: middle;" type="checkbox" id="agree1" />
-  <label style="display:inline; float:none" for="agree1">
-    {{ 'cart.label.agree' | t }} <a target="_" href="/pages/terms-condition">{{ 'cart.label.agree_page' | t }}</a>.
-  </label>
-</p>
-{% endif %}  
-        <button type="submit" id="checkout" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} class="cart__checkout-button button btn" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart" >
+      <p style="float: none; clear: both; margin: 10px 0 15px 0;" class="cart_condition">
+      <input style="float:none; vertical-align: middle;" type="checkbox" id="agree1" />
+      <label style="display:inline; float:none" for="agree1">
+      {{ 'cart.label.agree' | t }} <a target="_" href="/pages/terms-condition">{{ 'cart.label.agree_page' | t }}</a>.
+      </label> 
+      </p>
+        {% endif %}
+        <button type="submit" id="checkout" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} class="cart__checkout-button button btn" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
           {{ 'cart.general.checkout' | t }}
         </button>
       </div>
-
+        
       {%- if additional_checkout_buttons -%}
       <div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
         {{ content_for_additional_checkout_buttons }}
@@ -65,7 +65,25 @@
     </div>
   </div>
 </div>
+{% if settings.trumsandcondition_id != blank %}
 <script>
+  $(document).ready(function() {
+    $('.cart__blocks .cart__checkout-button').click(function() {
+      if ($('#agree1').is(':checked')) {
+        window.location='/checkout';
+        $(this).submit();
+      }
+      else {
+        alert("{{ 'cart.popup.empty_condition' | t }}");
+        return false;
+      }
+    });
+  });
+</script>
+  {% endif %}
+<script>
+  
+
   document.addEventListener('DOMContentLoaded', function() {
     function isIE() {
       const ua = window.navigator.userAgent;
@@ -85,22 +103,7 @@
     });
   });
 </script>
-{% if settings.trumsandcondition_id != blank %}
-<script>
-       $(document).ready(function() {
-    $('.cart__blocks .cart__checkout-button').click(function() {
-      if ($('#agree1').is(':checked')) {
-        window.location='/checkout';
-        $(this).submit();
-      }
-      else {
-        alert("{{ 'cart.popup.empty_condition' | t }}");
-        return false;
-      }
-    });
-  });
-</script>
-  {% endif %}
+
 {% schema %}
 {
 "name": "cart-footer",

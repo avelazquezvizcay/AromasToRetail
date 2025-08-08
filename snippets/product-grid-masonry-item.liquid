@@ -15,9 +15,9 @@
         <div class="product-image {{ settings.product_img_hover }}">
           <a class="grid-view-item__link" href="{{ product.url | within: collection }}">
             <img class="grid-view-item__image featured-image image_thumb" height="371" width="285" src="{{ product.featured_media | img_url: settings.product_image_width_height }}" alt="{{ product.featured_image.alt }}">
+           {% if settings.product_hover_image %} 
             {% if product.images.size > 1 %}
             {% if product.images.last %} 
-            {% if settings.product_hover_image %}
             <div class="second-productimg">
               <img class="image_thumb_swap" height="371" width="285" src="{{ product.images.last | product_img_url: settings.product_image_width_height }}" alt="{{ product.images.last.alt | escape }}" />
             </div>
@@ -25,7 +25,7 @@
             {% endif %}
             {% endif %}
           </a>
-          {% if settings.product_hover_image %}
+          {% if settings.product_hover_image %} 
           {% if product.images.size > 1 %}
           {% if product.images.last %}
           <div class="loader">
@@ -44,7 +44,7 @@
           {% if c_f.custom_label != nil %}
           <span class="custom_label">{{ c_f.custom_label }}</span>
           {% endif %}
-          
+
         </div>
         {% if product.available %} 
         {% else %}
@@ -53,12 +53,12 @@
         </div>
         {% endif %}
 
-        
+
 
         {% if settings.product_hover_btn =="style2" %}
         {% if settings.enable_quick_view %}   
         <div class="quickview">    
-          {% render 'quickveiw-icon' %}  
+          {% render 'quickveiw-icon', product:product %}  
         </div>       
         {% endif %} 
         {% endif %}
@@ -88,12 +88,12 @@
               {% unless sizelist contains size %}  
               {% assign text = size | handleize %}
               <li>
-                    <label>{{ size | split: ' ' | last | handle }}</label>
-                  {% if variant.image != null %}
-                  <span class="hidden">
-                    <img width="373" height="486" src="{{ variant.image.src | product_img_url: '373x486' }}" alt="{{ text }}"/>
-                  </span>
-                  {% endif %}
+                <label>{{ size | split: ' ' | last | handle }}</label>
+                {% if variant.image != null %}
+                <span class="hidden">
+                  <img width="373" height="486" src="{{ variant.image.src | product_img_url: '373x486' }}" alt="{{ text }}"/>
+                </span>
+                {% endif %}
               </li>
               {% capture tempList %}
               {{ sizelist | append: size | append: ' ' }}
@@ -113,21 +113,21 @@
         </div>
         {% endif %} 
 
-      {% if settings.enable_quantity %}
-      {% if product.available %} 
-      <div class="product-qty">        
-        <form action="/cart/add" method="post" class="variants clearfix cart-form-{{ product.id }}"> 
-          <div class="qty-box-set">  
-            <input type="number" name="quantity" value="1" min="1" data-id="Qty" class="quantity">
-            <div class="qnt_wrap">
-              <div class="inc button qtyplus"><i class="mdi mdi-plus"></i></div>
-              <div class="dec button qtyminus"><i class="mdi mdi-minus"></i></div>
+        {% if settings.enable_quantity %}
+        {% if product.available %} 
+        <div class="product-qty">        
+          <form action="/cart/add" method="post" class="variants clearfix cart-form-{{ product.id }}"> 
+            <div class="qty-box-set">  
+              <input type="number" name="quantity" value="1" min="1" data-id="Qty" class="quantity">
+              <div class="qnt_wrap">
+                <div class="inc button qtyplus"><i class="mdi mdi-plus"></i></div>
+                <div class="dec button qtyminus"><i class="mdi mdi-minus"></i></div>
+              </div>
             </div>
-          </div>
-        </form>
-      </div>
-      {% endif %}
-      {% endif %} 
+          </form>
+        </div>
+        {% endif %}
+        {% endif %} 
         {% if settings.product_hover_btn =="style1" %} 
         <div class="btn-content">
           <div class="btn_cart">
@@ -314,9 +314,7 @@
         <a class="grid-view-item__link grid-link__title" href="{{ product.url | within: collection }}">{{ product.title }}</a>
       </div>
       {% if settings.collections_show_rating %}    
-      <div class="spr-badges grid-item-meta">
-        <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-      </div>
+      <!-- Start of Judge.me code --> <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'> {{ product.metafields.judgeme.badge }} </div> <!-- End of Judge.me code -->
       {% endif %}
 
       <div class="product-desc rte">

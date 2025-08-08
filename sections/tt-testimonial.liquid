@@ -1,20 +1,13 @@
-<div data-section-id="{{ section.id }}"  data-section-type="testimonial-wrap" class="{% if section.settings.parallax_enable %} parallex {% endif %} tt-testimonial-wrap {% if settings.enable_animation != blank %} bottom-to-top hb-animate-element{% endif %}"  {% if section.settings.parallax_enable %}data-source-url="{{ section.settings.bg_img | img_url: 'master' }}"{% endif %} style="background-color:{{ section.settings.bg_color }}{% if section.settings.use_bg %}background-image: url('{{ section.settings.bg_img | img_url: "master" }}');{% endif %}; {% if section.settings.parallax_enable %} background-position: 50% 65.8718%;{% endif %}">
+<div data-section-id="{{ section.id }}"  data-section-type="testimonial-wrap" class="{% if section.settings.parallax_enable %} parallex {% endif %} tt-testimonial-wrap {% if settings.enable_animation != blank %} bottom-to-top hb-animate-element" {% endif %} {% if section.settings.parallax_enable %}data-source-url="{{ section.settings.bg_img | img_url: 'master' }}"{% endif %} style="background-color:{{ section.settings.bg_color }}{% if section.settings.use_bg %}background-image: url('{{ section.settings.bg_img | img_url: "master" }}');{% endif %}; {% if section.settings.parallax_enable %} background-position: 50% 65.8718%;{% endif %}">
   <div class="container">
-    <div id="beforeafter" class="twentytwenty-container">
-      <img Loading="Lazy" width="1030" height="600" src="{{  section.settings.image_befor | img_url: "1030x600" }}" alt="Before-image" />
-      <div class="tt-before-images-label">BEFORE</div>
-      <img Loading="Lazy" width="1030" height="600" src="{{  section.settings.image_after | img_url: "1030x600" }}" alt="after-image" />
-      <div class="tt-after-images-label">AFTER</div>
-    </div>
-    
     <div class="grid__item testimonials_wrap owl-carousel">
       {% if section.blocks.size > 0 %}  
       {% for block in section.blocks %}  
       <div class="testimonial-block test-{{block.id}}">
-        <div class="testimonial-img testi-img-{{ block.id }} col-sm-4">
+        <div class="testimonial-img testi-img-{{ block.id }} col-sm-3">
           <div class="authorimg testimonial-image">
             {% if  block.settings.image_1 != blank %}
-            <img Loading="Lazy" height="90" width="90" src="{{  block.settings.image_1 | img_url: "90x90" }}" alt="{{  block.settings.image_1_heading }}" />
+            <img Loading="Lazy"  height="80" width="80" src="{{  block.settings.image_1 | img_url: "80x80" }}" alt="{{  block.settings.image_1_heading }}" />
             {% endif %} 
           </div>
           <div class="grid__item"> 
@@ -26,7 +19,7 @@
             {% endif %}
           </div>
         </div>
-        <div class="testimonial-detail col-sm-8">
+        <div class="testimonial-detail col-sm-9">
           {% if block.settings.text_desc != blank %}
           <div class="testimonial-desc" style="color:{{block.settings.des_color }}">{{ block.settings.text_desc }}</div>
           {% endif %} 
@@ -38,11 +31,11 @@
     </div>
   </div>
 </div>
-{{ 'twentytwenty.css' | asset_url | stylesheet_tag }} 
-{{ 'jquery.twentytwenty.js' | asset_url | script_tag }}   
+
 {% schema %}
 {
   "name": "Testimonials",
+   "max_blocks":6,
    "class":"index-section testimonials",
   "settings": [
           {
@@ -65,17 +58,7 @@
               "type": "checkbox",
               "id": "parallax_enable",
               "label": "Show Parallax scroll"
-            },
-          {
-            "type": "image_picker",
-            "id": "image_befor",
-            "label": "Background Before image"
-          },
-          {
-            "type": "image_picker",
-            "id": "image_after",
-            "label": "Background After image"
-          }
+            }         
           ],
           "blocks": [
           {

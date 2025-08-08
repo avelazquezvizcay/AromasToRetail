@@ -19,26 +19,30 @@
           <div class="teammember-content">
             <div class="ourteam-image-wrap">
               <div class="ourteam-image">
-                <img Loading="Lazy" src="{{  block.settings.image_1 | img_url: "master" }}" alt="{{  block.settings.image_heading }}" />
+                <img Loading="Lazy"  src="{{  block.settings.image_1 | img_url: "master" }}" alt="{{  block.settings.image_heading }}" />
               </div>
                   <ul class="teammember-social-profile"> 
                     <li class="facebook">
-                      <a href="{% if block.settings.facebook != blank %} {{ block.settings.facebook }} {% else %}#{% endif %}"> 
+                      <a href="{% if block.settings.facebook  %} {{ block.settings.facebook }} {% else %}#{% endif %}"> 
                         <i class="mdi mdi-facebook"></i> 
                       </a> 
                     </li>
                     <li class="twitter">
-                      <a href="{% if block.settings.twitter != blank %} {{ block.settings.twitter }} {% else %}#{% endif %}">
-                        <i class="mdi mdi-twitter"></i> 
+                      <a href="{% if block.settings.twitter %} {{ block.settings.twitter }} {% else %}#{% endif %}">
+                        <i class="mdi mdi-twitter">
+                           <svg class="icon icon-twitter" viewBox="0 0 20 20" style="width: 15px;height: auto;margin-top: 7px;align-items: center;justify-content: center;display: inline-block;">
+    <path fill="currentColor" fill-rule="evenodd" d="M7.273 2.8 10.8 7.822 15.218 2.8h1.768l-5.4 6.139 5.799 8.254h-4.658l-3.73-5.31-4.671 5.31H2.558l5.654-6.427L2.615 2.8zm6.242 13.125L5.07 4.109h1.405l8.446 11.816z" clip-rule="evenodd"></path>
+</svg>
+                        </i> 
                       </a> 
                     </li>
                     <li class="googleplus"> 
-                      <a href="{% if block.settings.google-plus != blank %} {{ block.settings.google-plus }} {% else %}#{% endif %}"> 
+                      <a href="{% if block.settings.google-plus %} {{ block.settings.google-plus }} {% else %}#{% endif %}"> 
                         <i class="mdi mdi-google-plus"></i> 
                       </a> 
                     </li>
                     <li class="instagram"> 
-                      <a href="{% if block.settings.instagram != blank %} {{ block.settings.instagram }} {% else %}#{% endif %}"> 
+                      <a href="{% if block.settings.instagram  %} {{ block.settings.instagram }} {% else %}#{% endif %}"> 
                         <i class="mdi mdi-instagram"></i> 
                       </a> 
                     </li>
@@ -184,7 +188,7 @@
 }
 {% endschema %}
 <script>$(document).ready(function(){var col_n=$('.ourteam_slider').data('column');
-$('body:not(.rtl) .ourteam_wrap .ourteam_slider').owlCarousel({items:{{section.settings.ourteam_column}},nav:!1,dots:!0,loop:!1,responsive:{100:{items:1},543:{items:2},768:{items:3},992:{items:3},1200:{items:{{section.settings.ourteam_column}}}}});$('body.rtl .ourteam_wrap .ourteam_slider').owlCarousel({items:{{section.settings.ourteam_column}},nav:!1,rtl:!0,loop:!1,dots:!0,responsive:{100:{items:1},543:{items:2},768:{items:3},992:{items:3},1200:{items:{{section.settings.ourteam_column}}}}});jQuery(".our_team .customNavigation .next").click(function(){jQuery('.our_team .ourteam_slider').trigger('next.owl')});jQuery(".our_team .customNavigation .prev").click(function(){jQuery('.our_team .ourteam_slider').trigger('prev.owl')})
+$('body:not(.rtl) .ourteam_wrap .ourteam_slider').owlCarousel({items:{{section.settings.ourteam_column}},nav:!1,dots:!0,loop:!1,responsive:{100:{items:1},319:{items:2},768:{items:3},992:{items:3},1200:{items:{{section.settings.ourteam_column}}}}});$('body.rtl .ourteam_wrap .ourteam_slider').owlCarousel({items:{{section.settings.ourteam_column}},nav:!1,rtl:!0,loop:!1,dots:!0,responsive:{100:{items:1},319:{items:2},768:{items:3},992:{items:3},1200:{items:{{section.settings.ourteam_column}}}}});jQuery(".our_team .customNavigation .next").click(function(){jQuery('.our_team .ourteam_slider').trigger('next.owl')});jQuery(".our_team .customNavigation .prev").click(function(){jQuery('.our_team .ourteam_slider').trigger('prev.owl')})
 if($(".ourteam_slider .owl-nav").hasClass('disabled')){jQuery(".our_team .customNavigation").hide()}else{jQuery(".our_team .customNavigation").show()}});
 
 </script>

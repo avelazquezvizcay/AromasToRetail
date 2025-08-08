@@ -7,34 +7,35 @@
         </thead>
         <tbody class="compare-box">
           <tr class="remove1">
-            <th class="product-remove">Remove</th>
+            <th class="product-remove">{{ 'products.compare.remove' | t }}</th>
           </tr>
           <tr class="product-img">
-            <th class="product-thumbnail"><span class="nobr">Product image</span></th>
+            <th class="product-thumbnail"><span class="nobr">{{ 'products.compare.product_image' | t }}</span></th>
           </tr>
           <tr class="productname">
-            <th class="product-name"><span class="nobr">Product Name</span></th>
+            <th class="product-name"><span class="nobr">{{ 'products.compare.product_name' | t }}</span></th>
           </tr>
           <tr class="productdesc">
-            <th class="product-desc1"><span class="nobr">Product desc</span></th>
+            <th class="product-desc1"><span class="nobr">{{ 'products.compare.product_desc' | t }}</span></th>
           </tr>
           <tr class="producttype">
-            <th class="product-type"> <span class="nobr">Type</span> </th>
+            <th class="product-type"> <span class="nobr">{{ 'products.compare.product_type' | t }}</span> </th>
           </tr>
           <tr class="productvender">
-            <th class="product-vender"> <span class="nobr">Vender</span> </th>
+            <th class="product-vender"> <span class="nobr">{{ 'products.compare.product_vender' | t }}</span> </th>
           </tr>
           <tr class="productprice">
-            <th class="product-price"> <span class="nobr">Unit Price</span></th>
+            <th class="product-price"> <span class="nobr">{{ 'products.compare.unit_price' | t }}</span></th>
           </tr>
           <tr class="product-stock">
-            <th class="product-stock-stauts"> <span class="nobr">Stock status</span> </th>
+            <th class="product-stock-stauts"> <span class="nobr">{{ 'products.compare.stock_status' | t }}</span> </th>
           </tr>
         </tbody>
       </table>
     </div>
   </div> 
 </div>
+
 <style>
   .compare_table{
     display:none;
@@ -43,24 +44,23 @@
   .compare_table .compare-box th{
     width:180px;
     font-weight: 500;
-    color: #666;
+    color: #aaa;
     font-size: 13px;
   }
   .compare_table .compare-box td{
     text-align:center;
     font-size: 13px;
-    color:#666;
+    color:#ddd;
   }
   .compare_table .compare-box .compare-item-link img{
     margin:auto;
-    border:2px solid #e5e5e5;
   }
   .compare .page-content-wrapper h3 {
     font-weight: 600;
     font-size:20px;
   }
   .compare_table .compare-box td span.compare-out-of-stock {
-    color: #ff0000;
+    color: red;
   }
   .compare_table .compare-box td span.compare-in-stock {
     color: #1cc373;
@@ -96,7 +96,9 @@
       $cloneitemvender.find(".compare-in-vender").text(product.vendor);
       var $cloneitemprice=$(".table-compare-1__product-price");
       $cloneitemprice.html(Shopify.formatMoney(product.price, window.money_format));
-      Currency.convertAll(window.shop_currency, Currency.cookie.read(), 'span.money', 'money_format');
+     // Currency.convertAll(window.shop_currency, Currency.cookie.read(), 'span.money', 'money_format');
+          var moneyFormat = window.money_format || "{{ shop.money_format }}";
+          $cloneitemprice.html(Shopify.formatMoney(product.price, moneyFormat)); 
       var $cloneitemclear=$(".compare-item-clear").clone();
       var $cloneitemstock=$(".compare-stock").clone();
       if(product.available){

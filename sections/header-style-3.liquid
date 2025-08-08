@@ -3,6 +3,7 @@
   max-width: {{ section.settings.logo_width }}px;
   }
 </style>
+
 {% capture navSize %}250px{% endcapture %}
 {% capture navHeaderSize %}{{ section.settings.menu_mobile }}px{% endcapture %}
 {% capture logoMaxHeight %}{{ section.settings.menu_mobile | minus: 30 }}px{% endcapture %}
@@ -687,7 +688,11 @@
                 {% if settings.social_twitter_link != blank %}
                 <li>
                   <a class="icon-fallback-text" href="{{ settings.social_twitter_link }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Twitter' }}">
-                    <span class="mdi mdi-twitter" aria-hidden="true"></span>
+                   <span class="mdi mdi-twitter" aria-hidden="true">
+  <svg class="icon icon-twitter" viewBox="0 0 20 20" style="width: 18px;height: auto;align-items: center;justify-content: center;display: inline-block;">
+    <path fill="currentColor" fill-rule="evenodd" d="M7.273 2.8 10.8 7.822 15.218 2.8h1.768l-5.4 6.139 5.799 8.254h-4.658l-3.73-5.31-4.671 5.31H2.558l5.654-6.427L2.615 2.8zm6.242 13.125L5.07 4.109h1.405l8.446 11.816z" clip-rule="evenodd"></path>
+</svg>
+   </span>
                     <span class="fallback-text">Twitter</span>
                   </a>
                 </li>
@@ -870,17 +875,17 @@
                     </div>
                     <div class="actions">
                       {% if settings.trumsandcondition_id != blank %}
-                        <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
+                       <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
           <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
           <label style="display:inline; float:none" for="agree">
             {{ 'cart.label.agree' | t }} <a href="/pages/terms-condition">{{ 'cart.label.agree_page' | t }}</a>.
           </label>
         </p>
-        {% endif %}
-                      <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
-      <button class="btn text-cart" onclick="window.location='{{ routes.cart_url }}'">
-        {{ 'cart.general.view_cart' | t }}
-      </button>
+              {% endif %}        
+              <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
+              <button class="btn text-cart" onclick="window.location='{{ routes.cart_url }}'">
+              {{ 'cart.general.view_cart' | t }}
+              </button>
                     </div>
                   </div>
                 </div>
@@ -913,6 +918,10 @@
   .header_3 .wrapper-top-cart>.site-header_cart_link::before,
   .nav-menu-wrap .menu_toggle_wrap > button {
     color:{{ section.settings.header_icons_color }};
+  }
+  .header_style_3 .fullscreen_header_toggle .leftmenu>button::after,
+  .nav-menu-wrap .menu_toggle_wrap > button{
+    color:{{ section.settings.men_color }};
   }
   .site-header__search:hover .serach_icon > i,
   .site-header__search .serach_icon.active>i,
@@ -970,6 +979,22 @@
     }
   }
 </style>
+          {% if settings.trumsandcondition_id != blank %}
+          <script>
+  $(document).ready(function() {
+    var url = "/checkout";
+    $('.actions .checkout-btn').click(function() {
+      if ($('#agree').is(':checked')) {
+        window.location = url;
+      }
+      else {
+        alert("{{ 'cart.popup.empty_condition' | t }}");
+        return false;
+      }
+    });
+  });
+</script>
+            {% endif %}
 {% schema %}
 {
 "name": "Header",
@@ -1005,7 +1030,7 @@
 "label": "Custom logo",
 "info": "190px x 70px max"
 },
- {
+  {
 "type": "range",
 "id": "logo_width",
 "min": 50,
@@ -1788,20 +1813,4 @@
     moremenu3();
     jQuery("body.left-menu.header_style_3 #tt-megamenu").css("display", "block");
   });
-</script>
- {% if settings.trumsandcondition_id != blank %}
-<script>
-  $(document).ready(function() {
-    var url = "/checkout";
-    $('.actions .checkout-btn').click(function() {
-      if ($('#agree').is(':checked')) {
-        window.location = url;
-      }
-      else {
-        alert("{{ 'cart.popup.empty_condition' | t }}");
-        return false;
-      }
-    });
-  });
-  {% endif %}
 </script>

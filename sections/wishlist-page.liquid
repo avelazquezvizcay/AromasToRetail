@@ -53,7 +53,9 @@
         $cloneitemname.find(".wishlist-item-link").text(product.title);
         var $cloneitemprice = $(".table-wishlist-1__product-price");
           $cloneitemprice.html(Shopify.formatMoney(product.price, window.money_format));
-          Currency.convertAll(window.shop_currency, Currency.cookie.read(), 'span.money', 'money_format');
+         // Currency.convertAll(window.shop_currency, Currency.cookie.read(), 'span.money', 'money_format');
+          var moneyFormat = window.money_format || "{{ shop.money_format }}";
+          $cloneitemprice.html(Shopify.formatMoney(product.price, moneyFormat)); 
         var $cloneitemclear = $(".wishlist-item-clear").clone();
         var $cloneitemcontinue = $(".wishlist-item-continue").clone();
         $cloneitemcontinue.find(".wishlist-item-link").attr("href", product.url);

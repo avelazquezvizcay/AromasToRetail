@@ -15,43 +15,41 @@
         "1580215063672-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/slider-01_49d49938-8d5b-48fd-89b8-e56dcc4e5f30.jpg",
-            "image_link": "#",
+            "image_url": "",
             "show_video": false,
             "video_url": "https://www.youtube.com/watch?v=nlyPlIHXgOE",
-            "title": "SPECIAL GLOW FACE MAKE",
-            "sub_title": "Natural Tone",
-            "btn_txt": "Take Appointment",
+            "title": "MAKEUP COMPACT 5/SKINONES",
+            "sub_title": "Beauty",
+            "btn_txt": "Shop Now",
             "btn_link": "#",
-            "title_color": "#111111",
-            "subtitle_color": "#ee2d7a",
+            "title_color": "#ffffff",
+            "subtitle_color": "#e9ad3f",
             "btn_bg_color": "#111111",
             "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#ee2d7a",
-            "btn_hovertxt_color": "#ffffff",
-            "text_position": "center",
+            "btn_bghover_color": "#e9ad3f",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "left",
             "text_effect": "left"
           }
         },
         "1580215063672-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/slider-02_7f18a2fe-f570-4d02-b7ea-4a73b1cb8f00.jpg",
-            "image_link": "#",
+            "image_url": "",
             "show_video": false,
             "video_url": "",
-            "title": "NATURAL BEAUTY CARE",
-            "sub_title": "Facial Cream",
-            "btn_txt": "Take Appointment",
+            "title": "ALL NEW IN OFRA DARK SHADE",
+            "sub_title": "Shades",
+            "btn_txt": "Shop Now",
             "btn_link": "#",
-            "title_color": "#111111",
-            "subtitle_color": "#ee2d7a",
+            "title_color": "#ffffff",
+            "subtitle_color": "#e9ad3f",
             "btn_bg_color": "#111111",
             "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#ee2d7a",
-            "btn_hovertxt_color": "#ffffff",
-            "text_position": "center",
-            "text_effect": "bottom"
+            "btn_bghover_color": "#e9ad3f",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "right",
+            "text_effect": "right"
           }
         }
       },
@@ -60,11 +58,69 @@
         "1580215063672-1"
       ],
       "settings": {
-        "slider_animation_type": "fade",
-        "slide_button_bg_color": "#ffffff",
-        "slide_button_bg_hover_color": "#ee2d7a",
-        "slide_button_txt_color": "#111111",
-        "slide_button_txt_hover_color": "#ffffff"
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
+      }
+    },
+    "product_tab_model_Kec4nz": {
+      "type": "product-tab-model",
+      "blocks": {
+        "text_block_baMica": {
+          "type": "text_block",
+          "settings": {
+            "title": "New Arrivals",
+            "collection": "for-dates"
+          }
+        },
+        "text_block_hc6kwK": {
+          "type": "text_block",
+          "settings": {
+            "title": "Best Seller",
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_baMica",
+        "text_block_hc6kwK"
+      ],
+      "settings": {
+        "product_rows": false,
+        "product_col": "4",
+        "title_1": ".",
+        "title_1_clr": "#ffffff",
+        "subtitle_1": "",
+        "subtitle_1_clr": "#ffffff",
+        "button_bg": "#391e10",
+        "button_text": "#ffffff",
+        "button_hover_bg": "#734128",
+        "button_hover_text": "#ffffff",
+        "view_all": "",
+        "view_url": ""
+      }
+    },
+    "ttcmsabout_M8C7D9": {
+      "type": "ttcmsabout",
+      "settings": {
+        "bg_color": "#c7a07a",
+        "image": "shopify://shop_images/Special_promo_banner_1.jpg",
+        "image_url": "#",
+        "image_position": "pos-left",
+        "title": "SALE 5X$75",
+        "title_color": "#391e10",
+        "subtitle": "",
+        "subtitle_color": "#391e10",
+        "about_desc": "Lorem ipsum dolor sit amet, consectetur Add any 5 items from this collection and get 5 for $75!\n\nJust add them to your cart — discount applies automatically at checkout. Limited time offer. Don’t miss out!",
+        "desc_color": "#000000",
+        "about_btn": "Promo",
+        "btn_url": "",
+        "btn_txt_color": "#ffffff",
+        "btn_bg_color": "#ffffff",
+        "btn_txt_hvr_color": "#ffffff",
+        "btn_bg_hvr_color": "#391e10"
       }
     },
     "category-feature": {
@@ -73,144 +129,176 @@
         "1594620018893-0": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/category-img-01.png",
-            "image_label": "Sale",
-            "collection_cat_id": "dark-cosmetic"
+            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "subtitle": "Gifts for someone special",
+            "collection_cat_id": "for-special-gifts"
           }
         },
-        "1594620115800": {
+        "text_collection_aqcTAN": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/category-img-02.png",
-            "image_label": "New",
-            "collection_cat_id": "cosmetic"
+            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "subtitle": "Gifts for someone special",
+            "collection_cat_id": "for-special-gifts"
           }
         },
-        "1594620139706": {
+        "text_collection_6EKQhR": {
           "type": "text_collection",
           "settings": {
-            "image_1": "shopify://shop_images/category-img-03.png",
-            "image_label": "5% Off",
-            "collection_cat_id": "nightshade-elegance"
-          }
-        },
-        "1594620174866": {
-          "type": "text_collection",
-          "settings": {
-            "image_1": "shopify://shop_images/category-img-04.png",
-            "image_label": "Sale",
-            "collection_cat_id": "dark-cosmetic2"
+            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "subtitle": "Gifts for someone special",
+            "collection_cat_id": "for-special-gifts"
           }
         }
       },
       "block_order": [
         "1594620018893-0",
-        "1594620115800",
-        "1594620139706",
-        "1594620174866"
+        "text_collection_aqcTAN",
+        "text_collection_6EKQhR"
       ],
       "settings": {
         "product_col_desktop_pro": 3,
-        "product_col_mobile_pro": 1,
-        "title": "TOP CATEGORIES",
-        "title_color": "#000000",
-        "subtitle": "Categories",
-        "subtitle_color_main": "#ee2d7a",
-        "image_content_bg_color": "#f5f1e6",
-        "collection_title_color": "#111111",
-        "collection_title_hover_color": "#111111",
-        "collection_item_color": "#666666",
+        "product_col_mobile_pro": 2,
+        "image_content_bg_color": "#1d1c1c",
+        "subtitle_color": "#e9ad3f",
+        "collection_title_color": "#ffffff",
+        "collection_title_hover_color": "#ffffff",
+        "collection_item_color": "#111111",
+        "collection_item_bgcolor": "#e9ad3f",
         "collection_item_hover_color": "#111111",
-        "collection_desc_color": "#111111",
-        "collection_image_lable_color": "#ffffff",
-        "collection_image_lable_bgcolor": "#ee2d7a"
+        "collection_item_bghover_color": "#ffffff",
+        "collection_desc_color": "#ffffff"
       }
     },
     "ttcmsabout": {
       "type": "ttcmsabout",
       "settings": {
         "bg_color": "#ffffff",
-        "image": "shopify://shop_images/cms-img-01.jpg",
+        "image": "shopify://shop_images/Fondo_seccion_categories.jpg",
         "image_url": "#",
         "image_position": "pos-right",
-        "title": "NATURAL & GLOWING SKINTONE",
-        "title_color": "#111111",
-        "subtitle": "Beauty",
-        "subtitle_color": "#ee2d7a",
-        "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
-        "desc_color": "#666666",
-        "about_btn": "Read More",
+        "title": "Start your business now from $350.",
+        "title_color": "#141414",
+        "subtitle": "",
+        "subtitle_color": "#391e10",
+        "about_desc": "",
+        "desc_color": "#000000",
+        "about_btn": "I Want It",
         "btn_url": "",
-        "btn_txt_color": "#ffffff",
-        "btn_bg_color": "#111111",
+        "btn_txt_color": "#dddddd",
+        "btn_bg_color": "#391e10",
         "btn_txt_hvr_color": "#ffffff",
-        "btn_bg_hvr_color": "#ee2d7a"
+        "btn_bg_hvr_color": "#734128"
       }
     },
-    "ttcmsabout1": {
-      "type": "ttcmsabout",
+    "feature-blogs": {
+      "type": "feature-blogs",
+      "disabled": true,
       "settings": {
-        "bg_color": "#ffffff",
-        "image": "shopify://shop_images/cms-img-02.jpg",
-        "image_url": "#",
-        "image_position": "pos-left",
-        "title": "SPECIAL GLOW SKIN FACE MAKE",
-        "title_color": "#111111",
-        "subtitle": "Beauty",
-        "subtitle_color": "#ee2d7a",
-        "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
-        "desc_color": "#666666",
-        "about_btn": "Read More",
-        "btn_url": "",
-        "btn_txt_color": "#ffffff",
-        "btn_bg_color": "#111111",
-        "btn_txt_hvr_color": "#ffffff",
-        "btn_bg_hvr_color": "#ee2d7a"
+        "title": "LATEST NEWS",
+        "subtitle": "Best Selling",
+        "subtitle_color": "#e9ad3f",
+        "blog": "cosmetic",
+        "blog_design": "design_1",
+        "product_col": "3",
+        "post_limit": "6",
+        "blog_btn_bg": "#999999",
+        "blog_btn_text": "#ffffff",
+        "blog_btn_hover_bg": "#000000",
+        "blog_hover_btn_text": "#e9ad3f",
+        "blog_show_date": true,
+        "show_view_all": false
       }
     },
-    "product-tab-model": {
-      "type": "product-tab-model",
+    "ttcmsoffer": {
+      "type": "ttcmsoffer",
       "blocks": {
-        "1595656887930": {
-          "type": "text_block",
+        "1594369499979": {
+          "type": "text",
           "settings": {
-            "title": "New Products",
-            "collection": "light-cosmetic"
-          }
-        },
-        "1595650811758-0": {
-          "type": "text_block",
-          "settings": {
-            "title": "Featured",
-            "collection": "light-cosmetic"
-          }
-        },
-        "1595656854289": {
-          "type": "text_block",
-          "settings": {
-            "title": "Best Seller",
-            "collection": "light-cosmetic2"
+            "image": "shopify://shop_images/Special_promo_banner_1.jpg",
+            "image_url": "#",
+            "title": "READY TO IMPRESS",
+            "title_color": "#dddddd",
+            "subtitle": "Beauty",
+            "subtitle_color": "#e9ad3f",
+            "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+            "desc_color": "#999999",
+            "about_btn": "Shop Now",
+            "btn_txt_color": "#dddddd",
+            "btn_bg_color": "#141313",
+            "btn_txt_hvr_color": "#111111",
+            "btn_bg_hvr_color": "#e9ad3f"
           }
         }
       },
       "block_order": [
-        "1595656887930",
-        "1595650811758-0",
-        "1595656854289"
+        "1594369499979"
       ],
+      "disabled": true,
       "settings": {
-        "product_rows": false,
-        "product_col": "4",
-        "title_1": "TRENDING PRODUCTS",
-        "title_1_clr": "#111111",
-        "subtitle_1": "Best Selling",
-        "subtitle_1_clr": "#ee2d7a",
-        "button_bg": "#f5f5f5",
-        "button_text": "#222222",
-        "button_hover_bg": "#ee2d7a",
-        "button_hover_text": "#ffffff",
-        "view_all": "",
-        "view_url": ""
+        "bg_color": "#ffffff"
+      }
+    },
+    "categories_ka7dhf": {
+      "type": "categories",
+      "blocks": {
+        "text_collection_LRVwdA": {
+          "type": "text_collection",
+          "name": "Best Sellers",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "subtitle": "Best Sellers",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_X486ET": {
+          "type": "text_collection",
+          "name": "New Arrivals",
+          "settings": {
+            "image_1": "shopify://shop_images/New_arrivals.jpg",
+            "subtitle": "New Arrivals",
+            "collection_cat_id": "new-arrival"
+          }
+        },
+        "text_collection_BDgMAq": {
+          "type": "text_collection",
+          "name": "Women´s",
+          "settings": {
+            "image_1": "shopify://shop_images/Women.jpg",
+            "subtitle": "Women´s",
+            "collection_cat_id": "womens"
+          }
+        },
+        "text_collection_V3Gjke": {
+          "type": "text_collection",
+          "name": "Men´s",
+          "settings": {
+            "image_1": "shopify://shop_images/Men.jpg",
+            "subtitle": "Men´s",
+            "collection_cat_id": "mens"
+          }
+        }
+      },
+      "block_order": [
+        "text_collection_LRVwdA",
+        "text_collection_X486ET",
+        "text_collection_BDgMAq",
+        "text_collection_V3Gjke"
+      ],
+      "name": "Categories",
+      "settings": {
+        "product_col_desktop_pro": 4,
+        "product_col_mobile_pro": 2,
+        "image_content_bg_color": "#1d1c1c",
+        "subtitle_color": "#000000",
+        "collection_title_color": "#ffffff",
+        "collection_title_hover_color": "#ffffff",
+        "collection_item_color": "#ffffff",
+        "collection_item_bgcolor": "#ffffff",
+        "collection_item_hover_color": "#111111",
+        "collection_item_bghover_color": "#111111",
+        "collection_desc_color": "#ffffff"
       }
     },
     "tt-testimonial": {
@@ -220,165 +308,60 @@
           "type": "text",
           "settings": {
             "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
-            "des_color": "#f5f5f5",
-            "image_1": "shopify://shop_images/02_a5c09b78-be9f-40cd-b379-be519bb27fbe.jpg",
+            "des_color": "#aaaaaa",
             "image_1_heading": "",
             "author_name": "JOHN DUE",
             "author_designation": "Co-Founder",
-            "author_color": "#ffffff",
-            "author_descolor": "#ffffff"
+            "author_color": "#dddddd",
+            "author_descolor": "#dddddd"
+          }
+        },
+        "text_qHaAMc": {
+          "type": "text",
+          "settings": {
+            "text_desc": "",
+            "des_color": "#000000",
+            "image_1_heading": "",
+            "author_name": "",
+            "author_designation": "",
+            "author_color": "#000000",
+            "author_descolor": "#000000"
           }
         },
         "1594383388335-0": {
           "type": "text",
           "settings": {
             "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
-            "des_color": "#f5f5f5",
-            "image_1": "shopify://shop_images/01_da86ff35-fdbd-47c2-a494-f077a77a9584.jpg",
+            "des_color": "#aaaaaa",
             "image_1_heading": "",
             "author_name": "JOHN DUFF",
             "author_designation": "CEO and Founder",
-            "author_color": "#ffffff",
-            "author_descolor": "#ffffff"
-          }
-        },
-        "1595841389115": {
-          "type": "text",
-          "settings": {
-            "text_desc": "\"Cajority have suffered alteration in aome from, by injected believable.There varation words able s, but also the leap into electronic typesetting, 1960s with the release of Letraset sheetpassage but also the leap into electronic typesetting\"",
-            "des_color": "#f5f5f5",
-            "image_1": "shopify://shop_images/03.jpg",
-            "image_1_heading": "",
-            "author_name": "JOHN DUE",
-            "author_designation": "Co-Founder",
-            "author_color": "#ffffff",
-            "author_descolor": "#ffffff"
+            "author_color": "#dddddd",
+            "author_descolor": "#dddddd"
           }
         }
       },
       "block_order": [
         "1594383595784",
-        "1594383388335-0",
-        "1595841389115"
+        "text_qHaAMc",
+        "1594383388335-0"
       ],
       "settings": {
-        "bg_color": "#958b89",
+        "bg_color": "#391e10",
         "use_bg": false,
-        "parallax_enable": false,
-        "image_befor": "shopify://shop_images/before.jpg",
-        "image_after": "shopify://shop_images/after.jpg"
-      }
-    },
-    "special-product": {
-      "type": "special-product",
-      "settings": {
-        "class": "specialproduct",
-        "title": "SPECIAL PRODUCT",
-        "title_color": "#111111",
-        "subtitle": "Big Selling",
-        "subtitle_color": "#ee2d7a",
-        "collection": "light-cosmetic2",
-        "product_col": "4"
-      }
-    },
-    "feature-blogs": {
-      "type": "feature-blogs",
-      "settings": {
-        "title": "LATEST NEWS",
-        "subtitle": "Blog",
-        "subtitle_color": "#ee2d7a",
-        "blog": "light-cosmetic",
-        "blog_design": "design_1",
-        "product_col": "3",
-        "post_limit": "6",
-        "blog_btn_bg": "#666666",
-        "blog_btn_text": "#ffffff",
-        "blog_btn_hover_bg": "#ee2d7a",
-        "blog_hover_btn_text": "#ffffff",
-        "blog_show_date": true,
-        "show_view_all": false
-      }
-    },
-    "our_brand": {
-      "type": "our_brand",
-      "blocks": {
-        "1605783755d6d9f598-0": {
-          "type": "brand_image",
-          "settings": {
-            "image": "shopify://shop_images/01.png",
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-1": {
-          "type": "brand_image",
-          "settings": {
-            "image": "shopify://shop_images/02.png",
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-2": {
-          "type": "brand_image",
-          "settings": {
-            "image": "shopify://shop_images/03.png",
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-3": {
-          "type": "brand_image",
-          "settings": {
-            "image": "shopify://shop_images/04.png",
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-4": {
-          "type": "brand_image",
-          "settings": {
-            "image": "shopify://shop_images/05.png",
-            "link": "#"
-          }
-        },
-        "1605783755d6d9f598-5": {
-          "type": "brand_image",
-          "settings": {
-            "image": "shopify://shop_images/06.png",
-            "link": "#"
-          }
-        },
-        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd": {
-          "type": "brand_image",
-          "settings": {
-            "image": "shopify://shop_images/07.png",
-            "link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "1605783755d6d9f598-0",
-        "1605783755d6d9f598-1",
-        "1605783755d6d9f598-2",
-        "1605783755d6d9f598-3",
-        "1605783755d6d9f598-4",
-        "1605783755d6d9f598-5",
-        "fe3f5195-5da5-4a16-b714-43fb3e5da4bd"
-      ],
-      "settings": {
-        "brand_col_mobile_pro": 2,
-        "brand_col_desktop_pro": 5,
-        "addclass": "brands",
-        "title": "",
-        "bg_color": "#ffffff"
+        "parallax_enable": false
       }
     }
   },
   "order": [
     "slideshow",
+    "product_tab_model_Kec4nz",
+    "ttcmsabout_M8C7D9",
     "category-feature",
     "ttcmsabout",
-    "ttcmsabout1",
-    "product-tab-model",
-    "tt-testimonial",
-    "special-product",
     "feature-blogs",
-    "our_brand"
+    "ttcmsoffer",
+    "categories_ka7dhf",
+    "tt-testimonial"
   ]
 }

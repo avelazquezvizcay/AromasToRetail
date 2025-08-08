@@ -22,13 +22,13 @@
                     <div class="ttblog_image_holder blog_image_holder{% if section.settings.blog_design == 'design_3'%} col-sm-6{% endif %}">
                       <a href="{{ article.url }}" class="article__grid-image">
                         {% if section.settings.blog_design == 'design_1'%}
-                        <img Loading="Lazy" height="253" width="390" 
+                        <img Loading="Lazy"  height="253" width="390" 
                              class="article__grid-image lazyload"
                              src="{{ article.image | img_url: '390x253' }}"
                              alt="{{ article.image.alt | escape }}">
                         {% endif %}
                         {% if section.settings.blog_design != 'design_1'%}
-                        <img Loading="Lazy" height="189" width="291" 
+                        <img Loading="Lazy"  height="189" width="291" 
                              class="article__grid-image lazyload"
                              src="{{ article.image | img_url: '291x189' }}"
                              alt="{{ article.image.alt | escape }}">
@@ -36,7 +36,7 @@
                       </a>
                     </div>
                     {% else %}
-                    <img Loading="Lazy" src="{{ 'no-image.gif' | img_url: '380x240' }}"/>
+                    <img Loading="Lazy"  src="{{ 'no-image.gif' | img_url: '380x240' }}"/>
                     {% endif %} 
                     <div class="blog-content-wrap{% if article.image %} article__grid-meta--has-image{% endif %}{% if section.settings.blog_design == 'design_3'%} col-sm-6{% endif %}">
                       {% if section.settings.blog_design == 'design_2'%}
@@ -84,7 +84,7 @@
         {% for i in (1..section.settings.post_limit) %}
         <div class="grid__item medium-up--one-third">
           <div class="article__grid-meta">  
-            <img Loading="Lazy" src="{{ 'no-image.gif' | img_url: '380x240' }}"/>
+            <img Loading="Lazy"  src="{{ 'no-image.gif' | img_url: '380x240' }}"/>
             <h4 class="article__title">
               <a href="#">{{ 'home_page.onboarding.blog_title' | t }}</a>
             </h4>
@@ -107,7 +107,7 @@
      {% endif %}
   </div>
 </div>
-<style>#blog_slider .tt-blog-content .blog_image_holder .bloglinks a:hover{color:{{section.settings.blog_hover_btn_text}};background:{{section.settings.blog_btn_hover_bg}};border-color:{{section.settings.blog_btn_hover_bg}};}.design_1 #blog_slider .tt-blog-content .article__meta-buttons a.read-more{color:{{section.settings.blog_btn_hover_bg}};}.design_1 #blog_slider .tt-blog-content .article__meta-buttons a.read-more:hover{color:#111}.design_2 #blog_slider .tt-blog-content .article__meta-buttons a.read-more{background:{{section.settings.blog_btn_bg}};color:{{section.settings.blog_btn_text}};}.design_2 #blog_slider .tt-blog-content .article__meta-buttons a.read-more:hover{background:{{section.settings.blog_btn_hover_bg}};color:{{section.settings.blog_hover_btn_text}};}</style>
+<style>#blog_slider .tt-blog-content .blog_image_holder .bloglinks a:hover{color:{{section.settings.blog_hover_btn_text}};background:{{section.settings.blog_btn_hover_bg}};border-color:{{section.settings.blog_btn_hover_bg}};}.design_1 #blog_slider .tt-blog-content .article__meta-buttons a.read-more{color:{{section.settings.blog_hover_btn_text}};}.design_1 #blog_slider .tt-blog-content .article__meta-buttons a.read-more:hover{color:{{section.settings.blog_btn_text}};}.design_2 #blog_slider .tt-blog-content .article__meta-buttons a.read-more{background:{{section.settings.blog_btn_bg}};color:{{section.settings.blog_btn_text}};}.design_2 #blog_slider .tt-blog-content .article__meta-buttons a.read-more:hover{background:{{section.settings.blog_btn_hover_bg}};color:{{section.settings.blog_hover_btn_text}};}</style>
 {% schema %}
   {
     "name": "Blog posts",

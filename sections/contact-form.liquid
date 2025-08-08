@@ -46,8 +46,8 @@
             </div>
             {% endform %}
           </div>
-           {% if section.settings.map_api_key != blank %}
-             {% if section.settings.enbale_map %}
+          {% if section.settings.map_api_key != blank %}
+          {% if section.settings.enbale_map %}
         <div class="contact-us-map col-xs-12 col-sm-6">
           <div id="google_map" data-section-id="{{ section.id }}" data-section-type="map-section">
             <div id="map">{{ section.settings.map_api_key }}</div>
@@ -66,14 +66,8 @@
      "disabled_on": {
     "groups": ["header", "footer"]
   },
-"presets": [
-{
-"name": "Google Map Block",
-"category": "TemplateTrip"
-}
-],
 "settings": [
-  {
+{
   "type": "checkbox",
   "id": "enbale_map",
   "label": "Show Map"
@@ -87,6 +81,12 @@
 "type": "textarea",
 "id": "map_custom_style",
 "label": "Enter Map Custom Style JavaScript Code"
+}
+],
+  "presets": [
+{
+"name": "Google Map Block",
+"category": "TemplateTrip"
 }
 ]
 }

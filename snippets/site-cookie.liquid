@@ -1,4 +1,4 @@
-{% if settings.cookie_enable %} 
+{% if settings.cookie_enable %}
 <div class="cookiestatus">
   <div class="cookie-block {{settings.cookie_style}}">
     <div id="cookie_message" class="cookie-message-block">
@@ -6,7 +6,7 @@
         <div class="tt-cookie-inner">
           <span>{{settings.cookie_desc}}<a target="_blank" href="{% if settings.link_url %}{{settings.link_url}}{% else %}#{% endif %}" class="c_link"><strong> {{settings.link_title}}</strong></a></span>
           <button class="btn" onclick="closeWdCookie()"><span>{{settings.c_btn_txt}}</span></button>
-        {% if settings.d_btn_txt != blank %}
+           {% if settings.d_btn_txt != blank %}
               <a class="btn" href="{{ settings.d_btn_url }}">
                 <span>{{ settings.d_btn_txt }}</span>
               </a>

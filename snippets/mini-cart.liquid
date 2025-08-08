@@ -33,16 +33,16 @@
         </p>
       </div>
       <div class="actions">
-        {% if settings.trumsandcondition_id != blank %}
-        <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
+         {% if settings.trumsandcondition_id != blank %}
+         <p style="float: none; clear: both; margin: 0 0 ;" class="cart_condition">
           <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
           <label style="display:inline; float:none" for="agree">
             {{ 'cart.label.agree' | t }} <a href="/pages/terms-condition">{{ 'cart.label.agree_page' | t }}</a>.
           </label>
         </p>
-          {% endif %}
-      <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
-      <button class="btn text-cart" onclick="window.location='{{ routes.cart_url }}'">
+           {% endif %}
+        <button class="btn checkout-btn" {% if settings.trumsandcondition_id == blank %} onclick="window.location='/checkout'" {% endif %} style=" margin: 10px 10px;"><i class="mdi mdi-share"></i>{{ 'cart.general.checkout' | t }}</button>
+      <button class="btn text-cart" {% if settings.trumsandcondition_id != blank %} onclick="window.location='{{ routes.cart_url }}'"{% endif %}>
         {{ 'cart.general.view_cart' | t }}
       </button>
       </div>
@@ -51,7 +51,7 @@
 </div>
 <div class="overlay"></div>
 
-{% if settings.trumsandcondition_id != blank %}
+ {% if settings.trumsandcondition_id != blank %}
 <script>
   $(document).ready(function() {
     var url = "/checkout";
@@ -66,4 +66,4 @@
     });
   });
 </script>
-  {% endif %}
+   {% endif %}

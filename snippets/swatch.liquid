@@ -72,9 +72,9 @@
         </label>
         {% endif %}
         {% else %}
-        <label for="swatch-{{ option_index }}-{{ value | handle }}">
-          {{ value }}
-          <span class="crossed-out"></span>
+        <label for="swatch-{{ option_index }}-{{ value | handle }}"  {% if is_color %}style="background-color: {{ value | split: ' ' | last | handle }};"{% endif %}>
+          {% if is_size %}{{ value }}{% endif %}
+          <span class="crossed-out" src="{{ 'soldout.png' | asset_url }}" alt="{{ 'products.product.sold_out' | t }}"></span>
         </label>
         {% endif %}
       </div>

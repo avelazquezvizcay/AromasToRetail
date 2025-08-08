@@ -14,7 +14,7 @@
     <div class="container">
       <div class="block_newsletter">
         <div class="tt-content col-sm-6">
-           {% if section.settings.newsletter_title != blank %}
+          {% if section.settings.newsletter_title != blank %}
           <h1 class=" col-xs-12 news-title" style="color:{{ section.settings.newsletter_txt_color }};">{{ section.settings.newsletter_title }}</h1>
           {% endif %}
             {% if section.settings.newsletter_desc != blank %}
@@ -34,7 +34,7 @@
         <div class="text-left grid">
           <div class="col-sm-9 footer-links">
             <div class="col-sm-6 footer-column">
-              {% if section.settings.footer_col_title_1 != blank %}
+               {% if section.settings.footer_col_title_1 != blank %}
               <h5 class="widget-title">{{ section.settings.footer_col_title_1 }}</h5>
               {% endif %}
               {% if linklists[section.settings.col_1_menu].links != blank %}
@@ -46,7 +46,7 @@
               {% endif %}
             </div> 
             <div class="col-sm-6 footer-column">
-             {% if section.settings.footer_col_title_2 != blank %}
+                {% if section.settings.footer_col_title_2 != blank %}
               <h5 class="widget-title">{{ section.settings.footer_col_title_2 }}</h5>
               {% endif %}
               {% if linklists[section.settings.col_2_menu].links != blank %}
@@ -59,11 +59,11 @@
             </div>
           </div>
           <div class="col-sm-3 footer-column contactus">
-           {% if section.settings.footer_contact_title != blank %}
+          {% if section.settings.footer_contact_title != blank %}
             <h5 class="widget-title">{{ section.settings.footer_contact_title }}</h5>
             {% endif %}
             <div class="contact-us">
-             <ul class="list-unstyled" style="display: block;">
+              <ul class="list-unstyled" style="display: block;">
                 {% if section.settings.contact_address != blank %}
                 <li class="contact-detail">
                   <div class="address">	
@@ -86,9 +86,11 @@
             <div class="image-content owl-carousel">
               {% for block in section.blocks %}
               <div class="gallery-img">
+                {% if block.settings.gallery != blank %}
                 <a href="{{ block.settings.gallery_url }}">
-                  <img Loading="Lazy" height="170" width="170" src="{{ block.settings.gallery | img_url: "170x170" }}" alt="gallery" />
+                  <img Loading="Lazy"  height="170" width="170" src="{{ block.settings.gallery | img_url: "170x170" }}" alt="gallery" />
                 </a>
+                {% endif %}
               </div>
               {% endfor %}
             </div>
@@ -133,7 +135,7 @@
             {% if settings.social_twitter_link != blank %}
             <li>
               <a class="icon-fallback-text" href="{{ settings.social_twitter_link }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Twitter' }}">
-                <span class="mdi mdi-twitter" aria-hidden="true">
+             <span class="mdi mdi-twitter" aria-hidden="true">
   <svg class="icon icon-twitter" viewBox="0 0 20 20" style="width: 15px;height: auto;margin-top: 10px;display: inline-block;align-items: center;justify-content: center;">
       <path fill="currentColor" fill-rule="evenodd" d="M7.273 2.8 10.8 7.822 15.218 2.8h1.768l-5.4 6.139 5.799 8.254h-4.658l-3.73-5.31-4.671 5.31H2.558l5.654-6.427L2.615 2.8zm6.242 13.125L5.07 4.109h1.405l8.446 11.816z" clip-rule="evenodd"></path>
   </svg>

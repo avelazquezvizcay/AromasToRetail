@@ -218,7 +218,7 @@
         "type": "color",
         "id": "bottom_text_linkcolor",
         "label": "Footer Bottom text Link Color",
-        "default": "#ffffff"
+        "default": "#fff"
       },
       {
         "type": "color",
@@ -500,11 +500,6 @@
         "id": "display_toogle_menu",
         "label": "Display Toggle Menu (For Header Style 3)",
         "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "trumsandcondition_id",
-        "label": "terms & condition "
       }
     ]
   },
@@ -804,7 +799,7 @@
         "type": "number",
         "id": "products_per_page",
         "label": "Products per page",
-        "default": 8
+        "default": 20
       },
       {
         "type": "checkbox",
@@ -947,26 +942,6 @@
     "name": "Product Page Settings",
     "settings": [
       {
-        "type": "select",
-        "id": "product_layout",
-        "label": "Select Product Layout",
-        "default": "design_1",
-        "options": [
-          {
-            "value": "design_1",
-            "label": "Left Image With Carousel"
-          },
-          {
-            "value": "design_2",
-            "label": "Product With Sticky Details"
-          },
-          {
-            "value": "design_5",
-            "label": "Product Gallery Slider"
-          }
-        ]
-      },
-      {
         "type": "header",
         "content": "Related Products"
       },
@@ -1005,6 +980,11 @@
         "id": "use_ajax_cart",
         "label": "Enable ajax cart",
         "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "trumsandcondition_id",
+        "label": "terms & condition "
       }
     ]
   },
@@ -1291,78 +1271,6 @@
         "type": "checkbox",
         "id": "share_whatsapp",
         "label": "Pin on whatsapp"
-      }
-    ]
-  },
-  {
-    "name": "Password Page",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "password_bg_img",
-        "label": "Background image"
-      },
-      {
-        "type": "image",
-        "id": "password-page-background.jpg"
-      },
-      {
-        "type": "checkbox",
-        "id": "password_logo",
-        "label": "Logo image"
-      },
-      {
-        "type": "image",
-        "id": "password_logo.png"
-      },
-      {
-        "type": "text",
-        "id": "pwd_logo_max_width",
-        "label": "Custom logo width (in pixels)",
-        "default": "100"
-      },
-      {
-        "type": "text",
-        "id": "pwd_header",
-        "label": "Heading",
-        "default": "Opening Soon"
-      },
-      {
-        "type": "checkbox",
-        "id": "pwd_show_share_buttons",
-        "label": "Show social sharing buttons",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "pwd_social_message",
-        "label": "Social sharing buttons heading",
-        "default": "Spread the word"
-      },
-      {
-        "type": "checkbox",
-        "id": "pwd_newsletter_enable",
-        "label": "Show newsletter signup",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "pwd_newsletter_form_heading",
-        "label": "Newsletter form heading",
-        "default": "Be the first to know when we launch.",
-        "info": "[Tell your visitors about a launch day discount](https://www.shopify.ca/blog/15514000-14-ways-to-use-offers-coupons-discounts-and-deals-to-drive-revenue-and-customer-loyalty)."
-      },
-      {
-        "type": "text",
-        "id": "pwd_newsletter_placeholder",
-        "label": "Newsletter placeholder text",
-        "default": "Email address"
-      },
-      {
-        "type": "text",
-        "id": "pwd_newsletter_button_text",
-        "label": "Newsletter button text",
-        "default": "Notify me"
       }
     ]
   }

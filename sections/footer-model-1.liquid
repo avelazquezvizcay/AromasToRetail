@@ -15,14 +15,14 @@
   <div class="footer-wrapper">
     <div class="footer-logo-content">
       <div class="footer-logo">
-        <img Loading="Lazy" height="auto" width="190" src="{{ section.settings.footer_logo | img_url: '190x' }}" alt="footer_logo" />
+        <img Loading="Lazy"  height="auto" width="190" src="{{ section.settings.footer_logo | img_url: '190x' }}" alt="footer_logo" />
       </div>
-        {% if section.settings.footer_desc != blank %}
+      {% if section.settings.footer_desc != blank %}
       <div class="footer-desc">{{ section.settings.footer_desc }}</div>
       {% endif %}
     </div>
     <div class="footer-column contactus">
-      {% if section.settings.footer_contact_title != blank %}
+     {% if section.settings.footer_contact_title != blank %}
       <h5 class="widget-title">{{ section.settings.footer_contact_title }}</h5>
       {% endif %}
       <div class="contact-us">
@@ -47,7 +47,7 @@
       </div>
     </div>          
     <div class="footer-column">
-     {% if section.settings.footer_col_title_1 != blank %}
+      {% if section.settings.footer_col_title_1 != blank %}
       <h5 class="widget-title">{{ section.settings.footer_col_title_1 }}</h5>
       {% endif %}
       {% if linklists[section.settings.col_1_menu].links != blank %}
@@ -64,7 +64,7 @@
         {% if settings.social_twitter_link != blank %}
         <li>
           <a class="icon-fallback-text" href="{{ settings.social_twitter_link }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: 'Twitter' }}">
-            <span class="mdi mdi-twitter" aria-hidden="true">
+         <span class="mdi mdi-twitter" aria-hidden="true">
   <svg class="icon icon-twitter" viewBox="0 0 20 20" style="width: 15px;height: auto;margin-top: 10px;display: inline-block;align-items: center;justify-content: center;">
       <path fill="currentColor" fill-rule="evenodd" d="M7.273 2.8 10.8 7.822 15.218 2.8h1.768l-5.4 6.139 5.799 8.254h-4.658l-3.73-5.31-4.671 5.31H2.558l5.654-6.427L2.615 2.8zm6.242 13.125L5.07 4.109h1.405l8.446 11.816z" clip-rule="evenodd"></path>
   </svg>

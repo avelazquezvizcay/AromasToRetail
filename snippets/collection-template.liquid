@@ -1,4 +1,4 @@
-{% assign results_count = collection.products_count %}
+ {% assign results_count = collection.products_count %}
 {% assign products_per_row = settings.collection_products_per_row %}
 {% unless products_per_page  %}
 {% assign products_per_page = settings.products_per_page %}
@@ -11,7 +11,7 @@
       <div class="rte rte--header collection-desc-wrap">
         {% if settings.category_image != blank %}
         <div class="category_img">
-          <img src="{{ settings.category_image | image_url }}"  alt="{{ collection.title | escape }}" display="block" width="1230" height="250" />
+          <img src="{{ settings.category_image | image_url }}"  alt="{{ collection.title | escape }}" display="block" width="915" height="300" />
         </div>   
         {% endif %}
         <h1 class="section-header__title text-left">{{ collection.title }}</h1>
@@ -46,7 +46,7 @@
             {% endif %}
           </div>
           {% endif %}      
-            <div class="filter-show grid__item">
+ <div class="filter-show grid__item">
   {% assign current_page_size = paginate.page_size %}
   <div class="pages_list">
   <span class="pag-product">{{ collection.products.size }} products</span>      
