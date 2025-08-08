@@ -1239,8 +1239,8 @@
         "type": "footer-model-3",
         "settings": {
           "show_newsletter": true,
-          "newsletter_title": "",
-          "newsletter_desc": "Subscribe to our emails for exclusive offers!",
+          "newsletter_title": "Subscribe to our emails for exclusive offers!",
+          "newsletter_desc": "",
           "newsletter_bg": "#e2ceb1",
           "newsletter_txt_color": "#000000",
           "newsletter_desc_color": "#000000",
