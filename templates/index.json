@@ -159,6 +159,10 @@
       "settings": {
         "product_col_desktop_pro": 3,
         "product_col_mobile_pro": 2,
+        "title": "",
+        "title_color": "#000000",
+        "subtitle": "",
+        "subtitle_color_main": "#666666",
         "image_content_bg_color": "#1d1c1c",
         "subtitle_color": "#e9ad3f",
         "collection_title_color": "#ffffff",
@@ -290,6 +294,75 @@
       "settings": {
         "product_col_desktop_pro": 4,
         "product_col_mobile_pro": 2,
+        "title": "",
+        "title_color": "#000000",
+        "subtitle": "Categories",
+        "subtitle_color_main": "#000000",
+        "image_content_bg_color": "#1d1c1c",
+        "subtitle_color": "#000000",
+        "collection_title_color": "#ffffff",
+        "collection_title_hover_color": "#ffffff",
+        "collection_item_color": "#ffffff",
+        "collection_item_bgcolor": "#ffffff",
+        "collection_item_hover_color": "#111111",
+        "collection_item_bghover_color": "#111111",
+        "collection_desc_color": "#ffffff"
+      }
+    },
+    "categories_7k6aEe": {
+      "type": "categories",
+      "blocks": {
+        "text_collection_Y39EC4": {
+          "type": "text_collection",
+          "name": "Kids",
+          "settings": {
+            "image_1": "shopify://shop_images/Kids.jpg",
+            "subtitle": "Kids",
+            "collection_cat_id": "kids"
+          }
+        },
+        "text_collection_bjM6Uh": {
+          "type": "text_collection",
+          "name": "Gifts Sets + Combos",
+          "settings": {
+            "image_1": "shopify://shop_images/Gifts_sets.jpg",
+            "subtitle": "Gifts Sets + Combos",
+            "collection_cat_id": "gift-sets-combo"
+          }
+        },
+        "text_collection_j8YRzG": {
+          "type": "text_collection",
+          "name": "Oil",
+          "settings": {
+            "image_1": "shopify://shop_images/Oil.jpg",
+            "subtitle": "Oil",
+            "collection_cat_id": "oil-1"
+          }
+        },
+        "text_collection_xbGwaz": {
+          "type": "text_collection",
+          "name": "Extras",
+          "settings": {
+            "image_1": "shopify://shop_images/Extras.jpg",
+            "subtitle": "Extras",
+            "collection_cat_id": "extras-1"
+          }
+        }
+      },
+      "block_order": [
+        "text_collection_Y39EC4",
+        "text_collection_bjM6Uh",
+        "text_collection_j8YRzG",
+        "text_collection_xbGwaz"
+      ],
+      "name": "Categories",
+      "settings": {
+        "product_col_desktop_pro": 4,
+        "product_col_mobile_pro": 2,
+        "title": "",
+        "title_color": "#000000",
+        "subtitle": "",
+        "subtitle_color_main": "#000000",
         "image_content_bg_color": "#1d1c1c",
         "subtitle_color": "#000000",
         "collection_title_color": "#ffffff",
@@ -362,6 +435,7 @@
     "feature-blogs",
     "ttcmsoffer",
     "categories_ka7dhf",
+    "categories_7k6aEe",
     "tt-testimonial"
   ]
 }
