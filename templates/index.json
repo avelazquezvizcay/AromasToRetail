@@ -163,24 +163,27 @@
     "category-feature": {
       "type": "category-feature",
       "blocks": {
-        "1594620018893-0": {
-          "type": "text_collection",
-          "settings": {
-            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "subtitle": "Gifts for someone special",
-            "collection_cat_id": "for-special-gifts"
-          }
-        },
         "text_collection_aqcTAN": {
           "type": "text_collection",
+          "name": "For dates",
           "settings": {
-            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "subtitle": "Gifts for someone special",
-            "collection_cat_id": "for-special-gifts"
+            "image_1": "shopify://shop_images/For_dates.jpg",
+            "subtitle": "For dates",
+            "collection_cat_id": "for-dates"
           }
         },
         "text_collection_6EKQhR": {
           "type": "text_collection",
+          "name": "Night Style",
+          "settings": {
+            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "subtitle": "Night Style",
+            "collection_cat_id": "womens"
+          }
+        },
+        "1594620018893-0": {
+          "type": "text_collection",
+          "name": "Gifts for someone special",
           "settings": {
             "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
             "subtitle": "Gifts for someone special",
@@ -189,24 +192,24 @@
         }
       },
       "block_order": [
-        "1594620018893-0",
         "text_collection_aqcTAN",
-        "text_collection_6EKQhR"
+        "text_collection_6EKQhR",
+        "1594620018893-0"
       ],
       "settings": {
         "product_col_desktop_pro": 3,
         "product_col_mobile_pro": 2,
-        "title": "",
-        "title_color": "#000000",
+        "title": "For every occasion",
+        "title_color": "#391e10",
         "subtitle": "",
-        "subtitle_color_main": "#666666",
+        "subtitle_color_main": "#391e10",
         "image_content_bg_color": "#1d1c1c",
-        "subtitle_color": "#e9ad3f",
-        "collection_title_color": "#ffffff",
-        "collection_title_hover_color": "#ffffff",
-        "collection_item_color": "#111111",
-        "collection_item_bgcolor": "#e9ad3f",
-        "collection_item_hover_color": "#111111",
+        "subtitle_color": "#ffffff",
+        "collection_title_color": "rgba(0,0,0,0)",
+        "collection_title_hover_color": "rgba(0,0,0,0)",
+        "collection_item_color": "#ffffff",
+        "collection_item_bgcolor": "#734128",
+        "collection_item_hover_color": "#391e10",
         "collection_item_bghover_color": "#ffffff",
         "collection_desc_color": "#ffffff"
       }
