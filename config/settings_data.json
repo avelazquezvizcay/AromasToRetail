@@ -1256,7 +1256,7 @@
           "contact_email": "",
           "show_payment_icons": false,
           "show_link_list": false,
-          "footer_col_title_1": "My Account",
+          "footer_col_title_1": "",
           "col_1_menu": ""
         }
       },
