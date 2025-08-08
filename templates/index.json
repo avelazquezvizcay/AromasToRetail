@@ -292,7 +292,7 @@
           "name": "Best Sellers",
           "settings": {
             "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "subtitle": "Best Sellers",
+            "subtitle": "",
             "collection_cat_id": "frontpage"
           }
         },
@@ -301,7 +301,7 @@
           "name": "New Arrivals",
           "settings": {
             "image_1": "shopify://shop_images/New_arrivals.jpg",
-            "subtitle": "New Arrivals",
+            "subtitle": "",
             "collection_cat_id": "new-arrival"
           }
         },
@@ -310,7 +310,7 @@
           "name": "Women´s",
           "settings": {
             "image_1": "shopify://shop_images/Women.jpg",
-            "subtitle": "Women´s",
+            "subtitle": "",
             "collection_cat_id": "womens"
           }
         },
@@ -319,7 +319,7 @@
           "name": "Men´s",
           "settings": {
             "image_1": "shopify://shop_images/Men.jpg",
-            "subtitle": "Men´s",
+            "subtitle": "",
             "collection_cat_id": "mens"
           }
         }
@@ -357,7 +357,7 @@
           "name": "Kids",
           "settings": {
             "image_1": "shopify://shop_images/Kids.jpg",
-            "subtitle": "Kids",
+            "subtitle": "",
             "collection_cat_id": "kids"
           }
         },
@@ -366,7 +366,7 @@
           "name": "Gifts Sets + Combos",
           "settings": {
             "image_1": "shopify://shop_images/Gifts_sets.jpg",
-            "subtitle": "Gifts Sets + Combos",
+            "subtitle": "",
             "collection_cat_id": "gift-sets-combo"
           }
         },
@@ -375,7 +375,7 @@
           "name": "Oil",
           "settings": {
             "image_1": "shopify://shop_images/Oil.jpg",
-            "subtitle": "Oil",
+            "subtitle": "",
             "collection_cat_id": "oil-1"
           }
         },
@@ -384,7 +384,7 @@
           "name": "Extras",
           "settings": {
             "image_1": "shopify://shop_images/Extras.jpg",
-            "subtitle": "Extras",
+            "subtitle": "",
             "collection_cat_id": "extras-1"
           }
         }
