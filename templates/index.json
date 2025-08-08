@@ -344,7 +344,7 @@
         "collection_title_hover_color": "rgba(0,0,0,0)",
         "collection_item_color": "#ffffff",
         "collection_item_bgcolor": "rgba(0,0,0,0)",
-        "collection_item_hover_color": "#ffffff",
+        "collection_item_hover_color": "rgba(0,0,0,0)",
         "collection_item_bghover_color": "rgba(0,0,0,0)",
         "collection_desc_color": "rgba(0,0,0,0)"
       }
