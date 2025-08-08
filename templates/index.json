@@ -335,18 +335,18 @@
         "product_col_desktop_pro": 4,
         "product_col_mobile_pro": 2,
         "title": "",
-        "title_color": "#000000",
+        "title_color": "rgba(0,0,0,0)",
         "subtitle": "Categories",
         "subtitle_color_main": "#000000",
-        "image_content_bg_color": "#1d1c1c",
+        "image_content_bg_color": "rgba(0,0,0,0)",
         "subtitle_color": "#000000",
-        "collection_title_color": "#ffffff",
-        "collection_title_hover_color": "#ffffff",
+        "collection_title_color": "rgba(0,0,0,0)",
+        "collection_title_hover_color": "rgba(0,0,0,0)",
         "collection_item_color": "#ffffff",
-        "collection_item_bgcolor": "#ffffff",
-        "collection_item_hover_color": "#111111",
-        "collection_item_bghover_color": "#111111",
-        "collection_desc_color": "#ffffff"
+        "collection_item_bgcolor": "rgba(0,0,0,0)",
+        "collection_item_hover_color": "#ffffff",
+        "collection_item_bghover_color": "rgba(0,0,0,0)",
+        "collection_desc_color": "rgba(0,0,0,0)"
       }
     },
     "categories_7k6aEe": {
