@@ -25,7 +25,11 @@
     {% else %}
         {% if  section.settings.image != blank %}
           <div class="ttabout-left about-content col-sm-6 col-xs-6">
-            <a href="{{section.settings.image_url}}"><img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>
+            <!--<a href="{{section.settings.image_url}}">
+       
+              <img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>-->
+          <video src="{{section.settings.image_url}}" class="object-fit-cover" autoplay></video>
+
           </div>
         {% endif %}
         <div class="ttabout-right about-content col-sm-6 col-xs-6">
