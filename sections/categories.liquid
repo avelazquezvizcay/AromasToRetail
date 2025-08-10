@@ -1,11 +1,11 @@
 
-<div data-section-id="{{ section.id }}"  data-section-type="tt-collection-slider-wrap" class="tt-collection-slider-wrap" >
+<div data-section-id="{{ section.id }}"  data-section-type="tt-collection-slider-wrap" class="tt-collection-slider-wrap collectionaromas" >
   <div class="tt-collection-slider-wrap-inner  {% if  settings.enable_animation != blank %}bottom-to-top hb-animate-element{% endif %}">
     <div class="container1" style="padding-right: 5px!important;padding-left: 5px;max-width: 140rem !important;   margin-right: auto;
     margin-left: auto">
    
-        <div class="title-block" style="text-align: center;">
-          <div class="ttsub-title" style="color:{{section.settings.subtitle_color_main }}">{{ section.settings.subtitle }}</div>
+        <div class="title-block" style="text-align: center;padding-top: 4rem;padding-bottom: 5rem">
+          <div class="ttsub-title2 title{{ section.id }}" style="color:{{section.settings.subtitle_color_main }}">{{ section.settings.subtitle }}</div>
           <h2 class="tt-title" style="color:{{section.settings.title_color }}">{{ section.settings.title }}</h2>
         </div>
 
@@ -77,6 +77,10 @@
       color:{{section.settings.collection_title_hover_color }};
     }
   }
+ .collectionaromas{
+    background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
+
+}
 </style>
 <script>
   $(document).ready(function(){

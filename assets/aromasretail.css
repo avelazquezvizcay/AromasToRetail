@@ -6,7 +6,7 @@
 
 
 @font-face {
-  font-family: 'Chilia Regular'; /* Give your font a descriptive name */
+  font-family: 'Chilia Demo'; /* Give your font a descriptive name */
   src: url('https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Chilia-Regular-BF64e0411a3313c.woff2?v=1754486620') format('woff2');
   font-weight: 400!important;; /* ExtraBold is typically 800 */
   font-style: normal!important;;
@@ -15,7 +15,7 @@
 
 
 @font-face {
-  font-family: 'Arcon Regular'; /* Use the base font family name */
+  font-family: 'Arcon'; /* Use the base font family name */
   src: url('https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Arcon-Regular.woff2?v=1754486620') format('woff2');
   font-weight: 400!important;; /* 'Bold' typically corresponds to 700 */
   font-style: italic!important;; /* This is an italic variant */
@@ -31,6 +31,19 @@
         max-width: 140rem !important;
     }
 }
+
+
+/*Home*/
+.slider-title {
+    color: #FFF;
+    text-align: center!important;
+    text-shadow: 2px 4px 20px #000!important;
+    font-family: "Chilia Demo"!important;
+    font-size: 72px!important;;
+    font-style: normal!important;;
+    font-weight: 400!important;
+    line-height: 80px!important;
+}
 input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="file"], input[type="number"], input[type="tel"], textarea, select {
     
     border: 1px solid var(--color-border);
@@ -45,6 +58,33 @@ input::placeholder {
   font-weight: bold;
   opacity: 0.5;
   color: #000000!important;
+}
+div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-section-template--24726121251126__categories_7k6aEe {
+    background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
+
+
+}
+
+
+.titletemplate--24726121251126__categories_ka7dhf {
+    color: #FDFCE8 !important;
+    font-family: Chilia Demo;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.titletemplate--24726121251126__categories_ka7dhf:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 22rem;
+    height: .2rem;
+    background-color: #FDFCE8 !important;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    top: 12rem;
 }
 
 /*---------------- Custom CSS for only desktop -------------------*/
