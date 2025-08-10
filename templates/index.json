@@ -78,7 +78,7 @@
         "button_text": "#ffffff",
         "button_hover_bg": "rgba(0,0,0,0)",
         "button_hover_text": "#ffffff",
-        "view_all": ".",
+        "view_all": "",
         "view_url": ""
       }
     },
