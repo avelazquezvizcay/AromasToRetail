@@ -29,7 +29,7 @@
 }
 
 
-.titletemplate--24726121251126__categories_ka7dhf {
+.titlec {
     color: #FDFCE8 !important;
     font-family: Chilia Demo !important;
     font-size: 60px;
@@ -37,7 +37,7 @@
     font-weight: 400 !important;
     line-height: normal !important;
 }
-.titletemplate--24726121251126__categories_ka7dhf:before {
+.titlec:before {
     position: absolute;
     display: inline-block;
     content: "";
@@ -124,7 +124,7 @@ input[type="text"], input[type="search"], input[type="password"], input[type="em
       top: 8rem;
 border: 1px solid #734128 !important;
 }
-.product-price__sale-label, .product-wrapper .custom_label {
+.product-price__sale-label, .product-wrapper .custom_label,div#divtitletemplate--24726121251126__categories_7k6aEe {
 display: none!important;
 
 }
@@ -202,8 +202,11 @@ h2.tt-titlelv {
     top: 4rem!important;
 }
 
-div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-section-template--24726121251126__categories_7k6aEe {
-    background:#391E10!important;
+div#shopify-section-template--24726121251126__categories_ka7dhf {
+    background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
+}
+div#shopify-section-template--24726121251126__categories_7k6aEe{
+    background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
 }
 .cat-btnn2{
 color:  #FDFCE8;
