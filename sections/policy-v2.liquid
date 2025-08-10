@@ -1,0 +1,281 @@
+{{ 'section-policy-v2.css' | asset_url | stylesheet_tag }}
+
+<section class='policy-v10'>
+  <div {% render 'section-attr' %}>
+    {% render 'section-bg-image' %}
+    <xo-container {% render 'section-layout' %}>
+      {%- if section.settings.is_grid -%}
+        <xo-grid
+          style='--xs: 1;--sm: 1 ; --md: 2 ; --xl: {{ section.settings.limit }}; --xo-grid-col-gap: {{section.settings.col_gap}}px; --xo-grid-row-gap: {{section.settings.row_gap}}px;'
+        >
+          {%- for block in section.blocks -%}
+            <div class='policy-v10__box' style='--bg: {{ block.settings.bg }}'>
+              <div class='policy-v10__wrap'>
+                <div>
+                  <div class='policy-v10__svg'>
+                    {% if block.settings.svg != empty %}
+                      {{ block.settings.svg }}
+                    {% elsif block.settings.image_svg != empty %}
+                      {% render 'image', image: block.settings.image_svg %}
+                    {%- else -%}
+                      {% render 'image', image: block.settings.img_default %}
+                    {% endif %}
+                  </div>
+                </div>
+                <div class='policy-v10__info'>
+                  <h6 class='policy-v10__title'>
+                    {{ block.settings.title }}
+                  </h6>
+                  <div class='policy-v10__desc'>
+                    {{ block.settings.description }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </xo-grid>
+      {%- else -%}
+        <xo-carousel
+          xo-per-view='{{ section.settings.limit_carousel }}'
+          xo-overflow='visible'
+          xo-gap='{{ section.settings.carousel_gap }}'
+          xo-breakpoints="
+                      {
+            600: {
+              perView: 1,
+              gap: 10,
+              overflow: 'visible'
+              },
+              992: {
+                perView: 2,
+                overflow: 'visible'
+              },
+            }
+          "
+          xo-render-bullet='<span></span>'
+        >
+          <xo-carousel-inner>
+            <xo-carousel-list>
+              {%- for block in section.blocks -%}
+                <xo-carousel-slide>
+                  <div class='policy-v10__box' style='--bg: {{ block.settings.bg }}'>
+                    <div class='policy-v10__wrap'>
+                      <div>
+                        <div>
+                          <div class='policy-v10__svg'>
+                            {% if block.settings.svg != empty %}
+                              {{ block.settings.svg }}
+                            {% elsif block.settings.image_svg != empty %}
+                              {% render 'image', image: block.settings.image_svg %}
+                            {%- else -%}
+                              {% render 'image', image: block.settings.img_default %}
+                            {% endif %}
+                          </div>
+                        </div>
+                        <div class='policy-v10__info'>
+                          <h6 class='policy-v10__title'>
+                            {{ block.settings.title }}
+                          </h6>
+                          <div class='policy-v10__desc'>
+                            {{ block.settings.description }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </xo-carousel-slide>
+              {%- endfor -%}
+            </xo-carousel-list>
+          </xo-carousel-inner>
+        </xo-carousel>
+      {%- endif -%}
+    </xo-container>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Policy v2",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Setting layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Container type",
+      "default": "box",
+      "options": [
+        {
+          "value": "box",
+          "label": "Box"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        },
+        {
+          "value": "fullwidth",
+          "label": "Fullwidth"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "is_grid",
+      "label": "Grid",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Header"
+    },
+    {
+      "type": "range",
+      "id": "limit_carousel",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Number of items displayed",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "carousel_gap",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "label": "Gap items",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Setting Grid"
+    },
+    {
+      "type": "range",
+      "id": "limit",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Columns limit",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "col_gap",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "label": "Columns gap",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "row_gap",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "label": "Rows gap",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "General settings"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Section color scheme"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_desktop",
+      "label": "Background image desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Background image mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_parallax",
+      "label": "Use parallax",
+      "default": true
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Padding top",
+      "default": 50
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Items box ",
+      "type": "items-box",
+      "settings": [
+        {
+          "type": "color",
+          "id": "bg",
+          "label": "Background",
+          "default": "#c99a5c"
+        },
+        {
+          "type": "html",
+          "id": "svg",
+          "label": "Svg"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_svg",
+          "label": "Image icon",
+          "info": "Ratio: 55px x 55px recommended"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Title",
+          "info": "Enter <br> for a break line"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Description",
+          "info": "Enter <br> for a break line"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Policy V2"
+    }
+  ]
+}
+{% endschema %}
