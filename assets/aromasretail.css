@@ -87,12 +87,94 @@ div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-sec
     top: 12rem;
 }
 
+
+@media (max-width: 1459px) {
+    .home-slider .slider-content-wrap .slider-title
+
+ {
+        font-size: 70px!important;
+        line-height: 74px!important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 54px!important;
+        line-height: 58px!important;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 42px!important;
+        line-height: 46px!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 32px!important;
+        line-height: 40px!important;
+   
+    }
+}
+
+@media (max-width: 650px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 30px!important;
+        line-height: 32px!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 24px!important;
+        line-height: 28px!important;
+       
+    }
+}
+@media (max-width: 410px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 18px!important;
+        line-height: 24px!important;
+    }
+}
+
+/*Button*/
+
+.home-slider .slider-content-wrap .slider-button > a {
+    color: #FFF;
+    font-family: Arcon!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus {
+    color: #FFF;
+    font-family: Arcon!important;
+    font-style: normal;
+    line-height: normal;
+}
+.TTProduct-Tab .nav-tabs > li > a {
+    font-size: 30px !important;
+       font-family: Arcon!important;
+    line-height: normal;
+}
 /*---------------- Custom CSS for only desktop -------------------*/
 @media (min-width: 1025px) {
+.home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
 
+    font-size: 30px!important
+
+}
 }
 /*---------------- Custom CSS for tablet, mobile -------------------*/
 @media (max-width: 1199px) {
+  .home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
+
+    font-size: 18px!important
+
+}
 }
 
 /*---------------- Custom CSS for only tablet -------------------*/
