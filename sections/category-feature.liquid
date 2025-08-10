@@ -1,9 +1,9 @@
 <div data-section-id="{{ section.id }}"  data-section-type="tt-collection-slider-wrap" class="tt-collection-slider-wrap" >
   <div class="tt-collection-slider-wrap-inner {% if settings.enable_animation != blank %} bottom-to-top hb-animate-element {% endif %}">
     <div class="collection_cms_slider_wrap">
-       <div class="title-block" style="text-align: center;margin-top: 0rem;padding-bottom: 5rem;padding-top: 0%;">
+       <div class="title-block title{{ section.id }}" style="text-align: center;margin-top: -4rem;padding-bottom: 1rem;padding-top: 0%;">
           <div class="ttsub-title" style="color:{{section.settings.subtitle_color_main }}">{{ section.settings.subtitle }}</div>
-          <h2 class="tt-title" style="color:{{section.settings.title_color }}">{{ section.settings.title }}</h2>
+          <h2 class="tt-title tt-titlelv"  style="color:{{section.settings.title_color }}">{{ section.settings.title }}</h2>
         </div>
 
       {% if section.blocks.size > 0 %}  
@@ -27,7 +27,7 @@
                 </div>
                 {% endif %}
                 {% if collection.title != blank  %}
-                <div class="cat-item"><a href="{{ collection.url }}" class="cat-btn">{{ collection.all_products_count }}<span> {{ 'cart.general.items' | t }}</span></a></div>
+                <div class="cat-item"><a href="{{ collection.url }}" class="cat-btn"><!--{{ collection.all_products_count }}--><span> <!--{{ 'cart.general.items' | t }}--> View</span></a></div>
                 {% endif %}
               </div>
             </div>                     
@@ -40,6 +40,7 @@
   </div>
 </div>
 <style>
+
   .collection_cat_item .tt-collection-content .cat-subtitle {
     color:{{section.settings.subtitle_color }};
   } 
