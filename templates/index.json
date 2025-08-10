@@ -9,63 +9,6 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "1580215063672-0": {
-          "type": "image",
-          "settings": {
-            "image_url": "",
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=nlyPlIHXgOE",
-            "title": "MAKEUP COMPACT 5/SKINONES",
-            "sub_title": "Beauty",
-            "btn_txt": "Shop Now",
-            "btn_link": "#",
-            "title_color": "#ffffff",
-            "subtitle_color": "#e9ad3f",
-            "btn_bg_color": "#111111",
-            "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#e9ad3f",
-            "btn_hovertxt_color": "#111111",
-            "text_position": "left",
-            "text_effect": "left"
-          }
-        },
-        "1580215063672-1": {
-          "type": "image",
-          "settings": {
-            "image_url": "",
-            "show_video": false,
-            "video_url": "",
-            "title": "ALL NEW IN OFRA DARK SHADE",
-            "sub_title": "Shades",
-            "btn_txt": "Shop Now",
-            "btn_link": "#",
-            "title_color": "#ffffff",
-            "subtitle_color": "#e9ad3f",
-            "btn_bg_color": "#111111",
-            "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#e9ad3f",
-            "btn_hovertxt_color": "#111111",
-            "text_position": "right",
-            "text_effect": "right"
-          }
-        }
-      },
-      "block_order": [
-        "1580215063672-0",
-        "1580215063672-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "slider_animation_type": "slide",
-        "slide_button_bg_color": "#000000",
-        "slide_button_bg_hover_color": "#ffc446",
-        "slide_button_txt_color": "#ffffff",
-        "slide_button_txt_hover_color": "#000000"
-      }
-    },
     "slideshow2_9jfz8V": {
       "type": "slideshow2",
       "blocks": {
@@ -128,14 +71,14 @@
         "product_rows": false,
         "product_col": "4",
         "title_1": ".",
-        "title_1_clr": "#ffffff",
+        "title_1_clr": "rgba(0,0,0,0)",
         "subtitle_1": "",
         "subtitle_1_clr": "#ffffff",
-        "button_bg": "#391e10",
+        "button_bg": "rgba(0,0,0,0)",
         "button_text": "#ffffff",
-        "button_hover_bg": "#734128",
+        "button_hover_bg": "rgba(0,0,0,0)",
         "button_hover_text": "#ffffff",
-        "view_all": "",
+        "view_all": ".",
         "view_url": ""
       }
     },
@@ -233,55 +176,6 @@
         "btn_bg_color": "#391e10",
         "btn_txt_hvr_color": "#ffffff",
         "btn_bg_hvr_color": "#734128"
-      }
-    },
-    "feature-blogs": {
-      "type": "feature-blogs",
-      "disabled": true,
-      "settings": {
-        "title": "LATEST NEWS",
-        "subtitle": "Best Selling",
-        "subtitle_color": "#e9ad3f",
-        "blog": "cosmetic",
-        "blog_design": "design_1",
-        "product_col": "3",
-        "post_limit": "6",
-        "blog_btn_bg": "#999999",
-        "blog_btn_text": "#ffffff",
-        "blog_btn_hover_bg": "#000000",
-        "blog_hover_btn_text": "#e9ad3f",
-        "blog_show_date": true,
-        "show_view_all": false
-      }
-    },
-    "ttcmsoffer": {
-      "type": "ttcmsoffer",
-      "blocks": {
-        "1594369499979": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/Special_promo_banner_1.jpg",
-            "image_url": "#",
-            "title": "READY TO IMPRESS",
-            "title_color": "#dddddd",
-            "subtitle": "Beauty",
-            "subtitle_color": "#e9ad3f",
-            "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
-            "desc_color": "#999999",
-            "about_btn": "Shop Now",
-            "btn_txt_color": "#dddddd",
-            "btn_bg_color": "#141313",
-            "btn_txt_hvr_color": "#111111",
-            "btn_bg_hvr_color": "#e9ad3f"
-          }
-        }
-      },
-      "block_order": [
-        "1594369499979"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "#ffffff"
       }
     },
     "categories_ka7dhf": {
@@ -464,19 +358,125 @@
         "use_bg": false,
         "parallax_enable": false
       }
+    },
+    "ttcmsoffer": {
+      "type": "ttcmsoffer",
+      "blocks": {
+        "1594369499979": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Special_promo_banner_1.jpg",
+            "image_url": "#",
+            "title": "READY TO IMPRESS",
+            "title_color": "#dddddd",
+            "subtitle": "Beauty",
+            "subtitle_color": "#e9ad3f",
+            "about_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolor sit amet, consectetur adipiscing elit, ctetur adipisci incididunt ut labore et dolore aliqua.",
+            "desc_color": "#999999",
+            "about_btn": "Shop Now",
+            "btn_txt_color": "#dddddd",
+            "btn_bg_color": "#141313",
+            "btn_txt_hvr_color": "#111111",
+            "btn_bg_hvr_color": "#e9ad3f"
+          }
+        }
+      },
+      "block_order": [
+        "1594369499979"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#ffffff"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "1580215063672-0": {
+          "type": "image",
+          "settings": {
+            "image_url": "",
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=nlyPlIHXgOE",
+            "title": "MAKEUP COMPACT 5/SKINONES",
+            "sub_title": "Beauty",
+            "btn_txt": "Shop Now",
+            "btn_link": "#",
+            "title_color": "#ffffff",
+            "subtitle_color": "#e9ad3f",
+            "btn_bg_color": "#111111",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#e9ad3f",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        },
+        "1580215063672-1": {
+          "type": "image",
+          "settings": {
+            "image_url": "",
+            "show_video": false,
+            "video_url": "",
+            "title": "ALL NEW IN OFRA DARK SHADE",
+            "sub_title": "Shades",
+            "btn_txt": "Shop Now",
+            "btn_link": "#",
+            "title_color": "#ffffff",
+            "subtitle_color": "#e9ad3f",
+            "btn_bg_color": "#111111",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#e9ad3f",
+            "btn_hovertxt_color": "#111111",
+            "text_position": "right",
+            "text_effect": "right"
+          }
+        }
+      },
+      "block_order": [
+        "1580215063672-0",
+        "1580215063672-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
+      }
+    },
+    "feature-blogs": {
+      "type": "feature-blogs",
+      "disabled": true,
+      "settings": {
+        "title": "LATEST NEWS",
+        "subtitle": "Best Selling",
+        "subtitle_color": "#e9ad3f",
+        "blog": "cosmetic",
+        "blog_design": "design_1",
+        "product_col": "3",
+        "post_limit": "6",
+        "blog_btn_bg": "#999999",
+        "blog_btn_text": "#ffffff",
+        "blog_btn_hover_bg": "#000000",
+        "blog_hover_btn_text": "#e9ad3f",
+        "blog_show_date": true,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "slideshow",
     "slideshow2_9jfz8V",
     "product_tab_model_Kec4nz",
     "ttcmsabout_M8C7D9",
     "category-feature",
     "ttcmsabout",
-    "feature-blogs",
-    "ttcmsoffer",
     "categories_ka7dhf",
     "categories_7k6aEe",
-    "tt-testimonial"
+    "tt-testimonial",
+    "ttcmsoffer",
+    "slideshow",
+    "feature-blogs"
   ]
 }
