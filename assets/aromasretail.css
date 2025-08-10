@@ -204,10 +204,27 @@ h2.tt-titlelv {
     top: 4rem!important;
 }
 
-.container-fluid.padding_0>div:nth-child(8),.container-fluid.padding_0>div:nth-child(7) {
+.container-fluid.padding_0>div:nth-child(8),.container-fluid.padding_0>div:nth-child(7) ,.shopify-section.section{
     background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
 }
 
+section#shopify-section-template--24726121251126__policy_v2_6GcwVA {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+h6.policy-v10__title {
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #FFF;
+    font-family: "Chilia Demo";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400!important;
+    line-height: 40px;
+    text-transform: capitalize
+}
 .cat-btnn2{
 color:  #FDFCE8;
 text-align: center;

@@ -1,26 +1,18 @@
-{{ 'section-policy-v2.css' | asset_url | stylesheet_tag }}
-
 <section class='policy-v10'>
-  <div {% render 'section-attr' %}>
-    {% render 'section-bg-image' %}
-    <xo-container {% render 'section-layout' %}>
+   
       {%- if section.settings.is_grid -%}
-        <xo-grid
-          style='--xs: 1;--sm: 1 ; --md: 2 ; --xl: {{ section.settings.limit }}; --xo-grid-col-gap: {{section.settings.col_gap}}px; --xo-grid-row-gap: {{section.settings.row_gap}}px;'
-        >
+      <div class="row">
+        <div class="container text-center">
           {%- for block in section.blocks -%}
-            <div class='policy-v10__box' style='--bg: {{ block.settings.bg }}'>
-              <div class='policy-v10__wrap'>
-                <div>
+            <div class='policy-v10__box col-md-3' style='--bg: {{ block.settings.bg }}'>
+              <div class='policy-v10__wrap'>              
                   <div class='policy-v10__svg'>
                     {% if block.settings.svg != empty %}
                       {{ block.settings.svg }}
                     {% elsif block.settings.image_svg != empty %}
-                         <img is="xo-lazyload" xo-src="{{ block.settings.image_svg.src | image_url: width: 100 }}" loading="lazy" alt="" width="87" height="86" xo-intrinsic-width="87" xo-intrinsic-height="86" src="{{ block.settings.image_svg.src | image_url: width: 100 }}" style="" xo-loaded="">
-
+                    <img is="xo-lazyload" xo-src="{{ block.settings.image_svg.src | image_url: width: 100 }}" loading="lazy" alt="" width="87" height="86" xo-intrinsic-width="87" xo-intrinsic-height="86" src="{{ block.settings.image_svg.src | image_url: width: 100 }}" style="" xo-loaded="">
                     {% endif %}
-                  </div>
-                </div>
+                  </div>               
                 <div class='policy-v10__info'>
                   <h6 class='policy-v10__title'>
                     {{ block.settings.title }}
@@ -32,64 +24,11 @@
               </div>
             </div>
           {%- endfor -%}
-        </xo-grid>
-      {%- else -%}
-        <xo-carousel
-          xo-per-view='{{ section.settings.limit_carousel }}'
-          xo-overflow='visible'
-          xo-gap='{{ section.settings.carousel_gap }}'
-          xo-breakpoints="
-                      {
-            600: {
-              perView: 1,
-              gap: 10,
-              overflow: 'visible'
-              },
-              992: {
-                perView: 2,
-                overflow: 'visible'
-              },
-            }
-          "
-          xo-render-bullet='<span></span>'
-        >
-          <xo-carousel-inner>
-            <xo-carousel-list>
-              {%- for block in section.blocks -%}
-                <xo-carousel-slide>
-                  <div class='policy-v10__box' style='--bg: {{ block.settings.bg }}'>
-                    <div class='policy-v10__wrap'>
-                      <div>
-                        <div>
-                          <div class='policy-v10__svg'>
-                            {% if block.settings.svg != empty %}
-                              {{ block.settings.svg }}
-                            {% elsif block.settings.image_svg != empty %}
-                              {% render 'image', image: block.settings.image_svg %}
-                            {%- else -%}
-                              {% render 'image', image: block.settings.img_default %}
-                            {% endif %}
-                          </div>
-                        </div>
-                        <div class='policy-v10__info'>
-                          <h6 class='policy-v10__title'>
-                            {{ block.settings.title }}
-                          </h6>
-                          <div class='policy-v10__desc'>
-                            {{ block.settings.description }}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </xo-carousel-slide>
-              {%- endfor -%}
-            </xo-carousel-list>
-          </xo-carousel-inner>
-        </xo-carousel>
+          </div>
+      </div>
+     
       {%- endif -%}
-    </xo-container>
-  </div>
+ 
 </section>
 
 {% schema %}
