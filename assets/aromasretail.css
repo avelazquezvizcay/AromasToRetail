@@ -21,7 +21,7 @@
   font-style: italic!important;; /* This is an italic variant */
   font-display: swap; /* Recommended for better loading performance */
 }
-div#shopify-section-template--24726131573046__categories_ka7dhf, div#shopify-section-template--24726121251126__categories_7k6aEe {
+div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-section-template--24726121251126__categories_7k6aEe {
     background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
 }
 
@@ -131,9 +131,9 @@ display: none!important;
 
 }
 .ttabout-main .ttabout-block .ttabout-right .ttabout-title {   
-    color: var(--Color-Tierra-1, #391E10);
+    color: #391E10;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--Color-Tierra-1, #391E10);
+    -webkit-text-stroke-color: #391E10;
     font-family: "Chilia Demo";
     font-style: normal;
     font-weight: 400;
@@ -150,7 +150,7 @@ display: none!important;
 h2.tt-titlelv {
     color:  #391E10!important;
     -webkit-text-stroke-width: 0.5px!important;
-    -webkit-text-stroke-color: var(--Color-Tierra-1, #391E10)!important;
+    -webkit-text-stroke-color: #391E10!important;
     font-family: "Chilia Demo";
     font-style: normal!important;
     font-weight: 400!important;
@@ -180,7 +180,7 @@ h2.tt-titlelv {
   .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .cat_content .tt-collection-content .ttcat-content .collection_title
 
  {
-    font: 400 38px / 40px var(--font-stack-subheading)!important;
+    font-size: 400!important;
     margin: 0 0 20px!important;
     color: #FFF!important;
     text-align: center!important;
@@ -189,4 +189,206 @@ h2.tt-titlelv {
     font-style: normal;
     font-weight: 400!important;
     line-height: 38.933px!important;
+}
+.template-index .main-content .category-feature .tt-collection-slider-wrap-inner .cat_content .tt-collection-content .ttcat-content .cat-item a.cat-btn::after {
+  content: none!important;
+}
+.title-block.title-blocktemplate--24726121251126__categories_7k6aEe {
+    display: none;
+}
+.tt-testimonial-wrap .testimonials_wrap {
+    padding: 70px 60px;
+    text-align: center;
+    background: #734128!important;
+    border: 0px !important;
+    top: 4rem!important;
+}
+
+
+.cat-btnn2{
+color:  #FDFCE8;
+text-align: center;
+font-family: Arcon;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cat-item a.cat-btnn2::after {
+    content: "\f142";
+    font-family: "Material Design Icons";
+    vertical-align: middle;
+    display: inline-block;
+    padding: 8px 0px 0px 5px;
+}
+
+
+
+/*Home*/
+.slider-title {
+    color: #FFF;
+    text-align: center!important;
+    text-shadow: 2px 4px 20px #000!important;
+    font-family: "Chilia Demo"!important;
+    font-size: 72px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 80px!important;
+}
+input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="file"], input[type="number"], input[type="tel"], textarea, select {
+    
+    border: 1px solid #fff!important;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 0 1em;
+    background: #fff!important;
+}
+
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: #000000!important;
+}
+
+
+
+@media (min-width: 1500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 140rem !important;
+    }
+}
+
+@media (max-width: 1459px) {
+    .home-slider .slider-content-wrap .slider-title
+
+ {
+        font-size: 70px!important;
+        line-height: 74px!important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 54px!important;
+        line-height: 58px!important;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 42px!important;
+        line-height: 46px!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 32px!important;
+        line-height: 40px!important;
+   
+    }
+}
+
+@media (max-width: 650px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 30px!important;
+        line-height: 32px!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 24px!important;
+        line-height: 28px!important;
+       
+    }
+}
+@media (max-width: 410px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 18px!important;
+        line-height: 24px!important;
+    }
+}
+/*---------------- Custom CSS for only desktop -------------------*/
+@media (min-width: 1025px) {
+    .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .cat_content .tt-collection-content .ttcat-content .collection_title
+
+ {
+
+    font-size: 38.933px!important;
+   
+}
+  .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .cat_content .tt-collection-content .ttcat-content .cat-item a.cat-btn
+ {
+
+    font-size: 24.333px!important;
+
+}
+.home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
+
+    font-size: 30px!important;
+
+}
+h2.tt-title {
+
+    font-size: 60px!important;
+
+}
+.ttabout-main .ttabout-block .ttabout-right .ttabout-desc {
+
+    font-size: 28px!important;
+
+}
+
+.ttabout-main .ttabout-block .ttabout-right .ttabout-title {
+
+    font-size: 40px!important;
+
+}
+.ttabout-btn>.btn {
+    color: #FFF!important;
+    text-align: center;
+    background: #734128!important;
+    font-family: Arcon!important;
+    font-size: 30px!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal!important;
+}
+#tt-megamenu .tt-mega_menu .tt_menus_ul>li>a ,.currency_wrapper.dropdown-toggle, .language_wrapper.dropdown-toggle{
+   
+    color: #000;
+    font-family: Arcon!important;
+    font-size: 16px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: normal!important;
+}
+}
+/*---------------- Custom CSS for tablet, mobile -------------------*/
+@media (max-width: 1199px) {
+  .home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
+
+    font-size: 18px!important;
+
+}
+}
+
+/*---------------- Custom CSS for only tablet -------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/*-----------------------Home----------------------*/
+
+/*--------End Home----------*/
+
+}
+
+/*---------------- Custom CSS for only mobile -------------------*/
+@media (max-width: 767px){
+
+
+  /*-----------------------Home----------------------*/
+
+  /*-------------------End Home---------------------*/
 }
