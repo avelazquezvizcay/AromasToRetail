@@ -129,7 +129,6 @@ h2.tt-titlelv {
     -webkit-text-stroke-width: 0.5px!important;
     -webkit-text-stroke-color: var(--Color-Tierra-1, #391E10)!important;
     font-family: "Chilia Demo";
-
     font-style: normal!important;
     font-weight: 400!important;
     line-height: normal;
@@ -199,6 +198,116 @@ line-height: normal;
     display: inline-block;
     padding: 8px 0px 0px 5px;
 }
+
+
+
+/*Home*/
+.slider-title {
+    color: #FFF;
+    text-align: center!important;
+    text-shadow: 2px 4px 20px #000!important;
+    font-family: "Chilia Demo"!important;
+    font-size: 72px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 80px!important;
+}
+input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="file"], input[type="number"], input[type="tel"], textarea, select {
+    
+    border: 1px solid var(--color-border);
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 0 1em;
+    background: #fff!important;
+}
+
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: #000000!important;
+}
+
+
+
+.titletemplate--24726121251126__categories_ka7dhf {
+    color: #FDFCE8 !important;
+    font-family: Chilia Demo;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.titletemplate--24726121251126__categories_ka7dhf:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 22rem;
+    height: .2rem;
+    background-color: #FDFCE8 !important;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    top: 12rem;
+}
+
+@media (min-width: 1500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 140rem !important;
+    }
+}
+
+@media (max-width: 1459px) {
+    .home-slider .slider-content-wrap .slider-title
+
+ {
+        font-size: 70px!important;
+        line-height: 74px!important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 54px!important;
+        line-height: 58px!important;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 42px!important;
+        line-height: 46px!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 32px!important;
+        line-height: 40px!important;
+   
+    }
+}
+
+@media (max-width: 650px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 30px!important;
+        line-height: 32px!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 24px!important;
+        line-height: 28px!important;
+       
+    }
+}
+@media (max-width: 410px) {
+    .home-slider .slider-content-wrap .slider-title {
+        font-size: 18px!important;
+        line-height: 24px!important;
+    }
+}
 /*---------------- Custom CSS for only desktop -------------------*/
 @media (min-width: 1025px) {
     .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .cat_content .tt-collection-content .ttcat-content .collection_title
@@ -236,14 +345,14 @@ h2.tt-title {
 
 }
 .ttabout-btn>.btn {
-color: #FFF!important;
-text-align: center;
-background: #734128!important;
-font-family: Arcon!important;
-font-size: 30px!important;
-font-style: normal;
-font-weight: 400;
-line-height: normal!important;
+    color: #FFF!important;
+    text-align: center;
+    background: #734128!important;
+    font-family: Arcon!important;
+    font-size: 30px!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal!important;
 }
 #tt-megamenu .tt-mega_menu .tt_menus_ul>li>a ,.currency_wrapper.dropdown-toggle, .language_wrapper.dropdown-toggle{
    
@@ -259,7 +368,7 @@ line-height: normal!important;
 @media (max-width: 1199px) {
   .home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
 
-    font-size: 18px!important
+    font-size: 18px!important;
 
 }
 }
