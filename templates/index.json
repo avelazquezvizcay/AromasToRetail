@@ -464,6 +464,74 @@
         "blog_show_date": true,
         "show_view_all": false
       }
+    },
+    "policy_v2_6GcwVA": {
+      "type": "policy-v2",
+      "blocks": {
+        "items_box_VrKiz9": {
+          "type": "items-box",
+          "settings": {
+            "bg": "#c99a5c",
+            "svg": "",
+            "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
+            "title": "Fast Shipping",
+            "description": ""
+          }
+        },
+        "items_box_dUYp8D": {
+          "type": "items-box",
+          "settings": {
+            "bg": "#c99a5c",
+            "svg": "",
+            "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
+            "title": "Fast Shipping",
+            "description": ""
+          }
+        },
+        "items_box_Ax3zH3": {
+          "type": "items-box",
+          "settings": {
+            "bg": "#c99a5c",
+            "svg": "",
+            "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
+            "title": "Fast Shipping",
+            "description": ""
+          }
+        },
+        "items_box_Dy8pCz": {
+          "type": "items-box",
+          "settings": {
+            "bg": "#c99a5c",
+            "svg": "",
+            "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
+            "title": "Fast Shipping",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "items_box_VrKiz9",
+        "items_box_dUYp8D",
+        "items_box_Ax3zH3",
+        "items_box_Dy8pCz"
+      ],
+      "name": "Policy V2",
+      "settings": {
+        "width": "box",
+        "is_grid": true,
+        "limit_carousel": 4,
+        "carousel_gap": 0,
+        "limit": 4,
+        "col_gap": 0,
+        "row_gap": 0,
+        "color_scheme": "",
+        "background_color": "",
+        "background_gradient": "",
+        "background_image_desktop": "shopify://shop_images/Fondo_seccion_categories.jpg",
+        "use_parallax": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -477,6 +545,7 @@
     "tt-testimonial",
     "ttcmsoffer",
     "slideshow",
-    "feature-blogs"
+    "feature-blogs",
+    "policy_v2_6GcwVA"
   ]
 }
