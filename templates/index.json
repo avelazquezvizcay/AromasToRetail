@@ -103,81 +103,6 @@
         "btn_bg_hvr_color": "#391e10"
       }
     },
-    "category-feature": {
-      "type": "category-feature",
-      "blocks": {
-        "text_collection_aqcTAN": {
-          "type": "text_collection",
-          "name": "For dates",
-          "settings": {
-            "image_1": "shopify://shop_images/For_dates.jpg",
-            "subtitle": "For dates",
-            "collection_cat_id": "for-dates"
-          }
-        },
-        "text_collection_6EKQhR": {
-          "type": "text_collection",
-          "name": "Night Style",
-          "settings": {
-            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "subtitle": "Night Style",
-            "collection_cat_id": "womens"
-          }
-        },
-        "1594620018893-0": {
-          "type": "text_collection",
-          "name": "Gifts for someone special",
-          "settings": {
-            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
-            "subtitle": "Gifts for someone special",
-            "collection_cat_id": "for-special-gifts"
-          }
-        }
-      },
-      "block_order": [
-        "text_collection_aqcTAN",
-        "text_collection_6EKQhR",
-        "1594620018893-0"
-      ],
-      "settings": {
-        "product_col_desktop_pro": 3,
-        "product_col_mobile_pro": 2,
-        "title": "For every occasion",
-        "title_color": "#391e10",
-        "subtitle": "",
-        "subtitle_color_main": "#391e10",
-        "image_content_bg_color": "#1d1c1c",
-        "subtitle_color": "rgba(0,0,0,0)",
-        "collection_title_color": "#ffffff",
-        "collection_title_hover_color": "#ffffff",
-        "collection_item_color": "#ffffff",
-        "collection_item_bgcolor": "#734128",
-        "collection_item_hover_color": "#ffffff",
-        "collection_item_bghover_color": "#391e10",
-        "collection_desc_color": "#ffffff"
-      }
-    },
-    "ttcmsabout": {
-      "type": "ttcmsabout",
-      "settings": {
-        "bg_color": "#ffffff",
-        "image": "shopify://shop_images/Fondo_seccion_categories.jpg",
-        "image_url": "#",
-        "image_position": "pos-right",
-        "title": "Start your business now from $350.",
-        "title_color": "#141414",
-        "subtitle": "",
-        "subtitle_color": "#391e10",
-        "about_desc": "",
-        "desc_color": "#000000",
-        "about_btn": "I Want It",
-        "btn_url": "",
-        "btn_txt_color": "#dddddd",
-        "btn_bg_color": "#391e10",
-        "btn_txt_hvr_color": "#ffffff",
-        "btn_bg_hvr_color": "#734128"
-      }
-    },
     "categories_ka7dhf": {
       "type": "categories",
       "blocks": {
@@ -308,6 +233,81 @@
         "collection_desc_color": "rgba(0,0,0,0)"
       }
     },
+    "category-feature": {
+      "type": "category-feature",
+      "blocks": {
+        "text_collection_aqcTAN": {
+          "type": "text_collection",
+          "name": "For dates",
+          "settings": {
+            "image_1": "shopify://shop_images/For_dates.jpg",
+            "subtitle": "For dates",
+            "collection_cat_id": "for-dates"
+          }
+        },
+        "text_collection_6EKQhR": {
+          "type": "text_collection",
+          "name": "Night Style",
+          "settings": {
+            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "subtitle": "Night Style",
+            "collection_cat_id": "womens"
+          }
+        },
+        "1594620018893-0": {
+          "type": "text_collection",
+          "name": "Gifts for someone special",
+          "settings": {
+            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "subtitle": "Gifts for someone special",
+            "collection_cat_id": "for-special-gifts"
+          }
+        }
+      },
+      "block_order": [
+        "text_collection_aqcTAN",
+        "text_collection_6EKQhR",
+        "1594620018893-0"
+      ],
+      "settings": {
+        "product_col_desktop_pro": 3,
+        "product_col_mobile_pro": 2,
+        "title": "For every occasion",
+        "title_color": "#391e10",
+        "subtitle": "",
+        "subtitle_color_main": "#391e10",
+        "image_content_bg_color": "#1d1c1c",
+        "subtitle_color": "rgba(0,0,0,0)",
+        "collection_title_color": "#ffffff",
+        "collection_title_hover_color": "#ffffff",
+        "collection_item_color": "#ffffff",
+        "collection_item_bgcolor": "#734128",
+        "collection_item_hover_color": "#ffffff",
+        "collection_item_bghover_color": "#391e10",
+        "collection_desc_color": "#ffffff"
+      }
+    },
+    "ttcmsabout": {
+      "type": "ttcmsabout",
+      "settings": {
+        "bg_color": "#ffffff",
+        "image": "shopify://shop_images/Fondo_seccion_categories.jpg",
+        "image_url": "#",
+        "image_position": "pos-right",
+        "title": "Start your business now from $350.",
+        "title_color": "#141414",
+        "subtitle": "",
+        "subtitle_color": "#391e10",
+        "about_desc": "",
+        "desc_color": "#000000",
+        "about_btn": "I Want It",
+        "btn_url": "",
+        "btn_txt_color": "#dddddd",
+        "btn_bg_color": "#391e10",
+        "btn_txt_hvr_color": "#ffffff",
+        "btn_bg_hvr_color": "#734128"
+      }
+    },
     "policy_v2_6GcwVA": {
       "type": "policy-v2",
       "blocks": {
@@ -430,9 +430,9 @@
     "slideshow2_9jfz8V",
     "product_tab_model_Kec4nz",
     "ttcmsabout_M8C7D9",
-    "category-feature",
     "categories_ka7dhf",
     "categories_7k6aEe",
+    "category-feature",
     "ttcmsabout",
     "policy_v2_6GcwVA",
     "tt-testimonial"
