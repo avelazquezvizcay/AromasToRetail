@@ -2,8 +2,8 @@
   <div class="tt-collection-slider-wrap-inner {% if settings.enable_animation != blank %} bottom-to-top hb-animate-element {% endif %}">
     <div class="collection_cms_slider_wrap">
          <div class="title-block title-block{{ section.id }}" style="text-align: center;padding-top: 4rem;padding-bottom: 5rem;">
-          <div class="ttsub-title2 " style="color:{{section.settings.subtitle_color_main }};">{{ section.settings.subtitle }}</div>
-          <h2 class="tt-title" style="color:{{section.settings.title_color }}">{{ section.settings.title }}</h2>
+          <div class="ttsub-title2 title{{ section.id }}" >{{ section.settings.subtitle }}</div>
+          <h2 class="tt-title" >{{ section.settings.title }}</h2>
         </div>
 
       {% if section.blocks.size > 0 %}  
