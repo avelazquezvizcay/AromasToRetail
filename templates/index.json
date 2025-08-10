@@ -103,6 +103,71 @@
         "btn_bg_hvr_color": "#391e10"
       }
     },
+    "categories_ka7dhf": {
+      "type": "categories",
+      "blocks": {
+        "text_collection_LRVwdA": {
+          "type": "text_collection",
+          "name": "Best Sellers",
+          "settings": {
+            "image_1": "shopify://shop_images/Best_Seller.jpg",
+            "subtitle": "",
+            "collection_cat_id": "frontpage"
+          }
+        },
+        "text_collection_X486ET": {
+          "type": "text_collection",
+          "name": "New Arrivals",
+          "settings": {
+            "image_1": "shopify://shop_images/New_arrivals.jpg",
+            "subtitle": "",
+            "collection_cat_id": "new-arrival"
+          }
+        },
+        "text_collection_BDgMAq": {
+          "type": "text_collection",
+          "name": "Women´s",
+          "settings": {
+            "image_1": "shopify://shop_images/Women.jpg",
+            "subtitle": "",
+            "collection_cat_id": "womens"
+          }
+        },
+        "text_collection_V3Gjke": {
+          "type": "text_collection",
+          "name": "Men´s",
+          "settings": {
+            "image_1": "shopify://shop_images/Men.jpg",
+            "subtitle": "",
+            "collection_cat_id": "mens"
+          }
+        }
+      },
+      "block_order": [
+        "text_collection_LRVwdA",
+        "text_collection_X486ET",
+        "text_collection_BDgMAq",
+        "text_collection_V3Gjke"
+      ],
+      "name": "Categories",
+      "settings": {
+        "product_col_desktop_pro": 4,
+        "product_col_mobile_pro": 2,
+        "title": "",
+        "title_color": "rgba(0,0,0,0)",
+        "subtitle": "Categories",
+        "subtitle_color_main": "#000000",
+        "image_content_bg_color": "rgba(0,0,0,0)",
+        "subtitle_color": "#000000",
+        "collection_title_color": "rgba(0,0,0,0)",
+        "collection_title_hover_color": "rgba(0,0,0,0)",
+        "collection_item_color": "#ffffff",
+        "collection_item_bgcolor": "rgba(0,0,0,0)",
+        "collection_item_hover_color": "rgba(0,0,0,0)",
+        "collection_item_bghover_color": "rgba(0,0,0,0)",
+        "collection_desc_color": "rgba(0,0,0,0)"
+      }
+    },
     "category-feature": {
       "type": "category-feature",
       "blocks": {
@@ -176,71 +241,6 @@
         "btn_bg_color": "#391e10",
         "btn_txt_hvr_color": "#ffffff",
         "btn_bg_hvr_color": "#734128"
-      }
-    },
-    "categories_ka7dhf": {
-      "type": "categories",
-      "blocks": {
-        "text_collection_LRVwdA": {
-          "type": "text_collection",
-          "name": "Best Sellers",
-          "settings": {
-            "image_1": "shopify://shop_images/Best_Seller.jpg",
-            "subtitle": "",
-            "collection_cat_id": "frontpage"
-          }
-        },
-        "text_collection_X486ET": {
-          "type": "text_collection",
-          "name": "New Arrivals",
-          "settings": {
-            "image_1": "shopify://shop_images/New_arrivals.jpg",
-            "subtitle": "",
-            "collection_cat_id": "new-arrival"
-          }
-        },
-        "text_collection_BDgMAq": {
-          "type": "text_collection",
-          "name": "Women´s",
-          "settings": {
-            "image_1": "shopify://shop_images/Women.jpg",
-            "subtitle": "",
-            "collection_cat_id": "womens"
-          }
-        },
-        "text_collection_V3Gjke": {
-          "type": "text_collection",
-          "name": "Men´s",
-          "settings": {
-            "image_1": "shopify://shop_images/Men.jpg",
-            "subtitle": "",
-            "collection_cat_id": "mens"
-          }
-        }
-      },
-      "block_order": [
-        "text_collection_LRVwdA",
-        "text_collection_X486ET",
-        "text_collection_BDgMAq",
-        "text_collection_V3Gjke"
-      ],
-      "name": "Categories",
-      "settings": {
-        "product_col_desktop_pro": 4,
-        "product_col_mobile_pro": 2,
-        "title": "",
-        "title_color": "rgba(0,0,0,0)",
-        "subtitle": "Categories",
-        "subtitle_color_main": "#000000",
-        "image_content_bg_color": "rgba(0,0,0,0)",
-        "subtitle_color": "#000000",
-        "collection_title_color": "rgba(0,0,0,0)",
-        "collection_title_hover_color": "rgba(0,0,0,0)",
-        "collection_item_color": "#ffffff",
-        "collection_item_bgcolor": "rgba(0,0,0,0)",
-        "collection_item_hover_color": "rgba(0,0,0,0)",
-        "collection_item_bghover_color": "rgba(0,0,0,0)",
-        "collection_desc_color": "rgba(0,0,0,0)"
       }
     },
     "categories_7k6aEe": {
@@ -470,9 +470,9 @@
     "slideshow2_9jfz8V",
     "product_tab_model_Kec4nz",
     "ttcmsabout_M8C7D9",
+    "categories_ka7dhf",
     "category-feature",
     "ttcmsabout",
-    "categories_ka7dhf",
     "categories_7k6aEe",
     "tt-testimonial",
     "ttcmsoffer",
