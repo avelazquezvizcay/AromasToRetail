@@ -471,37 +471,37 @@
         "items_box_VrKiz9": {
           "type": "items-box",
           "settings": {
-            "bg": "#c99a5c",
+            "bg": "rgba(0,0,0,0)",
             "svg": "",
             "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
             "title": "Fast Shipping",
             "description": ""
           }
         },
-        "items_box_dUYp8D": {
+        "items_box_qyJjMV": {
           "type": "items-box",
           "settings": {
-            "bg": "#c99a5c",
+            "bg": "rgba(0,0,0,0)",
             "svg": "",
             "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
             "title": "Fast Shipping",
             "description": ""
           }
         },
-        "items_box_Ax3zH3": {
+        "items_box_MxMeYy": {
           "type": "items-box",
           "settings": {
-            "bg": "#c99a5c",
+            "bg": "rgba(0,0,0,0)",
             "svg": "",
             "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
             "title": "Fast Shipping",
             "description": ""
           }
         },
-        "items_box_Dy8pCz": {
+        "items_box_iGHMJf": {
           "type": "items-box",
           "settings": {
-            "bg": "#c99a5c",
+            "bg": "rgba(0,0,0,0)",
             "svg": "",
             "image_svg": "shopify://shop_images/Icon_fast_shipping.png",
             "title": "Fast Shipping",
@@ -511,9 +511,9 @@
       },
       "block_order": [
         "items_box_VrKiz9",
-        "items_box_dUYp8D",
-        "items_box_Ax3zH3",
-        "items_box_Dy8pCz"
+        "items_box_qyJjMV",
+        "items_box_MxMeYy",
+        "items_box_iGHMJf"
       ],
       "name": "Policy V2",
       "settings": {
@@ -528,7 +528,8 @@
         "background_color": "",
         "background_gradient": "",
         "background_image_desktop": "shopify://shop_images/Fondo_seccion_categories.jpg",
-        "use_parallax": true,
+        "background_image_mobile": "shopify://shop_images/Fondo_seccion_categories_2f180c26-4ffb-4c6c-8b5a-b23c33face17.jpg",
+        "use_parallax": false,
         "padding_top": 50,
         "padding_bottom": 50
       }
