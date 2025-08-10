@@ -57,7 +57,7 @@ div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-sec
 #tt-megamenu .tt-mega_menu .tt_menus_ul>li>a ,.currency_wrapper.dropdown-toggle, .language_wrapper.dropdown-toggle{
    
     color: #000;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-style: normal!important;
     font-weight: 400!important;
     line-height: normal!important;
@@ -66,7 +66,7 @@ div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-sec
 
 .home-slider .slider-content-wrap .slider-button > a {
     color: #FFF;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -75,7 +75,7 @@ div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-sec
 color: #FFF!important;
 text-align: center;
 background: #734128!important;
-font-family: Arcon!important;
+font-family: "Arcon"!important;
 border-radius: 25px!important;
 font-style: normal;
 font-weight: 400;
@@ -93,21 +93,21 @@ background:#C7A07A;
 }
 .TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus {
     color: #FFF;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-style: normal;
     line-height: normal;
     font-weight: 400!important;
 }
 .TTProduct-Tab .nav-tabs > li > a {
     font-size: 30px !important;
-       font-family: Arcon!important;
+       font-family: "Arcon"!important;
     line-height: normal;
 }
 .product-wrapper .btn_wrapper .pro_btn a, .product-wrapper .btn_cart .pro_btn a
  {
     background: #734128!important;
     color: #ffffff!important;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
  }
  .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn.add_tocart span.add_cart, .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn.add_tocart span.sold_cart {
  color: #ffffff!important;
@@ -142,7 +142,7 @@ display: none!important;
 .ttabout-main .ttabout-block .ttabout-right .ttabout-desc {
 
     color: #000!important;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-style: normal!important;
     font-weight: 400!important;
     line-height: normal!important;
@@ -172,7 +172,7 @@ h2.tt-titlelv {
  {
 
     text-align: center;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-style: normal!important;
     font-weight: 400!important;
     line-height: normal!important;
@@ -185,7 +185,7 @@ h2.tt-titlelv {
     color: #FFF!important;
     text-align: center!important;
     text-shadow: 0 4.867px 12px rgba(0, 0, 0, 0.80)!important;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-style: normal;
     font-weight: 400!important;
     line-height: 38.933px!important;
@@ -208,7 +208,7 @@ h2.tt-titlelv {
 .cat-btnn2{
 color:  #FDFCE8;
 text-align: center;
-font-family: Arcon;
+font-family: "Arcon";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -350,7 +350,7 @@ h2.tt-title {
     color: #FFF!important;
     text-align: center;
     background: #734128!important;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-size: 30px!important;
     font-style: normal;
     font-weight: 400;
@@ -359,7 +359,7 @@ h2.tt-title {
 #tt-megamenu .tt-mega_menu .tt_menus_ul>li>a ,.currency_wrapper.dropdown-toggle, .language_wrapper.dropdown-toggle{
    
     color: #000;
-    font-family: Arcon!important;
+    font-family: "Arcon"!important;
     font-size: 16px!important;
     font-style: normal!important;
     font-weight: 400!important;
