@@ -149,6 +149,16 @@ div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-sec
     font-weight: 400;
     line-height: normal;
 }
+.ttabout-btn>.btn {
+color: #FFF!important;
+text-align: center;
+background: #734128!important;
+font-family: Arcon!important;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal!important;
+}
 .TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus {
     color: #FFF;
     font-family: Arcon!important;
@@ -160,12 +170,77 @@ div#shopify-section-template--24726121251126__categories_ka7dhf, div#shopify-sec
        font-family: Arcon!important;
     line-height: normal;
 }
+.product-wrapper .btn_wrapper .pro_btn a, .product-wrapper .btn_cart .pro_btn a
+ {
+    background: #734128!important;
+    color: #ffffff!important;
+    font-family: Arcon!important;
+ }
+ .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn.add_tocart span.add_cart, .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn.add_tocart span.sold_cart {
+ color: #ffffff!important;
+}
+
+.qty-box-set .qtyminus, .qty-box-set .qtyplus, .qty-box-set .qtyminus1, .qty-box-set .qtyplus1 {
+    border-color: #734128 !important;
+    cursor: pointer;
+    background: #734128 !important;
+}
+input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="file"], input[type="number"], input[type="tel"], textarea, select {
+    border: 1px solid #734128 !important;
+
+}
+.qty-box-set {
+      top: 8rem;
+border: 1px solid #734128 !important;
+}
+.product-price__sale-label, .product-wrapper .custom_label {
+display: none!important;
+
+}
+.ttabout-main .ttabout-block .ttabout-right .ttabout-title {   
+    color: var(--Color-Tierra-1, #391E10);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--Color-Tierra-1, #391E10);
+    font-family: "Chilia Demo";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ttabout-main .ttabout-block .ttabout-right .ttabout-desc {
+
+    color: #000;
+    font-family: Arcon;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 /*---------------- Custom CSS for only desktop -------------------*/
 @media (min-width: 1025px) {
 .home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
 
-    font-size: 30px!important
+    font-size: 30px!important;
 
+}
+.ttabout-main .ttabout-block .ttabout-right .ttabout-desc {
+
+    font-size: 28px!important;
+
+}
+
+.ttabout-main .ttabout-block .ttabout-right .ttabout-title {
+
+    font-size: 40px!important;
+
+}
+.ttabout-btn>.btn {
+color: #FFF!important;
+text-align: center;
+background: #734128!important;
+font-family: Arcon!important;
+font-size: 30px!important;
+font-style: normal;
+font-weight: 400;
+line-height: normal!important;
 }
 }
 /*---------------- Custom CSS for tablet, mobile -------------------*/
