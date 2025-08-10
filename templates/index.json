@@ -74,9 +74,9 @@
         "title_1_clr": "rgba(0,0,0,0)",
         "subtitle_1": "",
         "subtitle_1_clr": "#ffffff",
-        "button_bg": "rgba(0,0,0,0)",
+        "button_bg": "#391e10",
         "button_text": "#ffffff",
-        "button_hover_bg": "rgba(0,0,0,0)",
+        "button_hover_bg": "#734128",
         "button_hover_text": "#ffffff",
         "view_all": "",
         "view_url": ""
