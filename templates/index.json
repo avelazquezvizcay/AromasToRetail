@@ -81,9 +81,9 @@
             "btn_link": "",
             "title_color": "#ffffff",
             "subtitle_color": "#ffffff",
-            "btn_bg_color": "#391e10",
+            "btn_bg_color": "#734128",
             "btn_txt_color": "#ffffff",
-            "btn_bghover_color": "#734128",
+            "btn_bghover_color": "#391e10",
             "btn_hovertxt_color": "#ffffff",
             "text_position": "center",
             "text_effect": "left"
