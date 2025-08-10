@@ -1,81 +1,89 @@
-
-<div data-section-id="{{ section.id }}"  data-section-type="tt-collection-slider-wrap" class="tt-collection-slider-wrap collectionaromas" >
-  <div class="tt-collection-slider-wrap-inner  {% if  settings.enable_animation != blank %}bottom-to-top hb-animate-element{% endif %}">
-    <div class="container1" style="padding-right: 5px!important;padding-left: 5px;max-width: 140rem !important;   margin-right: auto;
-    margin-left: auto">
-   
-        <div class="title-block " style="text-align: center;padding-top: 4rem;padding-bottom: 5rem;">
-          <div class="ttsub-title2">{{ section.settings.subtitle }}</div>
-          <h2 class="tt-title">{{ section.settings.title }}</h2>
+<div data-section-id="{{ section.id }}"  data-section-type="tt-collection-slider-wrap" class="tt-collection-slider-wrap" >
+  <div class="tt-collection-slider-wrap-inner {% if settings.enable_animation != blank %} bottom-to-top hb-animate-element {% endif %}">
+    <div class="collection_cms_slider_wrap">
+         <div class="title-block title-block{{ section.id }}" style="text-align: center;padding-top: 4rem;padding-bottom: 5rem;">
+          <div class="ttsub-title2 title{{ section.id }}" >{{ section.settings.subtitle }}</div>
+          <h2 class="tt-title" >{{ section.settings.title }}</h2>
         </div>
 
-   
-      {% if section.blocks.size >0 %}  
-      <div class="category_feature1 owl-carousel product_col_desktop_pro4 product_col_mobile_pro{{section.settings.product_col_mobile_pro}} ">
+      {% if section.blocks.size > 0 %}  
+      <div class="category_feature owl-carousel product_col_desktop_pro{{section.settings.product_col_desktop_pro}} product_col_mobile_pro{{section.settings.product_col_mobile_pro}} ">
         {% for block in section.blocks %}  
         {%- assign collection = collections[block.settings.collection_cat_id] -%}   
-        <div id="cat-featured--{{ block.id }}" class="collection_cat_item1" style="padding:15px;"> 
+        <div id="cat-featured--{{ block.id }}" class="collection_cat_item"> 
           <div class="cat_content">
             <div class="collection_img"><a href="{{ collection.title }}"><img Loading="Lazy"  src="{{ block.settings.image_1 | img_url: "634x614"  }}" alt="collection-img" height="614" width="634"/></a></div>
-                           
+            <div class="tt-collection-content">
+              <div class="ttcat-content">
+                {% if block.settings.subtitle != blank  %}
+                <div class="cat-subtitle"> {{ block.settings.subtitle }} </div>
+                {% endif %}
+                {% if collection.title != blank  %}
+                <div class="collection_title">{{ collection.title }}</div>
+                {% endif %}                        
+                {% if collection.description != blank  %}
+                <div class="collection-detail">
+                  <span>{{ collection.description | strip_html | truncatewords: 10 }}</span>
+                </div>
+                {% endif %}
+                {% if collection.title != blank  %}
+                <div class="cat-item"><a href="{{ collection.url }}" class="cat-btn"><!--{{ collection.all_products_count }}--><span> <!--{{ 'cart.general.items' | t }}--> View</span></a></div>
+                {% endif %}
+              </div>
+            </div>                     
           </div>
-              {% if collection.title != blank  %}
-                  <div class="cat-item"><a href="{{ collection.url }}" class="cat-btn cat-btnn2" style="display: flex;width: max-content;height: 29px;padding: 2px 0 0 14.5px;justify-content: flex-end;align-items: center;flex-shrink: 0;"><span> {{ collection.title }}</span></a></div>
-
-              {% endif %} 
         </div>
-  
         {% endfor %}
       </div>
       {% endif %}
     </div>
   </div>
-  </div>
+</div>
 <style>
-  .collection_cat_item1 .tt-collection-content .cat-subtitle {
+
+  .collection_cat_item .tt-collection-content .cat-subtitle {
     color:{{section.settings.subtitle_color }};
   } 
-  .collection_cat_item1 .cat_content:hover .tt-collection-content .collection_title{
+  .collection_cat_item .cat_content:hover .tt-collection-content .collection_title{
     color:{{section.settings.collection_title_hover_color }};
   }
-  .collection_cat_item1 .tt-collection-content .ttcat-content .cat-item a.cat-btn { 
+  .collection_cat_item .tt-collection-content .ttcat-content .cat-item a.cat-btn { 
     color:{{section.settings.collection_item_color }};
     background:{{section.settings.collection_item_bgcolor }}; 
   }
-  .collection_cat_item1 .tt-collection-content .ttcat-content .cat-item a.cat-btn:hover {
+  .collection_cat_item .tt-collection-content .ttcat-content .cat-item a.cat-btn:hover {
     color:{{block.settings.collection_item_hover_color }};
     background:{{section.settings.collection_item_bghover_color }};
   } 
-  .collection_cat_item1 .tt-collection-content .collection-detail{ 
+  .collection_cat_item .tt-collection-content .collection-detail{ 
     color:{{section.settings.collection_desc_color }};
   }  
-  .collection_cat_item1 .tt-collection-content .collection_title,
-  .template-index .main-content .category-feature1 .tt-collection-slider-wrap-inner .owl-item.active.center.changeStyle .cat_content .tt-collection-content .collection_title{
+  .collection_cat_item .tt-collection-content .collection_title,
+  .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .owl-item.active.center.changeStyle .cat_content .tt-collection-content .collection_title{
     color:{{section.settings.collection_title_color }};
   }
-  .template-index .main-content .category-feature1 .tt-collection-slider-wrap-inner .owl-item.active.center .cat_content .tt-collection-content .collection_title,
-  .template-index .main-content .category-feature1 .tt-collection-slider-wrap-inner .owl-item.active:hover .cat_content .tt-collection-content .collection_title,
-  .template-index .main-content .category-feature1 .tt-collection-slider-wrap-inner .owl-item.active.center.changeStyle:hover .cat_content .tt-collection-content .collection_title{
+  .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .owl-item.active.center .cat_content .tt-collection-content .collection_title,
+  .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .owl-item.active:hover .cat_content .tt-collection-content .collection_title,
+  .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .owl-item.active.center.changeStyle:hover .cat_content .tt-collection-content .collection_title{
   	color:{{section.settings.collection_title_hover_color }};
   }
 
   @media(max-width:991px){
-    .collection_cat_item1 .tt-collection-content .collection_title,
-    .template-index .main-content .category-feature1 .tt-collection-slider-wrap-inner .owl-item.active.center.changeStyle .cat_content .tt-collection-content .collection_title{
+    .collection_cat_item .tt-collection-content .collection_title,
+    .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .owl-item.active.center.changeStyle .cat_content .tt-collection-content .collection_title{
       color:{{section.settings.collection_title_hover_color }};
     }
   }
-
 </style>
 <script>
   $(document).ready(function(){
-     $('body:not(.rtl) .category_feature1').owlCarousel({             
+     $('body:not(.rtl) .category_feature').owlCarousel({             
     nav : true,
     dots : false,
     autoplay:false,
-    loop:false,
-    rewind:false,
-    center:false,
+    loop:true,
+    rewind:true,
+    center:true,
     responsive: {
       100: {
         items: {{section.settings.product_col_mobile_pro}}
@@ -85,11 +93,11 @@
         center:false
       },
       992: {
-        items: 4
+        items: {{section.settings.product_col_desktop_pro}}
       }
     }
   });
-  $('body.rtl .category_feature1').owlCarousel({
+  $('body.rtl .category_feature').owlCarousel({
     nav : true,
     rtl:true,
     loop:true,
@@ -106,22 +114,22 @@
         center:false
       },
       992: {
-        items: 4
+        items: {{section.settings.product_col_desktop_pro}}
       }
     }
   });
-  $(".category-feature1 .owl-item").hover(function(){
-    $(".category-feature1 .owl-item.center").addClass("changeStyle");
+  $(".category-feature .owl-item").hover(function(){
+    $(".category-feature .owl-item.center").addClass("changeStyle");
   });
 
-  $( ".category-feature1 .owl-item" ).mouseleave(function() {
-    $( ".category-feature1 .owl-item.center" ).removeClass("changeStyle");
+  $( ".category-feature .owl-item" ).mouseleave(function() {
+    $( ".category-feature .owl-item.center" ).removeClass("changeStyle");
   });
   })
 </script>
 {% schema %}
 {
-  "name": "Categories",
+  "name": "Category Feature",
   "class": "index-section category-feature",
   "settings": [
              {
@@ -166,97 +174,97 @@
 "label": "Sub Title Color",
 "default": "#666"
 },
-  {
-    "type": "color",
-    "id": "image_content_bg_color",
-    "label": "Content Background Color",
-    "default":"#1d1c1c"
-  },
-  {
-    "type": "color",
-    "id": "subtitle_color",
-    "label": "Subtitle Color",
-    "default":"#000"
-  },
-  {
-    "type": "color",
-    "id": "collection_title_color",
-    "label": "Collection Title Color",
-    "default":"#fff"
-  },
-  {
-    "type": "color",
-    "id": "collection_title_hover_color",
-    "label": "Collection Title Hover Color",
-    "default":"#fff"
-  },
-  {
-    "type": "color",
-    "id": "collection_item_color",
-    "label": "Collection Items Color",
-    "default":"#fff"
-  },
-  {
-    "type": "color",
-    "id": "collection_item_bgcolor",
-    "label": "Collection Items Background Color",
-    "default":"#fff"
-  },
-  {
-    "type": "color",
-    "id": "collection_item_hover_color",
-    "label": "Collection Items Hover Color",
-    "default":"#111"
-  },
-  {
-    "type": "color",
-    "id": "collection_item_bghover_color",
-    "label": "Collection Items Background Hover Color",
-    "default":"#111"
-  },
-  {
-    "type": "color",
-    "id": "collection_desc_color",
-    "label": "Collection Description Color",
-    "default":"#fff"
-  }		 
-],
-"blocks": [
-{
-"type": "text_collection",
-"name": "collection cms",
-"settings": [
-{
-  "type": "image_picker",
-  "id": "image_1",
-  "label": "Image",
-  "info": "Size: 140x140"
-},
-{
-  "type": "text",
-  "id": "subtitle",
-  "label": "Subtitle"
-},
-{
-  "type": "collection",
-  "id": "collection_cat_id",
-  "label": "Select collection"
-}		 
-]
-}
-],
-"presets": [
-{
-"name": "Categories",
-"category": "TT CMS section 2",
-"blocks": [
-{
-  "type": "text_collection"
-}     
-
-]
-}
-]
+          {
+            "type": "color",
+            "id": "image_content_bg_color",
+            "label": "Content Background Color",
+            "default":"#1d1c1c"
+          },
+          {
+            "type": "color",
+            "id": "subtitle_color",
+            "label": "Subtitle Color",
+            "default":"#000"
+          },
+          {
+            "type": "color",
+            "id": "collection_title_color",
+            "label": "Collection Title Color",
+            "default":"#fff"
+          },
+          {
+            "type": "color",
+            "id": "collection_title_hover_color",
+            "label": "Collection Title Hover Color",
+            "default":"#fff"
+          },
+          {
+            "type": "color",
+            "id": "collection_item_color",
+            "label": "Collection Items Color",
+            "default":"#fff"
+          },
+          {
+            "type": "color",
+            "id": "collection_item_bgcolor",
+            "label": "Collection Items Background Color",
+            "default":"#fff"
+          },
+          {
+            "type": "color",
+            "id": "collection_item_hover_color",
+            "label": "Collection Items Hover Color",
+            "default":"#111"
+          },
+          {
+            "type": "color",
+            "id": "collection_item_bghover_color",
+            "label": "Collection Items Background Hover Color",
+            "default":"#111"
+          },
+          {
+            "type": "color",
+            "id": "collection_desc_color",
+            "label": "Collection Description Color",
+            "default":"#fff"
+          }		 
+        ],
+  "blocks": [
+    {
+      "type": "text_collection",
+      "name": "collection cms",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Image",
+          "info": "Size: 140x140"
+        },
+		{
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "collection",
+          "id": "collection_cat_id",
+          "label": "Select collection"
+        }		 
+      ]
+    }
+  ],
+ "presets": [
+    {
+     "name": "Category Feature",
+      "category": "TT CMS section",
+      "blocks": [
+        {
+          "type": "text_collection"
+        }     
+ 		
+      ]
+    }
+  ]
 }
 {% endschema %}
 
