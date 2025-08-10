@@ -4,7 +4,7 @@
     <div class="container1" style="padding-right: 5px!important;padding-left: 5px;max-width: 140rem !important;   margin-right: auto;
     margin-left: auto">
    
-        <div class="title-block" style="text-align: center;padding-top: 4rem;padding-bottom: 5rem">
+        <div class="title-block title-block{{ section.id }}" style="text-align: center;padding-top: 4rem;padding-bottom: 5rem">
           <div class="ttsub-title2 title{{ section.id }}" style="color:{{section.settings.subtitle_color_main }}">{{ section.settings.subtitle }}</div>
           <h2 class="tt-title" style="color:{{section.settings.title_color }}">{{ section.settings.title }}</h2>
         </div>
@@ -19,24 +19,28 @@
             <div class="collection_img"><a href="{{ collection.title }}"><img Loading="Lazy"  src="{{ block.settings.image_1 | img_url: "634x614"  }}" alt="collection-img" height="614" width="634"/></a></div>
             <div class="tt-collection-content">
               <div class="ttcat-content">
-                {% if block.settings.subtitle != blank  %}
+                <!-- {% if block.settings.subtitle != blank  %}
                 <div class="cat-subtitle"> {{ block.settings.subtitle }} </div>
                 {% endif %}
-                {% if collection.title != blank  %}
-                <div class="collection_title">{{ collection.title }}</div>
-                {% endif %}                        
-                {% if collection.description != blank  %}
+                                
+               {% if collection.description != blank  %}
                 <div class="collection-detail">
                   <span>{{ collection.description | strip_html | truncatewords: 10 }}</span>
                 </div>
                 {% endif %}
                 {% if collection.title != blank  %}
+                  
                 <div class="cat-item"><a href="{{ collection.url }}" class="cat-btn">{{ collection.all_products_count }}<span> {{ 'cart.general.items' | t }}</span></a></div>
-                {% endif %}
+                {% endif %}-->
               </div>
             </div>                     
           </div>
+              {% if collection.title != blank  %}
+                  <div class="cat-item"><a href="{{ collection.url }}" class="cat-btn cat-btnn2" style="display: flex;width: max-content;height: 29px;padding: 2px 0 0 14.5px;justify-content: flex-end;align-items: center;flex-shrink: 0;"><span> {{ collection.title }}</span></a></div>
+
+              {% endif %} 
         </div>
+  
         {% endfor %}
       </div>
       {% endif %}
