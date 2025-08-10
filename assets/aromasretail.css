@@ -110,7 +110,7 @@ background:#C7A07A;
  .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn.add_tocart span.add_cart, .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn.add_tocart span.sold_cart {
  color: #ffffff!important;
 }
-.container-fluid.padding_0>div:nth-child(8)>div>div>div>div:nth-child(1)  {
+.container-fluid.padding_0>div:nth-child(7)>div>div>div>div:nth-child(1)  {
 display:none;
 }
 .qty-box-set .qtyminus, .qty-box-set .qtyplus, .qty-box-set .qtyminus1, .qty-box-set .qtyplus1 {
@@ -204,7 +204,7 @@ h2.tt-titlelv {
     top: 4rem!important;
 }
 
-.container-fluid.padding_0>div:nth-child(8),.container-fluid.padding_0>div:nth-child(7) ,.shopify-section.section{
+.container-fluid.padding_0>div:nth-child(6),.container-fluid.padding_0>div:nth-child(7) ,.shopify-section.section{
     background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
 }
 
