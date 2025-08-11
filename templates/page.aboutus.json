@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "wrapper": "div.container",
+  "wrapper": "div",
   "sections": {
     "slideshow2_Q7txrF": {
       "type": "slideshow2",
