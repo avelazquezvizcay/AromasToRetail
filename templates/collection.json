@@ -12,7 +12,9 @@
     "main": {
       "type": "collection",
       "custom_css": [
-        ".pagination-wrap {border: 1px solid rgba(0, 0, 0, 0.15)!important;}"
+        ".pagination-wrap {border: 1px solid rgba(0, 0, 0, 0.15) !important;}",
+        ".filter-wrapper {border: 1px solid rgba(0, 0, 0, 0.15) !important;}",
+        ".collection_template .sorting_wrapper .btn.dropdown-toggle,.collection_template .sorting_wrapper .btn.dropdown-toggle:hover {font-size: 13px; font-weight: 500; padding: 5px 34px 5px 15px; background: #fff; color: #111; border: 1px solid rgba(0, 0, 0, 0.15) !important;}"
       ],
       "settings": {
         "enable_sidecategory": false,
