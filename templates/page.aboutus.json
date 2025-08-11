@@ -37,6 +37,9 @@
       "block_order": [
         "image_4rMhKc"
       ],
+      "custom_css": [
+        ".slider-title {text-align: left !important; text-shadow: 0 4px 30px #000 !important; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #FFF; font-size: 42px !important; line-height: 64px !important;}"
+      ],
       "name": "Slideshow 2",
       "settings": {
         "slider_animation_type": "slide",
