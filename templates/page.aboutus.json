@@ -20,7 +20,7 @@
             "show_video": false,
             "video_url": "",
             "title": "We explore the sensory richness of perfumes, lotions and candles from the captivating lands of Dubai.",
-            "sub_title": "We explore the sensory richness of perfumes, lotions and candles from the captivating lands of Dubai.",
+            "sub_title": "",
             "btn_txt": "",
             "btn_link": "",
             "title_color": "#fff",
@@ -46,112 +46,73 @@
         "slide_button_txt_hover_color": "#000000"
       }
     },
-    "main": {
-      "type": "aboutus-page-img",
-      "settings": {
-        "about_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed mauris id lacus volutpat consectetur sed non velit. Nulla ultrices luctus libero vel feugiat. Vestibulum suscipit ligula et eros volutpat, quis gravida ex rutrum. Morbi non blandit orci, eu ultrices risus. Maecenas volutpat dui vitae sem hendrerit, quis finibus turpis porta. Pellentesque et efficitur eros, in dapibus ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        "about_title1": "ABOUT OUR SHOP",
-        "description_1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-        "about_title2": "WHAT WE DO",
-        "description_2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
-      }
-    },
-    "team": {
-      "type": "aboutus-team",
+    "ttcmsbanner_ttjxCU": {
+      "type": "ttcmsbanner",
       "blocks": {
-        "1570173823217": {
-          "type": "text",
+        "image_YftNd4": {
+          "type": "image",
           "settings": {
-            "image_heading": "john doe",
-            "author_name": "john doe",
-            "author_designation": "web devloper",
-            "facebook": "",
-            "twitter": "",
-            "google-plus": "",
-            "instagram": ""
-          }
-        },
-        "1570173875415": {
-          "type": "text",
-          "settings": {
-            "image_heading": "john buffer",
-            "author_name": "john buffer",
-            "author_designation": "web developer",
-            "facebook": "",
-            "twitter": "",
-            "google-plus": "",
-            "instagram": ""
-          }
-        },
-        "1570173906227": {
-          "type": "text",
-          "settings": {
-            "image_heading": "sandra ellips",
-            "author_name": "sandra ellips",
-            "author_designation": "graphics designer",
-            "facebook": "",
-            "twitter": "",
-            "google-plus": "",
-            "instagram": ""
-          }
-        },
-        "1570174004731": {
-          "type": "text",
-          "settings": {
-            "image_heading": "craig wilson",
-            "author_name": "craig wilson",
-            "author_designation": "web designer",
-            "facebook": "",
-            "twitter": "",
-            "google-plus": "",
-            "instagram": ""
-          }
-        },
-        "1570173938187": {
-          "type": "text",
-          "settings": {
-            "image_heading": "jhon smith",
-            "author_name": "jhon smith",
-            "author_designation": "developer",
-            "facebook": "",
-            "twitter": "",
-            "google-plus": "",
-            "instagram": ""
-          }
-        },
-        "1570174049687": {
-          "type": "text",
-          "settings": {
-            "image_heading": "jhon doe",
-            "author_name": "jhon doe",
-            "author_designation": "manager",
-            "facebook": "",
-            "twitter": "",
-            "google-plus": "",
-            "instagram": ""
+            "banner_image1": "shopify://shop_images/foto_tienda.jpg",
+            "banner_link1": "",
+            "title": "get 35% off",
+            "title_color": "#f12a43",
+            "subtitle": "big discount",
+            "subtitle_color": "#f12a43",
+            "btn": "",
+            "btnbg_color": "",
+            "btntxt_color": "",
+            "btnbghvr_color": "",
+            "btnhvrtxt_color": "",
+            "text_position": "pos-left"
           }
         }
       },
       "block_order": [
-        "1570173823217",
-        "1570173875415",
-        "1570173906227",
-        "1570174004731",
-        "1570173938187",
-        "1570174049687"
+        "image_YftNd4"
       ],
+      "name": "TT Cms Banner",
+      "settings": {}
+    },
+    "slideshow_YjaHgW": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9wYTem": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Foto_about_us_1.jpg",
+            "image_url": "",
+            "show_video": false,
+            "title": "",
+            "sub_title": "",
+            "btn_txt": "shop now",
+            "btn_link": "",
+            "title_color": "#fff",
+            "subtitle_color": "#fff",
+            "btn_bg_color": "#EB3039",
+            "btn_txt_color": "#fff",
+            "btn_bghover_color": "#000",
+            "btn_hovertxt_color": "#fff",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_9wYTem"
+      ],
+      "name": "Slideshow",
       "settings": {
-        "title": "OUR TEAM",
-        "sub_title": "Experts",
-        "title_color": "#dddddd",
-        "sub_title_color": "#e9ad3f",
-        "ourteam_column": "5"
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
       }
     }
   },
   "order": [
     "slideshow2_Q7txrF",
-    "main",
-    "team"
+    "ttcmsbanner_ttjxCU",
+    "slideshow_YjaHgW"
   ]
 }
