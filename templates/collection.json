@@ -12,18 +12,19 @@
     "main": {
       "type": "collection",
       "settings": {
-        "enable_sidecategory": true,
+        "enable_sidecategory": false,
         "linkedlist": "main-menu",
         "linkedlist_title": "CATEGORIES",
-        "show_filter": true,
+        "show_filter": false,
         "collapse_on_larger_devices": true,
         "enable_sidebar_multiple_choice": true,
-        "show_best_products": true,
+        "show_best_products": false,
         "title": "",
         "bestseller": "mens",
         "pro_img_width_height": "80x104",
         "limit": "4",
         "product_rows": false,
+        "promo_img": "shopify://shop_images/banner_catalogo_5x75_9e141317-d3df-4da5-80f2-35b0959f5b1f.jpg",
         "promo_link": "",
         "promo_title": ""
       }
