@@ -137,7 +137,7 @@ display: none!important;
     font-family: "Chilia Demo";
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal !important;
 }
 .ttabout-main .ttabout-block .ttabout-right .ttabout-desc {
 
