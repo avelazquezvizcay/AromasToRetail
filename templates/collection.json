@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "collection",
+      "custom_css": [
+        ".pagination-wrap {border: 1px solid rgba(0, 0, 0, 0.15)!important;}"
+      ],
       "settings": {
         "enable_sidecategory": false,
         "linkedlist": "main-menu",
