@@ -10,15 +10,48 @@
 {
   "wrapper": "div.container",
   "sections": {
+    "slideshow2_Q7txrF": {
+      "type": "slideshow2",
+      "blocks": {
+        "image_4rMhKc": {
+          "type": "image",
+          "settings": {
+            "image_link": "https://cdn.shopify.com/videos/c/o/v/75a92e451732497ab688da5cda54754d.mp4",
+            "show_video": false,
+            "video_url": "",
+            "title": "We explore the sensory richness of perfumes, lotions and candles from the captivating lands of Dubai.",
+            "sub_title": "New Decoration Furniture Home, Office",
+            "btn_txt": "",
+            "btn_link": "",
+            "title_color": "#fff",
+            "subtitle_color": "#fff",
+            "btn_bg_color": "rgba(0,0,0,0)",
+            "btn_txt_color": "#fff",
+            "btn_bghover_color": "#000",
+            "btn_hovertxt_color": "#fff",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_4rMhKc"
+      ],
+      "name": "Slideshow 2",
+      "settings": {
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
+      }
+    },
     "main": {
       "type": "aboutus-page-img",
       "settings": {
-        "about_us": "shopify://shop_images/about-us-01.jpg",
         "about_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed mauris id lacus volutpat consectetur sed non velit. Nulla ultrices luctus libero vel feugiat. Vestibulum suscipit ligula et eros volutpat, quis gravida ex rutrum. Morbi non blandit orci, eu ultrices risus. Maecenas volutpat dui vitae sem hendrerit, quis finibus turpis porta. Pellentesque et efficitur eros, in dapibus ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        "about_image1": "shopify://shop_images/about-us-02.jpg",
         "about_title1": "ABOUT OUR SHOP",
         "description_1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-        "about_image2": "shopify://shop_images/about-us-03.jpg",
         "about_title2": "WHAT WE DO",
         "description_2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
       }
@@ -29,7 +62,6 @@
         "1570173823217": {
           "type": "text",
           "settings": {
-            "image_1": "shopify://shop_images/1.jpg",
             "image_heading": "john doe",
             "author_name": "john doe",
             "author_designation": "web devloper",
@@ -42,7 +74,6 @@
         "1570173875415": {
           "type": "text",
           "settings": {
-            "image_1": "shopify://shop_images/5.jpg",
             "image_heading": "john buffer",
             "author_name": "john buffer",
             "author_designation": "web developer",
@@ -55,7 +86,6 @@
         "1570173906227": {
           "type": "text",
           "settings": {
-            "image_1": "shopify://shop_images/7.jpg",
             "image_heading": "sandra ellips",
             "author_name": "sandra ellips",
             "author_designation": "graphics designer",
@@ -68,7 +98,6 @@
         "1570174004731": {
           "type": "text",
           "settings": {
-            "image_1": "shopify://shop_images/4.jpg",
             "image_heading": "craig wilson",
             "author_name": "craig wilson",
             "author_designation": "web designer",
@@ -81,7 +110,6 @@
         "1570173938187": {
           "type": "text",
           "settings": {
-            "image_1": "shopify://shop_images/9.jpg",
             "image_heading": "jhon smith",
             "author_name": "jhon smith",
             "author_designation": "developer",
@@ -94,7 +122,6 @@
         "1570174049687": {
           "type": "text",
           "settings": {
-            "image_1": "shopify://shop_images/6.jpg",
             "image_heading": "jhon doe",
             "author_name": "jhon doe",
             "author_designation": "manager",
@@ -123,6 +150,7 @@
     }
   },
   "order": [
+    "slideshow2_Q7txrF",
     "main",
     "team"
   ]
