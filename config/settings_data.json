@@ -2287,7 +2287,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "Oil",
-              "button_link": "",
+              "button_link": "shopify://collections/oil-1",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
@@ -2383,7 +2383,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "Extras",
-              "button_link": "shopify://collections",
+              "button_link": "shopify://collections/extras-1",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
@@ -2479,7 +2479,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "Body Spray",
-              "button_link": "",
+              "button_link": "shopify://collections/5-x",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
@@ -2575,7 +2575,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "Gift Sets",
-              "button_link": "",
+              "button_link": "shopify://collections/lattafa-sets",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
@@ -2671,7 +2671,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "About Us",
-              "button_link": "",
+              "button_link": "shopify://collections/for-nights",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
@@ -2767,7 +2767,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "Contact",
-              "button_link": "",
+              "button_link": "shopify://pages/contact",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
@@ -2863,7 +2863,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "Wholesale",
-              "button_link": "",
+              "button_link": "https://orientalaromaswholesale.com/",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
