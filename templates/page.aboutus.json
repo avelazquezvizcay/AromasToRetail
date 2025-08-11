@@ -48,30 +48,30 @@
     },
     "ttcmsbanner_bakxJT": {
       "type": "ttcmsbanner",
-      "blocks": {
-        "image_FtXTFg": {
-          "type": "image",
-          "settings": {
-            "banner_image1": "shopify://shop_images/foto_tienda.jpg",
-            "banner_link1": "",
-            "title": "get 35% off",
-            "title_color": "#f12a43",
-            "subtitle": "big discount",
-            "subtitle_color": "#f12a43",
-            "btn": "",
-            "btnbg_color": "",
-            "btntxt_color": "",
-            "btnbghvr_color": "",
-            "btnhvrtxt_color": "",
-            "text_position": "pos-left"
-          }
-        }
-      },
-      "block_order": [
-        "image_FtXTFg"
-      ],
       "name": "TT Cms Banner",
       "settings": {}
+    },
+    "ttcmsabout_6iN3b6": {
+      "type": "ttcmsabout",
+      "name": "TTAbout section",
+      "settings": {
+        "bg_color": "#c7a07a",
+        "image": "shopify://shop_images/foto_tienda.jpg",
+        "image_url": "",
+        "image_position": "pos-left",
+        "title": "We are dedicated to offering the highest quality products at affordable prices.",
+        "title_color": "#391e10",
+        "subtitle": "",
+        "subtitle_color": "#fff",
+        "about_desc": "Our mission goes beyond offering exquisite fragrances; We aspire to democratize and inspire the use of quality perfumes in each person who chooses to delight in our fragrances. <br><br>\n\nJoin us on this aromatic journey, where each product tells a story and each fragrance becomes a unique sensory experience. Oriental Aromas: where quality and accessibility meet to awaken your senses.",
+        "desc_color": "#fff",
+        "about_btn": "",
+        "btn_url": "",
+        "btn_txt_color": "rgba(0,0,0,0)",
+        "btn_bg_color": "rgba(0,0,0,0)",
+        "btn_txt_hvr_color": "rgba(0,0,0,0)",
+        "btn_bg_hvr_color": "rgba(0,0,0,0)"
+      }
     },
     "slideshow_YjaHgW": {
       "type": "slideshow",
@@ -113,6 +113,7 @@
   "order": [
     "slideshow2_Q7txrF",
     "ttcmsbanner_bakxJT",
+    "ttcmsabout_6iN3b6",
     "slideshow_YjaHgW"
   ]
 }
