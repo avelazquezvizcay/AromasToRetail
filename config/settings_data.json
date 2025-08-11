@@ -99,10 +99,10 @@
     "product_img_hover": "zoom_img",
     "product_hover_btn": "style2",
     "text_color": "#000000",
-    "related_title": "RELATED PRODUCTS",
-    "related_subtitle": "Best Selling",
-    "related_title_color": "#dddddd",
-    "related_subtitle_color": "#000000",
+    "related_title": "",
+    "related_subtitle": "You may also like",
+    "related_title_color": "#391e10",
+    "related_subtitle_color": "#391e10",
     "cart_notes_enable": true,
     "use_ajax_cart": true,
     "trumsandcondition_id": true,
@@ -2991,37 +2991,6 @@
       },
       "recommendations-product": {
         "type": "recommendations-product",
-        "blocks": {
-          "image_nW7nEy": {
-            "type": "image",
-            "settings": {
-              "product": "aliquam-quaerat-voluptatem-2",
-              "from": "Texas, US",
-              "time": "10 minutes ago"
-            }
-          },
-          "image_nE7mNn": {
-            "type": "image",
-            "settings": {
-              "product": "autem-euaiure-repren-3",
-              "from": "Texas, US",
-              "time": "10 minutes ago"
-            }
-          },
-          "image_kKt8M7": {
-            "type": "image",
-            "settings": {
-              "product": "corporis-suscipit-libor",
-              "from": "Texas, US",
-              "time": "10 minutes ago"
-            }
-          }
-        },
-        "block_order": [
-          "image_nW7nEy",
-          "image_nE7mNn",
-          "image_kKt8M7"
-        ],
         "custom_css": [],
         "settings": {
           "display_recent_purchase": false,
