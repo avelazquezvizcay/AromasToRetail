@@ -46,10 +46,10 @@
         "slide_button_txt_hover_color": "#000000"
       }
     },
-    "ttcmsbanner_ttjxCU": {
+    "ttcmsbanner_bakxJT": {
       "type": "ttcmsbanner",
       "blocks": {
-        "image_YftNd4": {
+        "image_FtXTFg": {
           "type": "image",
           "settings": {
             "banner_image1": "shopify://shop_images/foto_tienda.jpg",
@@ -68,7 +68,7 @@
         }
       },
       "block_order": [
-        "image_YftNd4"
+        "image_FtXTFg"
       ],
       "name": "TT Cms Banner",
       "settings": {}
@@ -112,7 +112,7 @@
   },
   "order": [
     "slideshow2_Q7txrF",
-    "ttcmsbanner_ttjxCU",
+    "ttcmsbanner_bakxJT",
     "slideshow_YjaHgW"
   ]
 }
