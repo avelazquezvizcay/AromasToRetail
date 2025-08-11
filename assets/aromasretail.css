@@ -114,20 +114,40 @@ background:#C7A07A;
 display:none;
 }
 .qty-box-set .qtyminus, .qty-box-set .qtyplus, .qty-box-set .qtyminus1, .qty-box-set .qtyplus1 {
-    border-color: #734128 !important;
+    border-color: rgba(0, 0, 0, 0.05);
     cursor: pointer;
-    background: #734128 !important;
+ background: rgba(0, 0, 0, 0.05);
 }
 input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="file"], input[type="number"], input[type="tel"], textarea, select {
     border: 1px solid #734128 !important;
 
 }
+.product-information .product-info {
+    display: none!important;
+
+}
+.ttsub-title {
+    color: var(--Color-Tierra-1, #391E10);
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--Color-Tierra-1, #391E10);
+    font-family: "Chilia Demo";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .qty-box-set {
-      top: 8rem;
-border: 1px solid #734128 !important;
+   /*   top: 8rem;*/
+border: 1px solid  rgba(0, 0, 0, 0.05);
 }
 .product-price__sale-label, .product-wrapper .custom_label{
 display: none!important;
+
+}
+hr {
+    clear: both;
+    border-top: solid rgba(255, 255, 255, .15)!important;
 
 }
 .ttabout-main .ttabout-block .ttabout-right .ttabout-title {   
@@ -146,6 +166,10 @@ display: none!important;
     font-style: normal!important;
     font-weight: 400!important;
     line-height: normal!important;
+}
+.pagination-wrap {   
+    border: 1px solid rgba(0, 0, 0, 0.15)!important;
+
 }
 h2.tt-titlelv {
     color:  #391E10!important;
