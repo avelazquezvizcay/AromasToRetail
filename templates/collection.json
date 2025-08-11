@@ -14,19 +14,18 @@
       "settings": {
         "enable_sidecategory": false,
         "linkedlist": "main-menu",
-        "linkedlist_title": "CATEGORIES",
+        "linkedlist_title": "",
         "show_filter": false,
         "collapse_on_larger_devices": true,
         "enable_sidebar_multiple_choice": true,
-        "show_best_products": false,
+        "show_best_products": true,
         "title": "",
-        "bestseller": "mens",
+        "bestseller": "",
         "pro_img_width_height": "80x104",
         "limit": "4",
-        "product_rows": false,
-        "promo_img": "shopify://shop_images/banner_catalogo_5x75_9e141317-d3df-4da5-80f2-35b0959f5b1f.jpg",
+        "product_rows": true,
         "promo_link": "",
-        "promo_title": ""
+        "promo_title": "asdsa"
       }
     }
   },
