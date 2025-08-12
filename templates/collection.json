@@ -56,18 +56,17 @@
       "settings": {
         "enable_sidecategory": false,
         "linkedlist": "main-menu",
-        "linkedlist_title": "asda",
+        "linkedlist_title": "",
         "show_filter": true,
         "collapse_on_larger_devices": true,
         "enable_sidebar_multiple_choice": true,
         "show_best_products": false,
-        "title": "asdas",
+        "title": "",
         "bestseller": "for-nights",
         "pro_img_width_height": "80x104",
         "limit": "4",
-        "product_rows": true,
-        "promo_img": "shopify://shop_images/banner_catalogo_oil.jpg",
-        "promo_link": "shopify://collections",
+        "product_rows": false,
+        "promo_link": "",
         "promo_title": "asdsa"
       }
     }
