@@ -250,6 +250,9 @@ h2.tt-title.tt-titlelv {
     font-weight: 400;
     line-height: normal;
 }
+#shopify-section-footer-model-3 .footer-section {
+    padding: 40px 0!important;
+}
 .block_newsletter .tt-content .news-title::before,.mdi-phone:before,.mdi-email-outline:before{
 display: none;
 }
@@ -258,7 +261,7 @@ display: none;
 
     color: #000;
     font-family: Arcon!important;
-    font-size: 24px!important;
+    
     font-style: normal;
     font-weight: 400!important;
     line-height: normal;
@@ -282,7 +285,7 @@ display: none;
 
 #shopify-section-footer-model-3 .footer-column.contactus ul li {
         text-align: center;
-        width: auto!important;
+        
     }
     #shopify-section-footer-model-3 .footer-section {
         border-top: 0px!important;
@@ -478,6 +481,25 @@ text-transform: uppercase;
 }
 /*---------------- Custom CSS for only desktop -------------------*/
 @media (min-width: 1025px) {
+#shopify-section-footer-model-3 .footer-column.contactus ul li {
+        text-align: center;
+        width: auto!important;
+    }
+    .footer-column .contact-us .phone {
+
+    color: #000;
+    font-family: Arcon!important;
+    font-size: 24px!important;
+    font-style: normal;
+    font-weight: 400!important;
+    line-height: normal;
+    text-decoration-line: underline!important;
+    text-decoration-style: solid!important;
+    text-decoration-skip-ink: auto!important;
+    text-decoration-thickness: 6%!important;
+    text-underline-offset: 19%!important;
+    text-underline-position: from-font!important;
+}
     .template-index .main-content .category-feature .tt-collection-slider-wrap-inner .cat_content .tt-collection-content .ttcat-content .collection_title
 
  {
