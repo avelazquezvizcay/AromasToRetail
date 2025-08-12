@@ -60,12 +60,12 @@
         "show_filter": true,
         "collapse_on_larger_devices": true,
         "enable_sidebar_multiple_choice": true,
-        "show_best_products": false,
+        "show_best_products": true,
         "title": "",
-        "bestseller": "for-nights",
+        "bestseller": "",
         "pro_img_width_height": "80x104",
         "limit": "4",
-        "product_rows": false,
+        "product_rows": true,
         "promo_link": "",
         "promo_title": "asdsa"
       }
