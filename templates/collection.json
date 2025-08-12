@@ -57,7 +57,7 @@
         "enable_sidecategory": false,
         "linkedlist": "main-menu",
         "linkedlist_title": "",
-        "show_filter": true,
+        "show_filter": false,
         "collapse_on_larger_devices": true,
         "enable_sidebar_multiple_choice": true,
         "show_best_products": true,
