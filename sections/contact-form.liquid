@@ -6,7 +6,7 @@
       </div>
       <div class="contact_wrapper">
         <div class="row">
-          <div class="col-xs-12 col-sm-6">
+         <!--<div class="col-xs-12 col-sm-6">
             {% form 'contact' %}
             {% if form.posted_successfully? %}
             <p class="note form-success">
@@ -45,10 +45,10 @@
               <input type="submit" class="btn right" value="{{ 'contact.form.send' | t }}">
             </div>
             {% endform %}
-          </div>
+          </div>-->
           {% if section.settings.map_api_key != blank %}
           {% if section.settings.enbale_map %}
-        <div class="contact-us-map col-xs-12 col-sm-6">
+        <div class="contact-us-map col-xs-12 col-sm-12" style="padding-top:6rem;>
           <div id="google_map" data-section-id="{{ section.id }}" data-section-type="map-section">
             <div id="map">{{ section.settings.map_api_key }}</div>
           </div>

@@ -234,9 +234,13 @@ h2.tt-titlelv {
 h2.tt-title.tt-titlelv {
     margin-top: 7rem;
 }
-.container-fluid.padding_0>div:nth-child(6),.container-fluid.padding_0>div:nth-child(5) ,.shopify-section.section{
+.container-fluid.padding_0>div:nth-child(6),.container-fluid.padding_0>div:nth-child(5) {
     background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
         padding-bottom: 3rem!important;
+}
+section.policy-v10{    
+    background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
+    padding-bottom: 3rem !important;
 }
 #shopify-section-footer-model-3 .footer-top .block_newsletter .tt-content .news-title {
     padding: 0px!important;
