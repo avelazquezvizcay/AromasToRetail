@@ -335,7 +335,11 @@ line-height: normal;
 
 /*Home*/
 
-
+.site-header.header_1 .nav-menu-wrap .main-header .header-logo {
+    position: absolut!important;
+    left: 40%!important;
+    right: 40%!important;
+}
 .site-header.header_1, .site-header.header_1 .sticky_header.fixed {
 
     border-bottom-left-radius: 20px;
@@ -556,10 +560,23 @@ h2.tt-title {
 }
 /*---------------- Custom CSS for tablet, mobile -------------------*/
 @media (max-width: 1199px) {
+    #tt-megamenu .tt-mega_menu .tt_menus_ul>li>a, .currency_wrapper.dropdown-toggle, .language_wrapper.dropdown-toggle {
+
+    color: #fff !important;
+
+}
+    #tt-megamenu .tt-mega_menu {
+        background: rgba(0, 0, 0, 0.2);
+        color: #fff !important;
+    }
   .home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
 
     font-size: 18px!important;
 
+}
+#tt-megamenu .tt-mega_menu li.tt_menu_item .tt_sub_menu_wrap .tt_sub_menu_linklist > li > a
+{
+    color: #fff !important; 
 }
 .titletemplate--24726121251126__category-feature:before {
     position: absolute;
