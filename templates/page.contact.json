@@ -29,13 +29,14 @@
             "btn_bghover_color": "rgba(0,0,0,0)",
             "btn_hovertxt_color": "#fff",
             "text_position": "left",
-            "text_effect": "bottom"
+            "text_effect": "left"
           }
         }
       },
       "block_order": [
         "image_44MDqn"
       ],
+      "custom_css": [],
       "name": "Slideshow",
       "settings": {
         "slider_animation_type": "slide",
