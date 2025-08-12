@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_ntwciK": {
+      "type": "slideshow",
+      "blocks": {
+        "image_w3YjNY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_catalogo_fragrances.jpg",
+            "image_url": "",
+            "show_video": false,
+            "video_url": "",
+            "title": "",
+            "sub_title": "",
+            "btn_txt": "",
+            "btn_link": "",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "btn_bg_color": "#eb3039",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#000000",
+            "btn_hovertxt_color": "#ffffff",
+            "text_position": "left",
+            "text_effect": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_w3YjNY"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "custom_css": [
+        ".pagination-wrap {border: 1px solid rgba(0, 0, 0, 0.15) !important;}",
+        ".filter-wrapper {border: 1px solid rgba(0, 0, 0, 0.15) !important;}",
+        ".collection_template .sorting_wrapper .btn.dropdown-toggle,.collection_template .sorting_wrapper .btn.dropdown-toggle:hover {font-size: 13px; font-weight: 500; padding: 5px 34px 5px 15px; background: #fff; color: #111; border: 1px solid rgba(0, 0, 0, 0.15) !important;}"
+      ],
+      "settings": {
+        "enable_sidecategory": false,
+        "linkedlist": "main-menu",
+        "linkedlist_title": "",
+        "show_filter": false,
+        "collapse_on_larger_devices": true,
+        "enable_sidebar_multiple_choice": true,
+        "show_best_products": true,
+        "title": "",
+        "bestseller": "",
+        "pro_img_width_height": "80x104",
+        "limit": "4",
+        "product_rows": true,
+        "promo_link": "",
+        "promo_title": "asdsa"
+      }
+    }
+  },
+  "order": [
+    "slideshow_ntwciK",
+    "main"
+  ]
+}
