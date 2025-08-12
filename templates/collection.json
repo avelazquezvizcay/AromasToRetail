@@ -62,10 +62,11 @@
         "enable_sidebar_multiple_choice": true,
         "show_best_products": true,
         "title": "",
-        "bestseller": "",
+        "bestseller": "for-nights",
         "pro_img_width_height": "80x104",
         "limit": "4",
         "product_rows": true,
+        "promo_img": "shopify://shop_images/banner_catalogo_oil.jpg",
         "promo_link": "",
         "promo_title": "asdsa"
       }
