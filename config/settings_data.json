@@ -2671,7 +2671,7 @@
             "type": "tt_mm_menu",
             "settings": {
               "title": "About Us",
-              "button_link": "shopify://collections/for-nights",
+              "button_link": "shopify://pages/about-new",
               "tt_mn_class": "",
               "tt_mn_sub_heading": "",
               "tt_mn_subheading_bg": "#febb01",
