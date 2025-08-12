@@ -602,6 +602,12 @@ h2.tt-title {
         margin: 0 auto;
         text-align: center;
     }
+        .home-slider .slider-content-wrap {
+        width: 100% !important;
+        bottom: 18%;
+        padding-left: 10rem!important;
+        padding-right: 10rem!important;
+    }
 }
 
 /*---------------- Custom CSS for only tablet -------------------*/
