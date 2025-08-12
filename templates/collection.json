@@ -15,19 +15,20 @@
         "image_w3YjNY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_catalogo_5x75_9e141317-d3df-4da5-80f2-35b0959f5b1f.jpg",
+            "image": "shopify://shop_images/banner_catalogo_fragrances.jpg",
             "image_url": "",
             "show_video": false,
+            "video_url": "",
             "title": "",
             "sub_title": "",
             "btn_txt": "",
             "btn_link": "",
-            "title_color": "#fff",
-            "subtitle_color": "#fff",
-            "btn_bg_color": "#EB3039",
-            "btn_txt_color": "#fff",
-            "btn_bghover_color": "#000",
-            "btn_hovertxt_color": "#fff",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
+            "btn_bg_color": "#eb3039",
+            "btn_txt_color": "#ffffff",
+            "btn_bghover_color": "#000000",
+            "btn_hovertxt_color": "#ffffff",
             "text_position": "left",
             "text_effect": "left"
           }
