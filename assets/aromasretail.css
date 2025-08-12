@@ -369,6 +369,18 @@ input::placeholder {
     overflow: hidden;
 }
 /*Fin*/
+/*Collection*/
+.titlecollection{
+color: var(--Color-Tierra-1, #391E10);
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: var(--Color-Tierra-1, #391E10);
+font-family: "Chilia Demo";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
 
 @media (min-width: 1500px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {

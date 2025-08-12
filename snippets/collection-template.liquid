@@ -3,7 +3,24 @@
 {% unless products_per_page  %}
 {% assign products_per_page = settings.products_per_page %}
 {% endunless %}
-<div id="ProductGridContainer">
+
+
+<div id="ProductGridContainer" style="padding-top:3rem">
+  <div class="container-fluid1 padding_0">
+          <div class="breadcrumb-blocknew">
+            <nav
+              class="breadcrumb-wrapper{% if settings.enable_breadcrumb_bg and settings.breadcrumb_parallax %} parallex breadcrumb-img{% else %} breadcrumb-content{% endif %}"
+              {% if settings.enable_breadcrumb_bg and settings.breadcrumb_parallax %}
+                data-source-url="{{ settings.breadcrumb_parallax | img_url: 'master' }}"
+              {% endif %}
+              style="{% if settings.enable_breadcrumb_bg and settings.breadcrumb_parallax %}background-image: url('{{ settings.breadcrumb_parallax | img_url: "master" }}');background-position: 50% 35.5739%; {% endif %}background-color: {{ settings.breadcrumb_bg_color }};"
+              aria-label="breadcrumbs"
+            >
+              {% render 'breadcrumb-collection' %}
+            </nav>
+          </div>
+          
+        </div>
   <div class="collection_template" id="product-grid" data-id="{{ section.id }}">
     {% paginate collection.products by products_per_page %}
     <header class="section-header text-left">
@@ -14,7 +31,7 @@
           <img src="{{ settings.category_image | image_url }}"  alt="{{ collection.title | escape }}" display="block" width="915" height="300" />
         </div>   
         {% endif %}
-        <h1 class="section-header__title text-left">{{ collection.title }}</h1>
+        <h1 class="section-header__title text-left">{{ collection.title }} 2</h1> 
         <div class="description">{{ collection.description }}</div>
       </div>
       {% else %}
@@ -130,3 +147,9 @@
     {% endpaginate %}
   </div>
 </div>
+<style> 
+.breadcrumb-block {
+    display: none;
+}
+
+</style>
