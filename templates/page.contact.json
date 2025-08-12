@@ -9,6 +9,42 @@
  */
 {
   "sections": {
+    "slideshow_teNpgX": {
+      "type": "slideshow",
+      "blocks": {
+        "image_44MDqn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Contac_us.jpg",
+            "image_url": "",
+            "show_video": false,
+            "title": "Contact us",
+            "sub_title": "",
+            "btn_txt": "",
+            "btn_link": "",
+            "title_color": "#fff",
+            "subtitle_color": "#fff",
+            "btn_bg_color": "rgba(0,0,0,0)",
+            "btn_txt_color": "#fff",
+            "btn_bghover_color": "rgba(0,0,0,0)",
+            "btn_hovertxt_color": "#fff",
+            "text_position": "left",
+            "text_effect": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_44MDqn"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -19,6 +55,7 @@
     }
   },
   "order": [
+    "slideshow_teNpgX",
     "form"
   ]
 }
