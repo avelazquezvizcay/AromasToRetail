@@ -18,16 +18,17 @@
             "image": "shopify://shop_images/banner_Contac_us.jpg",
             "image_url": "",
             "show_video": false,
+            "video_url": "",
             "title": "Contact us",
             "sub_title": "",
             "btn_txt": "",
             "btn_link": "",
-            "title_color": "#fff",
-            "subtitle_color": "#fff",
+            "title_color": "#ffffff",
+            "subtitle_color": "#ffffff",
             "btn_bg_color": "rgba(0,0,0,0)",
-            "btn_txt_color": "#fff",
+            "btn_txt_color": "#ffffff",
             "btn_bghover_color": "rgba(0,0,0,0)",
-            "btn_hovertxt_color": "#fff",
+            "btn_hovertxt_color": "#ffffff",
             "text_position": "left",
             "text_effect": "left"
           }
@@ -46,6 +47,59 @@
         "slide_button_txt_hover_color": "#000000"
       }
     },
+    "policy_v3_RrjX3y": {
+      "type": "policy-v3",
+      "blocks": {
+        "items_box_MQ8iVY": {
+          "type": "items-box",
+          "settings": {
+            "bg": "rgba(0,0,0,0)",
+            "svg": "",
+            "image_svg": "shopify://shop_images/Icon_ubicacion.png",
+            "title": "Address:",
+            "description": "6371 NW 102 AVE.STE. 102, DORAL, FLORIDA 33178"
+          }
+        },
+        "items_box_y3eyk4": {
+          "type": "items-box",
+          "settings": {
+            "bg": "rgba(0,0,0,0)",
+            "svg": "",
+            "image_svg": "shopify://shop_images/Icon_telefono.png",
+            "title": "Contact numbers:",
+            "description": "+1 (786) 731-9919"
+          }
+        },
+        "items_box_LNFGRN": {
+          "type": "items-box",
+          "settings": {
+            "bg": "rgba(0,0,0,0)",
+            "svg": "",
+            "image_svg": "shopify://shop_images/Icon_email.png",
+            "title": "Email",
+            "description": "Support@Orientalaromas.com"
+          }
+        }
+      },
+      "block_order": [
+        "items_box_MQ8iVY",
+        "items_box_y3eyk4",
+        "items_box_LNFGRN"
+      ],
+      "name": "Policy V3",
+      "settings": {
+        "width": "box",
+        "is_grid": true,
+        "limit_carousel": 3,
+        "carousel_gap": 0,
+        "limit": 3,
+        "col_gap": 0,
+        "row_gap": 0,
+        "use_parallax": true,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -57,6 +111,7 @@
   },
   "order": [
     "slideshow_teNpgX",
+    "policy_v3_RrjX3y",
     "form"
   ]
 }
