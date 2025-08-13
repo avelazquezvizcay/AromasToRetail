@@ -1,8 +1,11 @@
-<section class='policy-v11'>
+<section class='policy-v11' tyle="text-align:center;">
    
       {%- if section.settings.is_grid -%}
+         
       <div class="row">
+         
         <div class="container text-center">
+     <div><h2 class="tt-title tt-titlelv col-md-12" style="text-align:center;">Find us in</h2></div>
           {%- for block in section.blocks -%}
             <div class='policy-v10__box col-md-4' style='--bg: {{ block.settings.bg }}'>
               <div class='policy-v10__wrap'>              
@@ -17,9 +20,25 @@
                   <h6 class='policy-v10__title'>
                     {{ block.settings.title }}
                   </h6>
+                       
+                  {%- if forloop.index  == 2 -%}
+                        <a href="tel:+17867319919">    <div class='policy-v10__desc'> {{ block.settings.description }} </div> </a>
+                
+                 {% elsif  forloop.index  == 3 %}
+                    
+                  <div class='policy-v10__desc'>
+                    <a href="mailto:{{ block.settings.description }}">    <div class='policy-v10__desc'> {{ block.settings.description }} </div> </a>
+                  </div>
+                   {% else %}
+                    
                   <div class='policy-v10__desc'>
                     {{ block.settings.description }}
                   </div>
+                   
+                    {%- endif -%}
+
+                 
+                
                 </div>
               </div>
             </div>
@@ -30,7 +49,64 @@
       {%- endif -%}
  
 </section>
+<style>
+  .policy-v10__title{
+  color: #000!important;
+text-align: center!important;
+font-family: Arcon!important;
+font-style: normal!important;
+font-weight: 400!important;
+line-height: normal!important;
+}
+.policy-v10__desc{
+  color: #000!important;
+text-align: center!important;
+font-family: Arcon!important;
+font-style: normal!important;
+font-weight: 400!important;
+line-height: normal!important;
+}
+.tt-titlelv:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 55%;
+    height: .2rem;
+    background-color: #391E10 !important;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    top: 120%;
+}
+.breadcrumb-block {
+    display: none;
+}
 
+@media (max-width: 1199px) {
+
+  .policy-v10__title{
+font-size: 21px!important;
+}
+.policy-v10__desc{
+font-size: 16px!important;
+padding-left:2%;
+padding-right:2%
+}
+    .tt-title {
+        font-size: 31px!important;
+        line-height: 24px!important;
+        padding-top:20px;
+    }
+}
+  @media (min-width: 1025px) {
+.policy-v10__title{
+font-size: 32px!important;
+}
+.policy-v10__desc{
+font-size: 24px!important;
+}
+}
+</style>
 {% schema %}
 {
   "name": "Policy v3",
