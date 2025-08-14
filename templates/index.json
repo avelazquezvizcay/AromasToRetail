@@ -85,12 +85,12 @@
     "ttcmsabout_M8C7D9": {
       "type": "ttcmsabout",
       "custom_css": [
-        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {background: #391E10!important; top: auto; width: 38%!important; height: 3px; left: 0% !important; z-index: 1;}"
+        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {background: #391e10 !important; top: auto; width: 38% !important; height: 3px; left: 0% !important; z-index: 1;}"
       ],
       "settings": {
         "bg_color": "#c7a07a",
         "image": "shopify://shop_images/Special_promo_banner_1.jpg",
-        "image_url": "#",
+        "image_url": "https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_promo_f6afad87-4e0f-487a-8348-de59a9b1205b.jpg?v=1755195318",
         "image_position": "pos-left",
         "title": "SALE 5X$75",
         "title_color": "#391e10",
@@ -295,7 +295,6 @@
       "custom_css": [],
       "settings": {
         "bg_color": "#ffffff",
-        "image": "shopify://shop_images/Fondo_seccion_categories.jpg",
         "image_url": "https://cdn.shopify.com/videos/c/o/v/fcdaf546ad3b413e94673a43fab58ca9.mp4",
         "image_position": "pos-right",
         "title": "Start your business now from $350.",
