@@ -1,4 +1,4 @@
-<div class="ttabout-main {% if settingsenable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% else %}  style="background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_promo_f6afad87-4e0f-487a-8348-de59a9b1205b.jpg?v=1755195318);background-size: contain;background-position: right;background-repeat: no-repeat;"{% endif %}>
+<div class="ttabout-main {% if settingsenable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% elsif  section.settings.image_url != blank  and section.settings.image_position == 'pos-left'%}  style="background-image: url({{ section.settings.image_url }});background-size: contain;background-position: right;background-repeat: no-repeat;"{% else %}style="background:{{section.settings.bg_color}}"{% endif %}>
   <div class="ttabout-block {{section.settings.image_position}}">
      {% if  section.settings.image_position == 'pos-left' %}
       {% if  section.settings.image != blank %}
@@ -23,7 +23,7 @@
           {% endif %}
         </div>
     {% else %}
-        {% if  section.settings.image != blank %}
+        {% if  section.settings.image_url != blank and section.settings.image_position == 'pos-right' %}
           <div class="ttabout-left about-content col-sm-6 col-xs-6">
             <!--<a href="{{section.settings.image_url}}">
        
