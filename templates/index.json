@@ -317,6 +317,7 @@
       "name": "TTAbout section 2",
       "settings": {
         "bg_color": "#ffffff",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-08-14_at_08.49.13_6dfc0b27.jpg",
         "image_url": "https://cdn.shopify.com/videos/c/o/v/fcdaf546ad3b413e94673a43fab58ca9.mp4",
         "image_position": "pos-right",
         "title": "Start your business now from $350.",
