@@ -252,7 +252,7 @@
           "type": "text_collection",
           "name": "Night Style",
           "settings": {
-            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "image_1": "shopify://shop_images/Night_Style_d4e75064-6199-463c-bd1e-fdf567cbac0b.jpg",
             "subtitle": "Night Style",
             "collection_cat_id": "womens"
           }
@@ -322,14 +322,14 @@
         "title": "Start your business now from $350.",
         "title_color": "#141414",
         "subtitle": "",
-        "subtitle_color": "#fff",
+        "subtitle_color": "#ffffff",
         "about_desc": "",
-        "desc_color": "#fff",
+        "desc_color": "#ffffff",
         "about_btn": "I Want It",
         "btn_url": "",
-        "btn_txt_color": "#fff",
+        "btn_txt_color": "#ffffff",
         "btn_bg_color": "#391e10",
-        "btn_txt_hvr_color": "#fff",
+        "btn_txt_hvr_color": "#ffffff",
         "btn_bg_hvr_color": "#734128"
       }
     },
