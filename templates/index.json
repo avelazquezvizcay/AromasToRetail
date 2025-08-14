@@ -452,21 +452,20 @@
         "parallax_enable": false
       }
     },
-    "17552060180d56e6a4": {
+    "1755206882918cfa28": {
       "type": "apps",
       "blocks": {
-        "testimonials_slider_slider_widget_block_awm8H8": {
-          "type": "shopify://apps/testimonials-slider/blocks/slider-widget-block/cd756d38-7c3d-4332-af00-4ff87263e921",
+        "testimonials_slider_customer_story_widget_block_bmwE3j": {
+          "type": "shopify://apps/testimonials-slider/blocks/customer-story-widget-block/cd756d38-7c3d-4332-af00-4ff87263e921",
           "settings": {
-            "themeId": "black",
-            "configNumber": "1",
+            "themeId": "light",
             "autoscroll": true,
-            "showAvatar": true
+            "configNumber": "1"
           }
         }
       },
       "block_order": [
-        "testimonials_slider_slider_widget_block_awm8H8"
+        "testimonials_slider_customer_story_widget_block_bmwE3j"
       ],
       "settings": {}
     }
@@ -482,6 +481,6 @@
     "ttcmsabout2_rbeMm7",
     "policy_v2_6GcwVA",
     "tt-testimonial",
-    "17552060180d56e6a4"
+    "1755206882918cfa28"
   ]
 }
