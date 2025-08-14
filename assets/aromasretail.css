@@ -240,9 +240,18 @@ h2.tt-title.tt-titlelv {
     background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
         padding-bottom: 3rem!important;
 }
-section.policy-v10{    
+section.policy-v10 {
     background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_categories.jpg?v=1754510253);
-    padding-bottom: 3rem !important;
+    padding-bottom: 1% !important;
+    padding-top: 3%;
+}
+@media (min-width: 768px) {
+    .ttcmsabout .ttabout-main .ttabout-block {
+        display: flex
+;
+        align-items: center;
+        margin-bottom: -0.35%!important;
+    }
 }
 #shopify-section-footer-model-3 .footer-top .block_newsletter .tt-content .news-title {
     padding: 0px!important;
@@ -297,11 +306,11 @@ display: none;
         border-top: 0px!important;
         border-bottom: 1px solid var(--colorFooterBorder);
     }
-section#shopify-section-template--24726121251126__policy_v2_6GcwVA {
+/*section#shopify-section-template--24726121251126__policy_v2_6GcwVA {
     padding-top: 47px!important;
     padding-bottom: 30px;
     margin-bottom: 0px;
-}
+}*/
 .tt-testimonial-wrap.style\= {
     padding-bottom: 80px!important;
 }
