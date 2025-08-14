@@ -85,7 +85,7 @@
     "ttcmsabout_M8C7D9": {
       "type": "ttcmsabout",
       "custom_css": [
-        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {top: auto; width: 38% !important; height: 3px; left: 0% !important; z-index: 1;}"
+        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {background: #391e10 !important; top: auto; width: 38% !important; height: 3px; left: 0% !important; z-index: 1;}"
       ],
       "settings": {
         "bg_color": "#c7a07a",
