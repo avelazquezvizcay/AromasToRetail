@@ -230,7 +230,9 @@ h2.tt-titlelv {
 .template-index .main-content .shopify-section, .product-single__description, .related-products-container, #recently-viewed-products-wrap {
      padding-top: 0px!important;
      margin-bottom: 0px!important;
+         margin-top: 0% !important;
 }
+
 h2.tt-title.tt-titlelv {
     margin-top: 7rem;
 }
@@ -304,7 +306,7 @@ section#shopify-section-template--24726121251126__policy_v2_6GcwVA {
     padding-bottom: 80px!important;
 }
 div#shopify-section-template--24726121251126__product_tab_model_Kec4nz {
-    padding-bottom: 4rem!important;
+    padding-bottom: 4%!important;
 }
 h6.policy-v10__title {
     color: #FFF;
@@ -348,6 +350,7 @@ line-height: normal;
 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+        margin-bottom: -4%;
 }
 .slider-title {
     color: #FFF;
