@@ -398,6 +398,32 @@ input::placeholder {
     box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius) rgba(var(--color-foreground), var(--media-shadow-opacity));
     overflow: hidden;
 }
+.reputon-testimonials-widget .cUTSSv {
+ 
+    background: #391E10!important;
+
+}
+.reputon-testimonials-widget .bhGAXo ,.reputon-testimonials-widget .htBISP{
+    color: rgb(247, 244, 244)!important;
+    color: #FFF!important;
+font-family: Arcon!important;
+font-size: 24px!important;
+font-style: normal!important;
+font-weight: 400!important;
+line-height: 24px!important; /* 100% */
+
+}
+.reputon-testimonials-widget .dVqmZG {
+    display: block;
+    width: auto;
+    height: 59%!important;
+    object-fit: cover;
+    max-width: 100%;
+}
+.reputon-testimonials-widget .irJzGy {
+    display: inline-block;
+    display: none!important;
+}
 /*Fin*/
 /*Collection*/
 .titlecollection{
