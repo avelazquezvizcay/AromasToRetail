@@ -180,7 +180,7 @@ h2.tt-titlelv {
     font-weight: 400!important;
     line-height: normal;
 }
-.titletemplate--24726121251126__category-feature:before {
+.container-fluid.padding_0>div:nth-child(7)>div>div>div>div:before {
     position: absolute;
     display: inline-block;
     content: "";
@@ -568,7 +568,7 @@ h2.tt-title {
 /*---------------- Custom CSS for tablet, mobile -------------------*/
 @media (max-width: 1199px) {
 
-.titletemplate--24726121251126__category-feature:before {
+.container-fluid.padding_0>div:nth-child(7)>div>div>div>div:before {
     position: absolute;
     display: inline-block;
     content: "";
