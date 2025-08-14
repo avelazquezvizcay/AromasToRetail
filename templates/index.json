@@ -292,6 +292,7 @@
     },
     "ttcmsabout": {
       "type": "ttcmsabout",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "bg_color": "#ffffff",
@@ -308,6 +309,27 @@
         "btn_txt_color": "#dddddd",
         "btn_bg_color": "#391e10",
         "btn_txt_hvr_color": "#ffffff",
+        "btn_bg_hvr_color": "#734128"
+      }
+    },
+    "ttcmsabout2_rbeMm7": {
+      "type": "ttcmsabout2",
+      "name": "TTAbout section 2",
+      "settings": {
+        "bg_color": "#ffffff",
+        "image_url": "https://cdn.shopify.com/videos/c/o/v/fcdaf546ad3b413e94673a43fab58ca9.mp4",
+        "image_position": "pos-right",
+        "title": "Start your business now from $350.",
+        "title_color": "#141414",
+        "subtitle": "",
+        "subtitle_color": "#fff",
+        "about_desc": "",
+        "desc_color": "#fff",
+        "about_btn": "I Want It",
+        "btn_url": "",
+        "btn_txt_color": "#fff",
+        "btn_bg_color": "#391e10",
+        "btn_txt_hvr_color": "#fff",
         "btn_bg_hvr_color": "#734128"
       }
     },
@@ -437,6 +459,7 @@
     "categories_7k6aEe",
     "category-feature",
     "ttcmsabout",
+    "ttcmsabout2_rbeMm7",
     "policy_v2_6GcwVA",
     "tt-testimonial"
   ]
