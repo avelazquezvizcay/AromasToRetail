@@ -305,7 +305,7 @@ section#shopify-section-template--24726121251126__policy_v2_6GcwVA {
 .tt-testimonial-wrap.style\= {
     padding-bottom: 80px!important;
 }
-div#shopify-section-template--24726121251126__product_tab_model_Kec4nz {
+.container-fluid.padding_0>div:nth-child(3) {
     padding-bottom: 4%!important;
 }
 h6.policy-v10__title {
