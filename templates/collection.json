@@ -37,6 +37,9 @@
       "block_order": [
         "image_w3YjNY"
       ],
+      "custom_css": [
+        ".tt-homeslider .home-slider, .homeslider #popup_toggle {float: left; width: 100%; position: relative; padding-top: 6%;}"
+      ],
       "name": "Slideshow",
       "settings": {
         "slider_animation_type": "slide",
