@@ -1,12 +1,14 @@
-<div class="ttabout-main ttabout-image-right {% if settings.enable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% elsif  section.settings.image != blank  and section.settings.image_position == 'pos-right'%}  style="background-image: url({{section.settings.image | img_url: "952x660"}});background-size: contain;background-position: left;background-repeat: no-repeat;"{% else %}style="background:{{section.settings.bg_color}}"{% endif %}>
+<div class="ttabout-main ttabout-image-left ttabout-image-left2 {% if settingsenable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% elsif  section.settings.image_url != blank  and section.settings.image_position == 'pos-left'%}  style="background-image: url({{ section.settings.image_url }})"{% else %}style="background:{{section.settings.bg_color}}"{% endif %}>
+
   <div class="ttabout-block {{section.settings.image_position}}">
      {% if  section.settings.image_position == 'pos-left' %}
       {% if  section.settings.image != blank %}
-        <div class="ttabout-left about-content col-sm-6 col-xs-6">
+        <div class="ttabout-left  about-content  col-sm-6 col-xs-6">
           <a href="{% if  section.settings.image_url != blank %}{{section.settings.image_url}}{% else %}#{% endif %}"><img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>
         </div>
       {% endif %}
-        <div class="ttabout-right about-content col-sm-6 col-xs-6">
+      
+        <div class="ttabout-right about-content col-sm-6 col-xs-6" >
           {% if  section.settings.subtitle != blank %}
           <div class="ttabout-subtitle">{{section.settings.subtitle}}</div>
           {% endif %}
@@ -22,9 +24,10 @@
           </div>
           {% endif %}
         </div>
+        
     {% else %}
-        {% if  section.settings.image_url != blank and section.settings.image_position == 'pos-right' %}
-          <div class="ttabout-left about-content col-sm-6 col-xs-6">
+        {% if  section.settings.image != blank %}
+          <div class="ttabout-left about-content about-content2 col-sm-6 col-xs-6">
             <!--<a href="{{section.settings.image_url}}">
        
               <img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>-->
@@ -56,9 +59,8 @@
 .breadcrumb-block {
     display: none;
 }
-
-
-    .ttabout-image-right {
+    .ttabout-image-left {
+ 
         background-size: contain;background-position: right;background-repeat: no-repeat;
     }
 
@@ -66,17 +68,17 @@
 
 .ttabout-image-right{
 
-      
+       
         background-position: bottom!important;
         background-repeat: no-repeat;
     }
-}
-@media (max-width: 767px) {
-    .ttcmsabout .ttabout-main .ttabout-block .about-content {  
-        background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_promo_f6afad87-4e0f-487a-8348-de59a9b1205b.jpg?v=1755195318);
-        background-repeat: no-repeat;  background-repeat: round;
+  .ttabout-image-left2 {  
+        background-image: url({{ section.settings.image_url }});
+         background-repeat: round;
+        text-align: left;
     }
 }
+
   </style>
 
 {% schema %}

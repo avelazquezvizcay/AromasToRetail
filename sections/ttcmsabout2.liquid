@@ -2,7 +2,7 @@
   <div class="ttabout-block {{section.settings.image_position}}">
      {% if  section.settings.image_position == 'pos-left' %}
       {% if  section.settings.image != blank %}
-        <div class="ttabout-left about-content col-sm-6 col-xs-6">
+        <div class="ttabout-left about-content1 col-sm-6 col-xs-6">
           <a href="{% if  section.settings.image_url != blank %}{{section.settings.image_url}}{% else %}#{% endif %}"><img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>
         </div>
       {% endif %}
@@ -24,7 +24,7 @@
         </div>
     {% else %}
         {% if  section.settings.image_url != blank and section.settings.image_position == 'pos-right' %}
-          <div class="ttabout-left about-content col-sm-6 col-xs-6">
+          <div class="ttabout-left about-content about-content1 col-sm-6 col-xs-6">
             <!--<a href="{{section.settings.image_url}}">
        
               <img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>-->

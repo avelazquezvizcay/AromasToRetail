@@ -1,9 +1,9 @@
-<div class="ttabout-main ttabout-image-left {% if settingsenable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% elsif  section.settings.image_url != blank  and section.settings.image_position == 'pos-left'%}  style="background-image: url({{ section.settings.image_url }})"{% else %}style="background:{{section.settings.bg_color}}"{% endif %}>
+<div class="ttabout-main ttabout-image-left ttabout-image-left2 {% if settingsenable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% elsif  section.settings.image_url != blank  and section.settings.image_position == 'pos-left'%}  style="background-image: url({{ section.settings.image_url }})"{% else %}style="background:{{section.settings.bg_color}}"{% endif %}>
 
   <div class="ttabout-block {{section.settings.image_position}}">
      {% if  section.settings.image_position == 'pos-left' %}
       {% if  section.settings.image != blank %}
-        <div class="ttabout-left about-content col-sm-6 col-xs-6">
+        <div class="ttabout-left  about-content  col-sm-6 col-xs-6">
           <a href="{% if  section.settings.image_url != blank %}{{section.settings.image_url}}{% else %}#{% endif %}"><img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>
         </div>
       {% endif %}
@@ -27,7 +27,7 @@
         
     {% else %}
         {% if  section.settings.image != blank %}
-          <div class="ttabout-left about-content col-sm-6 col-xs-6">
+          <div class="ttabout-left about-content about-content2 col-sm-6 col-xs-6">
             <!--<a href="{{section.settings.image_url}}">
        
               <img Loading="Lazy"  src="{{section.settings.image | img_url: "952x660"}}" alt="ttaboutimg" width="952" height="660"></a>-->
@@ -66,15 +66,15 @@
 
     @media (max-width: 1199px) {
 
-.ttabout-image-left{
+.ttabout-image-right{
 
        
         background-position: bottom!important;
         background-repeat: no-repeat;
     }
-    .ttcmsabout .ttabout-main .ttabout-block .about-content {  
+  .ttabout-image-left2 {  
         background-image: url({{ section.settings.image_url }});
-        background-repeat: no-repeat;  background-repeat: round;
+         background-repeat: space;
         text-align: left;
     }
 }
