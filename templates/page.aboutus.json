@@ -84,6 +84,34 @@
         "btn_bg_hvr_color": "rgba(0,0,0,0)"
       }
     },
+    "aboutpage_xgGDap": {
+      "type": "aboutpage",
+      "custom_css": [
+        "@media (min-width: 1025px) {.ttabout-main .ttabout-block .ttabout-right .ttabout-title {font-size: 28px !important; }}",
+        " @media (min-width: 1025px) {.ttabout-main .ttabout-block .ttabout-right .ttabout-desc {font-size: 20px !important; }}",
+        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {background: #391e10 !important; top: auto; width: 38% !important; height: 3px; left: 0% !important; z-index: 1;}",
+        ".ttcmsabout .ttabout-main {margin-top: -2%;}"
+      ],
+      "name": "TTAbout section 3",
+      "settings": {
+        "bg_color": "#c7a07a",
+        "image": "shopify://shop_images/foto_tienda.jpg",
+        "image_url": "https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_promo_f6afad87-4e0f-487a-8348-de59a9b1205b.jpg?v=1755195318",
+        "image_position": "pos-left",
+        "title": "We are dedicated to offering the highest quality products at affordable prices.",
+        "title_color": "#391e10",
+        "subtitle": "",
+        "subtitle_color": "#fff",
+        "about_desc": "Our mission goes beyond offering exquisite fragrances; We aspire to democratize and inspire the use of quality perfumes in each person who chooses to delight in our fragrances. <br><br>\n\nJoin us on this aromatic journey, where each product tells a story and each fragrance becomes a unique sensory experience. Oriental Aromas: where quality and accessibility meet to awaken your senses.",
+        "desc_color": "#fff",
+        "about_btn": "",
+        "btn_url": "",
+        "btn_txt_color": "#fff",
+        "btn_bg_color": "#fff",
+        "btn_txt_hvr_color": "#fff",
+        "btn_bg_hvr_color": "#fff"
+      }
+    },
     "slideshow_YjaHgW": {
       "type": "slideshow",
       "blocks": {
@@ -122,34 +150,6 @@
         "slide_button_bg_hover_color": "#ffc446",
         "slide_button_txt_color": "#ffffff",
         "slide_button_txt_hover_color": "#000000"
-      }
-    },
-    "aboutpage_xgGDap": {
-      "type": "aboutpage",
-      "custom_css": [
-        "@media (min-width: 1025px) {.ttabout-main .ttabout-block .ttabout-right .ttabout-title {font-size: 28px !important; }}",
-        "@media (min-width: 1025px) {.ttabout-main .ttabout-block .ttabout-right .ttabout-desc {font-size: 20px !important; }}",
-        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {background: #391e10 !important; top: auto; width: 38% !important; height: 3px; left: 0% !important; z-index: 1;}",
-        ".ttcmsabout .ttabout-main {margin-top: -2%;}"
-      ],
-      "name": "TTAbout section 3",
-      "settings": {
-        "bg_color": "#c7a07a",
-        "image": "shopify://shop_images/foto_tienda.jpg",
-        "image_url": "https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_promo_f6afad87-4e0f-487a-8348-de59a9b1205b.jpg?v=1755195318",
-        "image_position": "pos-left",
-        "title": "We are dedicated to offering the highest quality products at affordable prices.",
-        "title_color": "#391e10",
-        "subtitle": "",
-        "subtitle_color": "#fff",
-        "about_desc": "Our mission goes beyond offering exquisite fragrances; We aspire to democratize and inspire the use of quality perfumes in each person who chooses to delight in our fragrances. <br><br>\n\nJoin us on this aromatic journey, where each product tells a story and each fragrance becomes a unique sensory experience. Oriental Aromas: where quality and accessibility meet to awaken your senses.",
-        "desc_color": "#fff",
-        "about_btn": "",
-        "btn_url": "",
-        "btn_txt_color": "#fff",
-        "btn_bg_color": "#fff",
-        "btn_txt_hvr_color": "#fff",
-        "btn_bg_hvr_color": "#fff"
       }
     }
   },
