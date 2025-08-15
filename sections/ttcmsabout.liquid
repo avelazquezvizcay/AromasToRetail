@@ -73,6 +73,13 @@
         background-repeat: no-repeat;
     }
 }
+@media (max-width: 767px) {
+    .ttcmsabout .ttabout-main .ttabout-block .about-content {  
+        background-image: url({{ section.settings.image_url }});
+        background-repeat: no-repeat;  background-repeat: round;
+        text-align: left;
+    }
+}
   </style>
 
 {% schema %}
