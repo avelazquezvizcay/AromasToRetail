@@ -269,7 +269,7 @@ section.policy-v10 {
         display: flex
 ;
         align-items: center;
-        margin-bottom: -0.35%!important;
+       /* margin-bottom: -0.35%!important;*/
     }
 }
 #shopify-section-footer-model-3 .footer-top .block_newsletter .tt-content .news-title {
