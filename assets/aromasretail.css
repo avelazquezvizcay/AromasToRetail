@@ -727,8 +727,19 @@ h2.tt-title {
 }
 /*---------------- Custom CSS for tablet, mobile -------------------*/
 @media (max-width: 1199px) {
+    .titlecollection {
+    color: var(--Color-Tierra-1, #391E10);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--Color-Tierra-1, #391E10);
+    font-family: "Chilia Demo";
+    font-size: 24px!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
 img.grid-view-item__image.featured-image.image_thumb {
-    height: 20rem;
+    height: 17rem;
 }
 .footer-column.contactus {
     float: left;
@@ -824,14 +835,31 @@ img.grid-view-item__image.featured-image.image_thumb {
 /*---------------- Custom CSS for only mobile -------------------*/
 @media (max-width: 767px){
 
+        .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn a.add-cart-btn > i, .style2.grid-view-item .product-wrapper .btn_wrapper .pro_btn a.add-to-cart-disable > i {
+        width: 27px!important;
+        text-align: right;
+    }
+
     #tt-megamenu .tt-mega_menu .tt_menus_ul>li>a, .currency_wrapper.dropdown-toggle, .language_wrapper.dropdown-toggle {
 
-    color: #fff !important;
+    color: #000 ;
 
 }
+    .site-header.header_1 #tt-megamenu .tt-mega_menu ul.tt_menus_ul {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+        padding: 0 0 15px;
+    }
+#tt-megamenu .tt-mega_menu {
+      
+        border:1px solid rgba(0, 0, 0, 0.15) !important;
+    }
+    #tt-megamenu .tt-mega_menu li.tt_menu_item:hover > a, #tt-megamenu .tt-mega_menu li.tt_menu_item:hover span.categories {
+   color: #000 !important;
+    }
+
     #tt-megamenu .tt-mega_menu {
-        background: rgba(0, 0, 0, 0.2);
-        color: #fff !important;
+        background: #e2ceb1;
+        color: #000 !important;
     }
   .home-slider .slider-content-wrap .slider-button > a ,.TTProduct-Tab .nav-tabs > li.active > a, .TTProduct-Tab .nav-tabs > li > a:focus ,.TTProduct-Tab .nav-tabs > li:last-child > a{
 
@@ -840,7 +868,7 @@ img.grid-view-item__image.featured-image.image_thumb {
 }
 #tt-megamenu .tt-mega_menu li.tt_menu_item .tt_sub_menu_wrap .tt_sub_menu_linklist > li > a
 {
-    color: #fff !important; 
+    color: #000 !important; 
 }
   /*-----------------------Home----------------------*/
 
