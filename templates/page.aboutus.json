@@ -38,7 +38,8 @@
         "image_4rMhKc"
       ],
       "custom_css": [
-        "@media (min-width: 1025px) {.slider-title {text-align: left !important; text-shadow: 0 4px 30px #000; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff; font-size: 45px !important; line-height: 60px !important;}.tt-homeslider .home-slider,.homeslider #popup_toggle {padding: 0rem;}}"
+        "@media (min-width: 1025px) {.slider-title {text-align: left !important; text-shadow: 0 4px 30px #000; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff; font-size: 45px !important; line-height: 60px !important; } .tt-homeslider .home-slider, .homeslider #popup_toggle {padding: 0rem; }}",
+        "@media (max-width: 1199px) {.slider-title {font-size: 15px !important; line-height: 21px !important; text-align: left !important; margin-left: -38% !important; }}"
       ],
       "name": "Slideshow 2",
       "settings": {
