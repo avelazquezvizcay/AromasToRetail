@@ -57,31 +57,34 @@
 <style>
    .ttabout-main .ttabout-block .ttabout-right .ttabout-subtitle{color:{{section.settings.subtitle_color}};}.ttabout-main .ttabout-block .ttabout-right .ttabout-title{color:{{section.settings.title_color}};}.ttabout-main .ttabout-block .ttabout-right .ttabout-desc{color:{{section.settings.desc_color}};}.ttabout-main .ttabout-block .ttabout-right .ttabout-btn a{color:{{section.settings.btn_txt_color}};background:{{section.settings.btn_bg_color}};}.ttabout-main .ttabout-block .ttabout-right .ttabout-btn a:hover{color:{{section.settings.btn_txt_hvr_color}};}.ttabout-main .ttabout-block .ttabout-right .ttabout-btn a::after{background:{{section.settings.btn_bg_hvr_color}};}
 .breadcrumb-block {
-        display: none;
-        }
-        .ttabout-image-left {
-
+    display: none;
+}
+    .ttabout-image-left {
+ 
         background-size: contain;background-position: right;background-repeat: no-repeat;
-        }
+    }
 
-        @media (max-width: 1199px) {
+    @media (max-width: 1199px) {
 
-        .ttabout-image-left{          
+.ttabout-image-left{
+
+       
         background-position: bottom!important;
         background-repeat: no-repeat;
-        }
-        .ttcmsabout .ttabout-main .ttabout-block .about-content {  
-
-
-        text-align: left;
-        }
+    }
 }
-
+@media (max-width: 767px) {
+    .ttcmsabout .ttabout-main .ttabout-block .about-content {  
+        background-image: url({{ section.settings.image_url }});
+        background-repeat: no-repeat;  background-repeat: round;
+        text-align: left;
+    }
+}
   </style>
 
 {% schema %}
   {
-    "name": "TTAbout section",
+    "name": "TTAbout section 3",
 	"class": "index-section ttcmsabout",
     "settings": [
 		{
@@ -185,7 +188,7 @@
 	],
     "presets": [
         {
-          "name": "TTAbout section",
+          "name": "TTAbout section 3",
           "category": "TT CMS section"
         }
       ]
