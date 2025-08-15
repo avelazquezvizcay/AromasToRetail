@@ -54,13 +54,13 @@
         ".collection_template .sorting_wrapper .btn.dropdown-toggle,.collection_template .sorting_wrapper .btn.dropdown-toggle:hover {font-size: 13px; font-weight: 500; padding: 5px 34px 5px 15px; background: #fff; color: #111; border: 1px solid rgba(0, 0, 0, 0.15) !important;}"
       ],
       "settings": {
-        "enable_sidecategory": false,
+        "enable_sidecategory": true,
         "linkedlist": "",
         "linkedlist_title": "",
         "show_filter": true,
         "collapse_on_larger_devices": true,
         "enable_sidebar_multiple_choice": true,
-        "show_best_products": true,
+        "show_best_products": false,
         "title": "",
         "bestseller": "",
         "pro_img_width_height": "80x104",
