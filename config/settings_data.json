@@ -63,7 +63,7 @@
     "popup_newsletter_description": "Enter your email below to receive a $30 coupon, special\noffers, exclusive discounts and more!",
     "popup_newsletter_delay_first": "5000",
     "popup_newsletter_delay": "1",
-    "enable_multiple_currencies": true,
+    "enable_multiple_currencies": false,
     "currency_1_unit": "USD",
     "currency_2_unit": "EUR",
     "currency_3_unit": "GBP",
