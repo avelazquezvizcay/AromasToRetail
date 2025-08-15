@@ -99,7 +99,7 @@
         "about_desc": "Add any 5 items from this collection and get 5 for $75!<br><br>\nJust add them to your cart — discount applies automatically at checkout. Limited time offer. Don’t miss out!",
         "desc_color": "#000000",
         "about_btn": "Promo",
-        "btn_url": "",
+        "btn_url": "shopify://collections/sale",
         "btn_txt_color": "#ffffff",
         "btn_bg_color": "#734128",
         "btn_txt_hvr_color": "#ffffff",
