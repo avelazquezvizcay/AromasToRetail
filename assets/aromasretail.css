@@ -641,6 +641,12 @@ text-transform: uppercase;
         line-height: 24px!important;
     }
 }
+
+.tbl-list > li.currency .flag-dropdown-menu {
+ 
+    min-width: max-content!important;
+ 
+}
 /*---------------- Custom CSS for only desktop -------------------*/
 @media (min-width: 1025px) {
 #shopify-section-footer-model-3 .footer-column.contactus ul li {
