@@ -55,7 +55,7 @@
       ],
       "settings": {
         "enable_sidecategory": true,
-        "linkedlist": "",
+        "linkedlist": "main-menu",
         "linkedlist_title": "",
         "show_filter": true,
         "collapse_on_larger_devices": true,
