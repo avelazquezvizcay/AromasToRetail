@@ -60,7 +60,8 @@
       "custom_css": [
         "@media (min-width: 1025px) {.ttabout-main .ttabout-block .ttabout-right .ttabout-title {font-size: 28px !important; }}",
         "@media (min-width: 1025px) {.ttabout-main .ttabout-block .ttabout-right .ttabout-desc {font-size: 20px !important; }}",
-        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {background: #391e10 !important; top: auto; width: 38% !important; height: 3px; left: 0% !important; z-index: 1;}"
+        ".ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-title::after {background: #391e10 !important; top: auto; width: 38% !important; height: 3px; left: 0% !important; z-index: 1;}",
+        ".ttcmsabout .ttabout-main {margin-top: -2%;}"
       ],
       "name": "TTAbout section",
       "settings": {
