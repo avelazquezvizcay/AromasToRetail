@@ -92,7 +92,7 @@
     "products_per_page": 100000,
     "collection_sort_enable": true,
     "collection_sidebar_use": "full_width",
-    "collection_filter_pos": "right_filter",
+    "collection_filter_pos": "toggle_filter",
     "collection_grid_column": "4",
     "product_image_width_height": "285x371",
     "product_hover_image": false,
