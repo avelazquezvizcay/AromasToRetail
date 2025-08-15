@@ -518,6 +518,14 @@ line-height: 24px!important; /* 100% */
 img.grid-view-item__image.featured-image.image_thumb {
     height: 30rem;
 }
+.descriptioncollection{
+  color: #000!important;
+font-family: Arcon!important;
+font-size: 16px;
+font-style: normal!important;
+font-weight: 400!important;
+line-height: normal!important;
+}
 .widget.widget_promo_img {
     display: none;
 }
@@ -639,6 +647,15 @@ text-transform: uppercase;
         text-align: center;
         width: auto!important;
     }
+
+    .descriptioncollection{
+  color: #000!important;
+font-family: Arcon!important;
+font-size: 18px!important;
+font-style: normal!important;
+font-weight: 400!important;
+line-height: normal!important;
+}
     .footer-column .contact-us .phone {
 
     color: #000;

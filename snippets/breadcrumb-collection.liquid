@@ -17,7 +17,9 @@ Documentation - http://docs.shopify.com/support/your-website/navigation/creating
     </div>
     
     {% elsif template contains 'collection' and collection.handle %}
-    <span class="titlecollection">{{ collection.title }}</span>
+    <span class="titlecollection">{{ collection.title }} </span> <br><br>
+    <span class="descriptioncollection">{{ collection.description }} </span>
+    
     <div class="breadcrumb"> <a href="/" title="{{ 'general.breadcrumbs.home_link_title' | t }}"><i class="mdi mdi-home"></i></a>
       <span aria-hidden="true" class="breadcrumb__sep">&gt;</span>
       {% if current_tags %}
@@ -74,6 +76,7 @@ Documentation - http://docs.shopify.com/support/your-website/navigation/creating
 {% endunless %}
 
 <style>
+
 .breadcrumb-wrapper .breadcrumb-wrap {
     color: var(--color-text-breadcrumb);
     float: none;
