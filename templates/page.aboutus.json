@@ -38,7 +38,7 @@
         "image_4rMhKc"
       ],
       "custom_css": [
-        ".slider-title {text-align: left !important; text-shadow: 0 4px 30px #000 !important; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff; font-size: 36px ; line-height: 55px !}",
+        ".slider-title {text-align: left !important; text-shadow: 0 4px 30px #000 ; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff; font-size: 36px; line-height: 55px !;}",
         ".tt-homeslider .home-slider,.homeslider #popup_toggle {padding: 0rem;}"
       ],
       "name": "Slideshow 2",
@@ -83,6 +83,17 @@
         "btn_bg_hvr_color": "rgba(0,0,0,0)"
       }
     },
+    "slideshow2_BJDqAK": {
+      "type": "slideshow2",
+      "name": "Slideshow 2",
+      "settings": {
+        "slider_animation_type": "slide",
+        "slide_button_bg_color": "#000000",
+        "slide_button_bg_hover_color": "#ffc446",
+        "slide_button_txt_color": "#ffffff",
+        "slide_button_txt_hover_color": "#000000"
+      }
+    },
     "slideshow_YjaHgW": {
       "type": "slideshow",
       "blocks": {
@@ -103,7 +114,7 @@
             "btn_txt_color": "#ffffff",
             "btn_bghover_color": "#000000",
             "btn_hovertxt_color": "#ffffff",
-            "text_position": "left",
+            "text_position": "center",
             "text_effect": "left"
           }
         }
@@ -128,6 +139,7 @@
     "slideshow2_Q7txrF",
     "ttcmsbanner_bakxJT",
     "ttcmsabout_6iN3b6",
+    "slideshow2_BJDqAK",
     "slideshow_YjaHgW"
   ]
 }
