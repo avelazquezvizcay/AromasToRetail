@@ -38,7 +38,7 @@
         "image_4rMhKc"
       ],
       "custom_css": [
-        ".slider-title {text-align: left !important; text-shadow: 0 4px 30px #000; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff; font-size: 36px; line-height: 55px ;}",
+        ".slider-title {text-align: left !important; text-shadow: 0 4px 30px #000; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #fff; font-size: 36px; line-height: 55px;}",
         ".tt-homeslider .home-slider,.homeslider #popup_toggle {padding: 0rem;}"
       ],
       "name": "Slideshow 2",
