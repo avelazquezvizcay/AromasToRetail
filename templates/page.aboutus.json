@@ -90,7 +90,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Foto_about_us_1.jpg",
-            "image_url": "",
+            "image_url": "shopify://collections/hair-fragrance",
             "show_video": false,
             "video_url": "",
             "title": "",
