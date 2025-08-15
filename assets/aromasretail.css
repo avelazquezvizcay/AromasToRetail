@@ -706,6 +706,33 @@ h2.tt-title {
 }
 
 
+   .ttsub-title2.titlec ,.tt-title {
+        margin: 0 0 25px;
+        font-size: 28px!important;
+        line-height: 30px;
+    }
+       .ttsub-title2.titlec {
+        margin-bottom: -8%!important;
+    }
+.titlec:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 10rem!important;
+    height: .2rem;
+    background-color: #FDFCE8 !important;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    top: 9rem!important;
+}
+
+.ttsub-title {
+
+    font-size: 28px!important;
+
+}
+
 
     .ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-desc {
         /* line-height: 21px !important; */

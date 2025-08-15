@@ -1,4 +1,4 @@
-<div class="ttabout-main ttabout-image-left {% if settingsenable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% elsif  section.settings.image_url != blank  and section.settings.image_position == 'pos-left'%}  style="background-image: url({{ section.settings.image_url }});background-size: contain;background-position: right;background-repeat: no-repeat;"{% else %}style="background:{{section.settings.bg_color}}"{% endif %}>
+<div class="ttabout-main ttabout-image-left {% if settingsenable_animation  != blank%} bottom-to-top hb-animate-element{% endif %}" {% if  section.settings.image_url == blank  and section.settings.image_position == 'pos-left'%} style="background:{{section.settings.bg_color}}" {% elsif  section.settings.image_url != blank  and section.settings.image_position == 'pos-left'%}  style="background-image: url({{ section.settings.image_url }})"{% else %}style="background:{{section.settings.bg_color}}"{% endif %}>
 
   <div class="ttabout-block {{section.settings.image_position}}">
      {% if  section.settings.image_position == 'pos-left' %}
@@ -59,12 +59,20 @@
 .breadcrumb-block {
     display: none;
 }
-    .ttcmsabout .ttabout-main .ttabout-image-left .ttabout-block .ttabout-right {
-        padding: 5% 5% !important;
-        background-image: url(https://cdn.shopify.com/s/files/1/0816/5841/3366/files/Fondo_seccion_promo_f6afad87-4e0f-487a-8348-de59a9b1205b.jpg?v=1755195318);
-        background-position: center;
+    .ttabout-image-left {
+ 
+        background-size: contain;background-position: right;background-repeat: no-repeat;
+    }
+
+    @media (max-width: 1199px) {
+
+.ttabout-image-left{
+
+       
+        background-position: bottom!important;
         background-repeat: no-repeat;
     }
+}
   </style>
 
 {% schema %}
