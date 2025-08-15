@@ -11,7 +11,7 @@
         {%- assign collection = collections[block.settings.collection_cat_id] -%}   
         <div id="cat-featured--{{ block.id }}" class="collection_cat_item1" style="padding:15px;"> 
           <div class="cat_content">
-            <div class="collection_img"><a href="{{ collection.title }}"><img Loading="Lazy"  src="{{ block.settings.image_1 | img_url: "634x614"  }}" alt="collection-img" height="614" width="634"/></a></div>
+            <div class="collection_img"><a href="{{ collection.url }}"><img Loading="Lazy"  src="{{ block.settings.image_1 | img_url: "634x614"  }}" alt="collection-img" height="614" width="634"/></a></div>
                            
           </div>
               {% if collection.title != blank  %}
