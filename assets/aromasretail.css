@@ -49,7 +49,26 @@
     transform: translate(-50%);
     top: 12rem;
 }
+.whatsapp-float {
+    position: fixed;
+    bottom: 100px;
+    right: 37px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 100000;
+}
 
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+}
 
 /*Mega menu*/
 #tt-megamenu .tt-mega_menu .tt_menus_ul>li>a ,.currency_wrapper.dropdown-toggle, .language_wrapper.dropdown-toggle{
@@ -82,7 +101,7 @@ border: 1px solid  #734128!important;
 }
 .site-header.header_1 #tt-megamenu .tt-mega_menu .tt_menus_ul > li > a::before {
 
-background:transparent!important;
+/*background:transparent!important;*/
 
 }
 .tt_menu_item.tt_mm_hassub>a:hover,.tt_menu_item.single>a:hover{
@@ -731,16 +750,6 @@ h2.tt-title {
 
     font-size: 28px!important;
 
-}
-#shopify-section-template--24726121316662__slideshow2_Q7txrF .slider-title {
-    text-align: left !important;
-    text-shadow: 0 4px 30px #000 !important;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    font-size: 15px !important;
-    line-height: 21px !important;
-    text-align: left !important;
-    margin-left: -38% !important;
 }
 
     .ttcmsabout .ttabout-main .ttabout-block .ttabout-right .ttabout-desc {
