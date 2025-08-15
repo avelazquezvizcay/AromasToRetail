@@ -243,7 +243,7 @@
           "type": "text_collection",
           "name": "For dates",
           "settings": {
-            "image_1": "shopify://shop_images/For_dates.jpg",
+            "image_1": "shopify://shop_images/For_dates_338d483e-f3e8-494b-96e8-a58f05f53f51.jpg",
             "subtitle": "For dates",
             "collection_cat_id": "for-dates"
           }
@@ -252,7 +252,7 @@
           "type": "text_collection",
           "name": "Night Style",
           "settings": {
-            "image_1": "shopify://shop_images/Night_Style_d4e75064-6199-463c-bd1e-fdf567cbac0b.jpg",
+            "image_1": "shopify://shop_images/Night_Style_7dff173d-2ea1-4485-8ed7-f2675598ac6a.jpg",
             "subtitle": "Night Style",
             "collection_cat_id": "womens"
           }
@@ -261,7 +261,7 @@
           "type": "text_collection",
           "name": "Gifts for someone special",
           "settings": {
-            "image_1": "shopify://shop_images/Gifts_for_someone_special.jpg",
+            "image_1": "shopify://shop_images/Gifts_for_someone_special_7616d0e7-dc12-4883-afb1-a0f474098dc4.jpg",
             "subtitle": "Gifts for someone special",
             "collection_cat_id": "for-special-gifts"
           }
