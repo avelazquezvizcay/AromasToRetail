@@ -65,7 +65,8 @@
         "bestseller": "",
         "pro_img_width_height": "80x104",
         "limit": "4",
-        "product_rows": true,
+        "product_rows": false,
+        "promo_img": "shopify://shop_images/Night_Style_d4e75064-6199-463c-bd1e-fdf567cbac0b.jpg",
         "promo_link": "",
         "promo_title": ""
       }
