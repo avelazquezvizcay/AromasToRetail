@@ -83,17 +83,6 @@
         "btn_bg_hvr_color": "rgba(0,0,0,0)"
       }
     },
-    "slideshow2_BJDqAK": {
-      "type": "slideshow2",
-      "name": "Slideshow 2",
-      "settings": {
-        "slider_animation_type": "slide",
-        "slide_button_bg_color": "#000000",
-        "slide_button_bg_hover_color": "#ffc446",
-        "slide_button_txt_color": "#ffffff",
-        "slide_button_txt_hover_color": "#000000"
-      }
-    },
     "slideshow_YjaHgW": {
       "type": "slideshow",
       "blocks": {
@@ -139,7 +128,6 @@
     "slideshow2_Q7txrF",
     "ttcmsbanner_bakxJT",
     "ttcmsabout_6iN3b6",
-    "slideshow2_BJDqAK",
     "slideshow_YjaHgW"
   ]
 }
