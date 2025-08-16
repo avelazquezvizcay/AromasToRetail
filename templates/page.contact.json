@@ -86,6 +86,11 @@
         "items_box_y3eyk4",
         "items_box_LNFGRN"
       ],
+      "custom_css": [
+        ".tt-titlelv:before {top: 154%;}",
+        ".text-center {text-align: center !important;}",
+        ".home-slider .slider-content-wrap.content-left.effect_left {left: 0% !important;}"
+      ],
       "name": "Policy V3",
       "settings": {
         "width": "box",
